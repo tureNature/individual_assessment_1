@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">DARK PATTERNS IN THE MEDIA: A SYSTEMATIC REVIEW</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName coords="2,453.22,72.80,69.79,13.58"><forename type="first">Corina</forename><surname>Cara</surname></persName>
+							<email>corina.cara@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Alexandru Ioan Cuza University of Iași</orgName>
+								<address>
+									<country key="RO">Romania</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">DARK PATTERNS IN THE MEDIA: A SYSTEMATIC REVIEW</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">FA4643564BACCCB6CA4FD5907201129C</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.2" ident="GROBID" when="2024-02-29T22:45+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Dark patterns</term>
+					<term>User experience</term>
+					<term>Systematic review</term>
+					<term>Ethics</term>
+					<term>Digital media</term>
+					<term>Design JEL Classification M31</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This paper addresses the topic of dark patterns used in the design of various web products or services. Dark patterns are deceptive elements that are intentionally crafted to make the users do actions that they wouldn't do otherwise. Those techniques are used for the benefit of various stakeholders and are included in web products that are used world-wide, such as social media platforms, some popular apps or web services. The concept is well known among practitioners. However, a few studies on this topic have been done and in order to gain awareness about it some more academic research is needed. The main purpose of this study is o investigate if there is some consent about the topic of dark patterns among the digital media resources. This study is of descriptive nature. A systematic review approach is used, analyzing over 30 original digital media sources that addresses this topic. This paper is not about criticizing, it's about continuing an ongoing discussion about the users' rights and the values of web products creators with the purpose of minimizing malicious techniques towards users. This study contributes to the broadening of the research on dark patterns. It also contributes to the understanding of those techniques in an effort to minimize them. Results can be used for developing frameworks for future research.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="594.96" lry="840.96"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="594.96" lry="842.04"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="594.96" lry="842.04"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="594.96" lry="842.04"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="594.96" lry="842.04"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="594.96" lry="842.04"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="594.96" lry="842.04"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="594.96" lry="842.04"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="594.96" lry="842.04"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="594.96" lry="842.04"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Current technologies have evolved in a way that a web product is expected to deliver not just some simple functions, but more complex experiences <ref type="bibr" coords="3,72.02,132.06,75.37,8.96" target="#b0">(Hassenzahl, 2018)</ref>. Both practitioners and theorists have quickly adopted the concept of user experience as the quality of the total experience of users' interactions with a web interface <ref type="bibr" coords="3,212.33,166.50,67.21,8.96;3,72.02,178.02,71.26,8.96" target="#b2">(Hassenzahl and Tractinsky, 2006)</ref>, to the detriment of the classic human -computer interaction (that was focusing only on functionality). This shift was more visible after 2010 and the focus was moved from the interface itself (from elements like functionality or content) to the user's subjective emotions. That shift came with some issues for the users. One of them was the expanding practice of dark patterns. Dark patterns are deceptive elements that are intentionally crafted to make the users do actions that they wouldn't do otherwise. Those patterns are designed to benefit certain stakeholders, not the user <ref type="bibr" coords="3,72.02,315.95,118.18,9.05">(Ducato și Marique, 2018)</ref>. Dark patterns are included in various web products that are used world-wide, such as social media platforms, various apps or web services. The concept is well known among practitioners. However, a few studies on this topic have been done and in order to gain awareness about it some more academic research is needed. On of the purpose of this paper is broadening the awareness of the usage of dark patterns. As for an exhaustive list of these techniques, there is no consensus among practitioners. There are more obvious dark patterns, such as masked advertising (when an ad that is not what it looks like), forced continuity (continuing the paid subscription after the free trial period has ended, without announcing), involuntary spamming friends from social media, hidden costs (in online stores, when costs are not displayed at the stage where the user expects to see them), disorientation (by creating a false impression of urgency) and more. There are also subtler practices, such as pseudo-notifications (when notifications that are not really important are sent to users). Although dark patterns seem to work in the short term, once the user is aware of them it disadvantages the brand, leading to mistrust it. Mistrust in a web interface is given by specific factors (complicated layout or inclusion of pop-ups), whereas trust is given by social factors, such as recommendations (Seckler, Heinz, Forde, Tuch and Opwis, 2015). Experiencing negative emotions while browsing can negatively influence purchase intention or loyalty <ref type="bibr" coords="3,72.02,695.54,203.03,8.96" target="#b5">(Hibbeln, Jenkins, Valacich &amp; Weinmann, 2017)</ref>. There are studies that advocate for the effects of the user experience on the long-term use of web products <ref type="bibr" coords="3,110.78,730.12,74.30,8.96">(Karapanos, 2003)</ref>, and the use of these manipulative techniques degrades the long-term user experience, although they are sometimes effective in the short term. As the manipulative practices are beginning to be covered by the media, users start to recognize them, which affects the interaction with the interface. Dark patterns are not only harmful for adults, but children are exposed to them too (Fitton &amp; Read, 2019), especially in social media or when they are playing online games. Regarding the ethics in the process of designing web interfaces, there is a lack of studies that clearly emphasize the practical implications of using dark patterns (Gray, Kou, Battles, Hoggat and Toombs, 2018; Chivukula, Brier and Gray, 2018). Practitioners, although empathetic to the needs of users, manifest themselves in contradiction <ref type="bibr" coords="3,315.55,258.57,140.17,8.96" target="#b8">(Chivukula, Brier and Gray, 2018</ref>) and choose to introduce, often tacitly, elements that manipulate the user in the interest of the other parties. However, the phenomenon of lack of ethics is becoming more and more well known because countless conversations are happening in various informal settings (Fansher, <ref type="bibr" coords="3,315.55,327.57,111.43,8.96" target="#b8">Chivukula and Gray, 2018)</ref>. Dark patterns are not only unethical towards the user, are unethical even to the competition (Day &amp; Stemler, 2019). There is a need for a clear delineation of the roles and ethical responsibilities in designing web interfaces, a delimitation that is worth discussing both in the academic space and in practice (Shilton and Anderson, 2017), in order to minimize the practice of dark patterns.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODOLOGY</head><p>The research question is about the existing consensus among the practitioners about dark patters phenomena in user experience. The purpose of this study is to broaden the understanding and the awareness about dark patterns. Method. A systematic review of the most relevant digital articles that address this topic is used for this study. Principles of Grounded Theory were used in this process. Data sources. Articles were selected using the Google search engine. This search engine was chosen because is the most used worldwide. Data selection. First 11 pages of Google results were analyzed. Google Incognito was used as a way of searching, in order to not affect the results with previous searches bias or current geographical location. The keywords for the Google search were "dark patterns". The search stopped at page 12 of Google (beyond page 11 the results started to be irrelevant). Initially, there were a number of 54 articles selected. From that, 31 articles were chosen as valid. The vast majority of analyzed articles were written, but few video sources were also included.</p><p>Quality validation. The validation of the quality was based on four criteria. Firstly, the article should be original. Secondly, the article should mention at least five types of dark patterns. Also, the article should not very niche (and could be applied to a variety of web products and services). The articles should be written in English. Some results were overlooked because were written in German or Swedish. The most common motive for dismissing of an article was because of the originality criterion. Data extraction. For the procedure of data extraction several criteria were taken into consideration. The most important one was the types of dark patterns described by the article. Other data taken into consideration was the role of the author (if the author was a practitioner or a journalist), the year of publishing and how far in the search were the results.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>The systematic review continued with the identification of all the dark patterns mentioned in the selected articles. 22 types of dark patterns have been discovered. They are briefly described in the section below. Several dark patterns were found under different names. Naming businesses that have used dark patterns was avoided, since the purpose of this paper is not to criticize the ones that did choose to do so, but to gain a better understanding of these practices.  Trick questions, also known as deceptive copywriting is when the user is tricked by the wording of a form or some other web element. It takes advantage of the shallow attention of the user;  Expanding shopping cart, also known as sneak into basket is when the web product, usually an ecommerce website adds an additional item into the shopping cart. This happens at the ending of the buying process and the added item is something with little monetary value;  Hard opt-out, also known as the Roach Motel is a dark pattern that makes almost impossible for the user to get out of a situation, usually a subscription service. The getting out process is too complicated and requires too much effort;  Deceiving privacy is a dark pattern that can also be found with the name Privacy Zuckering, after the famous situation with data privacy on social media. It means that a web product collects more data that users are aware or ok with;  Price comparison prevention is when web products make it hard to compare the prices of offers. They usually make it look like is cheaper to buy more, when in fact is more expensive to do so;</p><p> Hidden costs is when the user finds out about additional costs only when is deep in the buying process;  Bait and switch is a dark pattern that fools the user in the way that makes him think that he's going to do one thing but ends up to do a totally different thing than he is expecting;  Guilt tripping, also known as Confirshaming is when a website uses wording that intend to make the user feel bad about its choice;  Disguised ads are a form of dark pattern that makes ads to look like interface elements, such as buttons or forms when in fact are just ads;  Misdirection is that dark pattern that makes the user focus one one thing with the purpose of distracting him for another. The distraction is either from an additional cost or from some information that benefits stakeholder when the user doesn't know about it;  Forced continuity happens when the user is coerced to continue an action regarding a web product, usually a paid subscription;  Friend spam is a dark pattern that can be found under different names -growth to spam, fake friend request, deceiving lists or social pyramid.</p><p>It is a technique used in social media that deceives the user into spamming his friends with the intention to join a social network. The user is not aware that is a spammer, he is either under the impression that he is doing a different action or he is not aware at all;  Gamification or monetization is making the user complete some actions in order to gain something;  Toying with emotions, also known as selectively biased examples is a situation when web products use things that have an influence on users' emotions with the purpose of manipulate the user about some important information;  False urgency is when websites, especially the ecommerce kind create the false impression of scarcity with the intention to make the user buy faster;  Fake notification is a dark pattern used by social networking sites, using the power of notification for the purpose to make the users check his notifications more often;  Segmented email list is a dark pattern that forces users to unsubscribe from different email groups if they want to stop receive emails;  Share the article is when the action of continuing reading something is hindered by sharing it via some social networking sites;  Pseudo Currency is a dark pattern in the way that users will not be aware of how much they spend because they forget that pseudo currency is actually real money;  Nagging it is a persisting deflecting of the wanted purpose of an action;</p><p> Infinite scroll is a dark pattern in by the way it makes the user addicted to the content;  Bad defaults is when websites purposefully leave bad default settings, taking advantage of the required effort to change them. Grouping dark patterns. After the systematic review of these articles, we can conclude that dark patterns can be described according to three criteria: the strategic purpose of the pattern, the popularity among the media and how harmful is considered. The first one groups dark patterns according to the strategic purpose of use. Here we have five subcategories. One of them is when the dark pattern is about sales, when the purpose is the direct monetary benefit. Here is when the web product tries to influence the user through different methodseither hides some additional costs, adds some unwanted products into the basket or makes it hard to compare prices, unsubscribe or have a sense of the real money spent. The website can also create the false urgency, taking advantage of the users' fear of missing out. An unusual category in the sense that it has only one dark pattern is the one that deceives the user to publically give more data than he intends to. Some dark patterns are intended for gathering more views, such as the requirement of sharing the article for continuing reading or segmenting the email list in order to force user to still receive the newsletters even after unsubscribing from one e-mail list. Some other dark patterns' purpose is solely about the time spent with the product. This applies especially to social networking sites. In this case, the most self-explanatory benefit results from the users' habit to spend a great amount of time on a social platform. Fake notification, the involuntary fiend spamming and the infinite scroll are used for this purpose. The last category is the miscellaneous one. Here are included dark patterns that are either very contextual, and could be in several other categories depending on how is used, either a combination of other categories mentioned above. For example, misdirection could be about sales but in another context could also be about data gathering. Bait and switch could be about data, but also about sales or about views. Those five subcategories are depicted in Figure No. 1. Furthermore, dark patterns can be grouped by the popularity among the analyzed articles. We consider a popular dark pattern one that is mentioned by at least 30% of the sources. The popular ones can be traced to one original creator, Harry Brignull, whose articles were the first to call out those practices as unethical. Some of the dark patterns named by him are trick questions, bait and switch, disguised ads, sneak into basket or price comparison prevention. Those two subcategories are presented in Figure No.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2.</head><p>Next, dark patterns can be described by the severity of the practices. There are dark patterns that are considered not necessarily bad, just annoying, like the guilt tripping, where the user is most likely aware that he is being built-tripped. The same likely awareness also happens with the false urgency, infinite scroll or false notifications. In this subcategory are also included gamification and the requirement to share the article. There are also moderately bad dark patterns, that could have a little more severe outcome, like the trick questions, hard opt-out, bait and switch, hidden costs, disguised ads, misdirection, toying with emotion, the use of pseudo currency, nagging and setting bad defaults. Very serious dark patterns are those that are totally unfair to the user and usually need official regulation. In this category are included deceptive techniques like adding an additional item into basket, price comparison prevention, forced continuity, friend spam or deceiving users' privacy. Those categories are depicted in Figure <ref type="bibr" coords="5,476.74,316.05,24.21,8.96">No. 3.</ref> Collected data can also be described by the role of the author. The author can either be a journalist or a practitioner (user experience designers or developers). From the data collected, the roles of the authors are equally distributed, half of them being journalist, another half being practitioners. Analyzing the year of the selected articles, we can se that the older ones have the tendency to use the same set of dark patterns as a reference, with minor adjustments and different examples. The newer ones (published after the year 2017) tend to have more new categories. How far in the search was the result was also analyzed but this did not reveal any relevant information.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSIONS AND DISCUSSIONS</head><p>This paper brings some new insights about dark patterns. In this paper, our understanding of dark patterns in grounded on the depictions of these practices in the media, by either practitioners or journalists. This study contributes to a more facile uncovering of those practice. By making the public more aware of those practice it can contribute to the effort of making dark patterns cease to exist. Those dark patterns are used in a variety of web products, from social networking sites, e-commerce platforms, video games, apps, web services or just in plain websites. The fact that they are everywhere raise some ethical issues. Firstly, the official regulation of those techniques is problematic, since there is a fine line between a dark pattern and an honest user experience enhancing element. One could argue that the infinite scroll is a delightful experience since is makes the act of navigating through content really easy. Others could say that infinite scrolling cause an addiction to the content of the website and thus it is a dark pattern. On another hand, setting bad defaults for users easily falls into the dark pattern category. Some dark patterns are regulated in some parts of the world through legislation like the General Data Protection Regulation in European Union. Another important thing to take into consideration when talking about dark patterns and ethics is who are the entities responsible for using these techniques. Managers or practitioners like designers or developers? Or the organization as a whole? Maybe we need to invest more in practitioners' education to avoid getting them accomplice in the use of dark patterns. Some more research about ethics of user experience is also needed. The uncovered dark patterns in this paper can be categorized by the purpose of using them, by popularity and by how serious their consequences are. The fact that a part of authors are practitioners means that the subject is worth enough for them to get to write about it. The topic is indeed of interest to many categories, whether we are talking about institutions, web products, various stakeholders or just regular users. The fact that journalists also wrote about it means that they considered the topic important enough to educate the public. A lot of the popularization of the usage of dark patterns can traced to an original article published by Harry Brignul. This also explains the fact that a lot of the dark patterns are so popular in the way that a lot of analyzed sources mention them. The descriptive classification developed in this paper could be used for future studies for developing frameworks for the study of dark patterns. One thing that all the analyzed articles could agree to is the fact that dark patterns are harmful and deeply unethical an we, as a society need to make an effort to limit the use of them. All the parties involved in the development of web products should make an effort to limit this exploitation of users' cognitive biases and be an advocate for the users.</p><p>International Conference on Interaction Design and Children (pp. 407-418). ACM. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="7,315.55,74.58,207.27,8.96;7,333.55,86.10,189.34,8.96;7,333.55,97.50,37.59,8.96"><head>[ 12 ]</head><label>12</label><figDesc>Day, G., &amp; Stemler, A. (2019). Are Dark Patterns Anticompetitive?. Available at SSRN 3468321.</figDesc></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgements</head></div>
+			</div>
+
+
+			<div type="funding">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This work was co-funded by the European Social Fund, through Operational Programme Human Capital 2014-2020, project number POCU/380/6/13/123623, project title "PhD Students and Postdoctoral Researchers Prepared for the Labour Market!" Biographical sketch Corina Cara has a PhD in Marketing; she is a Teaching Associate at Alexandru Ioan Cuza University of Iasi since 2015, teaching marketing related subjects and currently a Postdoctoral Research Fellow at the same university.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="6,333.55,155.10,189.42,8.96;6,333.55,166.50,189.32,8.96;6,333.55,178.02,189.69,8.96" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The Thing and I: Understanding the Relationship Between User and Product</title>
+		<author>
+			<persName coords=""><forename type="first">Marc</forename><surname>Hassenzahl</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-319-68213-6_19</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Human–Computer Interaction Series</title>
+				<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page" from="301" to="313" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,333.55,189.54,66.41,8.96" xml:id="b1">
+	<monogr>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">Cham</forename><surname>Springer</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,333.55,201.06,189.18,8.96;6,333.55,212.58,189.65,8.96;6,333.55,224.13,151.19,8.96" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">User experience - a research agenda</title>
+		<author>
+			<persName><forename type="first">Marc</forename><surname>Hassenzahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Noam</forename><surname>Tractinsky</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/01449290500330331</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Behaviour &amp; Information Technology</title>
+		<title level="j" type="abbrev">Behaviour &amp; Information Technology</title>
+		<idno type="ISSN">0144-929X</idno>
+		<idno type="ISSNe">1362-3001</idno>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="91" to="97" />
+			<date type="published" when="2006-03">2006</date>
+			<publisher>Informa UK Limited</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,333.55,235.53,189.31,8.96;6,333.55,247.05,189.32,8.96;6,333.55,258.57,189.29,8.96;6,333.55,270.09,189.52,8.96;6,333.55,281.61,154.32,8.96" xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Making Informed Consent An Informed Choice</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Ducato</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Marique</surname></persName>
+		</author>
+		<idno type="DOI">10.1377/forefront.20190403.965852</idno>
+		<imprint>
+			<date type="published" when="2018-07-01">2018. July 1, 2018</date>
+			<publisher>Health Affairs (Project Hope)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,333.55,293.13,189.31,8.96;6,333.55,304.53,189.26,8.96;6,333.55,316.05,189.36,8.96;6,333.55,327.57,189.62,8.96;6,333.55,339.09,40.88,8.96" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Trust and distrust on the web: User experiences and website characteristics</title>
+		<author>
+			<persName><forename type="first">Mirjam</forename><surname>Seckler</surname></persName>
+			<idno type="ORCID">0000-0002-8272-3186</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Silvia</forename><surname>Heinz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Seamus</forename><surname>Forde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexandre</forename><forename type="middle">N</forename><surname>Tuch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Klaus</forename><surname>Opwis</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.chb.2014.11.064</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Computers in Human Behavior</title>
+		<title level="j" type="abbrev">Computers in Human Behavior</title>
+		<idno type="ISSN">0747-5632</idno>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="39" to="50" />
+			<date type="published" when="2015-04">2015</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,333.55,350.61,189.36,8.96;6,333.55,362.01,189.53,8.96;6,333.55,373.53,189.36,8.96;6,333.55,385.07,189.59,8.96;6,333.55,396.59,92.03,8.96" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">How Is Your User Feeling? Inferring Emotion Through Human-Computer interaction Devices</title>
+		<author>
+			<persName><forename type="first">Martin</forename><surname>Hibbeln</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jeffrey</forename><forename type="middle">L</forename><surname>Jenkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christoph</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joseph</forename><forename type="middle">S</forename><surname>Valacich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Markus</forename><surname>Weinmann</surname></persName>
+		</author>
+		<idno type="DOI">10.25300/misq/2017/41.1.01</idno>
+	</analytic>
+	<monogr>
+		<title level="j">MIS Quarterly</title>
+		<title level="j" type="abbrev">MISQ</title>
+		<idno type="ISSN">0276-7783</idno>
+		<idno type="ISSNe">2162-9730</idno>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="21" />
+			<date type="published" when="2017-01-01">2017</date>
+			<publisher>MIS Quarterly</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,333.55,408.11,189.31,8.96;6,333.55,419.63,189.34,8.96;6,333.55,431.03,189.55,8.96;6,333.55,442.55,76.93,8.96" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">User Experience Over Time</title>
+		<author>
+			<persName coords=""><forename type="first">Evangelos</forename><surname>Karapanos</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-642-31000-3_4</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Modeling Users&apos; Experiences with Interactive Systems</title>
+				<meeting><address><addrLine>Berlin, Heidelberg</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer Berlin Heidelberg</publisher>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="page" from="57" to="83" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,333.55,454.07,189.34,8.96;6,333.55,465.59,189.29,8.96;6,333.55,477.11,189.51,8.96;6,333.55,488.63,189.35,8.96;6,333.55,500.03,189.53,8.96" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The Dark (Patterns) Side of UX Design</title>
+		<author>
+			<persName><forename type="first">Colin</forename><forename type="middle">M</forename><surname>Gray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yubo</forename><surname>Kou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bryan</forename><surname>Battles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joseph</forename><surname>Hoggatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Austin</forename><forename type="middle">L</forename><surname>Toombs</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3173574.3174108</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems</title>
+				<meeting>the 2018 CHI Conference on Human Factors in Computing Systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2018-04-21">2018. April</date>
+			<biblScope unit="page">534</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,333.55,523.07,189.39,8.96;6,333.55,534.59,189.25,8.96;6,333.55,546.14,189.35,8.96;6,333.55,557.54,189.33,8.96;8,72.02,74.58,47.65,8.96;8,72.02,97.50,135.45,8.96" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Dark Intentions or Persuasion?</title>
+		<author>
+			<persName><forename type="first">Shruthi</forename><forename type="middle">Sai</forename><surname>Chivukula</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jason</forename><surname>Brier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Colin</forename><forename type="middle">M</forename><surname>Gray</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3197391.3205417</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2018 ACM Conference Companion Publication on Designing Interactive Systems</title>
+				<meeting>the 2018 ACM Conference Companion Publication on Designing Interactive Systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2018-05-30">2018. May</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,75.79,109.02,283.18,8.96" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">1. Harry Potter, His Dark Materials and Left Behind</title>
+		<author>
+			<persName coords=""><forename type="first">Harry</forename><surname>Brignull</surname></persName>
+		</author>
+		<idno type="DOI">10.13109/9783666604478.17</idno>
+		<ptr target="https://www.darkpatterns.org/" />
+	</analytic>
+	<monogr>
+		<title level="m">Transfiguring Transcendence in Harry Potter, His Dark Materials and Left Behind</title>
+				<imprint>
+			<publisher>Vandenhoeck &amp; Ruprecht</publisher>
+			<date type="published" when="2013-04-23">2013</date>
+			<biblScope unit="page" from="17" to="31" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,75.79,120.54,447.07,8.96;8,90.02,132.06,246.90,8.96" xml:id="b10">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Arushi</forename><surname>Jaiswal</surname></persName>
+		</author>
+		<ptr target="https://uxdesign.cc/dark-patterns-in-ux-design-7009a83b233c" />
+		<title level="m">Dark patterns in UX: how designers should be responsible for their actions</title>
+				<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,75.79,143.58,447.49,8.96;8,90.02,155.10,28.89,8.96" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">WTF, Evolution?! A Theory of Unintelligible Design</title>
+		<author>
+			<persName coords=""><forename type="first">Natasha</forename><surname>Lomas</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/scientificamerican1014-96a</idno>
+		<ptr target="https://techcrunch.com/2018/07/01/wtf-is-dark-pattern-design/" />
+	</analytic>
+	<monogr>
+		<title level="j">Scientific American</title>
+		<title level="j" type="abbrev">Sci Am</title>
+		<idno type="ISSN">0036-8733</idno>
+		<imprint>
+			<biblScope unit="volume">311</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="96" to="96" />
+			<date type="published" when="2018">2018</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,75.79,166.50,253.42,8.96" xml:id="b12">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Neal</forename><surname>Agarwal</surname></persName>
+		</author>
+		<ptr target="https://neal.fun/dark-patterns/" />
+		<title level="m">Dark Patterns</title>
+				<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,75.79,177.92,420.96,9.06;8,90.02,189.54,409.71,8.96;8,90.02,201.06,146.68,8.96" xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Common UX Dark Patterns -Interfaces Designed To Trick</title>
+		<author>
+			<persName coords=""><forename type="first">Agnieszka</forename><surname>Cieplińska</surname></persName>
+		</author>
+		<ptr target="https://medium.com/beautiful-code-smart-design-by-10clouds/5-common-ux-dark-patterns-interfaces-designed-to-trick-you-61fdede9718c" />
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,75.79,212.58,447.37,8.96;8,90.02,224.13,214.35,8.96" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Mobile UX Patterns</title>
+		<author>
+			<persName><forename type="first">Adrian</forename><surname>Mendoza</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/b978-0-12-409514-4.00006-4</idno>
+		<ptr target="https://uxplanet.org/5-common-ux-dark-patterns-and-user-friendly-alternatives-6c8c2f127242" />
+	</analytic>
+	<monogr>
+		<title level="m">Mobile User Experience</title>
+				<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2014" />
+			<biblScope unit="page" from="87" to="135" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,75.79,235.53,447.49,8.96;8,90.02,247.05,212.16,8.96" xml:id="b15">
+	<monogr>
+		<title level="m" type="main">13 examples of dark patterns in ecommerce checkouts</title>
+		<author>
+			<persName coords=""><forename type="first">Ben</forename><surname>Davis</surname></persName>
+		</author>
+		<ptr target="https://econsultancy.com/13-examples-of-dark-patterns-in-ecommerce-checkouts/" />
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,75.79,258.57,446.88,8.96;8,90.02,270.09,212.91,8.96" xml:id="b16">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Nick</forename><surname>Babic</surname></persName>
+		</author>
+		<ptr target="https://www.shopify.com/partners/blog/dark-patterns" />
+		<title level="m">Dark Patterns: 12 Tricks You Should Never Use in Your Products</title>
+				<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,80.40,293.13,442.40,8.96;8,90.02,304.53,406.11,8.96" xml:id="b17">
+	<monogr>
+		<title level="m" type="main">ways Big Tech is tricking you: A guide to recognizing Dark Patterns</title>
+		<author>
+			<persName coords=""><forename type="first">Rob</forename><surname>Pegoraro</surname></persName>
+		</author>
+		<ptr target="https://www.fastcompany.com/90437800/get-ready-for-5g-to-make-your-phone-even-more-addictive" />
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,80.40,316.05,22.35,8.96;8,119.42,316.05,41.44,8.96;8,177.55,316.05,22.50,8.96;8,216.64,316.05,10.01,8.96;8,243.37,316.05,19.97,8.96;8,280.06,316.05,32.17,8.96;8,328.75,316.05,7.75,8.96;8,353.21,316.05,22.25,8.96;8,392.17,316.05,21.51,8.96;8,430.31,316.05,38.89,8.96;8,485.92,316.05,36.80,8.96;8,90.02,327.57,329.14,8.96" xml:id="b18">
+	<monogr>
+		<title level="m" type="main">20 Dark Patterns to avoid when designing products</title>
+		<author>
+			<persName coords=""><forename type="first">Gil</forename><surname>Bouhnick</surname></persName>
+		</author>
+		<ptr target="https://www.mobilespoon.net/2019/06/20-dark-patterns-to-avoid-in-products.html" />
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,80.40,338.99,442.75,9.06;8,90.02,350.61,98.09,8.96" xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Dark Patterns -The Art of Online Deception</title>
+		<author>
+			<persName coords=""><forename type="first">Kyle</forename><surname>Gawley</surname></persName>
+		</author>
+		<ptr target="https://blog.kylegawley.com/dark-patterns-the-art-of-online-deception/" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,80.40,362.01,442.87,8.96;8,90.02,373.53,285.66,8.96" xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Dark Patterns Designs That Pull Evil Tricks on Our Brains</title>
+		<author>
+			<persName coords=""><forename type="first">Ana</forename><surname>Valjak</surname></persName>
+		</author>
+		<ptr target="https://infinum.com/the-capsized-eight/dark-patterns-designs-that-pull-evil-tricks-on-our-brains" />
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,80.40,385.07,442.87,8.96;8,90.02,396.59,145.05,8.96" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">‘Let There Be Light!’ Dark Patterns Under the Lens of the EU Legal Framework</title>
+		<author>
+			<persName><forename type="first">Sorin</forename><surname>Berbece</surname></persName>
+		</author>
+		<idno type="DOI">10.2139/ssrn.3472316</idno>
+		<ptr target="https://dev.to/1000martians/let-s-explore-dark-patterns-with-flashlights-3gm5" />
+	</analytic>
+	<monogr>
+		<title level="j">SSRN Electronic Journal</title>
+		<title level="j" type="abbrev">SSRN Journal</title>
+		<idno type="ISSNe">1556-5068</idno>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+		<respStmt>
+			<orgName>Mark del Mar</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,80.40,419.63,442.18,8.96;8,90.02,431.03,404.87,8.96" xml:id="b22">
+	<monogr>
+		<title level="m" type="main">What are Dark Patterns and what do they have to do with websites?</title>
+		<author>
+			<persName coords=""><forename type="first">Chris</forename><surname>Grant</surname></persName>
+		</author>
+		<ptr target="https://obrienmedia.co.uk/design/what-are-dark-patterns-and-what-do-they-have-to-do-with-websites" />
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,80.40,442.55,442.33,8.96;8,90.02,454.07,401.22,8.96" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">DARK GIRLS</title>
+		<author>
+			<persName coords=""><forename type="first">Justin</forename><surname>Pot</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/j.ctvdmx12s.3</idno>
+		<ptr target="https://www.howtogeek.com/363484/dark-patterns-when-companies-use-design-to-manipulate-you/" />
+	</analytic>
+	<monogr>
+		<title level="m">When You Learn the Alphabet</title>
+				<imprint>
+			<publisher>University of Iowa Press</publisher>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page" from="1" to="8" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,80.40,465.59,442.75,8.96;8,90.02,477.11,37.89,8.96" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">All Inkjet-Printed Metal-Oxide Thin-Film Transistor Array with Good Stability and Uniformity Using Surface-Energy Patterns</title>
+		<author>
+			<persName coords=""><forename type="first">Marli</forename><surname>Mesibov</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acsami.7b00435.s001</idno>
+		<ptr target="https://www.uxbooth.com/articles/using-dark-patterns-for-good/" />
+	</analytic>
+	<monogr>
+		<title level="m">Using Dark Patterns for Good</title>
+				<imprint>
+			<publisher>American Chemical Society (ACS)</publisher>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,80.40,488.63,41.87,8.96;8,139.88,488.63,37.50,8.96;8,195.03,488.63,22.39,8.96;8,235.07,488.63,19.42,8.96;8,272.13,488.63,7.75,8.96;8,297.55,488.63,18.35,8.96;8,333.52,488.63,53.33,8.96;8,404.49,488.63,21.65,8.96;8,443.82,488.63,34.04,8.96;8,495.39,488.63,27.20,8.96;8,90.02,500.03,361.11,8.96" xml:id="b25">
+	<monogr>
+		<title level="m" type="main">How to Spot Manipulative &apos;Dark Patterns</title>
+		<author>
+			<persName coords=""><forename type="first">Thomas</forename><surname>Germain</surname></persName>
+		</author>
+		<ptr target="https://www.consumerreports.org/privacy/how-to-spot-manipulative-dark-patterns-online/" />
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,80.40,511.55,442.58,8.96;8,90.02,523.07,350.46,8.96" xml:id="b26">
+	<monogr>
+		<title level="m" type="main">These are the shady tricks shopping sites use to get your money and info</title>
+		<author>
+			<persName coords=""><forename type="first">Amanda</forename><surname>Shendruk</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Marc</forename><surname>Bain</surname></persName>
+		</author>
+		<ptr target="https://qz.com/1657890/this-is-how-shopping-sites-trick-you-for-money-and-info/" />
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,80.40,534.59,442.35,8.96;8,90.02,546.14,227.79,8.96" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Five. What Is Dark Matter?</title>
+		<author>
+			<persName coords=""><forename type="first">Rebecca</forename><surname>Sentance</surname></persName>
+		</author>
+		<idno type="DOI">10.1515/9781400850075-006</idno>
+		<ptr target="https://www.userzoom.com/blog/what-are-dark-patterns/" />
+	</analytic>
+	<monogr>
+		<title level="m">The Cosmic Cocktail: Three Parts Dark Matter</title>
+				<imprint>
+			<publisher>Princeton University Press</publisher>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page" from="83" to="107" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,80.40,557.44,442.22,9.06;8,90.02,569.06,408.15,8.96;8,90.02,580.58,97.83,8.96" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">DEEP WEB, DARK WEB, INVISIBLE WEB AND THE POST ISIS WORLD</title>
+		<author>
+			<persName coords=""><forename type="first">Yael</forename><surname>Grauer</surname></persName>
+		</author>
+		<idno type="DOI">10.48009/4_iis_2016_36-41</idno>
+		<ptr target="https://arstechnica.com/information-technology/2016/07/dark-patterns-are-designed-to-trick-you-and-theyre-all-over-the-web/" />
+	</analytic>
+	<monogr>
+		<title level="j">Issues In Information Systems</title>
+		<title level="j" type="abbrev">IIS</title>
+		<idno type="ISSNe">1529-7314</idno>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<publisher>International Association for Computer Information</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,80.40,592.10,442.49,8.96;8,90.02,603.62,226.72,8.96" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Caller, What is your Question?</title>
+		<author>
+			<persName coords=""><forename type="first">Vicente</forename><surname>Vann</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/j.ctt1fq9vzg.4</idno>
+		<ptr target="https://www.makeuseof.com/tag/what-are-dark-patterns/" />
+	</analytic>
+	<monogr>
+		<title level="m">Figured Dark</title>
+				<imprint>
+			<publisher>University of Arkansas Press</publisher>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="4" to="5" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,80.40,615.14,363.09,8.96" xml:id="b30">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Sian</forename><surname>Prescott</surname></persName>
+		</author>
+		<ptr target="https://www.boxuk.com/insight/dark-patterns-in-ux/" />
+		<title level="m">Dark patterns in UX</title>
+				<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,80.40,626.54,442.87,8.96;8,90.02,638.06,34.42,8.96" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Words You Need to Know</title>
+		<author>
+			<persName coords=""><forename type="first">Carrie</forename><surname>Cousins</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/j.ctv15wxnsd.5</idno>
+		<ptr target="https://designmodo.com/dark-patterns/" />
+	</analytic>
+	<monogr>
+		<title level="m">Everything You Need to Know About Caregiving for Parkinson’s Disease</title>
+				<imprint>
+			<publisher>Purdue University Press</publisher>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page" from="xv" to="xvi" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,80.40,649.48,432.46,9.06" xml:id="b32">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Beth</forename><surname>Stewart</surname></persName>
+		</author>
+		<ptr target="https://www.itispivotal.com/post/dark-patterns" />
+		<title level="m">Dark Patterns -Deception by Design</title>
+				<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,80.40,661.10,432.43,8.96" xml:id="b33">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Paul</forename><surname>Olyslager</surname></persName>
+		</author>
+		<ptr target="https://www.paulolyslager.com/dark-patterns-webshop/" />
+		<title level="m">The Dark Patterns of a Webshop</title>
+				<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,80.40,672.62,442.75,8.96;8,90.02,684.14,96.73,8.96" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">2017 Experiences “The Good, the Bad and the Ugly”</title>
+		<author>
+			<persName coords=""><forename type="first">Stephen</forename><surname>Moyers</surname></persName>
+		</author>
+		<idno type="DOI">10.1094/grow-cot-02-18-130</idno>
+		<ptr target="https://1stwebdesigner.com/dark-patterns-good-bad-ugly/" />
+	</analytic>
+	<monogr>
+		<title level="m">The Good, the Bad, and the Ugly of Dark Patterns</title>
+				<imprint>
+			<publisher>Scientific Societies</publisher>
+			<date type="published" when="2018-02-01">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,80.40,695.54,442.75,8.96;8,90.02,707.08,55.55,8.96" xml:id="b35">
+	<monogr>
+		<title level="m" type="main">12 Types of Dark Patterns That Trick You Online</title>
+		<author>
+			<persName coords=""><forename type="first">Adam</forename><surname>Adair</surname></persName>
+		</author>
+		<ptr target="https://gamequitters.com/types-of-dark-patterns/" />
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,80.40,718.50,442.87,9.06;8,90.02,730.12,164.49,8.96" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Evil Everywhere: The Ordinariness of Kantian Radical Evil</title>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">B</forename><surname>Louden</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/cbo9780511691898.006</idno>
+		<ptr target="https://www.brucebnews.com/2019/10/dark-patterns-are-evil-and-theyre-everywhere/" />
+	</analytic>
+	<monogr>
+		<title level="m">Kant&apos;s Anatomy of Evil</title>
+				<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="93" to="115" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,80.40,741.64,442.21,8.96;8,90.02,753.16,272.54,8.96" xml:id="b37">
+	<monogr>
+		<title level="m" type="main">The Dark Side of Design: An Ethical Designers Guide to Dark Patterns</title>
+		<author>
+			<persName coords=""><forename type="first">James</forename><surname>Seddon</surname></persName>
+		</author>
+		<ptr target="https://3sidedcube.com/a-guide-to-dark-patterns-and-ethical-design/" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

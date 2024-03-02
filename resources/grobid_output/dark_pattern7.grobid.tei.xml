@@ -1,0 +1,1465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Cognitive biases, dark patterns, and the ‘privacy paradox’</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Elsevier BV</publisher>
+				<availability status="unknown"><p>Copyright Elsevier BV</p>
+				</availability>
+				<date type="published" when="2020-02">2020-02</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName coords="2,60.94,103.28,120.56,13.79"><forename type="first">Ari</forename><forename type="middle">Ezra</forename><surname>Waldman</surname></persName>
+							<email>ari.waldman@nyls.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Center for Information Technology Policy</orgName>
+								<orgName type="institution">Princeton University</orgName>
+								<address>
+									<postCode>08540</postCode>
+									<settlement>Princeton</settlement>
+									<region>NJ</region>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">New York Law School</orgName>
+								<address>
+									<addrLine>185 West Broadway</addrLine>
+									<postCode>10013</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="2,175.46,340.15,26.15,6.90"><forename type="first">Ari</forename><surname>Ezra</surname></persName>
+						</author>
+						<author>
+							<persName coords="2,98.42,405.80,39.25,6.79"><forename type="first">Leslie</forename><surname>John</surname></persName>
+						</author>
+						<author>
+							<persName coords="2,144.11,405.80,41.77,6.79"><forename type="first">Diana</forename><surname>Tamir</surname></persName>
+						</author>
+						<author>
+							<persName coords="2,207.27,405.80,56.80,6.79"><forename type="first">Michael</forename><surname>Slepian</surname></persName>
+						</author>
+						<title level="a" type="main">Cognitive biases, dark patterns, and the ‘privacy paradox’</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Current Opinion in Psychology</title>
+						<title level="j" type="abbrev">Current Opinion in Psychology</title>
+						<idno type="ISSN">2352-250X</idno>
+						<imprint>
+							<publisher>Elsevier BV</publisher>
+							<biblScope unit="volume">31</biblScope>
+							<biblScope unit="page" from="105" to="109"/>
+							<date type="published" when="2020-02" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">26BC0D70B39F5370EC1EF93BF815FE8A</idno>
+					<idno type="DOI">10.1016/j.copsyc.2019.08.025</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.2" ident="GROBID" when="2024-02-29T22:45+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Scholars and commentators often argue that individuals do not care about their privacy, and that users routinely trade privacy for convenience. This ignores the cognitive biases and design tactics platforms use to manipulate users into disclosing information. This essay highlights some of those cognitive biases -from hyperbolic discounting to the problem of overchoice -and discusses the ways in which platform design can manipulate disclosure. It then explains how current law allows this manipulative and anti-consumer behavior to continue and proposes a new approach to reign in the phenomenon.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.283" lry="793.701"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.283" lry="793.701"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.283" lry="793.701"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.283" lry="793.701"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.283" lry="793.701"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Privacy scholars have long argued that most individuals make rational disclosure decisions. Westin [46] used the phrase 'privacy pragmatists' to describe this majority: pragmatists are forward-looking, utility-maximizing, and base their decisions to share on how the information in front of them compares to their privacy preferences. Privacy pragmatists are rational actors in the classical model. This rational choice model of disclosure decision-making informs the dominant approach to privacy governance in the United States: notice-and-consent <ref type="bibr" coords="2,60.95,686.90,19.51,9.10" target="#b40">[33 ]</ref>. Notice and consent is, at bottom, an informed consent framework that requires websites and other data collectors to be transparent about the ways in which they collect, analyze, and distribute user data, allowing users to rational privacy decisions for themselves.</p><p>In 2007, however, Norberg et al. <ref type="bibr" coords="2,459.61,144.12,16.58,9.10" target="#b38">[31]</ref> found inconsistencies between our stated privacy preferences and our actual disclosure behavior. They called these inconsistencies the 'privacy paradox.' That is, internet users assert strong interest in privacy while simultaneously disclosing substantial personal information for meager rewards. Rationalists try to explain the paradox with nods to the contextual nature of disclosure. Huberman et al. <ref type="bibr" coords="2,524.81,224.97,15.30,9.10" target="#b23">[20]</ref>, for example, suggest that individuals demand a greater price for disclosing stigmatized, less desirable, or embarrassing data, but are quite willing to disclose information they perceive as harmless or innocuous for little to no rewards.</p><p>But disclosure choices are not made in vacuums. Sharing is contextual <ref type="bibr" coords="2,374.34,305.81,10.56,9.10" target="#b4">[4]</ref>, and contingent on both mental capacity and constraints placed on us by designers. In this essay, I offer an alternative explanation for the yawning gap between individuals' disclosure behavior and stated privacy preferences: Any supposed paradox does not reflect users' disinterest in privacy; rather, it reflects users responding in predictable ways to the ways in which platforms leverage design to take advantage of our cognitive limitations.</p><p>Moreover, social scientists have debunked many of the assumptions of human decision-making on which the rational-actor disclosure model is based <ref type="bibr" coords="2,486.31,444.37,15.63,9.10" target="#b47">[38,</ref><ref type="bibr" coords="2,501.95,444.37,11.73,9.10" target="#b26">23,</ref><ref type="bibr" coords="2,513.67,444.37,7.82,9.10" target="#b6">6]</ref>. Recent literature shows that individuals do not make rational disclosure decisions online <ref type="bibr" coords="2,439.82,467.44,10.61,9.10" target="#b3">[3]</ref>. Cognitive biases make rationality difficult and so-called 'dark patterns', or design tricks platforms use to manipulate users into taking actions they might otherwise have not, weaponize the design of built online environments to harm consumers and their privacy <ref type="bibr" coords="2,395.72,525.16,30.38,9.10">[26 ,9]</ref>. What's more, a rational-actor regime is a largely ineffective way of giving individuals control over the dissemination of their data. It is, in fact, designed to fail <ref type="bibr" coords="2,397.81,559.80,39.13,9.10">[35 ,19 ]</ref>. A rational choice model leverages metacognitive processes that encourage users to give up, to become nihilists about their privacy, and to cede what little control they do have back to technology companies <ref type="bibr" coords="2,366.41,606.00,42.82,9.10">[30 ,39 ]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Privacy decision-making</head><p>The 'privacy paradox' and the correlative rational actor model behind the notice-and-consent regime is based on the myth of rational disclosure. The myth is practically dangerous and systematically unsound. users of corporate data use practices. The regime's chief tools-privacy policies-are long <ref type="bibr" coords="3,202.79,97.98,16.64,9.10" target="#b34">[28]</ref> and inscrutable; even experts find them misleading <ref type="bibr" coords="3,215.89,109.54,19.52,9.10" target="#b40">[33 ]</ref>. Cranor <ref type="bibr" coords="3,277.46,109.54,16.64,9.10" target="#b13">[12]</ref> estimates that it would take a user an average of 244 hours per year to read the privacy policies of every website she visits, or 54 billion hours per year for every United States consumer to read every privacy policy she encountered <ref type="bibr" coords="3,53.86,167.25,15.30,9.10" target="#b33">[27]</ref>. Therefore, even if users were capable of making rational disclosure decisions, privacy policies' inability to adequately convey information means users are unable to do so in practice <ref type="bibr" coords="3,128.18,201.89,15.30,9.10" target="#b42">[34]</ref>.</p><p>There is also an entire industry of data brokers that collects vast amounts of data on individuals in secret and without consent. The Federal Trade Commission <ref type="bibr" coords="3,53.86,259.66,15.30,9.10" target="#b18">[16]</ref>, the United States' consumer and de facto privacy watchdog, found that one data broker's "databases contain information about 700 million consumers worldwide with over 3000 data segments for nearly every U.S. consumer" and "[m]uch of this activity takes place without consumers' knowledge." As a practical matter, consent cannot operate in a world of passive, secret data collection.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cognitive biases</head><p>The rational choice model is ineffective. It also fails to describe privacy decision-making. Individuals have bounded rationality, which limits their ability to acquire all relevant information and translate it into an evidencebased decision <ref type="bibr" coords="3,126.99,421.29,15.30,9.10" target="#b46">[37]</ref>. Recent research has identified myriad cognitive and behavioral barriers to rational privacy and disclosure decision-making <ref type="bibr" coords="3,222.63,444.37,10.61,9.10" target="#b2">[2]</ref>. I will discuss the five most pervasive ones here.</p><p>The first is what psychologists call anchoring, or the disproportionate reliance on the information first available when we make decisions. For example, Ariely <ref type="bibr" coords="3,282.44,502.14,11.65,9.10" target="#b7">[7]</ref> asked experiment participants to provide the last two digits of their Social Security Numbers and then estimate the price of a consumer good. Participants' estimates were close to the two digits they first provided, even though there should be no rational connection between random identity numbers and consumer prices. More recently, Chang et al. <ref type="bibr" coords="3,113.16,582.93,19.98,9.10" target="#b10">[10 ]</ref> showed anchoring effects when he showed that individuals were more likely to disclose personal information after seeing examples of increasingly salacious selfie images. The pictures anchored the participants' perception of what is appropriate to disclose. Anchoring, therefore, can skew individuals' disclosure behavior based on what they see others have shared.</p><p>Framing is a second form of bias that technology companies manipulate regularly. Framing concerns the way in which an opportunity is presented to consumersnamely, either as a good thing or a bad thing. Positively framing a privacy policy or a product as more protective of consumer privacy than a competitor's results in a higher propensity to disclose personal information <ref type="bibr" coords="3,502.53,86.47,10.61,9.10" target="#b5">[5]</ref>. This is why technology companies explain their data use practices with leading language: "if you don't allow cookies, website functionality will be diminished" or "opting in to data collection will enable new and easier functionality". This has the effect of establishing the positives of data collection while glossing over or ignoring the negatives.</p><p>Third, hyperbolic discounting, or the tendency to overweight the immediate consequences of a decision and to underweight those that will occur in the future, makes it difficult for consumers to make rational disclosure decisions. Disclosure often carries with it certain immediate benefits-convenience, access, or social engagement, to name just a few. But the risks of disclosure are usually only felt much later. As such, our tendency to overvalue current rewards while inadequately discounting the cost of future risks makes us more willing to share now. For example, Jentzsch et al. <ref type="bibr" coords="3,413.57,294.30,16.64,9.10" target="#b24">[21]</ref> found that people preferred barely less expensive movie tickets even though the cheaper ticket required more extensive personal information. Yet, consumer choices changed when tickets were offered at the same price-the privacy protective movie company won more customers. The authors concluded that consumers were heavily discounting the risks associated with disclosing personal information, even far below small differences in price. Other studies have shown that consumers make disclosure decisions without fully appreciating time inconsistent preferences. Wang et al. <ref type="bibr" coords="3,534.73,409.73,16.58,9.10" target="#b58">[45]</ref> found that users of social networks may gain some immediate pleasure from posting a salacious selfie, but often end up regretting it later and wish they had never posted the picture in the first place. And Acquisti and Fong <ref type="bibr" coords="3,539.72,455.93,11.60,9.10" target="#b1">[1]</ref> found that users do not appreciate that posting religious, sexual, or marital status information could result in employment discrimination or ostracism in the future.</p><p>A fourth common cognitive barrier to rational disclosure decision-making is overchoice. Overchoice is the problem of having too many choices, which can overwhelm and paralyze consumers <ref type="bibr" coords="3,400.37,548.29,15.30,9.10" target="#b45">[36]</ref>. A form of overchoice affects internet and mobile app users trying to navigate their privacy. When making disclosure choices, Hartzog <ref type="bibr" coords="3,531.38,571.42,19.93,9.10" target="#b22">[19 ]</ref> has shown that users are overwhelmed not with the choices they have, but with the number of choices they have to make. Most apps, websites, and platforms require us to make yes/no choices with respect to cookies, location tracking, and behavioral targeting, among others. Indeed, as Olmstead and Atkinson <ref type="bibr" coords="3,474.29,640.70,16.64,9.10" target="#b39">[32]</ref> have shown, mobile apps often ask users for more than 200 permissions, with the average app asking for about five. It is hard to see how ordinary users, without any particular technological expertise, can navigate it all.</p><p>Finally, metacognitive processes in decision-making impair individuals' ability to make choices that accurately reflect their preferences. As Mourey <ref type="bibr" coords="3,475.43,733.05,23.67,9.10" target="#b36">[30 ]</ref> has shown, when some individuals are confronted with difficult choices, they perceive difficulty as a signal of importance, encouraging them to deploy strong cognitive processes to a meaningful or weighty decision. But when individuals perceive difficulty as a cue of impossibility, they tend to give up, ceding their power and autonomy to choose to the default. When applied to the content of privacy navigation and online disclosure, it stands to reason that the more users feel it is difficult to maintain their privacy online, as many do, the more likely many of them are to nihilistically decline to manage their disclosure.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Design and 'dark patterns'</head><p>Even if none of these cognitive hurdles to rational disclosure decision-making existed, internet users would still face the limitations imposed on them by design. By 'design', I am following Hartzog's <ref type="bibr" coords="4,208.12,271.17,19.93,9.10" target="#b22">[19 ]</ref> broad definition, which embraces the "processes that create consumer technologies and the results of their creative processes instantiated in hardware and software." Science and Technology Studies has long recognized that the design of built environments constrains human behavior <ref type="bibr" coords="4,237.09,328.94,15.26,9.10" target="#b59">[47]</ref>. The same is true online <ref type="bibr" coords="4,118.20,340.45,17.15,9.10" target="#b14">[13,</ref><ref type="bibr" coords="4,135.35,340.45,14.84,9.10" target="#b22">19 ]</ref>, and even more so when millions, if not billions, of people with potentially different preferences are using the same service. As Hartzog <ref type="bibr" coords="4,263.45,363.58,19.93,9.10" target="#b20">[18 ]</ref> has noted, "[t]he realities of technology at scale mean that the services we use must necessarily be built in a way that constraints our choices." Users can only click on the buttons or select the options presented to them; we can only opt-out of the options from which a website allows us to opt-out. Harris <ref type="bibr" coords="4,152.90,432.86,16.58,9.10" target="#b19">[17]</ref> likens the power of design to manipulate user choices to a magician's misdirection: "we ignore how . . . [our] choices are manipulated upstream by menus we didn't choose in the first place. . . . This is exactly what magicians do. They give people the illusion of free choice while architecting the menu so that they win, no matter what you choose. . . . By shaping the menus we pick from, technology hijacks the way we perceive our choices and replaces them with new ones." We see this throughout the digital ecosystem. Facebook tells us when our friends have 'liked' a page, encouraging us to do the same; dark patterns trigger our preference for shiny buttons over grey ones; platforms nudge us to buy products others have bought before us; and apps gamify sharing by encouraging us to continue a 'streak' with our friends. The list goes on.</p><p>At a minimum, the power of design means that our choices do not always reflect our real personal preferences. At worst, online platforms manipulate us into keeping the data flowing, fueling an information-hungry business model. That manipulation is often the result of so-called 'dark patterns' in platform design. Mathur et al. <ref type="bibr" coords="4,277.51,686.90,23.67,9.10" target="#b31">[26 ]</ref> define dark patterns as "interface design choices that benefit an online service by coercing, steering, or deceiving users into making decisions that, if fully informed and capable of selecting alternatives, they might not make." And they are increasingly common. Designers use dark patterns to hide, deceive, and goad users into disclosure. They confuse users by asking questions in ways nonexperts cannot understand, they obfuscate by hiding interface elements that could help users protect their privacy, they require registration and associated disclosures in order to access functionality, and hide malicious behavior in the abyss of legalese privacy policies. Dark patterns also make disclosure 'irresistible' by connecting information sharing to in-app benefits. In these and other ways, designers intentionally make it difficult for users to effectuate their privacy preferences.</p><p>Online platforms are also socially constructed, designed by real people with biases both implicit and explicit <ref type="bibr" coords="4,318.22,259.66,35.33,9.10">[14 ,24 ]</ref>. Although there are, in fact, several social groups involved in the creation and design of websites, apps, and other data collection platforms-from executives and lawyers to marketers and users-the mostly white male engineers and technologists on the ground play a critical role in channeling ideas into design <ref type="bibr" coords="4,476.84,317.38,39.07,9.10">[24 ,40 ]</ref>. As such, theirs is the vision most likely integrated into code <ref type="bibr" coords="4,532.23,328.94,23.26,9.10" target="#b50">[40 ]</ref>. The biases of these designers not only damage our privacy <ref type="bibr" coords="4,352.40,352.02,42.82,9.10">[40 ,44 ]</ref>, but may also constrain one group of consumers more than others, whether it is Asians who cannot use a 'smart' camera because the camera's artificial intelligence thinks all Asians have their eyes closed when posing for pictures <ref type="bibr" coords="4,406.71,398.22,19.93,9.10" target="#b29">[25 ]</ref> or an app in which location tracking cannot be turned off regardless of the potential for harm to women and stalking victims <ref type="bibr" coords="4,493.34,421.29,15.30,9.10" target="#b12">[11]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Trust and privacy</head><p>The design of built online environments and our cognitive biases make rational disclosure decision-making difficult. Therefore, the disconnect between users' stated preferences and disclosure behavior has been misunderstood. The evidence suggests that individuals care about their privacy. They are, however, dissuaded from acting effectively on those preferences by cognitive limitations leveraged by the digital platforms themselves.</p><p>Nor is disclosure arbitrary. As we have seen, it can be manipulated in specific, multidirectional ways. The contextual nature of disclosure and privacy <ref type="bibr" coords="4,468.51,582.93,11.31,9.10" target="#b4">[4]</ref> means that we can explain some sharing of personal data through principles of trust and corporate attempts to manipulate that trust.</p><p>Trust, a resource of social capital between or among two or more parties concerning the expectation that others will behave according to accepted norms, is a powerful predictor of a willingness to share personal information online <ref type="bibr" coords="4,347.98,675.34,23.26,9.10" target="#b55">[43 ]</ref>. Trust is the 'favorable expectation regarding other people's actions and intentions,' or the belief that others will behave in a predictable manner <ref type="bibr" coords="4,521.57,698.41,15.30,9.10" target="#b35">[29]</ref>. For example, when an individual speaks with relative strangers in a support group like Alcoholics Anonymous, she trusts that they will not divulge her secrets. Trust, therefore, includes a willingness to accept some risk and vulnerability toward others and steps in to grease the wheels of social activity.</p><p>We share our information with others in contexts of trust <ref type="bibr" coords="5,53.86,144.18,17.19,9.10" target="#b25">[22,</ref><ref type="bibr" coords="5,71.05,144.18,19.00,9.10" target="#b55">43 ]</ref>. When we learn that others have shared personal information, we share, as well <ref type="bibr" coords="5,182.32,155.75,23.26,9.10" target="#b53">[42 ]</ref>. When we know our close friends participate in an online social network, we are more likely to participate, as well. When someone shares a stigmatizing social identity, we are more likely to share personal information with them <ref type="bibr" coords="5,214.58,201.89,23.26,9.10" target="#b53">[42 ]</ref>. We develop privacy management techniques based on indicia of trust. This means that trust is a target of design and manipulation. Dark patterns may hide, confuse, and obfuscate, but they do so without users knowing <ref type="bibr" coords="5,200.35,259.66,23.26,9.10" target="#b31">[26 ]</ref>. The only thing users see are nudges to behave in certain ways. Dark patterns can hide disclosure dangers while simultaneously highlighting the powerful social cues to share. Facebook, for example, introduces and follows every News Feed post with information about which friends and how many of them have 'liked' or shared the content. Websites cue trust through professional design while hiding their invasive data collection practices in inscrutable privacy policies <ref type="bibr" coords="5,139.92,363.58,23.31,9.10" target="#b55">[43 ]</ref>.</p><p>As such, privacy law should reflect the fact that we share data with others in contexts of trust, that rational choice inadequately describes our disclosure decision-making, and that users must be protected from unfair and manipulated disclosure. We entrust our information to digital platforms much like we entrust our financial information to estate planners or our medical information to doctors or our legal situation with lawyers <ref type="bibr" coords="5,198.60,467.50,10.61,9.10" target="#b8">[8]</ref>. The law requires those parties to act in a trustworthy manner. They are, in fact, trustees, or fiduciaries, of our data: we are vulnerable to them, we depend on them, and they hold themselves out as experts and trustworthy <ref type="bibr" coords="5,187.54,513.65,10.56,9.10" target="#b8">[8]</ref>. As such, they should also be responsible for acting in our benefit or, at least, not acting in ways that benefit them at our expense. In particular, this notion of 'information fiduciaries' requires three things: duties of care, duties of confidentiality, and duties of loyalty. Duties of care would require technology companies to take reasonable steps to secure our data, with 'reasonable' defined by centuries of common law. Duties of confidentiality would require those who collect our data to collect only so much as necessary to achieve a particular purpose and limit the use of collected data to specific purposes to which users consent. And duties of loyalty would ensure that companies do not profit by harming us. To put it another way, treating data collectors as fiduciaries of our data would ban their use of dark patterns to manipulate and coerce disclosure of our personal information. Recent legislation proposed by U.S. Senator Brian Schatz (D-Hawaii) proposes to integrate these fiduciary principles of care, confidentiality, and loyalty into a comprehensive United States federal privacy law <ref type="bibr" coords="5,361.30,86.47,15.80,9.10" target="#b17">[15,</ref><ref type="bibr" coords="5,377.10,86.47,11.85,9.10" target="#b52">41]</ref>. It deserves consideration particularly because it reflects the latest research on how disclosure can be manipulated by cognitive biases and coercive design.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>Many internet users care about their privacy. And yet, technology companies have made design choices that make it difficult for users to realize those preferences. Online environments are built not only to constrain users, but to coerce disclosure and trigger cognitive biases that encourage us to give up and cede control over our privacy. Online platforms can behave in these predatory ways because the law, based on the myth of rational disclosure, allows them. A different approach, one based on the connection between trust and sharing, would hold online platforms to a higher standard of loyalty, confidentiality, and care.</p></div>			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="106" xml:id="foot_0">Privacy and disclosure, online and in social interactions Current Opinion in Psychology 2020, 31:105-109 www.sciencedirect.com</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1">Cognitive biases and dark patterns Waldman 107 www.sciencedirect.com Current Opinion in Psychology 2020, 31:105-109</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2">www.sciencedirect.comCurrent Opinion in Psychology 2020, 31:105-109</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflict of interest statement</head><p>Nothing declared.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="5,374.29,348.72,142.18,9.96;5,311.13,360.11,224.92,6.90;5,311.13,368.04,86.64,6.90;5,327.63,383.98,59.76,6.90;5,327.63,391.97,75.69,6.90" xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Figure 1.10. Policy interest rates in many EMEs have been increased</title>
+		<idno type="DOI">10.1787/888933048983</idno>
+		<imprint>
+			<date>null</date>
+			<publisher>Organisation for Economic Co-Operation and Development (OECD)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,314.24,411.87,229.85,6.90;5,327.57,419.86,217.76,6.90" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">An Experiment in Hiring Discrimination Via Online Social Networks</title>
+		<author>
+			<persName><forename type="first">Alessandro</forename><surname>Acquisti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christina</forename><forename type="middle">M</forename><surname>Fong</surname></persName>
+		</author>
+		<idno type="DOI">10.2139/ssrn.2031979</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SSRN Electronic Journal</title>
+		<title level="j" type="abbrev">SSRN Journal</title>
+		<idno type="ISSNe">1556-5068</idno>
+		<imprint>
+			<biblScope unit="volume">2014</biblScope>
+			<biblScope unit="page" from="1" to="81" />
+			<date type="published" when="2012" />
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,314.24,433.81,228.27,6.90;5,327.57,441.80,204.69,6.90" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Privacy and human behavior in the age of information</title>
+		<author>
+			<persName><forename type="first">Alessandro</forename><surname>Acquisti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Laura</forename><surname>Brandimarte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">George</forename><surname>Loewenstein</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aaa1465</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<title level="j" type="abbrev">Science</title>
+		<idno type="ISSN">0036-8075</idno>
+		<idno type="ISSNe">1095-9203</idno>
+		<imprint>
+			<biblScope unit="volume">347</biblScope>
+			<biblScope unit="issue">6221</biblScope>
+			<biblScope unit="page" from="509" to="514" />
+			<date type="published" when="2015-01-30" />
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,314.24,455.75,231.08,6.90;5,327.57,463.69,217.78,6.90;5,327.57,471.68,217.75,6.90;5,327.57,479.62,91.46,6.90" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">What can behavioral economics teach us about privacy</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Acquisti</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Grossklags</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Digital Privacy: Theory, Technologies, and Practices</title>
+				<editor>
+			<persName><forename type="first">A</forename><surname>Acquisti</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">S</forename><surname>Gritzalis</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">C</forename><surname>Lambrinoudakis</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">S</forename><surname>Di Vimercati</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="page" from="363" to="377" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,314.24,493.56,213.21,6.90;5,327.57,501.56,207.50,6.90;5,327.57,509.55,40.04,6.79" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The Impact of Relative Standards on the Propensity to Disclose</title>
+		<author>
+			<persName><forename type="first">Alessandro</forename><surname>Acquisti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Leslie</forename><forename type="middle">K</forename><surname>John</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">George</forename><surname>Loewenstein</surname></persName>
+		</author>
+		<idno type="DOI">10.1509/jmr.09.0215</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing Research</title>
+		<title level="j" type="abbrev">Journal of Marketing Research</title>
+		<idno type="ISSN">0022-2437</idno>
+		<idno type="ISSNe">1547-7193</idno>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="160" to="174" />
+			<date type="published" when="2012-04">2012</date>
+			<publisher>SAGE Publications</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,314.24,523.50,230.34,6.90;5,327.57,531.43,217.76,6.79;5,327.57,539.43,213.03,6.90;5,327.57,547.36,97.63,6.90" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Sleights of privacy</title>
+		<author>
+			<persName><forename type="first">Idris</forename><surname>Adjerid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alessandro</forename><surname>Acquisti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Laura</forename><surname>Brandimarte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">George</forename><surname>Loewenstein</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2501604.2501613</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Ninth Symposium on Usable Privacy and Security</title>
+				<meeting>the Ninth Symposium on Usable Privacy and Security</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2013-07-24" />
+			<biblScope unit="volume">2013</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,314.24,561.31,231.14,6.90;5,327.57,569.30,142.70,6.90" xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Predictably Irrational: The Hidden Forces That Shape Our Decisions</title>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Ariely</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<publisher>HarperCollins Publishers</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,314.24,583.25,222.22,6.90;5,327.57,591.24,214.66,6.90;5,327.57,599.18,61.22,6.90" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">&quot;Coherent Arbitrariness&quot;: Stable Demand Curves Without Stable Preferences</title>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Ariely</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Loewenstein</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Prelec</surname></persName>
+		</author>
+		<idno type="DOI">10.1162/00335530360535153</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Quarterly Journal of Economics</title>
+		<title level="j" type="abbrev">The Quarterly Journal of Economics</title>
+		<idno type="ISSN">0033-5533</idno>
+		<idno type="ISSNe">1531-4650</idno>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="73" to="106" />
+			<date type="published" when="2003-02-01">2003</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,314.24,613.13,231.10,6.90;5,327.57,621.12,138.60,6.90" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Some Realism about Pluralism: Legal Realist Approaches to the First Amendment</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">M</forename><surname>Balkin</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/1372553</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Duke Law Journal</title>
+		<title level="j" type="abbrev">Duke Law Journal</title>
+		<idno type="ISSN">0012-7086</idno>
+		<imprint>
+			<biblScope unit="volume">1990</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">375</biblScope>
+			<date type="published" when="2016">2016</date>
+			<publisher>JSTOR</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,314.24,635.07,222.25,6.90;5,327.57,643.01,65.31,6.90" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Digital Market Manipulation</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Calo</surname></persName>
+		</author>
+		<idno type="DOI">10.2139/ssrn.2309703</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SSRN Electronic Journal</title>
+		<title level="j" type="abbrev">SSRN Journal</title>
+		<idno type="ISSNe">1556-5068</idno>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="995" to="1051" />
+			<date type="published" when="2014">2014</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,318.03,656.95,227.32,6.90;5,327.57,664.95,192.54,6.90;5,327.57,672.94,213.60,6.90;5,327.57,680.88,67.71,6.90" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Engineering Information Disclosure</title>
+		<author>
+			<persName><forename type="first">Daphne</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Erin</forename><forename type="middle">L</forename><surname>Krupka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eytan</forename><surname>Adar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alessandro</forename><surname>Acquisti</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2858036.2858346</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems</title>
+				<meeting>the 2016 CHI Conference on Human Factors in Computing Systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2016-05-07" />
+			<biblScope unit="volume">2016</biblScope>
+			<biblScope unit="page" from="587" to="597" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,311.13,688.87,240.15,6.90;5,311.13,696.81,240.22,6.90;5,311.13,704.80,240.16,6.90;5,311.13,712.79,240.22,6.90;5,311.13,720.73,161.93,6.90" xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Women are more likely than men to share personal details when teaching</title>
+		<idno type="DOI">10.1126/science.caredit.adj8564</idno>
+		<imprint>
+			<date type="published" when="2023-07-19" />
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,318.03,734.68,227.29,6.90" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Spying Inc.</title>
+		<author>
+			<persName><forename type="first">Danielle</forename><forename type="middle">Keats</forename><surname>Citron</surname></persName>
+		</author>
+		<idno type="DOI">10.2139/ssrn.2568684</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SSRN Electronic Journal</title>
+		<title level="j" type="abbrev">SSRN Journal</title>
+		<idno type="ISSNe">1556-5068</idno>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="1243" to="1282" />
+			<date type="published" when="2015">2015</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,67.84,84.52,227.37,6.90;6,77.39,92.46,217.78,6.90;6,77.39,100.45,61.19,6.90" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Necessary but not sufficient: standardized methods for privacy notice an choice</title>
+		<author>
+			<persName coords=""><forename type="first">L</forename><forename type="middle">F</forename><surname>Cranor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Telecommun High Technol Law</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="273" to="307" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,67.84,114.40,214.77,6.90;6,77.39,122.34,40.10,6.79" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">DRM and Privacy</title>
+		<author>
+			<persName coords=""><forename type="first">Julie</forename><forename type="middle">E</forename><surname>Cohen</surname></persName>
+		</author>
+		<idno type="DOI">10.2139/ssrn.372741</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SSRN Electronic Journal</title>
+		<title level="j" type="abbrev">SSRN Journal</title>
+		<idno type="ISSNe">1556-5068</idno>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="575" to="617" />
+			<date type="published" when="2003">2003</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,67.84,136.28,204.23,6.90;6,77.39,144.28,199.35,6.90;6,77.39,152.27,207.73,6.90;6,77.39,160.21,57.77,6.90" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Panel: AI now!</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Crawford</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Whittaker</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">C</forename><surname>Elish</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Barocas</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Plasek</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Ferryman</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/taai.2016.7880102</idno>
+	</analytic>
+	<monogr>
+		<title level="m">2016 Conference on Technologies and Applications of Artificial Intelligence (TAAI)</title>
+				<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2016-11" />
+			<biblScope unit="volume">2016</biblScope>
+			<biblScope unit="page" from="1" to="25" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,60.95,168.20,240.21,6.90;6,60.95,176.14,240.20,6.90;6,60.95,184.13,240.18,6.90;6,60.95,192.07,98.49,6.90" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Human-Centered Design to Address Biases in Artificial Intelligence (Preprint)</title>
+		<author>
+			<persName><forename type="first">You</forename><surname>Chen</surname></persName>
+			<idno type="ORCID">0000-0001-8232-8840</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Ellen</forename><forename type="middle">Wright</forename><surname>Clayton</surname></persName>
+			<idno type="ORCID">0000-0002-0308-4110</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Laurie</forename><forename type="middle">Lovett</forename><surname>Novak</surname></persName>
+			<idno type="ORCID">0000-0002-0415-4301</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Shilo</forename><surname>Anders</surname></persName>
+			<idno type="ORCID">0000-0002-2327-7323</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Bradley</forename><surname>Malin</surname></persName>
+			<idno type="ORCID">0000-0003-3040-5175</idno>
+		</author>
+		<idno type="DOI">10.2196/preprints.43251</idno>
+	</analytic>
+	<monogr>
+		<title level="m">particular, noting the biases in data used as inputs for artificial intelligence and the biases of the maledominated design workforce</title>
+				<imprint>
+			<publisher>JMIR Publications Inc.</publisher>
+			<date type="published" when="2022-10-05" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,67.84,206.07,221.70,6.90;6,77.39,214.01,144.11,6.90" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The CHRONIC Care Act Passes Senate, Obstacles Remain</title>
+		<idno type="DOI">10.1377/forefront.20171021.332606</idno>
+		<ptr target="https://www.schatz.senate.gov/imo/media/doc/Data%20Care%20Act%20of%202018.pdf" />
+	</analytic>
+	<monogr>
+		<title level="j">Data Care Act</title>
+		<imprint>
+			<date type="published" when="2017-10-05" />
+			<publisher>Health Affairs (Project Hope)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,67.84,227.96,227.28,6.90;6,77.39,235.95,85.27,6.90" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Federal Trade Commission</title>
+		<idno type="DOI">10.4135/9781483306902.n142</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Federal Trade Commission: Data Brokers: A Call for Transparency and Accountability</title>
+				<imprint>
+			<publisher>SAGE Publications, Inc.</publisher>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,67.84,249.90,227.37,6.90;6,77.39,257.83,199.67,6.90" xml:id="b19">
+	<monogr>
+		<title level="m" type="main">How technology is hijacking your mind-from a magician and Google design ethicist. Medium</title>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Harris</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016-11">2016. November 2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,67.84,271.78,225.85,6.90;6,77.39,279.77,88.58,6.90" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Opinions ∙ The Case Against Idealising Control</title>
+		<author>
+			<persName coords=""><forename type="first">W</forename><surname>Hartzog</surname></persName>
+		</author>
+		<idno type="DOI">10.21552/edpl/2018/4/5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">European Data Protection Law Review</title>
+		<title level="j" type="abbrev">European Data Protection Law Review</title>
+		<idno type="ISSN">2364-2831</idno>
+		<idno type="ISSNe">2364-284X</idno>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="423" to="432" />
+			<date type="published" when="2018">2018</date>
+			<publisher>Lexxion Verlag</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,60.95,287.77,240.19,6.90;6,60.95,295.70,240.22,6.90;6,60.95,303.70,209.48,6.90" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Policing Gangs</title>
+		<author>
+			<persName><forename type="first">Madeleine</forename><surname>Novich</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/oxfordhb/9780197618158.013.40</idno>
+	</analytic>
+	<monogr>
+		<title level="m">The Oxford Handbook of Gangs and Society</title>
+				<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="2024-01-23" />
+			<biblScope unit="page" from="832" to="848" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,67.84,317.64,227.34,6.90;6,77.39,325.58,173.14,6.90;6,60.95,333.58,240.24,6.90;6,60.95,341.51,240.22,6.90;6,60.95,349.51,236.94,6.90" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Privacy Law’s Design Gap</title>
+		<author>
+			<persName coords=""><forename type="first">W</forename><surname>Hartzog</surname></persName>
+		</author>
+		<idno type="DOI">10.4159/9780674985124-004</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Privacy’s Blueprint</title>
+				<imprint>
+			<publisher>Harvard University Press</publisher>
+			<date type="published" when="2018-12-31">2018</date>
+			<biblScope unit="page" from="56" to="90" />
+		</imprint>
+	</monogr>
+	<note>Privacy&apos;s Blueprint: The Battle to Control the Design of New Technologies</note>
+</biblStruct>
+
+<biblStruct coords="6,67.85,363.45,223.51,6.90;6,77.39,371.45,63.89,6.90" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Valuating Privacy</title>
+		<author>
+			<persName coords=""><forename type="first">B</forename><forename type="middle">A</forename><surname>Huberman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Adar</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><forename type="middle">R</forename><surname>Fine</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/msp.2005.137</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Security and Privacy Magazine</title>
+		<title level="j" type="abbrev">IEEE Secur. Privacy Mag.</title>
+		<idno type="ISSN">1540-7993</idno>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="22" to="25" />
+			<date type="published" when="2005-09">2005</date>
+			<publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,67.84,385.39,227.28,6.90;6,77.39,393.33,213.82,6.90;6,77.39,401.32,185.84,6.90" xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Study on Monetising Privacy: An Economic Model for Pricing Personal Information</title>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Jentzsch</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Preibusch</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Harasser</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<publisher>European Union Agency for Network and Inf. Sec. (ENISA)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,67.85,415.27,227.44,6.90" xml:id="b25">
+	<monogr>
+		<title level="m" type="main">The Transparent Self</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">M</forename><surname>Jourard</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1971">1971</date>
+			<publisher>Van Nostrand Reinhold Inc</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,67.84,429.22,212.28,6.90;6,77.39,437.15,47.23,6.90" xml:id="b26">
+	<monogr>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">D:</forename><surname>Kahneman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Thinking</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Fast</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Slow</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Straus</forename><surname>Farrar</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">;</forename><surname>Giroux</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,67.84,451.16,204.20,6.90;6,77.39,459.09,204.69,6.90" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Private Accountability in an Age of Artificial Intelligence</title>
+		<author>
+			<persName coords=""><forename type="first">Sonia</forename><forename type="middle">K</forename><surname>Katyal</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/9781108680844.004</idno>
+	</analytic>
+	<monogr>
+		<title level="m">The Cambridge Handbook of the Law of Algorithms</title>
+				<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="47" to="106" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,60.95,467.09,240.22,6.90;6,60.95,475.02,240.22,6.90;6,60.95,483.02,240.21,6.90;6,60.95,490.96,49.89,6.90" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Computational Law, Symbolic Discourse, and the AI Constitution</title>
+		<author>
+			<persName><forename type="first">Stephen</forename><surname>Wolfram</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/oso/9780190905033.003.0006</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Ethics of Artificial Intelligence</title>
+				<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="2020-09-17" />
+			<biblScope unit="page" from="155" to="180" />
+		</imprint>
+	</monogr>
+	<note>to ensure AI can be used without bias problems</note>
+</biblStruct>
+
+<biblStruct coords="6,67.84,504.90,227.38,6.90;6,77.39,512.90,184.51,6.90" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">How copyright law can fix artificial intelligence&apos;s implicit bias problem</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Levendowski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wash Law Rev</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="579" to="630" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,60.95,520.89,240.22,6.90;6,60.95,528.83,240.23,6.90;6,60.95,536.82,240.26,6.90;6,60.95,544.76,46.21,6.90" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Copyright</title>
+		<idno type="DOI">10.1016/b978-0-12-817216-2.00003-x</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Introduction to Algorithms for Data Mining and Machine Learning</title>
+				<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2019" />
+			<biblScope unit="page">iv</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,67.84,558.70,225.45,6.90;6,77.39,566.70,217.80,6.90;6,77.39,574.69,189.21,6.90;6,77.39,582.63,81.30,6.90" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Dark Patterns at Scale</title>
+		<author>
+			<persName><forename type="first">Arunesh</forename><surname>Mathur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gunes</forename><surname>Acar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">J</forename><surname>Friedman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eli</forename><surname>Lucherini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jonathan</forename><surname>Mayer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marshini</forename><surname>Chetty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Arvind</forename><surname>Narayanan</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3359183</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the ACM on Human-Computer Interaction</title>
+		<title level="j" type="abbrev">Proc. ACM Hum.-Comput. Interact.</title>
+		<idno type="ISSNe">2573-0142</idno>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">CSCW</biblScope>
+			<biblScope unit="page" from="1" to="32" />
+			<date type="published" when="2019-11-07">2019</date>
+			<publisher>Association for Computing Machinery (ACM)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,60.95,590.62,240.20,6.90;6,60.95,598.56,240.21,6.90;6,60.95,606.55,240.18,6.90;6,60.95,614.55,119.11,6.90" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">&quot;Dark Patterns&quot; - Unfaire Nutzerschnittstellen auf Websites</title>
+		<author>
+			<persName><forename type="first">Torsten</forename><forename type="middle">J</forename><surname>Gerpott</surname></persName>
+		</author>
+		<idno type="DOI">10.15358/0340-1650-2022-12-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">WiSt - Wirtschaftswissenschaftliches Studium</title>
+		<title level="j" type="abbrev">WIST</title>
+		<idno type="ISSN">0340-1650</idno>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="4" to="9" />
+			<date type="published" when="2022" />
+			<publisher>Verlag C.H.Beck oHG</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,67.84,628.49,227.36,6.90;6,77.39,636.43,133.77,6.90" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">The cost of reading privacy policies. I/S</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">M</forename><surname>Mcdonald</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><forename type="middle">F</forename><surname>Cranor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Law Policy Inf Soc</title>
+		<imprint>
+			<biblScope unit="page" from="543" to="568" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,67.84,650.38,227.34,6.90;6,77.39,658.37,208.74,6.90;6,77.39,666.31,40.10,6.79" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">A Longitudinal Assessment of Online Privacy Notice Readability</title>
+		<author>
+			<persName><forename type="first">George</forename><forename type="middle">R</forename><surname>Milne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mary</forename><forename type="middle">J</forename><surname>Culnan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Henry</forename><surname>Greene</surname></persName>
+		</author>
+		<idno type="DOI">10.1509/jppm.25.2.238</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Public Policy &amp; Marketing</title>
+		<title level="j" type="abbrev">Journal of Public Policy &amp; Marketing</title>
+		<idno type="ISSN">0743-9156</idno>
+		<idno type="ISSNe">1547-7207</idno>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="238" to="249" />
+			<date type="published" when="2006-09">2006</date>
+			<publisher>SAGE Publications</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,67.84,680.14,227.32,7.01;6,77.39,688.25,217.81,6.90;6,77.39,696.24,40.10,6.79" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">The Nature of Trust: From Georg Simmel to a Theory of Expectation, Interpretation and Suspension</title>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Mo ¨llering</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/s0038038501000190</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sociology</title>
+		<title level="j" type="abbrev">SOC</title>
+		<idno type="ISSN">0038-0385</idno>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="403" to="420" />
+			<date type="published" when="2001-05">2001</date>
+			<publisher>SAGE Publications</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,67.85,710.19,227.37,6.90;6,77.39,718.12,216.62,6.90;6,77.39,726.12,35.48,6.90" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Prime time for primes</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">A</forename><surname>Mourey</surname></persName>
+		</author>
+		<idno type="DOI">10.1090/mbk/073/07</idno>
+	</analytic>
+	<monogr>
+		<title level="m">A Mathematical Medley</title>
+				<imprint>
+			<publisher>American Mathematical Society</publisher>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="33" to="35" />
+		</imprint>
+	</monogr>
+	<note>In press</note>
+</biblStruct>
+
+<biblStruct coords="6,318.22,84.52,240.13,6.90;6,318.22,92.46,240.20,6.90;6,318.22,100.45,172.90,6.90" xml:id="b37">
+	<monogr>
+		<title level="m" type="main">Ch.4 Appointing Those who will Make Decisions</title>
+		<idno type="DOI">10.1093/acprof:oso/9780199207442.003.0004</idno>
+		<imprint>
+			<date type="published" when="2007-03-15" />
+			<publisher>Oxford University Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,325.12,115.19,204.57,6.90;6,334.66,123.19,217.79,6.90;6,334.66,131.13,103.44,6.90" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">The Privacy Paradox: Personal Information Disclosure Intentions versus Behaviors</title>
+		<author>
+			<persName><forename type="first">Patricia</forename><forename type="middle">A</forename><surname>Norberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><forename type="middle">R</forename><surname>Horne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">A</forename><surname>Horne</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1745-6606.2006.00070.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Consumer Affairs</title>
+		<title level="j" type="abbrev">Journal of Consumer Affairs</title>
+		<idno type="ISSN">0022-0078</idno>
+		<idno type="ISSNe">1745-6606</idno>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="100" to="126" />
+			<date type="published" when="2007-03-06">2007</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,325.12,145.92,221.09,6.90;6,334.66,153.92,119.45,6.90" xml:id="b39">
+	<monogr>
+		<title level="m" type="main">Apps Permissions in the Google Play Store</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Olmstead</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Atkinson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<publisher>Pew Research Center</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,325.12,168.66,214.92,6.90;6,334.66,176.65,210.50,6.79;6,334.66,184.59,191.89,6.90" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Disagreeable Privacy Policies: Mismatches between Meaning and Userss Understanding</title>
+		<author>
+			<persName><forename type="first">Joel</forename><forename type="middle">R</forename><surname>Reidenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Travis</forename><surname>Breaux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lorrie</forename><forename type="middle">Faith</forename><surname>Cranor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brian</forename><surname>French</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Amanda</forename><surname>Grannis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">James</forename><surname>Graves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fei</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aleecia</forename><surname>Mcdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><surname>Norton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rohan</forename><surname>Ramanath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">Cameron</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Norman</forename><surname>Sadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Florian</forename><surname>Schaub</surname></persName>
+		</author>
+		<idno type="DOI">10.2139/ssrn.2418297</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SSRN Electronic Journal</title>
+		<title level="j" type="abbrev">SSRN Journal</title>
+		<idno type="ISSNe">1556-5068</idno>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="39" to="68" />
+			<date type="published" when="2015">2015</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,318.22,192.58,240.17,6.90;6,318.22,200.52,240.20,6.90;6,318.22,208.51,240.20,6.90;6,318.22,216.50,46.32,6.90" xml:id="b41">
+	<monogr>
+		<title level="m" type="main">Modeling and Analyzing Users&apos; Privacy Disclosure Behavior to Generate Personalized Privacy Policies</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K M Nuhil</forename><surname>Mehdy</surname></persName>
+		</author>
+		<idno type="DOI">10.18122/td.1855.boisestate</idno>
+		<imprint>
+			<date>null</date>
+			<publisher>Boise State University, Albertsons Library</publisher>
+		</imprint>
+	</monogr>
+	<note>at least, disagree as to the meaning of privacy policy terms</note>
+</biblStruct>
+
+<biblStruct coords="6,325.12,231.24,223.82,6.90;6,334.66,239.24,192.27,6.79;6,334.66,247.18,176.84,6.90" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Privacy Harms and the Effectiveness of the Notice and Choice Framework</title>
+		<author>
+			<persName><forename type="first">Joel</forename><forename type="middle">R</forename><surname>Reidenberg</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><forename type="middle">Cameron</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexander</forename><surname>Callen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sophia</forename><surname>Qasir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><surname>Norton</surname></persName>
+		</author>
+		<idno type="DOI">10.2139/ssrn.2418247</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SSRN Electronic Journal</title>
+		<title level="j" type="abbrev">SSRN Journal</title>
+		<idno type="ISSNe">1556-5068</idno>
+		<imprint>
+			<biblScope unit="volume">2015</biblScope>
+			<biblScope unit="page" from="485" to="524" />
+			<date type="published" when="2014" />
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,325.12,261.97,227.30,6.90;6,334.66,269.91,35.43,6.90" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Privacy&apos;s Constitutional Moment</title>
+		<author>
+			<persName><forename type="first">Neil</forename><forename type="middle">M</forename><surname>Richards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Woodrow</forename><surname>Hartzog</surname></persName>
+		</author>
+		<idno type="DOI">10.2139/ssrn.3441502</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SSRN Electronic Journal</title>
+		<title level="j" type="abbrev">SSRN Journal</title>
+		<idno type="ISSNe">1556-5068</idno>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note>In press</note>
+</biblStruct>
+
+<biblStruct coords="6,318.22,277.90,240.19,6.90;6,318.22,285.84,220.14,6.90" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Without consent: The ethics of disclosing personal information in public archives</title>
+		<idno type="DOI">10.1016/0099-1333(93)90561-i</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Academic Librarianship</title>
+		<title level="j" type="abbrev">The Journal of Academic Librarianship</title>
+		<idno type="ISSN">0099-1333</idno>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">182</biblScope>
+			<date type="published" when="1993-07" />
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,325.12,300.64,227.33,6.90;6,334.66,308.63,215.58,6.90;6,334.66,316.57,106.83,6.90" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Can There Ever Be Too Many Options? A Meta-Analytic Review of Choice Overload</title>
+		<author>
+			<persName><forename type="first">Benjamin</forename><surname>Scheibehenne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rainer</forename><surname>Greifeneder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><forename type="middle">M</forename><surname>Todd</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/651235</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Consumer Research</title>
+		<title level="j" type="abbrev">J Consum Res</title>
+		<idno type="ISSN">0093-5301</idno>
+		<idno type="ISSNe">1537-5277</idno>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="409" to="425" />
+			<date type="published" when="2010-10">2010</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,325.12,331.36,213.58,6.90" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Herbert A. Simon: Models of Bounded Rationality. Volume 1: Economic Analysis and Public Policy. Volume 2: Behavioural Economics and Business Organization</title>
+		<author>
+			<persName coords=""><forename type="first">H</forename><forename type="middle">A</forename><surname>Simon</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/017084068500600320</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Organization Studies</title>
+		<title level="j" type="abbrev">Organization Studies</title>
+		<idno type="ISSN">0170-8406</idno>
+		<idno type="ISSNe">1741-3044</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="308" to="308" />
+			<date type="published" when="1982">1982</date>
+			<publisher>SAGE Publications</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,325.12,346.10,227.25,6.90;6,334.66,354.10,79.03,6.90" xml:id="b47">
+	<monogr>
+		<title level="m" type="main">Misbehaving: The Making of Behavioral Economics</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Thaler</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<publisher>W. W. Norton &amp; Co</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,325.12,368.84,227.33,6.90;6,334.66,376.83,201.75,6.90;6,334.66,384.77,213.31,6.90;6,334.66,392.76,186.12,6.90" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Persistent Misperceptions: Americans’ Misplaced Confidence in Privacy Policies, 2003–2015</title>
+		<author>
+			<persName><forename type="first">Joseph</forename><surname>Turow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Hennessy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nora</forename><surname>Draper</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/08838151.2018.1451867</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Broadcasting &amp; Electronic Media</title>
+		<title level="j" type="abbrev">Journal of Broadcasting &amp; Electronic Media</title>
+		<idno type="ISSN">0883-8151</idno>
+		<idno type="ISSNe">1550-6878</idno>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="461" to="478" />
+			<date type="published" when="2018-07-03" />
+			<publisher>Informa UK Limited</publisher>
+		</imprint>
+		<respStmt>
+			<orgName>University of Pennsylvania</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,318.22,400.70,240.19,6.90;6,318.22,408.69,240.19,6.90;6,318.22,416.69,26.20,6.90" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Do Unto Others: Why Americans Should Protect Foreigners’ Privacy Rights</title>
+		<idno type="DOI">10.1017/9781316216088.013</idno>
+	</analytic>
+	<monogr>
+		<title level="m">American Spies</title>
+				<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2017-01-01" />
+			<biblScope unit="page" from="162" to="171" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,325.12,431.43,223.33,6.90;6,334.66,439.42,40.04,6.79" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Trust: Privacy in the Digital Age</title>
+		<author>
+			<persName coords=""><forename type="first">Ari</forename><forename type="middle">Ezra</forename><surname>Waldman</surname></persName>
+		</author>
+		<idno type="DOI">10.5771/9783845289304-127</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Digitization and the Law</title>
+				<imprint>
+			<publisher>Nomos Verlagsgesellschaft mbH &amp; Co. KG</publisher>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="127" to="140" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,318.22,447.36,240.15,6.90;6,318.22,455.35,240.18,6.90;6,318.22,463.35,240.16,6.90;6,318.22,471.28,240.14,6.90;6,318.22,479.28,62.45,6.90" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">New Privacy Threats, Old Legal Approaches: Conclusions of Part II</title>
+		<author>
+			<persName><forename type="first">Demetrius</forename><surname>Klitou</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-94-6265-026-8_8</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Information Technology and Law Series</title>
+				<imprint>
+			<publisher>T.M.C. Asser Press</publisher>
+			<date type="published" when="2014" />
+			<biblScope unit="page" from="251" to="256" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,325.12,494.02,227.31,6.90;6,334.66,502.01,169.29,6.90" xml:id="b52">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Waldman</surname></persName>
+		</author>
+		<title level="m">Duties of loyalty and care: Sen. Brian Schatz offers a new approach to data privacy. Medium</title>
+				<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,325.12,516.75,227.32,6.90;6,334.66,524.74,153.64,6.90" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Law, Privacy, and Online Dating: “Revenge Porn” in Gay Online Communities</title>
+		<author>
+			<persName coords=""><forename type="first">A:</forename><surname>Waldman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Law</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Dating</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/lsi.2018.29</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Law &amp; Social Inquiry</title>
+		<title level="j" type="abbrev">Law Soc. Inq.</title>
+		<idno type="ISSN">0897-6546</idno>
+		<idno type="ISSNe">1747-4469</idno>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">04</biblScope>
+			<biblScope unit="page" from="987" to="1018" />
+			<date type="published" when="2019-04-10">2019</date>
+			<publisher>Cambridge University Press (CUP)</publisher>
+		</imprint>
+	</monogr>
+	<note>revenge porn&quot; in gay online communities</note>
+</biblStruct>
+
+<biblStruct coords="6,318.22,532.68,240.12,6.90;6,318.22,540.67,240.22,6.90;6,318.22,548.67,240.15,6.90;6,318.22,556.61,45.85,6.90" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Geosocial-Networking App Usage Patterns of Gay, Bisexual, and Other Men Who Have Sex With Men: Survey Among Users of Grindr, A Mobile Dating App</title>
+		<author>
+			<persName><forename type="first">William</forename><forename type="middle">C</forename><surname>Goedel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dustin</forename><forename type="middle">T</forename><surname>Duncan</surname></persName>
+		</author>
+		<idno type="DOI">10.2196/publichealth.4353</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JMIR Public Health and Surveillance</title>
+		<title level="j" type="abbrev">JMIR Public Health Surveill</title>
+		<idno type="ISSNe">2369-2960</idno>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">e4</biblScope>
+			<date type="published" when="2015-05-08" />
+			<publisher>JMIR Publications Inc.</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,325.12,571.40,198.34,6.90;6,334.66,579.34,175.18,6.90;6,318.22,587.33,240.22,6.90;6,318.22,595.27,240.21,6.90;6,318.22,603.26,28.01,6.90" xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Privacy as Trust</title>
+		<author>
+			<persName coords=""><forename type="first">Ari</forename><forename type="middle">Ezra</forename><surname>Waldman</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/9781316888667</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Privacy As Trust: Information Privacy for an Information Age</title>
+				<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2018-03-23">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,325.12,618.06,223.16,6.90;6,334.66,626.00,54.05,6.90" xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Privacy Law&apos;s False Promise</title>
+		<author>
+			<persName coords=""><forename type="first">Ari</forename><forename type="middle">Ezra</forename><surname>Waldman</surname></persName>
+		</author>
+		<idno type="DOI">10.2139/ssrn.3339372</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SSRN Electronic Journal</title>
+		<title level="j" type="abbrev">SSRN Journal</title>
+		<idno type="ISSNe">1556-5068</idno>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note>In press</note>
+</biblStruct>
+
+<biblStruct coords="6,318.22,633.99,240.16,6.90;6,318.22,641.93,240.18,6.90;6,318.22,649.92,180.98,6.90" xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Comparing Protections and Principles—An Asian Privacy Standard?</title>
+		<author>
+			<persName><forename type="first">Graham</forename><surname>Greenleaf</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/acprof:oso/9780199679669.003.0017</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Asian Data Privacy Laws</title>
+				<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="2014-10-16" />
+			<biblScope unit="page" from="470" to="505" />
+		</imprint>
+	</monogr>
+	<note>threatening the protections those laws offer</note>
+</biblStruct>
+
+<biblStruct coords="6,325.12,664.66,227.32,6.90;6,334.66,672.66,212.30,6.79;6,334.66,680.65,207.11,6.90;6,334.66,688.59,154.04,6.90" xml:id="b58">
+	<analytic>
+		<title level="a" type="main">&quot;I regretted the minute I pressed share&quot;</title>
+		<author>
+			<persName><forename type="first">Yang</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gregory</forename><surname>Norcie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Saranga</forename><surname>Komanduri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alessandro</forename><surname>Acquisti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pedro</forename><forename type="middle">Giovanni</forename><surname>Leon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lorrie</forename><forename type="middle">Faith</forename><surname>Cranor</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2078827.2078841</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Seventh Symposium on Usable Privacy and Security</title>
+				<meeting>the Seventh Symposium on Usable Privacy and Security</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2011-07-20" />
+			<biblScope unit="volume">2011</biblScope>
+			<biblScope unit="page" from="1" to="16" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,325.12,718.12,223.05,6.90;6,334.66,726.12,91.45,6.90" xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Configuring the User: The Case of Usability Trials</title>
+		<author>
+			<persName coords=""><forename type="first">Steve</forename><surname>Woolgar</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1467-954x.1990.tb03349.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Sociological Review</title>
+		<title level="j" type="abbrev">The Sociological Review</title>
+		<idno type="ISSN">0038-0261</idno>
+		<idno type="ISSNe">1467-954X</idno>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">1_suppl</biblScope>
+			<biblScope unit="page" from="58" to="99" />
+			<date type="published" when="1990-05">1990</date>
+			<publisher>SAGE Publications</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,2001 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Dark (Patterns) Side of UX Design</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>ACM</publisher>
+				<availability status="unknown"><p>Copyright ACM</p>
+				</availability>
+				<date type="published" when="2018-04-21">2018-04-21</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,106.33,121.26,71.27,10.75"><forename type="first">Colin</forename><forename type="middle">M</forename><surname>Gray</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Purdue University West Lafayette</orgName>
+								<address>
+									<region>IN</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,186.37,121.26,48.25,10.75"><forename type="first">Yubo</forename><surname>Kou</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Purdue University West Lafayette</orgName>
+								<address>
+									<region>IN</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,243.76,121.26,68.28,10.75"><forename type="first">Bryan</forename><surname>Battles</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Purdue University West Lafayette</orgName>
+								<address>
+									<region>IN</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,319.81,121.26,76.66,10.75"><forename type="first">Joseph</forename><surname>Hoggatt</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Purdue University West Lafayette</orgName>
+								<address>
+									<region>IN</region>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName coords="1,427.24,121.26,90.31,10.75"><forename type="first">Austin</forename><forename type="middle">L</forename><surname>Toombs</surname></persName>
+							<email>toombsa@purdue.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Purdue University West Lafayette</orgName>
+								<address>
+									<region>IN</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The Dark (Patterns) Side of UX Design</title>
+					</analytic>
+					<monogr>
+						<title level="m">Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems</title>
+						<meeting>the 2018 CHI Conference on Human Factors in Computing Systems						</meeting>
+						<imprint>
+							<publisher>ACM</publisher>
+							<date type="published" when="2018-04-21" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">E9134B6CAFDCA59D992D2E58D1F8949C</idno>
+					<idno type="DOI">10.1145/3173574.3174108</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.2" ident="GROBID" when="2024-02-29T22:45+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>H.5.m. Information Interfaces and Presentation (e.g. HCI): Miscellaneous</term>
+					<term>K.7.4. Professional ethics: Codes of ethics Dark patterns</term>
+					<term>ethics</term>
+					<term>design character</term>
+					<term>design responsibility</term>
+					<term>UX practice</term>
+					<term>practice-led research</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Interest in critical scholarship that engages with the complexity of user experience (UX) practice is rapidly expanding, yet the vocabulary for describing and assessing criticality in practice is currently lacking. In this paper, we outline and explore the limits of a specific ethical phenomenon known as "dark patterns," where user value is supplanted in favor of shareholder value. We assembled a corpus of examples of practitioner-identified dark patterns and performed a content analysis to determine the ethical concerns contained in these examples. This analysis revealed a wide range of ethical issues raised by practitioners that were frequently conflated under the umbrella term of dark patterns, while also underscoring a shared concern that UX designers could easily become complicit in manipulative or unreasonably persuasive practices. We conclude with implications for the education and practice of UX designers, and a proposal for broadening research on the ethics of user experience.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>There is increasing interest in critical aspects of HCI and UX practice in the CHI community, including engagement with the impact of technology and design on society (e.g., <ref type="bibr" coords="1,267.69,517.30,10.83,8.64" target="#b3">[5,</ref><ref type="bibr" coords="1,281.01,517.30,12.50,8.64" target="#b20">22]</ref>) and the role of the designer in bringing about responsible change, particularly for vulnerable populations (e.g., <ref type="bibr" coords="1,267.33,539.21,15.88,8.64" target="#b18">[20,</ref><ref type="bibr" coords="1,285.72,539.21,12.54,8.64" target="#b37">39,</ref><ref type="bibr" coords="1,53.68,550.17,11.68,8.64" target="#b73">74]</ref>). While the third paradigm of HCI has taken up criticalethical concerns as a key aspect of humanistically-inspired praxis <ref type="bibr" coords="1,81.42,572.09,11.01,8.64" target="#b6">[8,</ref><ref type="bibr" coords="1,95.11,572.09,12.07,8.64" target="#b38">40]</ref>, the everyday practice of designers in relation to these concerns has not been sufficiently studied. We take on a practice-led orientation in this paper to understand more fully how practitioners are already engaging in and conceptualizing social responsibility in their work on their own terms.</p><p>We focus specifically on the practitioner-created construct of "dark patterns" and its emergence in the practitioner lexicon, defining a co-opting of human-centered values in the service of deceptive or malicious aims.</p><p>While ethics and values have been studied extensively in the HCI and Science &amp; Technology Studies (STS) literature (e.g., value levers <ref type="bibr" coords="1,368.96,269.77,14.97,8.64" target="#b62">[63]</ref>, values at play <ref type="bibr" coords="1,444.91,269.77,14.97,8.64" target="#b23">[25]</ref>, critical design <ref type="bibr" coords="1,522.75,269.77,15.46,8.64" target="#b8">[10,</ref><ref type="bibr" coords="1,540.42,269.77,7.32,8.64" target="#b5">7,</ref><ref type="bibr" coords="1,549.96,269.77,11.59,8.64" target="#b21">23]</ref>, reflective design <ref type="bibr" coords="1,388.94,280.73,15.82,8.64" target="#b59">[60,</ref><ref type="bibr" coords="1,407.23,280.73,11.49,8.64" target="#b60">61]</ref>), these conversations are frequently bound to the academic community and related discourses, making practitioner access to these conversations difficult and activation of their implications problematic. While there are clear uptakes from these conversations for UX practice, it is unclear whether these methods or approaches are used in UX practice to raise or foreground awareness of criticality, an issue which is complicated by a tenuous relationship between the academic and practitioner communities surrounding the use of methods and knowledge <ref type="bibr" coords="1,430.98,379.36,15.77,8.64" target="#b16">[18,</ref><ref type="bibr" coords="1,449.24,379.36,12.45,8.64" target="#b35">37,</ref><ref type="bibr" coords="1,464.18,379.36,12.45,8.64" target="#b34">36,</ref><ref type="bibr" coords="1,479.13,379.36,11.83,8.64" target="#b51">52]</ref>.</p><p>We use the term dark patterns to define instances where designers use their knowledge of human behavior (e.g., psychology) and the desires of end users to implement deceptive functionality that is not in the user's best interest <ref type="bibr" coords="1,496.88,429.18,16.09,8.64" target="#b15">[17,</ref><ref type="bibr" coords="1,516.84,429.18,12.07,8.64" target="#b36">38]</ref>. While understudied in the HCI literature (see <ref type="bibr" coords="1,482.03,440.14,16.93,8.64" target="#b36">[38]</ref> for one rare example), the popular press (e.g., <ref type="bibr" coords="1,446.08,451.09,15.65,8.64" target="#b57">[58,</ref><ref type="bibr" coords="1,464.20,451.09,12.35,8.64" target="#b64">65,</ref><ref type="bibr" coords="1,479.05,451.09,12.35,8.64" target="#b70">71]</ref>) and practitioners (e.g., <ref type="bibr" coords="1,343.88,462.05,16.09,8.64" target="#b14">[16,</ref><ref type="bibr" coords="1,362.48,462.05,12.70,8.64" target="#b39">41,</ref><ref type="bibr" coords="1,377.70,462.05,12.70,8.64" target="#b58">59]</ref>) have latched onto this term as a means of discussing the danger of manipulative design practices, and often as a proxy for broader discussions of ethical and valuecentered practice. These discussions appear to have broad relevance for the HCI community, both in grounding critical discussions in a practice-led way, and in activating concepts relevant to critical views of practice through specific instances.</p><p>In this study, we ground our understanding of dark patterns in the artifacts and conversations of UX practitioners. First, we generated a corpus of exemplars that were shared by practitioners as indicative of dark patterns in action. Second, we analyzed this corpus to reveal the kinds of ethically-dubious behaviors that could be linked to dark patterns, both on a surface level, and in relation to which design features and interactions were most ethically salient. We then cross-referenced these behaviors with instances from the critical HCI and STS literature to reveal opportunities for further research and investigation in both the academic and practitioner communities.</p><p>The contributions of this work are three-fold: 1) we describe and analyze instances of dark patterns, grounding and clarifying this practitioner-defined phenomenon for an academic audience; 2) we set an agenda for further study of the ethical dimensions of UX practice, including instances where manipulation, deception, and unwarranted levels of persuasion might appear in emergent technologies and forms of interaction; and 3) we identify the implications of dark patterns in relation to the ethical responsibilities of UX practitioners, including their understanding and performance of values.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ETHICS IN THE DESIGN OF USER EXPERIENCE</head><p>Numerous framings of ethics and values have been explored in the HCI community and beyond in the last two decades (e.g., <ref type="bibr" coords="2,77.98,172.65,11.01,8.64" target="#b5">[7,</ref><ref type="bibr" coords="2,92.76,172.65,12.70,8.64" target="#b23">25,</ref><ref type="bibr" coords="2,109.24,172.65,12.70,8.64" target="#b25">27,</ref><ref type="bibr" coords="2,125.72,172.65,12.70,8.64" target="#b26">28,</ref><ref type="bibr" coords="2,142.20,172.65,12.70,8.64" target="#b28">30,</ref><ref type="bibr" coords="2,158.69,172.65,12.70,8.64" target="#b59">60,</ref><ref type="bibr" coords="2,175.16,172.65,12.70,8.64" target="#b61">62,</ref><ref type="bibr" coords="2,191.64,172.65,11.68,8.64" target="#b63">64]</ref>). Many methods and research approaches to design (e.g., critical design, reflective design, adversarial design) take on an ethical standpoint, but these efforts have historically been largely focused on the development of scholarship, with less clear implications for "everyday" commercial UX design. While many of these constructive approaches have been shown to be effective in a research context as a generative tool to understand the ethical implications of designs, none have been rigorously tested in professional practice or educational settings for their efficacy in increasing ethical awareness and decision-making. Even fewer of these methods have been disseminated to practitioners in ways that resonate with method use "on the ground" <ref type="bibr" coords="2,278.78,304.15,15.58,8.64" target="#b32">[34]</ref>, resulting in a lack of adoption and impact.</p><p>We will briefly summarize the dominant ethics or value-related methods or approaches to further explore how HCI and STS scholars have addressed this space in differing ways.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Value-Sensitive Methods</head><p>Several groups of scholars have proposed methods that foreground values at varying points in the design process. Value-Sensitive Design (VSD) has been one of the most comprehensive frameworks developed to address the question of values in design, described by its creators as "a theoretically grounded approach to the design of technology that accounts for human values in a principled and comprehensive manner throughout the design process" <ref type="bibr" coords="2,133.22,460.77,15.21,8.64" target="#b27">[29]</ref>. VSD has been critiqued for its inadequate guidance in informing value classifications, selecting appropriate empirical instruments, and ordering of the design process <ref type="bibr" coords="2,85.62,493.65,14.97,8.64" target="#b46">[48]</ref>, however there has been sustained interest in finding ways to build value-discovery and action into the design process <ref type="bibr" coords="2,87.81,515.57,16.09,8.64" target="#b11">[13,</ref><ref type="bibr" coords="2,107.53,515.57,12.07,8.64" target="#b42">44]</ref>. In parallel with this work, Flanagan and Nissenbaum <ref type="bibr" coords="2,106.60,526.53,16.91,8.64" target="#b23">[25]</ref> have proposed a design framework known as Values at Play that has been focused on game development practices. This framework is intended to encourage designers of digital games to include ethical considerations throughout the design lifecycle, including discovery of values relevant to the project early in the process, translation of these values into concrete design decisions, and later verification that the final design appropriately embodies the values that were identified. <ref type="bibr" coords="2,149.49,620.17,16.09,8.64" target="#b63">[64,</ref><ref type="bibr" coords="2,168.55,620.17,12.70,8.64" target="#b61">62,</ref><ref type="bibr" coords="2,184.23,620.17,13.55,8.64" target="#b62">63]</ref> have more recently proposed the concept of value levers as a means of connecting value-related insights with design action. Through ethnographic engagement, Shilton has suggested the role of certain activities in facilitating conversations about values that can then be addressed as design criteria <ref type="bibr" coords="2,215.11,674.97,15.44,8.64" target="#b61">[62]</ref>, broadening the conversation beyond the existence of VSD-related methods to their use in practice <ref type="bibr" coords="2,137.58,696.89,15.58,8.64" target="#b62">[63]</ref>. Concurrently, Benford et al. <ref type="bibr" coords="2,280.08,696.89,16.93,8.64" target="#b9">[11]</ref> have explored how VSD approaches might be constructively extended as part of HCI's turn to the cultural through conceptual applications such as transgression, boundaries, consent, withdrawal, data, and integrity. Frauenberger et al. <ref type="bibr" coords="2,526.40,87.76,16.71,8.64" target="#b26">[28]</ref> have also done recent work in this space, challenging static and formalized notions of ethics in HCI; diverging from the practice focus of Shilton and colleagues, Frauenberger et al. identify mechanisms for raising ethical issues in more situated and exploratory ways within the HCI research tradition.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Shilton and colleagues</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Critical and Reflective Design</head><p>Alongside humanist and value-based approaches to inquiry in HCI, critical design has emerged as a means of foregrounding ethical and societal concerns through design and interpretive practices <ref type="bibr" coords="2,359.97,205.52,16.09,8.64" target="#b8">[10,</ref><ref type="bibr" coords="2,378.90,205.52,7.62,8.64" target="#b7">9,</ref><ref type="bibr" coords="2,389.35,205.52,12.07,8.64" target="#b55">56]</ref>. Critical design builds upon traditional design practices, but rather than resulting in artifacts that affirm current societal norms, the designer creates artifacts or experiences that allow key societal norms and values to be openly interpreted and questioned <ref type="bibr" coords="2,463.31,249.36,15.58,8.64" target="#b19">[21]</ref>. Bardzell et al. <ref type="bibr" coords="2,549.33,249.36,16.09,8.64" target="#b8">[10,</ref><ref type="bibr" coords="2,321.09,260.32,8.22,8.64" target="#b7">9]</ref> have previously proposed an approach to analyzing critical designs, building upon both a corpus of exemplars <ref type="bibr" coords="2,529.82,271.28,16.93,8.64" target="#b21">[23]</ref> and patterns of humanistic interpretation <ref type="bibr" coords="2,472.64,282.23,11.85,8.64" target="#b6">[8]</ref> to foreground critical dimensions of these artifacts. However, these approaches require substantial skill of interpretation that must be honed over time, and there is little evidence that this method of producing or interpreting critical artifacts has been taken up by the practitioner community.</p><p>Sengers et al. <ref type="bibr" coords="2,376.23,353.97,16.27,8.64" target="#b59">[60]</ref> have proposed the reflective design method, which allows the design team to activate criticality within the user research process, improving elicitation of tacit knowledge and encouraging defamiliarized or otherwise novel user and designer perspectives on existing interactions. Reflective design has been used to increase awareness of underlying social tensions or constraints that may have value for further design activity, however it is unclear how often this method is used in practitioner settings, and its commitment to foregrounding and acting upon critical perspectives is ambiguous.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Persuasive Design</head><p>Design is inherently a persuasive act <ref type="bibr" coords="2,471.90,482.69,16.09,8.64" target="#b53">[54,</ref><ref type="bibr" coords="2,490.53,482.69,12.70,8.64" target="#b56">57,</ref><ref type="bibr" coords="2,505.77,482.69,12.07,8.64" target="#b66">67]</ref>, where the designer creates intentional change in the world that either directly or indirectly induces behavioral or social change. Studies of persuasive technology over the past two decades has indicated the potential benefits of designing for persuasion <ref type="bibr" coords="2,321.09,537.48,15.65,8.64" target="#b24">[26,</ref><ref type="bibr" coords="2,339.24,537.48,11.73,8.64" target="#b25">27]</ref>, while other scholars have identified ethical concerns surrounding the responsibility of designers in this framing <ref type="bibr" coords="2,549.97,548.44,15.46,8.64" target="#b17">[19,</ref><ref type="bibr" coords="2,320.35,559.40,12.07,8.64" target="#b10">12]</ref>. Fogg <ref type="bibr" coords="2,365.16,559.40,16.93,8.64" target="#b25">[27]</ref> views persuasive technology as "[designing for] behavior as something we cause to occur [... and/or] preventing a target behavior from happening." This shaping of behavior is proposed to be accomplished through seven persuasive strategies: reduction, tunneling, tailoring, suggestion, self-monitoring, surveillance, and conditioning <ref type="bibr" coords="2,510.78,614.20,15.27,8.64" target="#b24">[26]</ref>.</p><p>While persuasive technology is often praised for the good it is capable of producing in society and individual life, such as encouraging socially responsible behavior or the bettering of personal habits, there are also substantial ethical considerations regarding designing explicitly to persuade. Berdichevsky and Neuenschwander <ref type="bibr" coords="2,406.72,685.93,16.27,8.64" target="#b10">[12]</ref> identify some of the ethical patterns designers engage in when creating persuasive technologies, accounting for the role of motivation and intent as it relates to future use of the technology (see also <ref type="bibr" coords="3,209.90,65.84,15.24,8.64" target="#b49">[50]</ref>). These scholars also recognize the possibility that "dark" versions of these design outcomes may exist, and propose a series of design principles to guard against ethically dubious behaviors. These principles include: dual-privacy, disclosure, accuracy, and the "golden" principle <ref type="bibr" coords="3,131.97,120.63,15.58,8.64" target="#b10">[12]</ref>. In this study, we do not frame UX design as being driven by a persuasive technological approach, but do acknowledge the persuasive intent underlying all of design activity. Therefore, we would expect that dark patterns that have emerged in UX practice may have resonance with persuasive strategies previously proposed by Fogg, albeit twisted from their original purpose and ethical moorings.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A TURN TO (ETHICALLY-CENTERED) PRACTICE</head><p>Resonant with the third paradigm of HCI scholarship and practice, scholars have proposed a "turn to practice"-engaging with the design complexity of practitioners rather than attempting to frame designer behavior only or primarily through extant academic models or theories <ref type="bibr" coords="3,172.13,268.78,16.07,8.64" target="#b43">[45,</ref><ref type="bibr" coords="3,190.69,268.78,12.05,8.64" target="#b65">66]</ref>. Historically, a lack of communication between HCI practitioners and the academic community has resulted in a gap in knowledge-building and poor resonance between the pragmatic needs of practitioners and available theory and method <ref type="bibr" coords="3,183.37,312.62,15.46,8.64" target="#b35">[37,</ref><ref type="bibr" coords="3,201.27,312.62,11.59,8.64" target="#b65">66]</ref>. Some scholars have attempted to address this gap, such as Colusso et al.'s <ref type="bibr" coords="3,280.08,323.58,16.93,8.64" target="#b16">[18]</ref> recent proposal for translational resources to bridge the theory/practice gap, and Gray et al.'s <ref type="bibr" coords="3,189.67,345.50,16.50,8.64" target="#b35">[37]</ref> model of trickle-down and bubble-up flows of knowledge. In the context of this paper, the conversation regarding humanistic, value-centered and ethically-centered design practice has not spanned research and practice concerns, resulting in silos of practitioner knowledge regarding dark patterns that is primarily pragmatic and grounded in ultimate particulars, while academic knowledge is focused on higher-level ethical theories and methods. Thus, we see multiple opportunities to connect ethical concerns felt in practice with theorization of ethics and values in the academic discourse. The model of van Wynsberghe et al. <ref type="bibr" coords="3,77.20,472.02,16.93,8.64" target="#b69">[70]</ref> provides one such model of ethics in design practice, creating a space for ethical theory to be taken up in a pragmatic and generative, rather than objective and static way. This joining of design action and ethically-mediated judgment has already found its way into the education of engineers and technologists (e.g., <ref type="bibr" coords="3,132.14,526.82,15.87,8.64" target="#b50">[51,</ref><ref type="bibr" coords="3,150.50,526.82,11.52,8.64" target="#b67">68]</ref>), and is also present in the everyday professional discourse of UX designers (e.g., <ref type="bibr" coords="3,246.62,537.78,15.46,8.64" target="#b13">[15,</ref><ref type="bibr" coords="3,264.28,537.78,11.22,8.64" target="#b40">42]</ref>). By taking a practice-led approach, we hope to join these disparate discourses and find common ground.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DARK PATTERNS AS CRITICAL-ETHICAL</head><p>While ethical and value-centered approaches and methods have emerged primarily from academia (e.g., <ref type="bibr" coords="3,243.31,609.21,16.09,8.64" target="#b23">[25,</ref><ref type="bibr" coords="3,262.74,609.21,12.70,8.64" target="#b61">62,</ref><ref type="bibr" coords="3,278.78,609.21,11.68,8.64" target="#b59">60]</ref>), and have not had a strong history of adoption in practice, the concept of "dark patterns" has been raised by UX practitioners, often in conjunction with ethical concern more generally (c.f., Nodder's book Evil by Design <ref type="bibr" coords="3,202.44,653.05,15.24,8.64" target="#b53">[54]</ref>). Thus we take an academically-initiated "bubbling-up" approach <ref type="bibr" coords="3,243.44,664.01,16.63,8.64" target="#b35">[37]</ref> to understanding this concept and its value for practitioners in situ.</p><p>To do this, we attempt to stitch together the interest of HCI scholars in criticality, ethics, and values and the pragmatic ethical points of interest for UX practitioners "on the ground."</p><p>To expand the context of dark patterns, we first go back to the source, UX practitioner Harry Brignull, who has a doctoral degree in cognitive science. He first proposed the idea of ethically dubious design approaches through this neologism in 2010, defining dark patterns as: "a user interface that has been carefully crafted to trick users into doing things...they are not mistakes, they are carefully crafted with a solid understanding of human psychology, and they do not have the user's interests in mind" <ref type="bibr" coords="3,357.71,153.51,14.97,8.64" target="#b15">[17]</ref>. However, this definition leaves many important and unanswered questions for the HCI academic community. Which user or stakeholder interests are or should be kept in mind? What is the user being "tricked" into doing, and with what motivation? Are there instances where being tricked into doing something is desired by the user (e.g., persuasive technologies <ref type="bibr" coords="3,372.89,219.26,15.90,8.64" target="#b25">[27]</ref>)? Can interactions that were not designed to trick the user later become dark patterns as use or technological infrastructure changes?</p><p>To engage with these questions, we built upon an existing typology of dark patterns proposed by Brignull (Table <ref type="table" coords="3,527.21,269.08,3.52,8.64">1</ref>). These categories represent subversion of user-centered design principles, where designers use knowledge about users (and society more broadly) against them. While some instances of these behaviors are simply a result of poor design-a phenomenon known as "anti-patterns" (c.f., <ref type="bibr" coords="3,442.37,323.87,20.68,8.64" target="#b41">[43]</ref>)-many of these dark patterns result from explicit, purposeful design intentions. This typology has become a standard of reference for the UX design community, but is currently disconnected from the criticalethical conversation in the academic HCI community. Further, the typology mixes context, strategy, and outcome, making comparison among patterns difficult. We extend Brignull's typology in this paper, attempting to connect it more strongly to existing HCI literature while also making the categories more tractable for use and interrogation by practitioners.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>OUR APPROACH</head><p>In keeping with a practice-led research approach, we focus our study on the identification of exemplars that were shared by practitioners with the intention of illustrating dark patterns in action. Since the identification of dark patterns as an ethical phenomenon in 2010, Brignull has collected examples in a "Hall of Shame" from which some of our corpus is drawn <ref type="bibr" coords="3,547.21,504.90,14.97,8.64" target="#b15">[17]</ref>. Numerous practitioners and journalists have also referenced additional exemplars in articles, on personal websites, and through other media outlets, leading us to believe that practitioners are well-acquainted with the concept of dark patterns. We collected and analyzed this corpus to identify potential designer motivations these dark patterns might point towards.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Corpus Generation</head><p>Drawing on previous approaches to generating a comprehensive corpus (e.g., <ref type="bibr" coords="3,407.05,609.21,15.24,8.64" target="#b21">[23]</ref>), two researchers employed an exploratory and iterative process to collect artifacts related to the idea of dark patterns for a two month period. Both researchers were experienced in using Internet sources to perform everyday information seeking tasks. We purposefully selected one researcher from a user experience background, and one researcher from a computer science background. Using this approach, we were able to integrate perspectives from both HCI/UX insiders and outsiders. The research team held weekly meetings to discuss their latest findings about dark</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Type of Dark Pattern Description</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Bait and Switch</head><p>You set out to do one thing, but a different, undesirable thing happens instead.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Disguised Ad</head><p>Adverts that are disguised as other kinds of content or navigation, in order to get you to click on them.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Forced Continuity</head><p>When your free trial with a service comes to an end and your credit card silently starts getting charged without any warning. In some cases this is made even worse by making it difficult to cancel the membership.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Friend Spam</head><p>The product asks for your email or social media permissions under the pretence it will be used for a desirable outcome (e.g. finding friends), but then spams all your contacts in a message that claims to be from you.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Hidden Costs</head><p>You get to the last step of the checkout process, only to discover some unexpected charges have appeared, e.g. delivery charges, tax, etc.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Misdirection</head><p>The design purposefully focuses your attention on one thing in order to distract your attention from another.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Price Comparison Prevention</head><p>The retailer makes it hard for you to compare the price of an item with another item, so you cannot make an informed decision.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Privacy Zuckering</head><p>You are tricked into publicly sharing more information about yourself than you really intended to. Named after Facebook CEO Mark Zuckerberg.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Roach Motel</head><p>The design makes it very easy for you to get into a certain situation, but then makes it hard for you to get out of it (e.g. a subscription).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sneak into Basket</head><p>You attempt to purchase something, but somewhere in the purchasing journey the site sneaks an additional item into your basket, often through the use of an opt-out radio button or checkbox on a prior page.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Trick Questions</head><p>You respond to a question, which, when glanced upon quickly appears to ask one thing, but if read carefully, asks another thing entirely.</p><p>Table <ref type="table" coords="4,244.16,350.79,2.99,7.17">1</ref>. Types of Dark Patterns, quoted from <ref type="bibr" coords="4,379.41,350.79,12.22,7.17" target="#b15">[17]</ref>.</p><p>patterns as well as to refine search strategies, thereby carefully expanding the size and diversity of the corpus.</p><p>Two researchers started collecting the corpus using popular online platforms, including search engines such as Google and Bing; social media sites such as Facebook, Twitter, Reddit, and designers' blogs; commercial websites focused on technology and design, such as Wired.com; and individual UX practitioners' professional websites. Initially the two researchers used the keyword dark patterns, its derivatives, and its platform-specific forms such as the hashtag #darkpatterns on Facebook and Twitter. In this way, we identified an initial corpus containing examples, articles, or resources shared by ordinary users, designers, and journalists. At this point, we realized the necessity to iteratively broaden the keyword set for Internet search. First, we identified key terms such as "unethical," "evil," and "manipulative" and searched these terms interchangeably with terms such as "design," "UX," and "interface" in order to find possible cases of unlabeled dark patterns.</p><p>Throughout the process, we used a bot to automatically collect all the tweets with the hashtag #darkpatterns from Twitter. In total, we collected a corpus of 118 artifacts. Of these, 45 were collected from social media outlets, 40 from practitioner blogs, 19 from news outlets, 10 from our own interactions with products in our daily lives, and 4 from darkpatterns.org. We catalogued each exemplar, noting its source, the "culprit" website or app, and a visual depiction of the pattern. In addition, we wrote researcher memos to note any salient dark patterns, either drawing on provided descriptions or our own interpretations of the artifact.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analysis</head><p>Once we generated a corpus of exemplars, we used the constant comparative method <ref type="bibr" coords="4,429.35,401.74,16.93,8.64" target="#b31">[33]</ref> and a document analysis approach <ref type="bibr" coords="4,351.15,412.70,16.88,8.64" target="#b12">[14]</ref> to describe the breadth of artifacts and nature of the dark patterns these artifacts included. We first categorized artifacts using the Brignull <ref type="bibr" coords="4,427.82,434.61,16.27,8.64" target="#b15">[17]</ref> taxonomy as an a priori set of codes. While we were able to organize the majority of artifacts within this taxonomy, we identified an overlap of strategies and motivations that could not be articulated within the language set out by Brignull. In addition, the existing categories were not directly in parallel, with some types indicating more specific kinds of content (e.g., advertising, e-commerce) and other types indicating more general strategies (e.g., intentional misdirection, bait and switch).</p><p>This led us to perform a second analysis of all exemplars in the corpus using an open coding approach. We drew on our experience in coding with the Brignull categories as a baseline, but also foregrounded aspects of interaction quality, context, and intended user group in the development of emergent and axial codes. The resulting hierarchy of themes (Figure <ref type="figure" coords="4,556.38,594.02,4.23,8.64" target="#fig_0">1</ref>) subsumes the original Brignull categories, but is consistently structured around strategies and potential designer motivations rather than the mixture of strategies and explicit contextual or content-centric examples in the original taxonomy. This coding strategy results in a significant movement away from a description of the final pattern in situ to the motivation that may have shaped the designer's use of the pattern. This approach resulted in five primary categories of designer strategies that we label as dark patterns.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>NAGGING</head><p>Redirection of expected functionality that persists beyond one or more interactions.</p><p>Attempting to hide, disguise, or delay the divulging of information that is relevant to the user.</p><p>Making a process more difficult than it needs to be, with the intent of dissuading certain action(s).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INCLUDES:</head><p>Brignull "Roach Motel, " "Price Comparison Prevention, " and Intermediate Currency</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INCLUDES:</head><p>Brignull "Forced Continuity, " "Hidden Costs, " "Sneak into Basket, " and "Bait and Switch"</p><p>Manipulation of the user interface that privileges certain actions over others.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INCLUDES: Hidden Information, Preselection, Aesthetic Manipulation, Toying with</head><p>Emotion, False Hierarchy, Brignull "Disguised Ad, " and "Trick Questions"</p><p>Requiring the user to perform a certain action to access (or continue to access) certain functionality.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>Through a constant comparative analysis <ref type="bibr" coords="5,222.95,445.37,16.93,8.64" target="#b31">[33]</ref> of our corpus of exemplars, we identified five primary dark patterns that appeared to serve as strategic motivators for designers: nagging, obstruction, sneaking, interface interference, and forced action. This categorization builds upon Brignull's taxonomy, but seeks to articulate strategic motivators through a rigorous scholarly process of integrating, refining, and theorizing-consistent with the development of grounded theory <ref type="bibr" coords="5,226.70,522.08,15.58,8.64" target="#b31">[33]</ref>. We will describe each pattern category below, using exemplars from our corpus as they were shared in their original context to illustrate how these strategies appeared in everyday interactions. Brignull's categories have been nested under our new strategy categories, and will be referenced in the relevant sections, distinguishing them from our own new categories by using Brignull's categories in quotation marks.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Nagging</head><p>We define nagging as a minor redirection of expected functionality that may persist over one or more interactions. Nagging often manifests as a repeated intrusion during normal interaction, where the user's desired task is interrupted one or more times by other tasks not directly related to the one the user is focusing on. Nagging behaviors may include pop-ups that obscure the interface, audio notices that distract the user, or other actions that obstruct or otherwise redirect the user's focus.</p><p>We found varying levels of nagging behavior in our corpus, at varying levels of potential malice. One such example from the social media app Instagram includes a modal selection where the user is prompted with a message asking them to turn on notifications for the app (Figure <ref type="figure" coords="5,481.24,323.86,3.59,8.64" target="#fig_1">2</ref>). Only two options are present, "Not Now" and "OK," which gives the user no ability to discontinue the prompts. Another, more sinister, interruption relates to Google's location services. This instance asks the user to allow Google to collect anonymous location data at any time, even when apps are not running. There are two options, "Agree" and "Disagree" to select, and a substantially smaller "Don't show again" check-box. This example provides similar options as the previous example, but does so in a manner that entices users to agree if they want the nagging to cease. A third example targets drivers for the ride-sharing app Uber. When a driver attempts to stop for the day, the app prompts them to continue in order to reach an arbitrary goal for the day. This interruption takes advantage of a person's natural tendency to "income target," or set an income goal for the day, and makes the driver more likely to continue driving to reach the arbitrary income goal.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Obstruction</head><p>We define obstruction as impeding a task flow, making an interaction more difficult than it inherently needs to be with the intent to dissuade an action. Obstruction often manifests as a major barrier to a particular task that the user may want to accomplish. One example of obstruction from our corpus is the job listing site theladders.com. The site requires an account to browse jobs and a premium, paid account to apply for a position, even though many jobs found on the site are also advertised elsewhere. If the user does not pay for a premium account and wishes to search for the job elsewhere, they will discover that text highlighting is disabled through Javascript on the site. This design choice manifests as a barrier to the user, encouraging them to pay for a premium membership by disabling expected functionality. An additional example originates from the Apple iOS 6 operating system (Figure <ref type="figure" coords="5,555.07,685.93,3.62,8.64" target="#fig_2">3</ref>). In this version of the mobile operating system, the option for ad tracking is enabled by default and is hidden in an obscure location in the settings menu. To further obstruct user behavior, the option to disable ad tracking uses confusing wording to disorient the user. In recent updates, this option has been moved to a more relevant location with straightforward wording.</p><p>Brignull's "Roach Motel" pattern describes a situation that is easy to get into, but difficult to get out of. This usually occurs when a user signs up for a service easily, but closing an account or canceling the service is difficult or impossible.</p><p>A typical pattern of interactions requires the user to call a phone number in order to cancel their account, where they will be further pressured to maintain their account. In our corpus, Stamps.com follows this pattern by making it difficult to close an account on their site, requiring the user to call during business hours to do so. They also hide this information on their site in the frequently asked questions section to make it difficult to cancel the service. This example indicates how "roach motel" can invoke other types of dark patterns, in this instance hidden information, to serve its purpose.</p><p>Brignull's "Price Comparison Prevention" pattern seeks to dampen the effect of market competition by making direct price comparisons between products and services difficult. Tactics could include making important product information (product ID, price) un-copyable (as in theladders.com, above), so as to prevent users from pasting such information into a search bar or another site.</p><p>Intermediate Currency is another subtype of obstruction where users spend real money to purchase a virtual currency which is then spent on a good or service. The goal of this pattern is to disconnect users from the real dollar value spent in order to cause the user to interact differently with the virtual currency. This may result in users spending the currency differently than they would with fiat currency. This pattern typically manifests as an in-app purchase for mobile games. One example from our corpus, the video game Heroes and Generals, has a purchasable in-game "credit" that can be used to buy upgrades for the player, but the benefits are obscured by presenting the user with confusing percentage gains in relation to specific game mechanics.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sneaking</head><p>We define sneaking as an attempt to hide, disguise, or delay the divulging of information that has relevance to the user. Sneaking often occurs in order to make the user perform an action they may object to if they had knowledge of it. Sneaking behaviors may include additional undisclosed costs or undesired effects from a particular action. Many of Brignull's original dark patterns are of this type, and were the most common when dark patterns are referenced by practitioners. One example of sneaking from Salesforce.com requires the user to consent to a privacy statement before they can unsubscribe from an email newsletter (Figure <ref type="figure" coords="6,424.88,355.17,3.67,8.64" target="#fig_3">4</ref>). This privacy statement allows Salesforce to sell the user's information to other countries and if the user fails to read the fine print, they would unknowingly fall victim to this scheme.</p><p>Brignull's "Forced Continuity" pattern continues to charge the user after the service they have purchased expires. This pattern takes advantage of users' failure to check up on service expiration dates, either for a free trial or for a limited-time use of a paid service, by assuming upon service expiration that the user either wants to continue the paid service or upgrade to the paid version of the free trial and charges the user.</p><p>Brignull's "Hidden Costs" pattern provides users with a late disclosure of certain costs. In this pattern, a certain price is advertised for a good or service, only to later be changed due to the addition of taxes and fees, limited time conditions, or unusually high shipping costs. An example from our corpus describes subscription prices on the website for the Boston Globe; while the banner ad suggests a price of 99¢, when the user clicks through to the sign up page, they are notified that this is a trial offer for only four weeks.</p><p>Brignull's "Sneak into Basket" pattern adds items not chosen by the user to their online shopping cart, often claiming to be a suggestion based on other purchased items. This may cause the user to unintentionally buy these items if they do not notice them prior to checkout. One example of this behavior from SportsDirect.com adds an unwanted item into the cart, which displays on checkout and can only be removed by exiting the checkout process and returning to a previous screen.</p><p>Brignull's "Bait and Switch" pattern makes it apparent that a certain action will cause a certain result, only to have it cause a different, likely undesired result. One example of this behavior from our corpus includes having a red "X" button perform an action other than closing a popup window. Another example relies on manipulation of muscle memory in the mobile game "Two Dots," where a button to buy more moves is positioned in the same location where a button to start a new game is normally positioned, thus increasingly the likelihood of being accidentally triggered by the user.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Interface Interference</head><p>We define interface interference as any manipulation of the user interface that privileges specific actions over others, thereby confusing the user or limiting discoverability of important action possibilities (c.f., false or hidden affordances <ref type="bibr" coords="7,53.93,204.03,15.24,8.64" target="#b30">[32]</ref>). Interface interference manifests as numerous individual visual and interactive deceptions, and is thus our most involved strategy with three subtypes: hidden information, preselection, and aesthetic manipulation. Across these three subtypes, we have identified exemplars in our corpus where critical information requires additional discovery effort (hidden information), instances where atypical user choices are preselected or otherwise obscured (preselection), or instances where manipulation of aesthetic characteristics leads to misunderstanding of hierarchy, content type, or unrealistic sense of urgency (aesthetic manipulation). Each subtype will be elaborated in the following sections.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Hidden Information</head><p>We define hidden information as options or actions relevant to the user but not made immediately or readily accessible. Hidden information may manifest as options or content hidden in fine print, discolored text, or a product's terms and conditions statement. The primary motivator behind hidden information is the disguising of relevant information as irrelevant. One example we collected through our corpus generation is from santander.com. When a user registers for an account, they are given an option to accept the terms and conditions above a long list of small text. Hidden within this text is a small checkbox to opt out of the bank selling the user's information.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Preselection</head><p>We define preselection as any situation where an option is selected by default prior to user interaction. Preselection usually manifests as a default choice that the shareholder of the product wishes the user to choose; however, this choice is often against the user's interests or may provide unintended consequences. The user is more likely to agree to the default option if they believe the product has their best interests in mind. An example in Figure <ref type="figure" coords="7,176.20,569.13,5.08,8.64" target="#fig_4">5</ref> preselects the option for information sharing and email subscription, and additionally hides these options in a drop down menu. This exemplifies the hidden information subtype in addition to preselection.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Aesthetic Manipulation</head><p>Aesthetic manipulation is any manipulation of the user interface that deals more directly with form than function. This includes design choices that focus the user's attention on one thing to distract them from or convince them of something else (e.g., Brignull's "Misdirection"). One example from our corpus is from the website expertsexchange.com, a medium in which questions asked can be answered by experts in the field. When viewing a question, the site makes it appear that the answer to the question is behind a paywall, but it is actually accessible at the bottom of the page without paying. We have also identified four more specific instantiations of aesthetic manipulation: toying with emotion, false hierarchy, disguised ad, and trick questions.</p><p>Toying with emotion includes any use of language, style, color, or other similar elements to evoke an emotion in order to persuade the user into a particular action. This can manifest as cute or scary images, or as enticing or frightening language. One example from our corpus is from the Snapchat owned company Spectacles. On their site upon checkout, the user is shown a countdown timer that supposedly ensures delivery in 2-4 weeks if the user buys the product within the time window; however, if the user lets the timer reach 0, the timer resets.</p><p>Another example from the website delish.com prompts the user to sign up for a newsletter. The option for declining is the demeaning phrase, "No thanks, I'll have a microwave dinner tonight," using copy that evokes emotion and perhaps encourages the user to change their intended action.</p><p>False hierarchy gives one or more options visual or interactive precedence over others, particularly where items should be in parallel rather than hierarchical. This convinces the user to make a selection that they feel is either the only option, or the best option. One example of false hierarchy from our corpus comes from the TuneUp app (Figure <ref type="figure" coords="7,468.59,581.32,3.59,8.64" target="#fig_5">6</ref>). Upon installing utilities for the app, the user is given a decision between "express" installation, labeled as "recommended," or "custom" installation, labeled as "advanced." The "custom" option is in gray text, but still clickable, giving the user the false impression that the option is disabled. This functionality is similar to previous work on false feedforward <ref type="bibr" coords="7,465.24,647.07,15.77,8.64" target="#b44">[46,</ref><ref type="bibr" coords="7,483.50,647.07,11.83,8.64" target="#b72">73]</ref>.</p><p>Brignull's "Disguised Ad" pattern includes ads disguised as interactive games, or ads disguised as a download button or other salient interaction the user is looking for. Some sites use a form of this pattern whereby a click on any part of the site loads another page, effectively rendering the entire site an ad.  Brignull's "Trick Questions" pattern includes a question that appears to be one thing but is actually another, or uses confusing wording, double negatives, or otherwise leading language to manipulate user interactions. One common example of this tactic is the use of checkboxes to opt out rather than opt in, often paired with confusing double negatives.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Forced Action</head><p>We define forced action as any situation in which users are required to perform a specific action to access (or continue to access) specific functionality. This action may manifest as a required step to complete a process, or may appear disguised as an option that the user will greatly benefit from. One example of forced action in our collection is from the Windows 10 operating system (Figure <ref type="figure" coords="8,158.10,570.36,3.67,8.64" target="#fig_6">7</ref>). When a system update is available, the user is unable to shutdown or restart their operating system without updating. This essentially forces an update upon a user who needs to restart or shutdown their computer, who may not otherwise want to proceed with the update. An additional exemplar of forced action can be drawn from salesforce.com in which the user must agree to allow the site to sell their information to other countries in order to unsubscribe from their mailing list. In this case, the user is required to perform a specific action (i.e., sell their personal information) in order to access specific functionality (i.e., unsubscribe).</p><p>Social Pyramid requires users to recruit other users to use the service. This is a method commonly used in social media applications and online games. Users can invite their friends to use the service and are incentivized with benefits from the platform. This pattern subsumes Brignull's "Friend Spam" and expands the definition to include any social recruiting. One example from our corpus is the social media game FarmVille. The game incentivizes users to invite their friends to the game by making some features or goals inaccessible without online connections that also play the game.</p><p>Brignull's "Privacy Zuckering" pattern tricks users into sharing more information about themselves than they intend to or would agree to. This includes the selling of user's information to third parties that is included in the Term and Conditions or Privacy Policies of websites.</p><p>Gamification describes situations in which certain aspects of a service can only be "earned" through repeated (and perhaps undesired) use of aspects of the service. One common instance of gamification is "grinding," a term used in many video games to describe the repeated process of killing monsters to gain experience points in order to level up the user's character. One example from our corpus is from the mobile game Candy Crush Saga. The game includes levels that are impossible to complete in order to urge users to buy powerups or extra lives.</p><p>If the player doesn't purchase anything from the game, they will have to play the game for a longer period of time in order to achieve the same result they would have from paying.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Qualities and Breadth of Potential "Dark"ness</head><p>Through our analysis of the corpus of exemplars, we have outlined a set of strategies that can be used by designers to undermine end user value in favor of shareholder value. This subversion can be productively viewed as impacting the user's felt experience of interaction across two dimensions: 1) the user's interpretation of the system and its communicative potential, including any salient affordances (c.f., Norman's <ref type="bibr" coords="8,547.60,449.81,16.58,8.64" target="#b54">[55]</ref> "gulf of execution"); and 2) the expected outcome that the user anticipates as a result of their previous or present interaction with the system, mediated by their continuing interpretation of the system (c.f., Norman's <ref type="bibr" coords="8,429.32,493.65,16.70,8.64" target="#b54">[55]</ref> "gulf of evaluation"). Across all five strategies identified in the corpus, dark patterns are complicit in undermining both action possibilities and communicative expectations based on salient interactions. In the cases of interface interference or obstruction, the user is not able to understand or fully interrogate action possibilities, essentially "flying blind." The strategies of nagging and forced action foreground action possibilities, but only those desired by the shareholder, resulting in coercive interactions with the system. In contrast to these strategies, the strategy of sneaking disallows the identification of action possibilities entirely, removing user choice and forcing the user to react to the system's actions rather than direct their own action.</p><p>While not all interactions that take on these strategies are necessarily equally "dark" in terms of design intent and motivation, they do have the potential to produce poor user outcomes, or force users to interact in ways that are out of alignment with their goals. Paradoxically, some instances of dark patterns test well from a usability perspective (e.g., forced action, nagging), but do so at the expense of user choice. Other interactions may also test well if conducted using shareholder-focused evaluation criteria. For instance, manipulation of the interface via interface interference or sneaking strategies may result in the conversion of users towards shareholder-defined outcomes, but unless evaluation methods are varied, alternative task flows that may be obstructed could be difficult to identify. These perversions of the typical user-centered approach, then, can cause a number of issues as a user relates to a technological system: How does a user react when they receive a different outcome than they expect? Do they blame themself for not understanding the system, or do they understand that they are being explicitly deceived or manipulated? Are there certain boundaries to manipulative behaviors where such behavior is excused by users, such as when one is getting an app or service for free (e.g., ad supported or freemium)?</p><p>All of these concerns foreground ethical dilemmas that are difficult to reconcile or describe given the existing academicallyfocused vocabulary of persuasive design or the methodfocused language of value-sensitive design. It is interesting to note that many of the strategies we identified in our corpus bear striking resemblance to the persuasive strategies proposed by Fogg <ref type="bibr" coords="9,88.41,301.95,14.97,8.64" target="#b24">[26]</ref>. Persuasive strategies such as tunneling or reduction have strong similiarity to the forced action and obstruction dark patterns strategies. Similarly, tailoring and suggestion may result in strategies like interface interference. Finally, conditioning could include strategies such as sneaking or nagging. What this indicates is that many persuasive strategies are already being used for nefarious purposes, which draws our attention back to the designer's role in selecting and applying ethically-grounded strategies in their practice. Our intention is to provide a vocabulary that allows for additional exploration into the balancing of value, in the control of the designer, that is at the core of pragmatist ethics.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Design Responsibility and a Designer's Character</head><p>Given that many persuasive strategies-or even dark patternscan be used for good or ill, we must attend to how the selection of such strategies relates to UX designers' ethical responsibility as practitioners, and how this exemplifies their design character <ref type="bibr" coords="9,94.81,504.61,15.16,8.64" target="#b66">[67]</ref>. The emergence and use of dark patterns as an ethical concern in HCI and UX design reveals that design is rarely a solitary endeavor; in contrast, the complex entanglement among designer responsibility, organizational pressures, and neoliberal values often politicizes and prioritizes the profitability of design above other social motivations (e.g., <ref type="bibr" coords="9,280.97,559.40,10.66,8.64" target="#b4">[6]</ref>). Within this context, we foreground the role of design responsibility in navigating the ethical challenges of dark patterns.</p><p>First, it is important to explore what Nelson and Stolterman <ref type="bibr" coords="9,53.93,609.21,16.73,8.64" target="#b66">[67]</ref> refer to as the guarantor of design-in what ways is the designer responsible for the success of design interventions, and to what degree? Gray and Boling <ref type="bibr" coords="9,206.99,631.13,16.76,8.64" target="#b33">[35]</ref> extended this line of argumentation regarding the guarantor of design further, identifying differences in a near-term guarantee for a known audience and context versus the societal adaptation and appropriation of that same artifact or experience over time and differing contexts. This allows us to question: Where along this trajectory does a pattern become dark, and with what level of intentionality? A design decision may have been made with good intentions for a specific audience, but resulted in manipulative outcomes when exposed to a broader audience. How might we assess the "dark" characteristics of the pattern or the designer employing the pattern? The aphorism Hanlon's Razor has been commonly shared in the UX design community as a means of separating malicious intent from lack of design skill; put simply, this means to "never attribute to malice that which is adequately explained by stupidity" [2]. This is also reflected in the practitioner differentiation between dark patterns (where malice is assumed) and anti-patterns (where lack of skill is at issue). We do not propose the use of our dark patterns strategies as an ethical checklist; rather, the strategies we have identified are intended to deepen awareness of the tradeoffs that designers always already engage in.</p><p>Second, we consider which dimensions of design responsibility the designer has an obligation to assess, and at what level of granularity. This has relevance for what user groups might be susceptible to dark patterns (e.g., vulnerable populations), or whether a pattern must be intentionally applied in a malicious manner to be "dark." Are patterns consistently misunderstood by certain user groups in a harmful manner also considered dark? And is the designer culpable for this "dark"ness, particularly after they are made aware of any harmful effects? While traditional, static notions of ethical codes would seek to draw specific boundaries, the number of variables in play makes this approach untenable. Rather, we propose a redirection back to the designer's character, which Nelson and Stolterman <ref type="bibr" coords="9,367.54,367.71,16.68,8.64" target="#b66">[67]</ref> link to core, deeply embedded philosophical commitments that resonate with a designer's values and guides their design activities. This approach values a designer's humanness and her character as central to ethically responsible design activity. A designer's character is a reflection of who they are as a person-not just a performance of design actions merely because they are "appropriate" or "accepted practice." Existing codes of ethics do not generally anticipate deception, and instead tend to conflate designer intent and eventual use (Albrechtslund's <ref type="bibr" coords="9,391.11,466.34,11.85,8.64" target="#b3">[5]</ref> "positivist problem"); a use of our findings may be generative in probing further into the complexity of inscription and use of artifacts through the lens of designer intent-not resolving the question of manipulation, legality, or other issues, but rather introducing additional vocabulary with which to describe the ethical complexity of design action.</p><p>Third, we contend that a focus on design character and responsibility represents an opportunity for practitioners to engage in design leadership-raising and addressing ethical issues in everyday practice. Designers have a history of raising consciousness around ethics and refusing to bow to the pressure of shareholders. This is often linked to a tradition of manifestos in design, such as the classic "First Things First" manifesto by Ken Garland in 1964 <ref type="bibr" coords="9,408.13,614.78,16.80,8.64" target="#b29">[31]</ref> and the more recent "Copenhagen Letter" <ref type="bibr" coords="9,352.22,625.74,10.79,8.64" target="#b2">[4]</ref>. These design manifestos have repeatedly raised issues of criticality, calling on designers to be aware of the value-laden nature of their work and the responsibility they hold in relation to other stakeholders. We believe the findings of this study also indicate the power of design action, and the critical dimensions of that practice that must be continuously recognized and reconciled through design judgments. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IMPLICATIONS AND FUTURE WORK UX Pedagogy and Practice</head><p>Comprehensive ethics education in HCI and UX education is critical to ensure that future generations of practitioners take their role as creators of futures seriously. Other fields such as engineering have required ethics education as part of the core curriculum for more than a decade <ref type="bibr" coords="10,191.36,134.29,14.97,8.64" target="#b67">[68]</ref>, yet a formalization of ethics education in traditional design contexts are still nascent, despite repeated calls for such a focus (e.g., <ref type="bibr" coords="10,224.32,156.21,15.46,8.64" target="#b22">[24,</ref><ref type="bibr" coords="10,241.99,156.21,11.22,8.64" target="#b47">49]</ref>). The lack of formal ethics education in UX and HCI education is complicated by the lack of disciplinary consensus regarding standard curricula, responsibilities of professionals, and the dimensions of the related disciplinary fields in which students will practice (e.g., <ref type="bibr" coords="10,93.82,211.00,15.07,8.64" target="#b45">[47]</ref>). While some professional organizations have articulated codes of ethics by which professionals choosing to affiliate with these organizations are loosely bound (e.g., Interaction Design Association (IxDA) <ref type="bibr" coords="10,213.05,243.88,10.92,8.64" target="#b1">[3]</ref>; User Experience Professionals Association (UXPA) <ref type="bibr" coords="10,193.90,254.84,10.41,8.64" target="#b0">[1]</ref>), there appear to be no coordinated efforts to build ethical awareness and education into the fabric of HCI/UX education and practice, particularly in comparison to the highly-coordinated efforts in other fields such as engineering.</p><p>While there have been recent efforts within the ACM to make changes to the code of ethics for the organization governing SIGCHI <ref type="bibr" coords="10,88.90,337.53,14.97,8.64" target="#b75">[76]</ref>, it is unclear how many UX practitioners are currently ACM members or recognize the ACM as a governing body that should prescribe their ethical accountability. Many other fields that have core ethical commitments use licensure as a means of controlling who can call themself a practitioner (e.g., medicine, architecture); however, this is not currently the case for UX practitioners. This indicates the importance of future work that addresses the place of ethical awareness and responsibility in the CHI community, including both how ethics is taught and related to practice, and how ethics should inform, constrain, and generatively stimulate the future of HCI and UX practice. This requires both educationally-centric efforts to define and teach future practitioners to be ethically aware and responsible for their role in the design process, and practice-led efforts to document the ethical dilemmas that are already being encountered by practitioners in their everyday work. Both strands are critical to stimulate a reflexive conversation regarding what kinds of ethical standards are necessary and appropriate for the nature of HCI and UX outputs, and the responsibility of the designer in motivating these outputs as technologies and systems are appropriated and modified by users and stakeholders alike as they define the future of social systems <ref type="bibr" coords="10,114.72,578.62,10.99,8.64" target="#b3">[5,</ref><ref type="bibr" coords="10,128.19,578.62,12.05,8.64" target="#b71">72]</ref>. Additionally, our analysis has the potential to impact the larger computing profession. While our current corpus is limited by artifacts shared by UX practitioners, future work should expand to address instances of deception in service design and physical computing contexts; new technologies and output types (e.g., services and nonscreen interactions) also have the potential to include dark patterns.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Criticality and HCI</head><p>There has been substantial conversation in the academic HCI community about the ethical standpoint of HCI practitioners in a disciplinary sense, but little of this work has found its way into everyday practice. This indicates two potential paths forward: 1) further integration and expansion of existing valuecentered methods in UX practice, as a means of generating awareness of ethical issues present in everyday design decisions; and 2) additional focus on applied, pragmatist notions of ethics in the academic HCI community.</p><p>Any expansion of value-centered methods must take into account the needs, constraints, and desires of practitioners. This may require more sensitivity to the contexts and locations where ethical concerns might arise, the amount of power practitioners may have to affect change on a strategic level, and other mediating factors. This foregrounds the question: at what junctures should practitioners be engaged, and to what degree are they responsible for the outcomes of their work, particularly when multiple domain experts are required to make a specification of work into reality?</p><p>While there has been substantial interest in critical dimensions of HCI, often through the lenses of social justice, feminism, and care, these discussions have frequently remained at a highly abstracted level. What is lacking, perhaps, is a more explicit discussion of applied ethics in the pragmatist tradition. This is the mode that van Wynsberghe <ref type="bibr" coords="10,527.97,307.93,16.93,8.64" target="#b68">[69]</ref> suggests as a path forward, where ethics become embedded in the everyday activities of practitioners through the actions of practitioners-as-everyday-ethicists and professional ethicists with domain expertise. This is consistent with efforts within CHI to reframe ethics as inherently situational and dynamic (e.g., <ref type="bibr" coords="10,344.00,373.68,15.24,8.64" target="#b52">[53]</ref>). Additional work is needed to stake out this area of applied ethics as a persistent issue of concern and interest for the HCI community, building upon efforts already underway (e.g., <ref type="bibr" coords="10,364.44,406.56,15.24,8.64" target="#b74">[75]</ref>), and activating critical perspectives offered by third paradigm thinking in the everyday work of HCI and UX designers. We suggest that there may be two areas for additional exploration in this regard. First, a reprioritization of the activities of practitioners, taking into account both the near term positive economic and social impacts of their work, but also the long-term social impacts that might be productively viewed through the lens of care ethics and critical theory. Second, a further investment in scholarship of multiple types that explicitly connects knowledge production that is valuable (e.g., speculative fiction, critical design), but often inaccessible for practitioner use in a ready-at-hand manner.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSION</head><p>In this paper, we have provided an overview of the landscape of dark patterns from the perspective of UX practitioners, describing the breadth of these patterns as they currently exist and the potential uptakes for HCI research and UX practice in further defining this ethical and value-laden phenomenon.</p><p>We have recharacterized existing practitioner-led notions of dark patterns to reflect the strategies that designers activate when manipulating the balance of user and shareholder value, supporting both ethically-focused UX practice and future HCI scholarship regarding ethics and values.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="5,169.23,251.50,279.64,7.17"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Summary of dark pattern strategies derived from analysis of our corpus.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="5,53.93,394.45,243.07,7.17;5,53.93,403.42,238.22,7.17;5,78.24,276.55,194.46,112.45"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Example of nagging behavior on Instagram, where a modal dialogue provides no opportunity to permanently dismiss the message.</figDesc><graphic coords="5,78.24,276.55,194.46,112.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="6,53.93,175.02,243.07,7.16;6,53.93,183.98,81.06,7.16;6,66.08,62.36,218.77,107.20"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Example of obstructive behavior limiting access to ad tracking settings on Apple iOS 6.</figDesc><graphic coords="6,66.08,62.36,218.77,107.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="6,321.09,253.99,244.39,7.17;6,321.09,262.96,223.53,7.17;6,333.25,62.36,218.77,186.17"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Example of sneaking behavior, asking users to authorize transfer of their information in order to unsubscribe from a newsletter.</figDesc><graphic coords="6,333.25,62.36,218.77,186.17" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4" coords="7,321.09,242.83,244.39,7.16;7,321.09,251.80,241.16,7.16;7,333.25,62.36,218.77,175.01"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Example of preselection as a type of interface interference, hiding and preselecting a choice that may not be in the user's best interest.</figDesc><graphic coords="7,333.25,62.36,218.77,175.01" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5" coords="8,53.93,237.97,244.07,7.16;8,53.93,246.94,213.66,7.16;8,66.08,62.36,218.77,170.15"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Example of false hierarchy as a type of interface interference, encouraging users to think that one of their options is disabled.</figDesc><graphic coords="8,66.08,62.36,218.77,170.15" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6" coords="8,88.58,390.36,173.78,7.17;8,66.08,265.63,218.77,117.29"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. Example of forced action on Windows 10.</figDesc><graphic coords="8,66.08,265.63,218.77,117.29" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ACKNOWLEDGMENTS</head><p>This research was funded in part by the National Science Foundation Grant No. #1657310. We would also like to thank the AC and reviewers for their generous suggestions.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="11,62.65,76.80,211.72,8.64;11,70.45,88.99,214.90,6.58;11,58.91,105.64,106.04,8.64;11,70.87,117.83,179.92,6.58" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">IFIP Code of Ethics and Professional Conduct</title>
+		<idno type="DOI">10.52545/2-2</idno>
+		<ptr target="https://en.wikipedia.org/wiki/Hanlons_razor" />
+	</analytic>
+	<monogr>
+		<title level="m">UXPA Code of Professional Conduct</title>
+				<imprint>
+			<publisher>IFIP</publisher>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>Hanlon&apos;s Razor</note>
+</biblStruct>
+
+<biblStruct coords="11,62.65,134.48,133.06,8.64;11,70.87,146.68,134.89,6.58" xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Code of conduct</title>
+		<idno type="DOI">10.5555/lctojzvqt7</idno>
+		<ptr target="http://ixda.org/code-of-conduct/" />
+		<imprint>
+			<date type="published" when="2017">2017b</date>
+			<publisher>Test accounts</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,62.65,163.33,134.11,8.64;11,70.87,175.52,117.16,6.58" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Letter from Copenhagen</title>
+		<author>
+			<persName><forename type="first">Isy</forename><surname>Vromans</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/bf03082124</idno>
+		<ptr target="https://copenhagenletter.org" />
+	</analytic>
+	<monogr>
+		<title level="j">TSG</title>
+		<title level="j" type="abbrev">TVGW</title>
+		<idno type="ISSN">1388-7491</idno>
+		<idno type="ISSNe">1876-8776</idno>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="395" to="396" />
+			<date type="published" when="2017">2017c</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,62.65,192.17,214.37,8.64;11,70.87,202.95,220.22,8.82;11,70.87,214.09,223.63,8.64" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Ethics and technology design</title>
+		<author>
+			<persName coords=""><forename type="first">Anders</forename><surname>Albrechtslund</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10676-006-9129-8</idno>
+		<ptr target="https://doi.org/10.1007/s10676-006-9129-8" />
+	</analytic>
+	<monogr>
+		<title level="j">Ethics and Information Technology</title>
+		<title level="j" type="abbrev">Ethics Inf Technol</title>
+		<idno type="ISSN">1388-1957</idno>
+		<idno type="ISSNe">1572-8439</idno>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="63" to="72" />
+			<date type="published" when="2007">2007. 2007</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,62.65,231.97,221.90,8.64;11,70.87,242.93,217.34,8.64;11,70.51,253.71,186.10,8.82;11,70.87,264.67,210.63,8.82;11,70.87,276.14,184.11,7.82" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Inside the belly of the beast</title>
+		<author>
+			<persName coords=""><forename type="first">Ellen</forename><surname>Balka</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1147261.1147281</idno>
+		<ptr target="https://doi.org/10.1145/1147261.1147281" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the ninth conference on Participatory design: Expanding boundaries in design - Volume 1</title>
+				<meeting>the ninth conference on Participatory design: Expanding boundaries in design - Volume 1</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2006-08">2006</date>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="134" to="143" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,62.65,293.69,224.22,8.64;11,70.87,304.47,187.99,8.82;11,70.87,315.61,47.32,8.64" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">What is &quot;critical&quot; about critical design?</title>
+		<author>
+			<persName coords=""><forename type="first">Jeffrey</forename><surname>Bardzell</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Shaowen</forename><surname>Bardzell</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2470654.2466451</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</title>
+				<meeting>the SIGCHI Conference on Human Factors in Computing Systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2013-04-27">2013</date>
+			<biblScope unit="page" from="3297" to="3306" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,62.65,333.49,191.01,8.64;11,70.51,344.27,216.01,8.82;11,70.12,355.41,75.99,8.64;11,70.87,367.60,205.03,6.58" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Humanistic HCI</title>
+		<author>
+			<persName coords=""><forename type="first">Jeffrey</forename><surname>Bardzell</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Shaowen</forename><surname>Bardzell</surname></persName>
+		</author>
+		<idno type="DOI">10.2200/s00664ed1v01y201508hci031</idno>
+		<ptr target="https://doi.org/10.2200/S00664ED1V01Y201508HCI031" />
+	</analytic>
+	<monogr>
+		<title level="j">Synthesis Lectures on Human-Centered Informatics</title>
+		<title level="j" type="abbrev">Synthesis Lectures on Human-Centered Informatics</title>
+		<idno type="ISSN">1946-7680</idno>
+		<idno type="ISSNe">1946-7699</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1" to="185" />
+			<date type="published" when="2015-09-11">2015</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,62.65,384.25,236.09,8.64;11,70.87,395.21,216.46,8.64;11,70.87,405.99,222.02,8.82;11,70.37,416.95,211.30,8.59;11,70.54,427.91,181.31,8.82;11,70.87,440.28,163.19,6.58" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Reading critical designs</title>
+		<author>
+			<persName coords=""><forename type="first">Jeffrey</forename><surname>Bardzell</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Shaowen</forename><surname>Bardzell</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Erik</forename><surname>Stolterman</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2556288.2557137</idno>
+		<ptr target="https://doi.org/10.1145/2556288.2557137" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</title>
+				<meeting>the SIGCHI Conference on Human Factors in Computing Systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2014-04-26">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,62.23,456.93,228.37,8.64;11,70.87,467.89,217.24,8.64;11,70.87,478.67,205.97,8.82;11,70.70,489.63,222.93,8.82;11,70.87,502.00,163.19,6.58" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Critical design and critical theory</title>
+		<author>
+			<persName coords=""><forename type="first">Shaowen</forename><surname>Bardzell</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jeffrey</forename><surname>Bardzell</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jodi</forename><surname>Forlizzi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">John</forename><surname>Zimmerman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">John</forename><surname>Antanitis</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2317956.2318001</idno>
+		<ptr target="https://doi.org/10.1145/2317956.2318001" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Designing Interactive Systems Conference</title>
+				<meeting>the Designing Interactive Systems Conference</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2012-06-11">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,62.23,518.65,198.22,8.64;11,70.56,529.61,210.73,8.64;11,70.51,540.57,217.69,8.64;11,70.68,551.53,205.82,8.64;11,70.87,562.49,219.70,8.64;11,70.87,573.27,197.26,8.82;11,70.54,584.23,221.19,8.82;11,70.87,596.60,129.71,6.58" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The Ethical Implications of HCI&apos;s Turn to the Cultural</title>
+		<author>
+			<persName coords=""><forename type="first">Steve</forename><surname>Benford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chris</forename><surname>Greenhalgh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bob</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rachel</forename><surname>Jacobs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mike</forename><surname>Golembewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marina</forename><surname>Jirotka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bernd</forename><forename type="middle">Carsten</forename><surname>Stahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Job</forename><surname>Timmermans</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Gabriella</forename><surname>Giannachi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Matt</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ju</forename><forename type="middle">Row</forename><surname>Farr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nick</forename><surname>Tandavanitj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kirsty</forename><surname>Jennings</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2775107</idno>
+		<ptr target="https://doi.org/10.1145/2775107" />
+	</analytic>
+	<monogr>
+		<title level="j">ACM Transactions on Computer-Human Interaction</title>
+		<title level="j" type="abbrev">ACM Trans. Comput.-Hum. Interact.</title>
+		<idno type="ISSN">1073-0516</idno>
+		<idno type="ISSNe">1557-7325</idno>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1" to="37" />
+			<date type="published" when="2015-08-24">2015. 2015</date>
+			<publisher>Association for Computing Machinery (ACM)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,62.23,613.25,226.99,8.64;11,70.56,624.03,212.61,8.82;11,70.26,634.99,127.99,8.82;11,70.87,647.36,154.82,6.58" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Toward an ethics of persuasive technology</title>
+		<author>
+			<persName coords=""><forename type="first">Daniel</forename><surname>Berdichevsky</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Erik</forename><surname>Neuenschwander</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/301353.301410</idno>
+		<ptr target="https://doi.org/10.1145/301353.301410" />
+	</analytic>
+	<monogr>
+		<title level="j">Communications of the ACM</title>
+		<title level="j" type="abbrev">Commun. ACM</title>
+		<idno type="ISSN">0001-0782</idno>
+		<idno type="ISSNe">1557-7317</idno>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="51" to="58" />
+			<date type="published" when="1999-05">1999. 1999</date>
+			<publisher>Association for Computing Machinery (ACM)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,62.23,664.01,230.41,8.64;11,70.62,674.79,222.47,8.82;11,70.87,685.75,207.44,8.59;11,70.62,696.71,123.58,8.82;11,70.87,709.08,163.19,6.58" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Next steps for value sensitive design</title>
+		<author>
+			<persName coords=""><forename type="first">Alan</forename><surname>Borning</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Michael</forename><surname>Muller</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2207676.2208560</idno>
+		<ptr target="https://doi.org/10.1145/2207676.2208560" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</title>
+				<meeting>the SIGCHI Conference on Human Factors in Computing Systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2012-05-05">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,329.40,65.84,202.09,8.64;11,338.03,76.62,205.22,8.82;11,337.59,87.58,133.03,8.82;11,338.03,99.95,142.26,6.58" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Document Analysis as a Qualitative Research Method</title>
+		<author>
+			<persName coords=""><forename type="first">Glenn</forename><forename type="middle">A</forename><surname>Bowen</surname></persName>
+		</author>
+		<idno type="DOI">10.3316/qrj0902027</idno>
+		<ptr target="https://doi.org/10.3316/QRJ0902027" />
+	</analytic>
+	<monogr>
+		<title level="j">Qualitative Research Journal</title>
+		<idno type="ISSN">1443-9883</idno>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="27" to="40" />
+			<date type="published" when="2009-08-03">2009. 2009</date>
+			<publisher>Emerald</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,329.40,116.23,193.49,8.64;11,338.03,128.43,214.39,6.58" xml:id="b13">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Bowman</surname></persName>
+		</author>
+		<ptr target="http://www.uxbooth.com/articles/ethics-ux-research/" />
+		<title level="m">The ethics of UX research</title>
+				<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,329.40,144.71,234.73,8.64;11,338.03,155.67,86.34,8.64;11,338.03,167.86,175.74,6.58;11,338.03,178.82,242.49,6.58" xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Dark Patterns: inside the interfaces designed to trick you</title>
+		<author>
+			<persName coords=""><forename type="first">Harry</forename><surname>Brignull</surname></persName>
+		</author>
+		<ptr target="http://www.theverge.com/2013/8/29/4640308/dark-patterns-inside-the-interfaces-designed-to-trick-you" />
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,329.40,195.10,222.90,8.64;11,337.84,206.06,201.18,8.64;11,338.03,217.02,206.60,8.64" xml:id="b15">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Harry</forename><surname>Brignull</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Marc</forename><surname>Miquel</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jeremy</forename><surname>Rosenberg</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">James</forename><surname>Offer</surname></persName>
+		</author>
+		<ptr target="http://darkpatterns.org/" />
+		<title level="m">Dark Patterns -User Interfaces Designed to Trick People</title>
+				<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,329.40,234.54,224.76,8.64;11,338.03,245.50,208.37,8.64;11,338.03,256.46,216.92,8.64;11,338.03,267.42,220.22,8.64;11,337.67,278.19,213.40,8.59;11,337.86,289.15,217.23,8.82;11,338.03,301.53,163.18,6.58" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Translational Resources</title>
+		<author>
+			<persName coords=""><forename type="first">Lucas</forename><surname>Colusso</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Cynthia</forename><forename type="middle">L</forename><surname>Bennett</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Gary</forename><surname>Hsieh</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Sean</forename><forename type="middle">A</forename><surname>Munson</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3064663.3064667</idno>
+		<ptr target="https://doi.org/10.1145/3064663.3064667" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2017 Conference on Designing Interactive Systems</title>
+				<meeting>the 2017 Conference on Designing Interactive Systems<address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2017-06-10">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,329.40,317.81,234.77,8.64;11,338.03,328.59,202.95,8.82;11,337.70,339.55,220.52,8.59;11,337.67,350.69,197.41,8.64;11,338.03,362.88,163.18,6.58" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Design methods for ethical persuasive computing</title>
+		<author>
+			<persName coords=""><forename type="first">Janet</forename><surname>Davis</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1541948.1541957</idno>
+		<ptr target="https://doi.org/10.1145/1541948.1541957" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 4th International Conference on Persuasive Technology</title>
+				<meeting>the 4th International Conference on Persuasive Technology<address><addrLine>New York, New York, USA, 1. DOI</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2009-04-26">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,329.40,379.16,232.11,8.64;11,338.03,389.94,223.39,8.82;11,338.03,400.90,217.51,8.59;11,337.78,411.86,166.12,8.82;11,338.03,424.23,163.18,6.58" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Social Justice-Oriented Interaction Design</title>
+		<author>
+			<persName coords=""><forename type="first">Lynn</forename><surname>Dombrowski</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ellie</forename><surname>Harmon</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Sarah</forename><surname>Fox</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2901790.2901861</idno>
+		<ptr target="https://doi.org/10.1145/2901790.2901861" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2016 ACM Conference on Designing Interactive Systems</title>
+				<meeting>the 2016 ACM Conference on Designing Interactive Systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2016-06-04">2016. 2016</date>
+			<biblScope unit="page" from="656" to="671" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,329.40,440.34,213.81,8.82;11,337.72,451.29,224.76,8.82;11,338.03,462.43,117.22,8.64;11,338.03,474.63,188.29,6.58" xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Speculative Everything: Design, Fiction, and Social Dreaming</title>
+		<author>
+			<persName coords=""><forename type="first">Anthony</forename><surname>Dunne</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Fiona</forename><surname>Raby</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/17547075.2015.1051844</idno>
+		<ptr target="https://doi.org/10.1080/17547075.2015.1051844" />
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<publisher>MIT Press</publisher>
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,329.40,490.91,217.21,8.64;11,338.03,501.87,213.12,8.64;11,338.03,512.65,226.13,8.82;11,337.78,523.61,214.63,8.59;11,337.78,534.57,134.54,8.82;11,338.03,546.94,163.18,6.58" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The new good</title>
+		<author>
+			<persName coords=""><forename type="first">Daniel</forename><surname>Fallman</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1978942.1979099</idno>
+		<ptr target="https://doi.org/10.1145/1978942.1979099" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</title>
+				<meeting>the SIGCHI Conference on Human Factors in Computing Systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2011-05-07">2011</date>
+			<biblScope unit="page" from="1051" to="1060" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,329.40,563.22,230.15,8.64;11,338.03,574.18,214.45,8.64;11,338.03,585.14,207.91,8.64;11,337.72,595.92,198.41,8.59;11,338.03,606.88,219.45,8.82;11,338.03,618.02,223.65,8.64" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Analyzing critical designs</title>
+		<author>
+			<persName coords=""><forename type="first">Gabriele</forename><surname>Ferri</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jeffrey</forename><surname>Bardzell</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Shaowen</forename><surname>Bardzell</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Stephanie</forename><surname>Louraine</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2598510.2598588</idno>
+		<ptr target="https://doi.org/10.1145/2598510.2598588" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2014 conference on Designing interactive systems</title>
+				<meeting>the 2014 conference on Designing interactive systems<address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2014-06-21">2014</date>
+			<biblScope unit="page" from="355" to="364" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,329.40,635.53,234.78,8.64;11,338.03,646.49,220.59,8.64;11,338.03,657.27,206.05,8.82;11,338.03,669.64,171.55,6.58" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Rethinking Design Education for the 21st Century: Theoretical, Methodological, and Ethical Discussion</title>
+		<author>
+			<persName coords=""><forename type="first">Alain</forename><surname>Findeli</surname></persName>
+		</author>
+		<idno type="DOI">10.1162/07479360152103796</idno>
+		<ptr target="https://doi.org/10.1162/07479360152103796" />
+	</analytic>
+	<monogr>
+		<title level="j">Design Issues</title>
+		<title level="j" type="abbrev">Design Issues</title>
+		<idno type="ISSN">0747-9360</idno>
+		<idno type="ISSNe">1531-4790</idno>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="5" to="17" />
+			<date type="published" when="2001-01">2001. 2001</date>
+			<publisher>MIT Press - Journals</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,329.40,685.75,230.22,8.82;11,338.03,696.71,109.76,8.59;11,338.03,709.08,167.37,6.58" xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Values at play in digital games</title>
+		<author>
+			<persName coords=""><forename type="first">Mary</forename><surname>Flanagan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Helen</forename><surname>Nissanbaum</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1461444816631742</idno>
+		<ptr target="https://doi.org/10.1177/1461444816631742" />
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,62.23,65.66,234.70,8.82;12,70.87,76.62,217.21,8.82;12,70.87,88.99,211.70,6.58" xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Persuasive Technology</title>
+		<author>
+			<persName coords=""><surname>Bj Fogg</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/b978-1-55860-643-2.x5000-8</idno>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+			<publisher>Elsevier</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,62.23,106.27,232.86,8.64;12,70.87,117.05,215.31,8.82;12,70.56,128.01,143.81,8.82;12,70.87,140.38,163.19,6.58" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">A behavior model for persuasive design</title>
+		<author>
+			<persName coords=""><surname>Bj Fogg</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1541948.1542005</idno>
+		<ptr target="https://doi.org/10.1145/1541948.1542005" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 4th international Conference on Persuasive Technology</title>
+				<meeting>the 4th international Conference on Persuasive Technology</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,62.23,157.66,234.77,8.64;12,70.87,168.44,207.95,8.82;12,70.54,179.40,160.85,8.82;12,70.87,191.77,142.26,6.58" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">In-Action Ethics: Table 1.</title>
+		<author>
+			<persName coords=""><forename type="first">Christopher</forename><surname>Frauenberger</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Marjo</forename><surname>Rauhala</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Geraldine</forename><surname>Fitzpatrick</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/iwc/iww024</idno>
+		<ptr target="https://doi.org/10.1093/iwc/iww024" />
+	</analytic>
+	<monogr>
+		<title level="j">Interacting with Computers</title>
+		<title level="j" type="abbrev">Interact. Comput.</title>
+		<idno type="ISSN">0953-5438</idno>
+		<idno type="ISSNe">1873-7951</idno>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="220" to="236" />
+			<date type="published" when="2016-06-20">2016. 2016</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,62.23,209.05,225.86,8.64;12,70.51,219.83,222.30,8.82;12,70.87,230.79,222.88,8.82;12,70.87,242.26,221.77,7.82" xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Value sensitive design: Theory and methods</title>
+		<author>
+			<persName coords=""><forename type="first">Batya</forename><surname>Friedman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Peter</forename><surname>Kahn</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Alan</forename><surname>Borning</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuropharm.2007.08.009</idno>
+		<ptr target="https://doi.org/10.1016/j.neuropharm.2007.08.009" />
+		<imprint>
+			<date type="published" when="2002">2002. 2002</date>
+			<biblScope unit="page" from="2" to="12" />
+		</imprint>
+		<respStmt>
+			<orgName>University of Washington technical report December</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,62.23,260.44,234.15,8.64;12,70.87,271.22,193.97,8.82;12,70.51,282.18,221.68,8.82;12,70.87,293.32,227.39,8.64;12,70.87,304.28,103.12,8.64" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Human Values, Ethics, and Design</title>
+		<author>
+			<persName coords=""><forename type="first">Batya</forename><surname>Friedman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Peter</forename><forename type="middle">H</forename><surname>Kahn</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Peter</forename><forename type="middle">H</forename><surname>Kahn</surname><genName>Jr</genName></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The Human-Computer Interaction Handbook</title>
+				<editor>
+			<persName><forename type="first">Julie</forename><forename type="middle">A</forename><surname>Jacko</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Andrew</forename><surname>Sears</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Mahwah, NJ</addrLine></address></meeting>
+		<imprint>
+			<publisher>Lawrence Erlbaum Associates</publisher>
+			<date type="published" when="2003">2003</date>
+			<biblScope unit="page" from="1177" to="1201" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,62.23,322.79,184.55,8.64;12,70.45,334.98,210.21,6.58" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">First things first</title>
+		<author>
+			<persName coords=""><forename type="first">Ken</forename><surname>Garland</surname></persName>
+		</author>
+		<idno type="DOI">10.1108/eb015479</idno>
+		<ptr target="http://www.designishistory.com/1960/first-things-first/" />
+	</analytic>
+	<monogr>
+		<title level="j">Education + Training</title>
+		<idno type="ISSN">0040-0912</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="475" to="477" />
+			<date type="published" when="1964-10-01">1964</date>
+			<publisher>Emerald</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,62.23,352.26,208.83,8.64;12,70.56,363.04,226.38,8.59;12,70.87,374.00,226.14,8.59;12,68.22,384.96,98.12,8.82;12,70.87,397.33,154.82,6.58" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Technology affordances</title>
+		<author>
+			<persName coords=""><forename type="first">William</forename><forename type="middle">W</forename><surname>Gaver</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/108844.108856</idno>
+		<ptr target="https://doi.org/10.1145/108844.108856" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the SIGCHI conference on Human factors in computing systems Reaching through technology - CHI &apos;91</title>
+				<meeting>the SIGCHI conference on Human factors in computing systems Reaching through technology - CHI &apos;91</meeting>
+		<imprint>
+			<publisher>ACM Press</publisher>
+			<date type="published" when="1991">1991. 1991</date>
+			<biblScope unit="page" from="79" to="84" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,62.23,414.43,215.46,8.82;12,70.51,425.39,226.50,8.59;12,70.56,436.35,136.16,8.82;12,70.87,448.72,129.71,6.58" xml:id="b31">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Barney</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Anselm</forename><forename type="middle">L</forename><surname>Glaser</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Strauss</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/2575405</idno>
+		<ptr target="https://doi.org/10.2307/2575405" />
+		<title level="m">The Discovery of Grounded Theory: Strategies for Qualitative Research</title>
+				<imprint>
+			<date type="published" when="1967">1967</date>
+			<biblScope unit="volume">1</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,62.23,466.00,220.52,8.64;12,70.87,476.96,201.41,8.64;12,70.87,487.74,216.68,8.82;12,70.51,498.70,184.56,8.82;12,70.52,509.84,70.74,8.64;12,70.87,522.03,163.19,6.58" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">&quot;It&apos;s More of a Mindset Than a Method&quot;</title>
+		<author>
+			<persName coords=""><forename type="first">Colin</forename><forename type="middle">M</forename><surname>Gray</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2858036.2858410</idno>
+		<ptr target="https://doi.org/10.1145/2858036.2858410" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems</title>
+				<meeting>the 2016 CHI Conference on Human Factors in Computing Systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2016-05-07">2016. 2016</date>
+			<biblScope unit="page" from="4044" to="4055" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,62.23,539.31,223.93,8.64;12,70.87,550.27,222.54,8.64;12,70.56,561.05,226.37,8.82;12,70.54,572.19,97.30,8.64;12,70.87,584.38,173.04,6.58" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Inscribing ethics and values in designs for learning: a problematic</title>
+		<author>
+			<persName coords=""><forename type="first">Colin</forename><forename type="middle">M</forename><surname>Gray</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Elizabeth</forename><surname>Boling</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11423-016-9478-x</idno>
+		<ptr target="https://doi.org/10.1007/s11423-016-9478-x" />
+	</analytic>
+	<monogr>
+		<title level="j">Educational Technology Research and Development</title>
+		<title level="j" type="abbrev">Education Tech Research Dev</title>
+		<idno type="ISSN">1042-1629</idno>
+		<idno type="ISSNe">1556-6501</idno>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="969" to="1001" />
+			<date type="published" when="2016-08-23">2016. 2016</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,62.23,601.66,227.17,8.64;12,70.87,612.44,226.10,8.82;12,68.22,623.40,216.41,8.59;12,70.70,634.36,132.83,8.82;12,70.87,646.73,163.18,6.58" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">UX Practitioners&apos; Engagement with Intermediate-Level Knowledge</title>
+		<author>
+			<persName coords=""><forename type="first">Colin</forename><forename type="middle">M</forename><surname>Gray</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Yubo</forename><surname>Kou</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3064857.3079110</idno>
+		<ptr target="https://doi.org/10.1145/3064857.3079110" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2017 ACM Conference Companion Publication on Designing Interactive Systems</title>
+				<meeting>the 2017 ACM Conference Companion Publication on Designing Interactive Systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2017-06-10">2017</date>
+			<biblScope unit="page" from="13" to="17" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,62.23,664.01,226.28,8.64;12,70.87,674.97,200.35,8.64;12,70.87,685.75,196.54,8.82;12,70.87,696.71,219.18,8.59;12,70.62,707.85,223.88,8.64" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Reprioritizing the relationship between HCI research and practice</title>
+		<author>
+			<persName coords=""><forename type="first">Colin</forename><forename type="middle">M</forename><surname>Gray</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Erik</forename><surname>Stolterman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Martin</forename><forename type="middle">A</forename><surname>Siegel</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2598510.2598595</idno>
+		<ptr target="https://doi.org/10.1145/2598510.2598595" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2014 conference on Designing interactive systems</title>
+				<meeting>the 2014 conference on Designing interactive systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2014-06-21">2014</date>
+			<biblScope unit="page" from="725" to="734" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,329.40,65.84,222.90,8.64;12,337.84,76.80,185.80,8.64;12,338.03,87.58,224.42,8.82;12,337.78,98.54,227.59,8.82;12,338.03,109.67,37.36,8.64" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Dark patterns in proxemic interactions</title>
+		<author>
+			<persName coords=""><forename type="first">Saul</forename><surname>Greenberg</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Sebastian</forename><surname>Boring</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jo</forename><surname>Vermeulen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jakub</forename><surname>Dostal</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2598510.2598541</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2014 conference on Designing interactive systems</title>
+				<meeting>the 2014 conference on Designing interactive systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2014-06-21">2014</date>
+			<biblScope unit="page" from="523" to="532" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,329.40,125.66,230.97,8.64;12,338.03,136.62,226.28,8.64;12,338.03,147.39,222.11,8.82;12,337.78,158.35,211.44,8.59;12,337.42,169.31,216.00,8.82;12,338.03,181.68,163.18,6.58" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Does Technology Have Race?</title>
+		<author>
+			<persName coords=""><forename type="first">David</forename><surname>Hankerson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Andrea</forename><forename type="middle">R</forename><surname>Marshall</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jennifer</forename><surname>Booker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Houda</forename><surname>Elmimouni</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Imani</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jennifer</forename><forename type="middle">A</forename><surname>Rode</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2851581.2892578</idno>
+		<ptr target="https://doi.org/10.1145/2851581.2892578" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems</title>
+				<meeting>the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2016-05-07">2016. 2016</date>
+			<biblScope unit="page" from="473" to="486" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,329.40,196.43,217.44,8.64;12,338.03,207.39,221.15,8.64;12,338.03,218.17,227.38,8.82;12,338.03,229.31,99.79,8.64;12,338.03,241.50,184.11,6.58" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Making epistemological trouble: Third-paradigm HCI as successor science</title>
+		<author>
+			<persName coords=""><forename type="first">Steve</forename><surname>Harrison</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Phoebe</forename><surname>Sengers</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Deborah</forename><surname>Tatar</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.intcom.2011.03.005</idno>
+		<ptr target="https://doi.org/10.1016/j.intcom.2011.03.005" />
+	</analytic>
+	<monogr>
+		<title level="j">Interacting with Computers</title>
+		<title level="j" type="abbrev">Interacting with Computers</title>
+		<idno type="ISSN">0953-5438</idno>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="385" to="392" />
+			<date type="published" when="2011-09">2011. 2011</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,329.40,256.25,236.22,8.64;12,338.03,268.44,142.26,6.58;12,338.03,279.40,182.91,6.58" xml:id="b39">
+	<monogr>
+		<title level="m" type="main">Southern Rail has a UX problem</title>
+		<author>
+			<persName coords=""><forename type="first">Danny</forename><surname>Jeremiah</surname></persName>
+		</author>
+		<ptr target="https://medium.com/@dannyjeremiah/southern-rail-has-a-ux-problem-461c8915f8a9" />
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,329.40,294.15,234.73,8.64;12,338.03,305.11,57.32,8.64;12,338.03,317.30,226.44,6.58;12,338.03,328.26,238.30,6.58" xml:id="b40">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Kellingley</surname></persName>
+		</author>
+		<ptr target="https://www.interaction-design.org/literature/article/ethics-and-the-user-experience-ethics-and-the-individual" />
+		<title level="m">Ethics and the user experience-ethics and the individual</title>
+				<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,329.40,342.83,234.73,8.82;12,338.03,353.79,212.10,8.82" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Patterns and antipatterns</title>
+		<author>
+			<persName coords=""><forename type="first">Andrew</forename><surname>Koenig</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Object-Oriented Programming</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="46" to="48" />
+			<date type="published" when="1995">1995. 1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,329.40,369.95,210.32,8.64;12,338.03,380.91,226.15,8.64;12,338.03,391.68,225.26,8.82;12,337.67,402.64,222.64,8.82;12,338.03,414.11,184.11,7.82" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Values &amp; design in HCI education (workshop)</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Jes</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Luke</forename><surname>Koepfler</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Paul</forename><surname>Stark</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Phoebe</forename><surname>Dourish</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Katie</forename><surname>Sengers</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Shilton</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2559206.2559231</idno>
+		<ptr target="https://doi.org/10.1145/2559206.2559231" />
+	</analytic>
+	<monogr>
+		<title level="m">CHI&apos;14 Extended Abstracts on Human Factors in Computing Systems</title>
+				<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page" from="127" to="130" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,329.40,429.76,211.05,8.64;12,338.03,440.54,226.14,8.82;12,338.03,451.50,226.15,8.59;12,335.38,462.46,89.00,8.82;12,338.03,474.83,163.18,6.58" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">The turn to practice in HCI</title>
+		<author>
+			<persName coords=""><forename type="first">Kari</forename><surname>Kuutti</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Liam</forename><forename type="middle">J</forename><surname>Bannon</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2556288.2557111</idno>
+		<ptr target="https://doi.org/10.1145/2556288.2557111" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</title>
+				<meeting>the SIGCHI Conference on Human Factors in Computing Systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2014-04-26">2014</date>
+			<biblScope unit="page" from="3543" to="3552" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,329.40,489.58,235.64,8.64;12,338.03,500.54,226.14,8.64;12,337.45,511.50,217.20,8.64;12,338.03,522.28,223.61,8.82;12,337.78,533.24,226.34,8.59;12,337.64,544.20,121.32,8.82;12,338.03,556.57,163.18,6.58" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">&lt;i&gt;These Aren&apos;t the Commands You&apos;re Looking For&lt;/i&gt;</title>
+		<author>
+			<persName coords=""><forename type="first">Benjamin</forename><surname>Lafreniere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Parmit</forename><forename type="middle">K</forename><surname>Chilana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Adam</forename><surname>Fourney</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Michael</forename><forename type="middle">A</forename><surname>Terry</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2807442.2807482</idno>
+		<ptr target="https://doi.org/10.1145/2807442.2807482" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 28th Annual ACM Symposium on User Interface Software &amp; Technology</title>
+				<meeting>the 28th Annual ACM Symposium on User Interface Software &amp; Technology</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2015-11-05">2015</date>
+			<biblScope unit="page" from="619" to="628" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,329.40,571.32,213.62,8.64;12,338.03,582.27,202.64,8.64;12,338.03,593.23,226.14,8.64;12,338.03,604.01,220.70,8.82;12,337.68,615.15,94.81,8.64;12,338.03,627.34,171.55,6.58" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">User experience: A concept without consensus? Exploring practitioners’ perspectives through an international survey</title>
+		<author>
+			<persName coords=""><forename type="first">Carine</forename><surname>Lallemand</surname></persName>
+			<idno type="ORCID">0000-0003-2048-7947</idno>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Guillaume</forename><surname>Gronier</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Vincent</forename><surname>Koenig</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.chb.2014.10.048</idno>
+		<ptr target="https://doi.org/10.1016/j.chb.2014.10.048" />
+	</analytic>
+	<monogr>
+		<title level="j">Computers in Human Behavior</title>
+		<title level="j" type="abbrev">Computers in Human Behavior</title>
+		<idno type="ISSN">0747-5632</idno>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="35" to="48" />
+			<date type="published" when="2015-02">2015. 2015</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,329.40,642.09,228.91,8.64;12,337.56,653.05,226.54,8.64;12,338.03,664.01,194.42,8.64;12,337.72,674.79,207.28,8.59;12,337.67,685.75,218.95,8.82;12,337.67,696.89,185.03,8.64;12,338.03,709.08,163.18,6.58" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Values as lived experience</title>
+		<author>
+			<persName><forename type="first">Christopher</forename><forename type="middle">A</forename><surname>Le Dantec</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Erika</forename><forename type="middle">Shehan</forename><surname>Poole</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Susan</forename><forename type="middle">P</forename><surname>Wyche</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1518701.1518875</idno>
+		<ptr target="https://doi.org/10.1145/1518701.1518875" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</title>
+				<meeting>the SIGCHI Conference on Human Factors in Computing Systems<address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2009-04-04">2009</date>
+			<biblScope unit="page" from="1141" to="1150" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,62.23,65.84,222.17,8.64;13,70.51,76.62,227.91,8.82" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Ethical imagination and design</title>
+		<author>
+			<persName coords=""><forename type="first">Peter</forename><surname>Lloyd</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.destud.2008.12.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Design Studies</title>
+		<title level="j" type="abbrev">Design Studies</title>
+		<editor>Design Studies, Janet McDonnell and Peter Lloyd</editor>
+		<idno type="ISSN">0142-694X</idno>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="154" to="168" />
+			<date type="published" when="2009-03">2009</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,70.51,87.76,211.15,8.64;13,70.87,99.95,184.11,6.58" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Ethical imagination and design</title>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Lloyd</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.destud.2008.12.004</idno>
+		<ptr target="https://doi.org/10.1016/j.destud.2008.12.004" />
+	</analytic>
+	<monogr>
+		<title level="j">Design Studies</title>
+		<title level="j" type="abbrev">Design Studies</title>
+		<idno type="ISSN">0142-694X</idno>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="154" to="168" />
+			<date type="published" when="2009-03" />
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,62.23,116.23,236.52,8.64;13,70.87,127.19,218.26,8.64;13,70.87,137.97,211.80,8.82;13,70.87,149.11,227.85,8.64;13,70.87,160.40,215.39,7.82" xml:id="b49">
+	<monogr>
+		<title level="m" type="main">Design with Intent : Persuasive Technology in a Wider Context. In Persuasive Technology</title>
+		<author>
+			<persName coords=""><forename type="first">Dan</forename><surname>Lockton</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">David</forename><surname>Harrison</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Neville</forename><surname>Stanton</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-540-68504-3{_}30</idno>
+		<ptr target="https://doi.org/10.1007/978-3-540-68504-3{_}30" />
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<publisher>Springer</publisher>
+			<biblScope unit="volume">5033</biblScope>
+			<biblScope unit="page" from="274" to="278" />
+			<pubPlace>Berlin Heidelberg; Berlin, Heidelberg</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,62.23,177.59,204.73,8.64;13,70.87,188.55,226.42,8.64;13,70.87,199.50,219.19,8.64;13,70.87,210.28,207.96,8.82;13,70.54,221.42,68.90,8.64" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">The other objective of ethics education: Re-humanising the accounting profession-A study of ethics education in law, engineering, medicine and accountancy</title>
+		<author>
+			<persName coords=""><forename type="first">Ken</forename><surname>Mcphail</surname></persName>
+		</author>
+		<idno type="DOI">10.1023/a:1012576631990</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Business Ethics</title>
+		<idno type="ISSN">0167-4544</idno>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">3/4</biblScope>
+			<biblScope unit="page" from="279" to="298" />
+			<date type="published" when="2001">2001. 2001</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,62.23,238.94,229.89,8.64;13,70.87,249.72,213.90,8.82;13,70.56,260.68,99.36,8.82;13,70.87,273.05,209.71,6.58" xml:id="b51">
+	<monogr>
+		<title level="m" type="main">Why &apos;design research practice&apos; is not design as we know it</title>
+		<author>
+			<persName coords=""><forename type="first">Tara</forename><surname>Mullaney</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Erik</forename><surname>Stolterman</surname></persName>
+		</author>
+		<ptr target="http://www.drs2014.org/media/654248/0266-file1.pdf" />
+		<imprint>
+			<date type="published" when="2014">2014. 2014</date>
+			<publisher>Design Research Society</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,62.23,289.33,235.96,8.64;13,70.87,300.29,226.04,8.64;13,70.87,311.25,215.48,8.64;13,70.87,322.21,219.98,8.64;13,70.56,332.99,210.21,8.59;13,70.51,343.95,224.41,8.82;13,70.87,355.41,184.11,7.82" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Situational Ethics</title>
+		<author>
+			<persName coords=""><forename type="first">Cosmin</forename><surname>Munteanu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Heather</forename><surname>Molyneaux</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Wendy</forename><surname>Moncur</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Mario</forename><surname>Romero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Susan</forename><surname>O'donnell</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">John</forename><surname>Vines</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2702123.2702481</idno>
+		<ptr target="https://doi.org/10.1145/2702123.2702481" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems</title>
+				<meeting>the 33rd Annual ACM Conference on Human Factors in Computing Systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2015-04-18">2015. 2015</date>
+			<biblScope unit="page" from="105" to="114" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,62.23,372.42,230.18,8.82;13,70.87,383.38,206.74,8.82;13,70.87,394.52,112.34,8.64" xml:id="b53">
+	<monogr>
+		<title level="m" type="main">Evil by Design: Interaction design to lead us into temptation</title>
+		<author>
+			<persName coords=""><forename type="first">Chris</forename><surname>Nodder</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<publisher>John Wiley &amp; Sons, Inc</publisher>
+			<pubPlace>Indianapolis, IN</pubPlace>
+		</imprint>
+	</monogr>
+	<note>303 pages</note>
+</biblStruct>
+
+<biblStruct coords="13,62.23,411.86,236.43,8.82;13,70.54,422.82,203.84,8.59;13,70.87,433.96,93.81,8.64" xml:id="b54">
+	<monogr>
+		<title level="m" type="main">User Centered System Design</title>
+		<author>
+			<persName coords=""><forename type="first">Donald</forename><forename type="middle">A</forename><surname>Norman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephen</forename><forename type="middle">W</forename><surname>Draper</surname></persName>
+		</author>
+		<idno type="DOI">10.1201/b15703</idno>
+		<imprint>
+			<date type="published" when="1986-01-01">1986</date>
+			<publisher>CRC Press</publisher>
+			<pubPlace>Erlbaum, Hillsdale, NJ</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,62.23,451.47,235.32,8.64;13,70.40,462.43,222.64,8.64;13,70.87,473.21,226.07,8.82;13,70.87,484.17,222.82,8.59;13,70.54,495.13,222.54,8.82;13,70.87,507.50,163.19,6.58" xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Expanding and Refining Design and Criticality in HCI</title>
+		<author>
+			<persName coords=""><forename type="first">James</forename><surname>Pierce</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Phoebe</forename><surname>Sengers</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Tad</forename><surname>Hirsch</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Tom</forename><surname>Jenkins</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">William</forename><surname>Gaver</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Carl</forename><surname>Disalvo</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2702123.2702438</idno>
+		<ptr target="https://doi.org/10.1145/2702123.2702438" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems</title>
+				<meeting>the 33rd Annual ACM Conference on Human Factors in Computing Systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2015-04-18">2015</date>
+			<biblScope unit="page" from="2083" to="2092" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,62.23,523.79,228.56,8.64;13,70.87,534.57,221.27,8.82;13,70.87,546.94,154.82,6.58" xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Persuasive Design: Fringes and Foundations</title>
+		<author>
+			<persName coords=""><forename type="first">Johan</forename><surname>Redström</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/11755494{_}17</idno>
+		<ptr target="https://doi.org/10.1007/11755494{_}17" />
+	</analytic>
+	<monogr>
+		<title level="m">Persuasive Technology</title>
+				<imprint>
+			<date type="published" when="2006">2006</date>
+			<biblScope unit="page" from="112" to="122" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,62.23,563.22,222.00,8.64;13,70.56,574.18,168.54,8.64;13,70.45,586.37,217.58,6.58;13,70.87,597.33,181.41,6.58" xml:id="b57">
+	<analytic>
+		<title level="a" type="main">How Uber Uses Psychological Tricks to Push Its Drivers&apos; Buttons *</title>
+		<author>
+			<persName coords=""><forename type="first">Noam</forename><surname>Scheiber</surname></persName>
+		</author>
+		<idno type="DOI">10.1201/9781003278290-53</idno>
+		<ptr target="https://www.nytimes.com/interactive/2017/04/02/technology/uber-drivers-psychological-tricks.html?_r=1" />
+	</analytic>
+	<monogr>
+		<title level="m">Ethics of Data and Analytics</title>
+				<imprint>
+			<publisher>Auerbach Publications</publisher>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="362" to="371" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,62.23,613.62,191.56,8.64;13,70.87,625.81,142.26,6.58;13,70.87,636.77,147.94,6.58" xml:id="b58">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Dan</forename><surname>Schlosser</surname></persName>
+		</author>
+		<ptr target="https://medium.com/@danrschlosser/linkedin-dark-patterns-3ae726fe1462" />
+		<title level="m">LinkedIn Dark Patterns</title>
+				<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,62.23,653.05,213.47,8.64;13,70.68,664.01,194.69,8.64;13,70.56,674.79,222.49,8.59;13,70.87,685.75,227.39,8.82;13,70.51,696.89,165.10,8.64;13,70.87,709.08,163.19,6.58" xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Reflective design</title>
+		<author>
+			<persName coords=""><forename type="first">Phoebe</forename><surname>Sengers</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Kirsten</forename><surname>Boehner</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Shay</forename><surname>David</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joseph</forename><forename type="middle">'jofish'</forename><surname>Kaye</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1094562.1094569</idno>
+		<ptr target="https://doi.org/10.1145/1094562.1094569" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 4th decennial conference on Critical computing: between sense and sensibility</title>
+				<meeting>the 4th decennial conference on Critical computing: between sense and sensibility<address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2005-08-20">2005</date>
+			<biblScope unit="page" from="49" to="58" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,329.40,65.84,236.41,8.64;13,338.03,76.80,204.92,8.64;13,338.03,87.58,196.75,8.82;13,337.28,98.72,70.74,8.64;13,338.03,110.91,163.18,6.58" xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Reflective HCI</title>
+		<author>
+			<persName coords=""><forename type="first">Phoebe</forename><surname>Sengers</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">John</forename><surname>Mccarthy</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Paul</forename><surname>Dourish</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1125451.1125762</idno>
+		<ptr target="https://doi.org/10.1145/1125451.1125762" />
+	</analytic>
+	<monogr>
+		<title level="m">CHI &apos;06 Extended Abstracts on Human Factors in Computing Systems</title>
+				<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2006-04-21">2006</date>
+			<biblScope unit="page" from="1683" to="1686" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,329.40,126.65,233.83,8.64;13,338.03,137.42,206.81,8.82;13,337.70,148.56,92.31,8.64;13,338.03,160.76,167.37,6.58" xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Values Levers</title>
+		<author>
+			<persName coords=""><forename type="first">Katie</forename><surname>Shilton</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0162243912436985</idno>
+		<ptr target="https://doi.org/10.1177/0162243912436985" />
+	</analytic>
+	<monogr>
+		<title level="j">Science, Technology, &amp; Human Values</title>
+		<title level="j" type="abbrev">Science, Technology, &amp; Human Values</title>
+		<idno type="ISSN">0162-2439</idno>
+		<idno type="ISSNe">1552-8251</idno>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="374" to="397" />
+			<date type="published" when="2012-04-23">2012. 2012</date>
+			<publisher>SAGE Publications</publisher>
+		</imprint>
+	</monogr>
+	<note>Science</note>
+</biblStruct>
+
+<biblStruct coords="13,329.40,176.49,220.61,8.64;13,338.03,187.45,206.06,8.64;13,338.03,198.23,224.74,8.82;13,338.03,209.70,163.19,7.82" xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Blended, Not Bossy: Ethics Roles, Responsibilities and Expertise in Design</title>
+		<author>
+			<persName coords=""><forename type="first">Katie</forename><surname>Shilton</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Sara</forename><surname>Anderson</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/iwc/iww002</idno>
+		<ptr target="https://doi.org/10.1093/iwc/iww002" />
+	</analytic>
+	<monogr>
+		<title level="j">Interacting with Computers</title>
+		<title level="j" type="abbrev">Interact. Comput.</title>
+		<idno type="ISSN">0953-5438</idno>
+		<idno type="ISSNe">1873-7951</idno>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="71" to="79" />
+			<date type="published" when="2016-03-10">2016. 2016</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,329.40,226.34,194.82,8.64;13,338.03,237.30,189.06,8.64;13,338.03,248.26,222.03,8.64;13,337.72,259.04,218.32,8.59;13,338.03,270.00,222.50,8.82;13,337.68,281.14,223.96,8.64" xml:id="b63">
+	<analytic>
+		<title level="a" type="main">How to see values in social computing</title>
+		<author>
+			<persName coords=""><forename type="first">Katie</forename><surname>Shilton</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jes</forename><forename type="middle">A</forename><surname>Koepfler</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Kenneth</forename><forename type="middle">R</forename><surname>Fleischmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2531602.2531625</idno>
+		<ptr target="https://doi.org/10.1145/2531602.2531625" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 17th ACM conference on Computer supported cooperative work &amp; social computing</title>
+				<meeting>the 17th ACM conference on Computer supported cooperative work &amp; social computing</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2014-02-15">2014</date>
+			<biblScope unit="page" from="426" to="435" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,329.40,298.11,234.95,8.64;13,338.03,309.06,72.97,8.64;13,337.62,321.26,221.77,6.58;13,337.82,332.22,221.06,6.58;13,338.03,343.17,25.38,6.58" xml:id="b64">
+	<monogr>
+		<title level="m" type="main">When Websites Won&apos;t Take No for an Answer</title>
+		<author>
+			<persName coords=""><forename type="first">Natasha</forename><surname>Singer</surname></persName>
+		</author>
+		<ptr target="https://www.nytimes.com/2016/05/15/technology/personaltech/when-websites-wont-take-no-for-an-answer.html?mcubz=0&amp;_r=0" />
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,329.40,358.91,234.77,8.64;13,338.03,369.69,226.08,8.82;13,337.59,380.65,173.98,8.82;13,338.03,393.02,184.11,6.58" xml:id="b65">
+	<analytic>
+		<title level="a" type="main">The nature of design practice and implications for interaction design research</title>
+		<author>
+			<persName coords=""><forename type="first">Erik</forename><surname>Stolterman</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.phymed.2007.09.005</idno>
+		<ptr target="https://doi.org/10.1016/j.phymed.2007.09.005" />
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Design</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="55" to="65" />
+			<date type="published" when="2008">2008. 2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,329.40,408.58,234.77,8.82;13,337.20,419.54,159.74,8.82;13,338.03,431.91,171.55,6.58" xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Desiderata</title>
+		<author>
+			<persName coords=""><forename type="first">Erik</forename><surname>Stolterman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Harold G Nelson</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/s0038713400054014</idno>
+		<ptr target="https://doi.org/10.1017/S0038713400054014" />
+	</analytic>
+	<monogr>
+		<title level="j">Speculum</title>
+		<title level="j" type="abbrev">Speculum</title>
+		<idno type="ISSN">0038-7134</idno>
+		<idno type="ISSNe">2040-8072</idno>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="120" to="120" />
+			<date type="published" when="2012">2012</date>
+			<publisher>University of Chicago Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,329.40,447.65,236.45,8.64;13,338.03,458.61,218.68,8.64;13,338.03,469.39,214.27,8.82;13,337.42,480.35,211.68,8.59;13,337.42,491.30,222.67,8.82" xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Making Ethics Explicit: Relocating Ethics to the Core of Engineering Education</title>
+		<author>
+			<persName coords=""><forename type="first">Mary</forename><forename type="middle">E</forename><surname>Sunderland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joonhong</forename><surname>Ahn</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Cathryn</forename><surname>Carson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">William</forename><surname>Kastenberg</surname></persName>
+		</author>
+		<idno type="DOI">10.18260/1-2--22266</idno>
+		<idno>23.881.1 -23.881.11</idno>
+	</analytic>
+	<monogr>
+		<title level="m">2013 ASEE Annual Conference &amp; Exposition Proceedings</title>
+				<meeting><address><addrLine>Atlanta, GA</addrLine></address></meeting>
+		<imprint>
+			<publisher>ASEE Conferences</publisher>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,329.40,508.46,219.44,8.64;13,338.03,519.23,226.01,8.82;13,337.72,530.19,193.87,8.82;13,338.03,542.56,173.04,6.58" xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Designing Robots for Care: Care Centered Value-Sensitive Design</title>
+		<author>
+			<persName coords=""><forename type="first">Aimee</forename><surname>Van Wynsberghe</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11948-011-9343-6</idno>
+		<ptr target="https://doi.org/10.1007/s11948-011-9343-6" />
+	</analytic>
+	<monogr>
+		<title level="j">Science and Engineering Ethics</title>
+		<title level="j" type="abbrev">Sci Eng Ethics</title>
+		<idno type="ISSN">1353-3452</idno>
+		<idno type="ISSNe">1471-5546</idno>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="407" to="433" />
+			<date type="published" when="2013">2013. 2013</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,329.40,558.30,234.78,8.64;13,338.03,569.08,226.13,8.82;13,337.72,580.04,160.67,8.82;13,338.03,592.41,173.04,6.58" xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Ethicist as Designer: A Pragmatic Approach to Ethics in the Lab</title>
+		<author>
+			<persName coords=""><forename type="first">Aimee</forename><surname>Van Wynsberghe</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Scott</forename><surname>Robbins</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11948-013-9498-4</idno>
+		<ptr target="https://doi.org/10.1007/s11948-013-9498-4" />
+	</analytic>
+	<monogr>
+		<title level="j">Science and Engineering Ethics</title>
+		<title level="j" type="abbrev">Sci Eng Ethics</title>
+		<idno type="ISSN">1353-3452</idno>
+		<idno type="ISSNe">1471-5546</idno>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="947" to="961" />
+			<date type="published" when="2014">2014. 2014</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,329.40,608.15,234.01,8.64;13,338.03,620.34,175.74,6.58;13,338.03,631.30,144.75,6.58" xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Norman Rockwell’s Big Worldview, op-ed article, The Boston Globe, 30 June 2015</title>
+		<author>
+			<persName coords=""><forename type="first">Alyssa</forename><surname>Vance</surname></persName>
+		</author>
+		<idno type="DOI">10.18356/4dcb3425-en</idno>
+		<ptr target="https://rationalconspiracy.com/2016/04/24/dark-patterns-by-the-boston-globe/" />
+	</analytic>
+	<monogr>
+		<title level="m">Dark Patterns by the Boston Globe</title>
+				<imprint>
+			<publisher>United Nations Publications</publisher>
+			<date type="published" when="2016-12-16">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,329.40,647.04,208.62,8.64;13,338.03,657.82,212.53,8.82;13,337.47,668.78,229.22,8.82;13,338.03,681.15,167.37,6.58" xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Materializing Morality</title>
+		<author>
+			<persName coords=""><forename type="first">Peter-Paul</forename><surname>Verbeek</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0162243905285847</idno>
+		<ptr target="https://doi.org/10.1177/0162243905285847" />
+	</analytic>
+	<monogr>
+		<title level="j">Science, Technology, &amp; Human Values</title>
+		<title level="j" type="abbrev">Science, Technology, &amp; Human Values</title>
+		<idno type="ISSN">0162-2439</idno>
+		<idno type="ISSNe">1552-8251</idno>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="361" to="380" />
+			<date type="published" when="2006-05">2006. 2006</date>
+			<publisher>SAGE Publications</publisher>
+		</imprint>
+	</monogr>
+	<note>Science</note>
+</biblStruct>
+
+<biblStruct coords="13,329.40,696.89,234.73,8.64;13,338.03,707.85,226.02,8.64;14,70.87,65.66,214.10,8.82;14,70.26,76.62,196.91,8.82;14,70.87,88.99,163.19,6.58" xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Crossing the bridge over Norman&apos;s Gulf of Execution</title>
+		<author>
+			<persName coords=""><forename type="first">Jo</forename><surname>Vermeulen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Kris</forename><surname>Luyten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elise</forename><surname>Van Den Hoven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karin</forename><surname>Coninx</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2470654.2466255</idno>
+		<ptr target="https://doi.org/10.1145/2470654.2466255" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</title>
+				<meeting>the SIGCHI Conference on Human Factors in Computing Systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2013-04-27">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,62.23,104.30,234.07,8.64;14,70.87,115.25,227.87,8.64;14,70.87,126.21,214.73,8.64;14,70.56,136.99,205.00,8.82;14,70.54,147.95,212.26,8.59;14,70.54,158.91,183.08,8.82;14,70.87,171.28,163.19,6.58" xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Digital Civics</title>
+		<author>
+			<persName coords=""><forename type="first">Vasillis</forename><surname>Vlachokyriakos</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Clara</forename><surname>Crivellaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christopher</forename><forename type="middle">A</forename><surname>Le Dantec</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Eric</forename><surname>Gordon</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Pete</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Patrick</forename><surname>Olivier</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2851581.2886436</idno>
+		<ptr target="https://doi.org/10.1145/2851581.2886436" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems</title>
+				<meeting>the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2016-05-07">2016. 2016</date>
+			<biblScope unit="page" from="1096" to="1099" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,329.40,65.84,226.38,8.64;14,337.72,76.80,221.49,8.64;14,338.03,87.76,193.55,8.64;14,338.03,98.54,226.13,8.82;14,337.70,109.49,221.67,8.59;14,338.03,120.45,218.80,8.82;14,337.45,131.59,165.41,8.64;14,338.03,143.78,163.18,6.58" xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Ethical Encounters in Human-Computer Interaction</title>
+		<author>
+			<persName coords=""><forename type="first">Jenny</forename><surname>Waycott</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Cosmin</forename><surname>Munteanu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Hilary</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Anja</forename><surname>Thieme</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Wendy</forename><surname>Moncur</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Roisin</forename><surname>Mcnaney</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">John</forename><surname>Vines</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Stacy</forename><surname>Branham</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2851581.2856498</idno>
+		<ptr target="https://doi.org/10.1145/2851581.2856498" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems</title>
+				<meeting>the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems<address><addrLine>New York, New York, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2016-05-07">2016</date>
+			<biblScope unit="page" from="3387" to="3394" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,329.40,159.09,234.77,8.64;14,337.67,169.87,139.49,8.82;14,337.70,180.83,208.37,8.82;14,338.03,193.20,129.71,6.58" xml:id="b75">
+	<analytic>
+		<title level="a" type="main">The ACM code of ethics</title>
+		<author>
+			<persName coords=""><forename type="first">Marty</forename><forename type="middle">J</forename><surname>Wolf</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3012934</idno>
+		<ptr target="https://doi.org/10.1145/3012934" />
+	</analytic>
+	<monogr>
+		<title level="j">Communications of the ACM</title>
+		<title level="j" type="abbrev">Commun. ACM</title>
+		<idno type="ISSN">0001-0782</idno>
+		<idno type="ISSNe">1557-7317</idno>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="6" to="6" />
+			<date type="published" when="2016-12">2016. 2016</date>
+			<publisher>Association for Computing Machinery (ACM)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

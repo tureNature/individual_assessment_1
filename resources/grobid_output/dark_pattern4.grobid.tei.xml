@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">SHAPE THE FUTURE OF COMPUTING!</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">CITP (Center for Information Technology Policy</orgName>
+								<address>
+									<settlement>Princeton</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">SHAPE THE FUTURE OF COMPUTING!</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E906B8ECAA8BA704771CEDF4BD256366</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.2" ident="GROBID" when="2024-02-29T22:45+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We're more than computational theorists, database managers, UX mavens, coders and developers. We're on a mission to solve tomorrow. ACM gives us the resources, the access and the tools to invent the future.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="418.961" lry="558.425"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="418.961" lry="558.425"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="418.961" lry="558.425"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="418.961" lry="558.425"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="418.961" lry="558.425"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="418.961" lry="558.425"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="418.961" lry="558.425"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="418.961" lry="558.425"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="418.961" lry="558.425"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="418.961" lry="558.425"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="418.961" lry="558.425"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="418.961" lry="558.425"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="418.961" lry="558.425"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="418.961" lry="558.425"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="418.961" lry="558.425"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="418.961" lry="558.425"/>
+		<surface n="17" ulx="0.0" uly="0.0" lrx="418.961" lry="558.425"/>
+		<surface n="18" ulx="0.0" uly="0.0" lrx="418.961" lry="558.425"/>
+		<surface n="19" ulx="0.0" uly="0.0" lrx="418.961" lry="558.425"/>
+		<surface n="20" ulx="0.0" uly="0.0" lrx="418.961" lry="558.425"/>
+		<surface n="21" ulx="0.0" uly="0.0" lrx="418.961" lry="558.425"/>
+		<surface n="22" ulx="0.0" uly="0.0" lrx="418.961" lry="558.425"/>
+		<surface n="23" ulx="0.0" uly="0.0" lrx="418.961" lry="558.425"/>
+		<surface n="24" ulx="0.0" uly="0.0" lrx="418.961" lry="558.425"/>
+		<surface n="25" ulx="0.0" uly="0.0" lrx="418.961" lry="558.425"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>D</head><p>ark patterns are user interfaces that benefit an online service by leading users into making decisions they might not otherwise make. Some dark patterns deceive users while others covertly manipulate or coerce them into choices that are not in their best interests. A few egregious examples have led to public backlash recently: TurboTax hid its U.S. government-mandated free tax-file program for lowincome users on its website to get them to use its paid program; <ref type="bibr" coords="1,171.31,361.58,3.20,6.07" target="#b8">9</ref> Facebook asked users to enter phone numbers for two-factor authentication but then used those numbers to serve targeted ads; 31 Match.com knowingly let scammers generate fake messages of interest in its online dating app to get users to sign up for its paid service. <ref type="bibr" coords="1,354.96,417.58,5.16,6.07" target="#b12">13</ref> Many dark patterns have been adopted on a large scale across the web. Figure <ref type="figure" coords="1,229.98,446.01,3.47,10.42">1</ref> shows a deceptive countdown timer dark pattern on JustFab. The advertised offer remains valid even after the timer expires. This pattern is a common tactic-a recent study found such deceptive countdown timers on 140 shopping websites. <ref type="bibr" coords="1,322.71,501.58,6.97,6.07" target="#b18">20</ref> The research community has taken note. Recent efforts</p><p>The evolution of tricky user interfaces have catalogued dozens of problematic patterns such as nagging the user, obstructing the flow of a task, and setting privacy-intrusive defaults, <ref type="bibr" coords="2,275.80,366.78,4.37,6.07" target="#b0">1,</ref><ref type="bibr" coords="2,280.17,366.78,4.37,6.07" target="#b16">18</ref> building on an early effort by Harry Brignull (darkpatterns.org). Researchers have also explained how dark patterns operate by exploiting cognitive biases, <ref type="bibr" coords="2,246.31,408.78,5.51,6.07" target="#b3">4,</ref><ref type="bibr" coords="2,251.82,408.78,8.27,6.07" target="#b18">20,</ref><ref type="bibr" coords="2,260.09,408.78,5.51,6.07">33</ref> uncovered dark patterns on more than 1,200 shopping websites, <ref type="bibr" coords="2,297.82,422.78,6.97,6.07" target="#b18">20</ref> shown that more than 95 percent of the popular Android apps contain dark patterns, <ref type="bibr" coords="2,192.41,450.78,3.42,6.07" target="#b7">8</ref> and provided preliminary evidence that dark patterns are indeed effective at manipulating user behavior. <ref type="bibr" coords="2,169.93,478.78,8.31,6.07" target="#b17">19,</ref><ref type="bibr" coords="2,178.24,478.78,5.54,6.07">30</ref> Although they have recently burst into mainstream awareness, dark patterns are the result of three decadeslong trends: one from the world of retail (deceptive practices), one from research and public policy (nudging), and the third from the design community (growth hacking).</p><p>Figure <ref type="figure" coords="3,173.54,127.21,5.08,10.42" target="#fig_1">2</ref> illustrates how dark patterns stand at the confluence of these three trends. Understanding these trends-and how they have collided into each other-is essential to help us appreciate what is actually new about dark patterns, demystifies their surprising effectiveness, and shows us why it will be hard to combat them. We end this article with recommendations for ethically minded designers.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DECEPTION AND MANIPULATION IN RETAIL</head><p>The retail industry has a long history of deceptive and manipulative practices that range on a spectrum from normalized to unlawful (figure <ref type="figure" coords="3,286.64,295.21,3.30,10.42" target="#fig_2">3</ref>). Some of these techniques, such as psychological pricing (i.e., making the price slightly less than a round number), have become  normalized. This is perfectly legal, and consumers have begrudgingly accepted it. Nonetheless, it remains effective: consumers underestimate prices when relying on memory if psychological pricing is employed. <ref type="bibr" coords="5,322.18,140.78,3.15,6.07" target="#b2">3</ref> More problematic are practices such as false claims of store closings, which are unlawful but rarely the target of enforcement actions. At the other extreme are baitand-switch car ads such as the one by a Ford dealership in Cleveland that was the target of an FTC action. <ref type="bibr" coords="5,332.16,210.78,5.19,6.07">14</ref> THE ORIGINS OF NUDGING In the 1970s, the heuristics and biases literature in behavioral economics sought to understand irrational decisions and behaviors-for example, people who decide to drive because they perceive air travel as dangerous, even though driving is, in fact, orders of magnitude more dangerous per mile. <ref type="bibr" coords="5,241.15,322.78,6.22,6.07">29</ref> Researchers uncovered a set of cognitive shortcuts used by people that make these irrational behaviors not just explainable but even predictable.</p><p>For example, in one experiment, researchers asked participants to write down an essentially random twodigit number (the last two digits of each participant's social security number), then asked if they would pay that number of dollars for a bottle of wine, and finally asked the participants to state the maximum amount they would pay for the bottle. <ref type="bibr" coords="5,208.85,462.78,2.96,6.07" target="#b1">2</ref> They found that the willingness to pay varied by roughly threefold based on the arbitrary number. This is the anchoring effect: lacking knowledge of the market value of the bottle of wine, participants' estimates become anchored to the arbitrary reference point. This acmqueue | march-april 2020 72 web services study makes it easy to see how businesses might be able to nudge customers to pay higher prices by anchoring their expectations to a high number. In general, however, research on psychological biases has not been driven by applications in retail or marketing. That would come later.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>NUDGING: THE TURN TO PATERNALISM</head><p>The early behavioral research on this topic focused on understanding rather than intervention. Some scholars, such as Cass Sunstein and Richard Thaler, authors of the book Nudge, <ref type="bibr" coords="6,184.78,238.78,6.38,6.07" target="#b26">28</ref> went further to make a policy argument: Governments, employers, and other benevolent institutions should engineer "choice architectures" in a way that uses behavioral science for the benefit of those whom they serve or employ.</p><p>A famous example (figure <ref type="figure" coords="6,255.03,309.21,4.04,10.42" target="#fig_4">4</ref>) is the striking difference in organ-donation consent rates between countries where people have to explicitly provide consent (red bars) versus those where consent is presumed (orange bars). Because most people tend not to change the default option, the latter leads to significantly higher consent rates. <ref type="bibr" coords="6,339.02,378.78,4.74,6.07" target="#b15">17</ref> Today, nudging has been enthusiastically adopted by not only governments and employers, but also businesses in the way they communicate with their customers. The towel reuse message you may have seen in hotel rooms ("75 percent of guests in this hotel usually use their towels more than once") is effective because it employs descriptive social norms as a prescriptive rule to get people to change their behavior. <ref type="bibr" coords="6,268.06,490.78,5.33,6.07" target="#b14">16</ref> With the benefit of hindsight, neither the proponents nor the critics of nudging anticipated how readily and acmqueue | march-april 2020 73 web services vigorously businesses would adopt these techniques in adversarial rather than paternalistic ways. In Nudge Sunstein and Thaler briefly address the question of how to tell if a nudge is ethical, but the discussion is perfunctory. The authors seem genuinely surprised by recent developments and have distanced themselves  web services from dark patterns, which they label "sludges." <ref type="bibr" coords="8,334.32,99.76,5.76,6.07" target="#b25">27</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>GROWTH HACKING</head><p>The third trend-and the one that most directly evolved into dark patterns-is growth hacking. The best-known and arguably the earliest growth hack was implemented by Hotmail. When it launched in 1996, the founders first considered traditional marketing methods such as billboard advertising. Instead, they hit upon a viral marketing strategy: The service automatically added the signature, "Get your free email with Hotmail," to every outgoing email, essentially getting users to advertise on its behalf, resulting in viral growth. <ref type="bibr" coords="8,280.31,267.76,5.14,6.07" target="#b19">21</ref> Successes like these led to the emergence of growth hacking as a distinct community. Growth hackers are trained in design, programming, and marketing and use these skills to drive product adoption.</p><p>Growth hacking is not inherently deceptive or manipulative but often is in practice. For example, in twosided markets such as vacation rentals, upstarts inevitably face a chicken-and-egg problem: no travelers without hosts and no hosts without travelers. So it became a common practice to "seed" such services with listings that were either fake or scraped from a competitor. <ref type="bibr" coords="8,330.91,421.76,8.21,6.07" target="#b20">22,</ref><ref type="bibr" coords="8,339.12,421.76,5.47,6.07" target="#b21">23</ref> Unsurprisingly, growth hacking has sometimes led to legal trouble. A hugely popular growth hack involved obtaining access to users' contact books-often using deception-and then spamming those contacts with invitations to try a service. The invitations might themselves be deceptive by appearing to originate from the user, when in fact users were unaware of the emails acmqueue | march-april 2020 75 web services being sent. Linkedin settled a class action for exactly this practice, which it used from 2011 to 2014. <ref type="bibr" coords="9,305.52,112.78,7.15,5.82" target="#b23">25</ref> FROM GROWTH HACKING TO DARK PATTERNS But why growth rather than revenue or some other goal? It is a reflection of Silicon Valley's growth-first mantra in which revenue-generating activities are put aside until after-market dominance has been achieved. Of course, eventually every service runs into limits on growth, because of either saturation or competition, so growth hackers began to adapt their often-manipulative techniques to extracting and maximizing revenue from existing users.</p><p>In developing their battery of psychological tricks, growth hackers had two weapons that were not traditionally available in offline retail. The first was that the nudge movement had helped uncover the principles of behavior change. In contrast, the marketing literature that directly studied the impact of psychological tricks on sales was relatively limited because it didn't get at the foundational principles and was limited to the domain of retail.</p><p>The second weapon was A/B testing (figure <ref type="figure" coords="9,328.64,379.21,3.20,10.42">5</ref>). By serving variants of web pages to two or more randomly selected subsets of users, designers began to discover that even seemingly trivial changes to design elements can result in substantial differences in behavior. The idea of data-driven optimization of user interfaces has become deeply ingrained in the design process of many companies. For large online services with millions of users, it is typical to have dozens of A/B tests running in parallel, as noted in 2009 by Douglas Bowman, once a top visual designer at Google:</p><p>Yes, it's true that a team at Google couldn't decide between two blues, so they're testing 41 shades between each blue to see which one performs better. I had a recent debate over whether a border should be 3, 4, or 5 pixels wide, and was asked to prove my case. I can't operate in an environment like that. I've grown tired of debating such minuscule design decisions. There are more exciting design problems in this world to tackle.</p><p>-Douglas Bowman A/B testing proved key to the development of dark patterns because it is far from obvious how to translate an abstract principle like social proof into a concrete nudge ("7 people are looking at this hotel right now!"). Another example: For how long should a fake countdown timer be set ("This deal expires in 15 minutes!" ... "14:59" ... "14:58" ...), so that the user acts with urgency but not panic? Online experiments allow designers to find the answers with just a few lines of code.</p><p>acmqueue | march-april 2020 77 web services MONEY, DATA, ATTENTION Let's recap. As the online economy matured, services turned their attention from growth to revenue. They used the principles of behavioral influence but subverted the intent of the researchers who discovered those principles by using them in ways that undermined consumers' autonomy and informed choice. They used A/B testing to turn behavioral insights into strikingly effective user interfaces. In some cases these were optimized versions of tricks that have long been used in retail, but in other cases they were entirely new.</p><p>How, exactly, do dark patterns help maximize a company's ability to extract revenue from its users? The most obvious way is simply to nudge (or trick) consumers into spending more than they otherwise would.</p><p>A less obvious, yet equally pervasive, goal of dark patterns is to invade privacy. For example, cookie consent dialogs almost universally employ manipulative design to increase the likelihood of users consenting to tracking. In fact, a recent paper shows that when asked to opt in, well under 1 percent of users would provide informed consent. <ref type="bibr" coords="11,376.23,378.43,7.21,6.07">30</ref> Regulations such as the GDPR (General Data Protection Regulation) require companies to get explicit consent for tracking, which poses an existential threat to many companies in the online tracking and advertising industry. In response, they appear to be turning to the wholesale use of dark patterns. <ref type="bibr" coords="11,203.28,462.43,7.21,6.07">30</ref> A third goal of dark patterns is to make services addictive. This goal supports the other two, as users who stay on an app longer will buy more, yield more personal information, and see more ads. Apps like Uber use gamified acmqueue | march-april 2020 78 web services nudges to keep drivers on the road longer (figure <ref type="figure" coords="12,342.21,320.21,3.29,10.42" target="#fig_5">6</ref>). The needle suggests that the driver is extremely close to the goal, but it is an arbitrary goal set by Uber when a driver wants to go offline. <ref type="bibr" coords="12,214.72,361.78,5.93,6.07" target="#b22">24</ref> To summarize, dark patterns enable designers to extract three main resources from users: money, data, and attention. DARK PATTERNS ARE HERE TO STAY Two years ago, few people had heard the term dark patterns. Now it's everywhere. Does this mean dark patterns are a flash in the pan? Perhaps, as users figure out what's going on, companies will realize that dark patterns are counterproductive and stop using them. The market could correct itself.</p><p>The history sketched here suggests that this optimistic The history also helps explain what is new about dark patterns. It isn't just tricky design or deceptive retail practices online. Rather, design has been weaponized using behavioral research to serve the aims of the surveillance economy. This broader context is important. It helps explain why the situation is as bad as it is and suggests that things will get worse before they can get better.</p><p>One worrying trend is the emergence of companies that offer dark patterns as a service, enabling websites to adopt them with a few lines of JavaScript. <ref type="bibr" coords="13,320.53,294.78,6.97,6.07" target="#b18">20</ref> Another possible turn for the worse is personalized dark patterns that push each user's specific buttons. <ref type="bibr" coords="13,294.29,322.78,6.19,6.07" target="#b24">26</ref> This has long been predicted <ref type="bibr" coords="13,173.28,336.78,3.04,6.07" target="#b4">5</ref> but remains rare today (manipulative targeted advertising can arguably be viewed as a dark pattern, but ads are not user interfaces). The absence of personalized UI is presumably because companies are busy picking lower-hanging fruit, but this can change any time.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RECOMMENDATIONS FOR DESIGNERS</head><p>Designers should be concerned about the proliferation of dark patterns. They are unethical and reflect badly on the profession. But this article is not a doom-and-gloom story. There are steps you can take, both to hold yourself and your organization to a higher standard, and to push back against the pressure to deploy dark patterns in the industry.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Go beyond superficial A/B testing metrics</head><p>Earlier this article discussed how designers use A/B tests to optimize dark patterns. But there's a twist: a design process hyperfocused on A/B testing can result in dark patterns even if that's not the intent. That's because most A/B tests are based on metrics that are relevant to the company's bottom line, even if they result in harm to users. As a trivial example, an A/B test might reveal that reducing the size of a "Sponsored" label that identifies a search result as an advertisement causes an increase in the CTR (click-through rate). While a metric such as CTR can be measured instantaneously, it reveals nothing about the long-term effects of the design change. It is possible that users lose trust in the system over time when they realize they are being manipulated into clicking on ads.</p><p>In fact, Google's recent change to its ad labels made it hard for users to distinguish ads from organic search results, and presumably increased CTR for ads (figure <ref type="figure" coords="14,362.10,337.21,3.05,10.42" target="#fig_6">7</ref>). A backlash ensued, however, and Google rolled back this interface. <ref type="bibr" coords="14,173.21,364.78,6.18,6.07">32</ref> To avoid falling into this trap, evaluate A/B tests on at least one metric that measures long-term impacts. In addition to measuring the CTR, you could also measure user retention. That will tell you if a different-sized label results in more users abandoning the website.</p><p>Still, many attributes that matter in the long term, such as trust, are not straightforward to observe and measure, especially in the online context. Think critically about the designs you choose to test, and when you find that a certain design performs better, try to understand why.</p><p>While the overreliance on A/B testing is a critical issue acmqueue | march-april 2020 81 web services to be addressed, let's next turn to a much broader and longer-term concern.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Incorporate ethics into the design process</head><p>While dark patterns are a highly visible consequence of the ethical crisis in design, resolving the crisis entails far more than avoiding a simple list of patterns. It requires structural changes to the design process.</p><p>Start by articulating the values that matter to you and that will guide your design. <ref type="bibr" coords="15,245.56,507.78,5.08,6.07" target="#b13">15</ref> Not every organization will have an identical set of values, but these values must be In fact, much of the present crisis can be traced to a misalignment of values between society and companies. Autonomy and privacy are two values where this is particularly stark. Consider frictionless design, a bedrock value in the tech industry. Unfortunately, it robs users of precisely those moments that may give them opportunities for reflection and enable them to reject their baser impulses. Frictionlessness is antithetical to autonomy. Similarly, designing for pleasure and fun is a common design value, but when does fun cross the line into addiction?</p><p>Once you've articulated your values, continue to debate them internally. Publicize them externally, seek input from users, and, most importantly, hold yourself accountable to them. Effective accountability is challenging, however. For example, advisory boards established by technology companies have been criticized for not being sufficiently independent.</p><p>Everyday design decisions should be guided by referring to established values. In many cases it is intuitively obvious whether a design choice does or does not conform to a design value, but this is not always so. Fortunately, research has revealed a lot about the factors that make a design pattern dark, such as exploiting known cognitive biases and withholding crucial information. <ref type="bibr" coords="16,314.14,448.78,5.80,6.07" target="#b3">4,</ref><ref type="bibr" coords="16,319.94,448.78,5.80,6.07" target="#b18">20</ref> Stay abreast of this research, evaluate the impact of design on your users, and engage in critical debate about where to draw the line based on the company's values and your own sense of ethics. Rolling back a change should always be an option if it turns out that it didn't live up to your values. As you gain experience making these decisions in a particular context, higher-level principles can be codified into design guidelines. There is a long tradition of usability guidelines in the design community. There are also privacyby-design guidelines, but they are not yet widely adopted. <ref type="bibr" coords="17,375.12,154.78,6.08,6.07" target="#b9">10</ref> There is relatively little in the way of guidelines for respecting user autonomy.</p><p>All of this is beyond the scope of what individual designers can usually accomplish; the responsibility for incorporating ethics into the design process rests with organizations. As an individual, you can start by raising awareness within your organization.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Self regulate or get regulated</head><p>Dark patterns are an abuse of the tremendous power that designers hold in their hands. As public awareness of dark patterns grows, so does the potential fallout. Journalists and academics have been scrutinizing dark patterns, and the backlash from these exposés can destroy brand reputations and bring companies under the lenses of regulators.</p><p>Many dark patterns are already unlawful. In the United States, the Federal Trade Commission (FTC) Act prohibits "unfair or deceptive" commercial practices. <ref type="bibr" coords="17,314.71,420.78,4.11,6.07" target="#b10">11</ref> In a recent example, the FTC reached a settlement with Unroll. Me-a service that unsubscribed users' email addresses from newsletters and subscriptions-because it was in fact selling information it read from their inboxes to third parties. <ref type="bibr" coords="17,164.28,490.78,4.99,6.07" target="#b11">12</ref>  </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="3,132.16,357.81,144.70,9.85;3,164.73,392.17,71.04,61.68"><head>FIGURE 2 :</head><label>2</label><figDesc>FIGURE 2: The origins of dark patterns</figDesc><graphic coords="3,164.73,392.17,71.04,61.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="4,132.08,99.39,249.12,9.85;4,145.12,109.92,624.00,126.00"><head>FIGURE 3 :</head><label>3</label><figDesc>FIGURE 3: Examples of deceptive and manipulative retail practices</figDesc><graphic coords="4,145.12,109.92,624.00,126.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4" coords="7,131.74,99.39,199.98,9.85;7,64.53,129.14,324.48,69.12"><head>FIGURE 4 :</head><label>4</label><figDesc>FIGURE 4: Organ-donation consent rates by countries</figDesc><graphic coords="7,64.53,129.14,324.48,69.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5" coords="12,132.06,99.39,252.14,9.85;12,141.78,124.94,92.47,163.94"><head>FIGURE 6 :</head><label>6</label><figDesc>FIGURE 6: One of Uber's gamified nudges to keep drivers on the road</figDesc><graphic coords="12,141.78,124.94,92.47,163.94" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6" coords="15,132.00,99.39,184.13,9.85;15,144.29,126.43,228.11,213.76"><head>FIGURE 7 :</head><label>7</label><figDesc>FIGURE 7: Google's recent change to its ad labels</figDesc><graphic coords="15,144.29,126.43,228.11,213.76" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" coords="2,47.70,126.72,325.20,178.45"><head></head><label></label><figDesc></figDesc><graphic coords="2,47.70,126.72,325.20,178.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="17,132.00,491.21,242.17,38.42"><head></head><label></label><figDesc>European Union authorities have tended to be stricter: French regulator CNIL (Commission Nationale de l'Informatique et des Libertés) fined Google 50 million Arunesh Mathur is a graduate student in the department of computer science at Princeton University. Mathur studies the societal impacts of technical systems through an empirical lens. His recent research examines how commercial, political,</figDesc><table coords="23,132.00,99.21,251.90,365.27"><row><cell>web services</cell></row><row><cell>29. Tversky, A., Kahneman, D. 1974. Judgment under the fundamental limits of de-identification. Narayanan is a</cell></row><row><cell>uncertainty: Heuristics and biases. Science, 185(4157), recipient of the Presidential Early Career Award for Scientists</cell></row><row><cell>1124-1131. and Engineers, twice recipient of the Privacy Enhancing</cell></row><row><cell>30. Utz, C., Degeling, M., Fahl, S., Schaub, F., Holz, T. 2019. Technologies Award, and thrice recipient of the Privacy</cell></row><row><cell>(Un)informed consent: studying GDPR consent notices Papers for Policy Makers Award.</cell></row><row><cell>in the field. In Proceedings of the 2019 ACM SIGSAC</cell></row><row><cell>Conference on Computer and Communications Security,</cell></row><row><cell>973-990; https://dl.acm.org/doi/10.1145/3319535.3354212.</cell></row><row><cell>31. Venkatadri, G., Lucherini, E., Sapiezynski, P., Mislove, A.</cell></row><row><cell>2019. Investigating sources of PII used in Facebook's</cell></row><row><cell>targeted advertising. Proceedings on Privacy Enhancing</cell></row><row><cell>Technologies 2019(1), 227-244; https://content.sciendo.</cell></row><row><cell>com/view/journals/popets/2019/1/article-p227.</cell></row><row><cell>xml?lang=en.</cell></row><row><cell>32. Wakabayashi, D., Hsu, T. 2020. Why Google backtracked</cell></row><row><cell>on its new search results look. New York Times (January</cell></row><row><cell>31); https://www.nytimes.com/2020/01/31/technology/</cell></row><row><cell>google-search-results.html.</cell></row><row><cell>33. Waldman, A. E. 2019. Cognitive biases, dark patterns,</cell></row><row><cell>and the 'privacy paradox.' SSRN.</cell></row><row><cell>Arvind Narayanan is an associate professor of computer Marshini has a Ph.D. in human-centered computing from the</cell></row><row><cell>science at Princeton University. He leads the Princeton Georgia Institute of Technology and master's and bachelor's</cell></row><row><cell>Web Transparency and Accountability Project to uncover degrees in computer science from the University of Cape</cell></row><row><cell>how companies collect and use our personal information. Town, South Africa. Her work has won best paper awards</cell></row><row><cell>Narayanan co-created a Massive Open Online Course at SOUPS (Symposium on Usable Privacy and Security), CHI</cell></row></table><note>and textbook on bitcoin and cryptocurrency technologies, which has been used in more than 150 courses worldwide. His recent work has shown how machine learning reflects cultural stereotypes, and his doctoral research showed acmqueue | march-april 2020 90 and other powerful actors employ dark patterns to exploit individuals and society. His research has received several awards including the Best Paper Award at ACM CSCW (Computer-supported Cooperative Work) and Usenix SOUPS (Symposium on Usable Privacy and Security), and the Privacy Papers for Policy Makers Award. Marshini Chetty is an assistant professor in the department of computer science at the University of Chicago. She specializes in human-computer interaction, usable privacy and security, ubiquitous computing, and inclusive technology. (Conference on Human Factors in Computing Systems), and CSCW (Computer-supported Cooperative Work) and has been funded by the National Science Foundation, the National</note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_0">of 25FIGURE 1: A deceptive countdown timer on JustFab</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="9" xml:id="foot_1">of 25FIGURE 5: Hypothetical illustration of A/B testing on a website 5 Source: https://en.wikipedia.org/wiki/A/B_testing acmqueue | march-april 2020 76 web services</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>acmqueue | march-april 2020 84 web services euros for hiding important information about privacy and ad personalization behind five to six screens. <ref type="bibr" coords="18,307.84,140.78,3.20,6.07" target="#b5">6</ref> There is also a growing sense that existing regulation isn't enough, and new legislative proposals aim to curb dark patterns. <ref type="bibr" coords="18,286.49,210.78,2.64,6.07" target="#b6">7</ref> While policymakers should act-whether by introducing new laws or by broadening and strengthening the enforcement of existing ones-relying on regulation isn't sufficient and comes with compliance burdens.</p><p>Let's urge the design community to set standards for itself, both to avoid onerous regulation and because it's the right thing to do. A first step would be to rectify the misalignment of values between the industry and society, and develop guidelines for ethical design. It may also be valuable to partner with neutral third-party consumer advocacy agencies to develop processes to certify apps that are free of known dark patterns. Self-regulation also requires cultural change. When hiring designers, ask about the ethics of their past work. Similarly, when deciding between jobs, use design ethics as one criterion for evaluating a company and the quality of its work environment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Related articles</head><p>3 User Interface Designers,</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Slaves of Fashion</head><p>The status quo prevails in interface design, and the flawed concept of cut-and-paste is a perfect example. Jef Raskin https://queue.acm.org/detail.cfm?id=945161</p><p>3 The Case Against Data Lock-in Want to keep your users? Just make it easy for them to leave. Brian W. Fitzpatrick and J.J. Lueck https://queue.acm.org/detail.cfm?id=1868432 Design is power. In the past decade, software engineers have had to confront the fact that the power they hold comes with responsibilities to users and to society. In this decade, it is time for designers to learn this lesson as well.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="19,134.71,181.71,219.03,10.42;19,147.34,195.71,213.32,10.42;19,147.34,209.71,235.30,10.42;19,147.34,223.71,224.00,10.42;19,147.34,237.71,222.82,10.42;19,147.34,251.71,182.40,10.42" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Nudges for Privacy and Security</title>
+		<author>
+			<persName><forename type="first">Alessandro</forename><surname>Acquisti</surname></persName>
+			<idno type="ORCID">0000-0001-6582-6178</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Idris</forename><surname>Adjerid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rebecca</forename><surname>Balebako</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Laura</forename><surname>Brandimarte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lorrie</forename><forename type="middle">Faith</forename><surname>Cranor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Saranga</forename><surname>Komanduri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pedro</forename><forename type="middle">Giovanni</forename><surname>Leon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Norman</forename><surname>Sadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Florian</forename><surname>Schaub</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Manya</forename><surname>Sleeper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yang</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shomir</forename><surname>Wilson</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3054926</idno>
+		<ptr target="https://dl.acm.org/doi/10.1145/3054926" />
+	</analytic>
+	<monogr>
+		<title level="j">ACM Computing Surveys</title>
+		<title level="j" type="abbrev">ACM Comput. Surv.</title>
+		<idno type="ISSN">0360-0300</idno>
+		<idno type="ISSNe">1557-7341</idno>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1" to="41" />
+			<date type="published" when="2017-08-08">2017</date>
+			<publisher>Association for Computing Machinery (ACM)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,135.49,265.71,234.13,10.42;19,148.89,279.71,58.75,10.42" xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Predictably Irrational</title>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Ariely</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<publisher>Harper Audio</publisher>
+			<pubPlace>New York, NY</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,135.65,293.71,231.82,10.42;19,149.22,307.71,224.34,10.42;19,149.22,321.71,165.94,10.42" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Direct evidence of ending-digit drop-off in price information processing</title>
+		<author>
+			<persName><forename type="first">George</forename><forename type="middle">Y</forename><surname>Bizer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">M</forename><surname>Schindler</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/mar.20084</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychology and Marketing</title>
+		<title level="j" type="abbrev">Psychol. Mark.</title>
+		<idno type="ISSN">0742-6046</idno>
+		<idno type="ISSNe">1520-6793</idno>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="771" to="783" />
+			<date type="published" when="2005">2005</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,135.63,335.71,227.69,10.42;19,149.18,349.71,228.22,10.42;19,149.18,363.71,211.06,10.42;19,149.18,377.71,173.75,10.42" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Tales from the Dark Side: Privacy Dark Strategies and Privacy Dark Patterns</title>
+		<author>
+			<persName><forename type="first">Christoph</forename><surname>Bösch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Benjamin</forename><surname>Erb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Frank</forename><surname>Kargl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Henning</forename><surname>Kopp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stefan</forename><surname>Pfattheicher</surname></persName>
+		</author>
+		<idno type="DOI">10.1515/popets-2016-0038</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings on Privacy Enhancing Technologies</title>
+		<idno type="ISSNe">2299-0984</idno>
+		<imprint>
+			<biblScope unit="volume">2016</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="237" to="254" />
+			<date type="published" when="2016-07-14">2016</date>
+			<publisher>Privacy Enhancing Technologies Symposium Advisory Board</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,135.56,391.71,226.03,10.42;19,149.05,405.71,220.34,10.42;19,149.05,419.71,230.00,10.42" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">http://ljournal.ru/wp-content/uploads/2017/03/a-2017-023.pdf</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Calo</surname></persName>
+		</author>
+		<idno type="DOI">10.18411/a-2017-023</idno>
+		<ptr target="http://www.gwlr.org/wp-content/uploads/2014/10/Calo_82_41.pdf" />
+	</analytic>
+	<monogr>
+		<title level="j">George Washington Law Review</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="995" to="1051" />
+			<date type="published" when="2014">2014</date>
+			<publisher>LJournal</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,135.71,433.71,212.15,10.42;19,149.35,447.71,200.99,10.42;19,149.35,461.71,230.34,10.42;19,149.35,475.71,216.46,10.42;19,149.35,489.71,212.03,10.42;19,149.35,503.71,108.19,10.42" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Google LLC v. Commission Nationale de l’informatique et des Libertés (CNIL)</title>
+		<author>
+			<persName><forename type="first">Monika</forename><surname>Zalnieriute</surname></persName>
+		</author>
+		<idno type="DOI">10.2139/ssrn.3516337</idno>
+		<ptr target="https://www.cnil.fr/en/cnils-restricted-committee-imposes-financial-penalty-50-million-euros-against-google-llc" />
+	</analytic>
+	<monogr>
+		<title level="j">SSRN Electronic Journal</title>
+		<title level="j" type="abbrev">SSRN Journal</title>
+		<idno type="ISSNe">1556-5068</idno>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note>Commission Nationale de l&apos;Informatique et des Libertés</note>
+</biblStruct>
+
+<biblStruct coords="19,134.85,517.71,221.82,10.42;20,147.62,99.21,227.69,10.42;20,147.62,113.21,235.40,10.42;20,147.62,127.21,206.37,10.42;20,147.62,141.21,208.98,10.42;20,147.62,155.21,39.31,10.42" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">United States Senator for Nebraska</title>
+		<author>
+			<persName coords=""><forename type="first">Deb</forename><surname>Fischer</surname></persName>
+		</author>
+		<ptr target="https://www.fischer.senate.gov/public/index.cfm/2019/4/senators-introduce-bipartisan-legislation-to-ban-manipulative-dark-patterns" />
+	</analytic>
+	<monogr>
+		<title level="m">Senators introduce bipartisan legislation to ban manipulative dark patterns</title>
+				<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,135.90,169.21,216.13,10.42;20,149.73,183.21,192.39,10.42;20,149.73,197.21,202.07,10.42;20,149.73,211.21,207.69,10.42;20,149.73,225.21,226.16,10.42" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">UI Dark Patterns and Where to Find Them</title>
+		<author>
+			<persName><forename type="first">Linda</forename><surname>Di Geronimo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Larissa</forename><surname>Braz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Enrico</forename><surname>Fregnan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fabio</forename><surname>Palomba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alberto</forename><surname>Bacchelli</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3313831.3376600</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems</title>
+				<meeting>the 2020 CHI Conference on Human Factors in Computing Systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2020-04-21">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,135.63,239.21,233.98,10.42;20,149.18,253.21,220.46,10.42;20,149.18,267.21,232.98,10.42;20,149.18,281.21,201.72,10.42" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Paying taxes</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Elliott</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Waldron</surname></persName>
+		</author>
+		<idno type="DOI">10.1787/eco_surveys-hun-2014-graph22-en</idno>
+		<ptr target="https://www.propublica.org/article/turbotax-just-tricked-you-into-paying-to-file-your-taxes" />
+	</analytic>
+	<monogr>
+		<title level="j">ProPublica</title>
+		<imprint>
+			<date type="published" when="2019-04-22">2019. April 22</date>
+			<publisher>Organisation for Economic Co-Operation and Development (OECD)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,139.97,295.21,223.10,10.42;20,149.86,309.21,200.64,10.42;20,149.86,323.21,209.36,10.42;20,149.86,337.21,191.14,10.42;20,149.86,351.21,203.81,10.42" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">European Union ∙ EDPB Guidelines 4/2019 on Data Protection by Design and by Default</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bincoletto</surname></persName>
+		</author>
+		<idno type="DOI">10.21552/edpl/2020/4/14</idno>
+		<ptr target="https://edpb.europa.eu/sites/edpb/files/consultation/edpb_guidelines_201904_dataprotection_by_design_and_by_default.pdf" />
+	</analytic>
+	<monogr>
+		<title level="j">European Data Protection Law Review</title>
+		<title level="j" type="abbrev">European Data Protection Law Review</title>
+		<idno type="ISSN">2364-2831</idno>
+		<idno type="ISSNe">2364-284X</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="574" to="579" />
+			<date type="published" when="2019">2019</date>
+			<publisher>Lexxion Verlag</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,137.85,365.21,219.80,10.42;20,146.69,379.21,221.73,10.42;20,146.69,393.21,225.30,10.42;20,146.69,407.21,228.77,10.42" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The modern FTC</title>
+		<idno type="DOI">10.1017/cbo9781316411292.004</idno>
+		<ptr target="https://www.ftc.gov/about-ftc/what-we-do/enforcement-authority" />
+	</analytic>
+	<monogr>
+		<title level="m">Federal Trade Commission Privacy Law and Policy</title>
+				<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="67" to="81" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,138.80,421.21,205.02,10.42;20,148.12,435.21,235.68,10.42;20,148.12,449.21,226.16,10.42;20,148.12,463.21,229.63,10.42;20,148.12,477.21,233.26,10.42" xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Federal Trade Commission (FTC)</title>
+		<idno type="DOI">10.4135/9781452229669.n1280</idno>
+		<ptr target="https://www.ftc.gov/news-events/press-releases/2019/12/ftc-finalizes-settlement-company-misled-consumers-about-how-it" />
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<publisher>SAGE Publications, Inc.</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,139.01,491.21,229.20,10.42;20,148.42,505.21,217.42,10.42;20,148.42,519.21,234.89,10.42;21,148.42,99.21,226.95,10.42;21,148.42,113.21,234.70,10.42;21,148.42,127.21,182.07,10.42" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The Role of Deceptive Communication and Gender in Shaping Online Dating Interactions</title>
+		<author>
+			<persName><forename type="first">Anna</forename><forename type="middle">Maria</forename><surname>Kuzio</surname></persName>
+			<idno type="ORCID">0000-0002-6914-9060</idno>
+			<affiliation>
+				<orgName type="collaboration">Federal Trade Commission</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.4018/978-1-5225-8535-0.ch024</idno>
+		<ptr target="https://www.ftc.gov/news-events/press-releases/2019/09/ftc-sues-owner-online-dating-service-matchcom-using-fake-love" />
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Media, Entertainment, and the Arts</title>
+				<imprint>
+			<publisher>IGI Global</publisher>
+			<date type="published" when="1925">2019. Sept. 25</date>
+			<biblScope unit="page" from="460" to="474" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,138.94,183.21,243.99,10.42;21,148.31,197.21,214.45,10.42;21,148.31,211.21,226.16,10.42;21,148.31,225.21,224.19,10.42;21,148.31,239.21,231.46,10.42;21,148.31,253.21,218.97,10.42" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Early engagement and new technologies: Opening up the laboratory</title>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Friedman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">H</forename><surname>Kahn</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Borning</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Huldtgren</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-94-007-7844-3</idno>
+		<ptr target="https://link.springer.com/book/10.1007/978-94-007-7844-3" />
+	</analytic>
+	<monogr>
+		<title level="m">Early Engagement and New Technologies: Opening up the Laboratory</title>
+				<editor>
+			<persName><forename type="first">N</forename><surname>Doorn</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">D</forename><surname>Schuurbiers</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">I</forename><surname>Van De Poel</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Gorman</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Dordrecht</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer Netherlands</publisher>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="page" from="55" to="95" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,139.24,267.21,233.00,10.42;21,148.77,281.21,228.97,10.42;21,148.77,295.21,207.05,10.42;21,148.77,309.21,148.07,10.42" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">A Room with a Viewpoint: Using Social Norms to Motivate Environmental Conservation in Hotels</title>
+		<author>
+			<persName><forename type="first">Noah</forename><forename type="middle">J</forename><surname>Goldstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">B</forename><surname>Cialdini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vladas</forename><surname>Griskevicius</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/586910</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Consumer Research</title>
+		<idno type="ISSN">0093-5301</idno>
+		<idno type="ISSNe">1537-5277</idno>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="472" to="482" />
+			<date type="published" when="2008-03-03">2008</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,138.03,323.21,223.43,10.42;21,146.97,337.21,216.23,10.42;21,146.97,351.21,169.95,10.42" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Do defaults save lives?</title>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Goldstein</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">J</forename><surname>Johnson</surname></persName>
+		</author>
+		<ptr target="https://science.sciencemag.org/content/302/5649/1338" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">302</biblScope>
+			<biblScope unit="page" from="1338" to="1339" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,139.43,365.21,223.05,10.42;21,149.06,379.21,211.65,10.42;21,149.06,393.21,214.76,10.42;21,149.06,407.21,209.19,10.42;21,149.06,421.21,164.27,10.42" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The Dark (Patterns) Side of UX Design</title>
+		<author>
+			<persName><forename type="first">Colin</forename><forename type="middle">M</forename><surname>Gray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yubo</forename><surname>Kou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bryan</forename><surname>Battles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joseph</forename><surname>Hoggatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Austin</forename><forename type="middle">L</forename><surname>Toombs</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3173574.3174108</idno>
+		<ptr target="https://dl.acm.org/doi/10.1145/3173574.3174108" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems</title>
+				<meeting>the 2018 CHI Conference on Human Factors in Computing Systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2018-04-21">2018. April</date>
+			<biblScope unit="page" from="1" to="14" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,139.02,435.21,230.98,10.42;21,148.45,449.21,219.85,10.42;21,148.45,463.21,60.02,10.42" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Shining a Light on Dark Patterns</title>
+		<author>
+			<persName><forename type="first">Jamie</forename><surname>Luguri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lior</forename><surname>Strahilevitz</surname></persName>
+		</author>
+		<idno type="DOI">10.2139/ssrn.3431205</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SSRN Electronic Journal</title>
+		<title level="j" type="abbrev">SSRN Journal</title>
+		<idno type="ISSNe">1556-5068</idno>
+		<imprint>
+			<biblScope unit="issue">719</biblScope>
+			<date type="published" when="2019">2019</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+		<respStmt>
+			<orgName>University of Chicago</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,140.97,477.21,240.48,10.42;21,147.35,491.21,213.92,10.42;21,147.35,505.21,224.34,10.42;21,147.35,519.21,193.63,10.42;22,147.35,99.21,188.50,10.42;22,147.35,113.21,83.54,10.42" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Dark Patterns at Scale</title>
+		<author>
+			<persName><forename type="first">Arunesh</forename><surname>Mathur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gunes</forename><surname>Acar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">J</forename><surname>Friedman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eli</forename><surname>Lucherini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jonathan</forename><surname>Mayer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marshini</forename><surname>Chetty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Arvind</forename><surname>Narayanan</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3359183</idno>
+		<ptr target="https://dl.acm.org/doi/10.1145/3359183" />
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the ACM on Human-Computer Interaction</title>
+		<title level="j" type="abbrev">Proc. ACM Hum.-Comput. Interact.</title>
+		<idno type="ISSNe">2573-0142</idno>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">CSCW</biblScope>
+			<biblScope unit="page" from="1" to="32" />
+			<date type="published" when="2019-11-07">2019</date>
+			<publisher>Association for Computing Machinery (ACM)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,139.03,127.21,185.37,10.42;22,146.45,141.21,170.70,10.42;22,146.45,155.21,195.56,10.42;22,146.45,169.21,232.84,10.42;22,146.45,183.21,145.48,10.42" xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Figure .2.17..Revenue per unique user for tech companies, 2011</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Mclaughlin</surname></persName>
+		</author>
+		<idno type="DOI">10.1787/888932693113</idno>
+		<ptr target="https://thenextweb.com/entrepreneur/2014/05/28/9-iconic-growth-hacks-tech-companies-used-pump-user-base" />
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<publisher>Organisation for Economic Co-Operation and Development (OECD)</publisher>
+		</imprint>
+	</monogr>
+	<note>The Next Web</note>
+</biblStruct>
+
+<biblStruct coords="22,139.97,197.21,213.41,10.42;22,147.86,211.21,186.27,10.42;22,147.86,225.21,215.06,10.42;22,147.86,239.21,53.04,10.42" xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Check Fraud: Still a Huge Problem</title>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Mead</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/9781119197225.ch2</idno>
+		<ptr target="https://www.vice.com/en_us/article/z4444w/how-reddit-got-huge-tons-of-fake-accounts--2" />
+		<imprint>
+			<date type="published" when="2012-01-02">2012</date>
+			<publisher>Wiley</publisher>
+			<biblScope unit="page" from="17" to="41" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,140.17,253.21,227.85,10.42;22,148.16,267.21,233.26,10.42;22,148.16,281.21,220.47,10.42;22,148.16,295.21,177.31,10.42" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Airbnb farmed Craigslist to grow its listings, says competitor</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Rosoff</surname></persName>
+		</author>
+		<ptr target="https://www.businessinsider.com/airbnb-harvested-craigslist-to-grow-its-listings-says-competitor-2011-5" />
+	</analytic>
+	<monogr>
+		<title level="j">Business Insider</title>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,139.91,309.21,231.69,10.42;22,145.77,323.21,210.32,10.42;22,145.77,337.21,226.58,10.42;22,145.77,351.21,218.38,10.42" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">How Uber Uses Psychological Tricks to Push Its Drivers&apos; Buttons *</title>
+		<author>
+			<persName coords=""><forename type="first">Noam</forename><surname>Scheiber</surname></persName>
+		</author>
+		<idno type="DOI">10.1201/9781003278290-53</idno>
+		<ptr target="https://www.nytimes.com/interactive/2017/04/02/technology/uber-drivers-psychological-tricks.html" />
+	</analytic>
+	<monogr>
+		<title level="m">Ethics of Data and Analytics</title>
+				<imprint>
+			<publisher>Auerbach Publications</publisher>
+			<date type="published" when="2017-04-22">2017. April 22</date>
+			<biblScope unit="page" from="362" to="371" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,140.06,365.21,226.85,10.42;22,146.00,379.21,226.47,10.42;22,146.00,393.21,160.71,10.42" xml:id="b23">
+	<monogr>
+		<title level="m" type="main">LinkedIn pays big after class action lawsuit over user emails</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Strange</surname></persName>
+		</author>
+		<ptr target="https://mashable.com/2015/10/03/linkedin-class-action" />
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,140.22,407.21,224.12,10.42;22,146.23,421.21,208.70,10.42;22,146.23,435.21,221.17,10.42;22,146.23,449.21,149.92,10.42" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Online Manipulation: Hidden Influences in a Digital World</title>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Susser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Beate</forename><surname>Roessler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Helen</forename><forename type="middle">F</forename><surname>Nissenbaum</surname></persName>
+		</author>
+		<idno type="DOI">10.2139/ssrn.3306006</idno>
+		<ptr target="https://philarchive.org/archive/SUSOMHv1" />
+	</analytic>
+	<monogr>
+		<title level="j">SSRN Electronic Journal</title>
+		<title level="j" type="abbrev">SSRN Journal</title>
+		<idno type="ISSNe">1556-5068</idno>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="1" to="45" />
+			<date type="published" when="2019">2019</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,139.13,463.21,232.55,10.42;22,144.61,477.21,15.84,10.42" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Nudge, not sludge</title>
+		<author>
+			<persName coords=""><forename type="first">Richard</forename><forename type="middle">H</forename><surname>Thaler</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aau9241</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<title level="j" type="abbrev">Science</title>
+		<idno type="ISSN">0036-8075</idno>
+		<idno type="ISSNe">1095-9203</idno>
+		<imprint>
+			<biblScope unit="volume">361</biblScope>
+			<biblScope unit="issue">6401</biblScope>
+			<biblScope unit="page" from="431" to="431" />
+			<date type="published" when="2018-08-03">2018</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,140.43,491.21,224.57,10.42;22,146.55,505.21,203.28,10.42;22,146.55,519.21,64.71,10.42" xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Nudge: Improving Decisions About Health, Wealth, and Happiness</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">H</forename><surname>Thaler</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">R</forename><surname>Sunstein</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<publisher>Penguin Books</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

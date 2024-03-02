@@ -1,0 +1,1119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Dark Patterns in the Design of Games</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,79.94,94.16,72.06,11.10"><forename type="first">José</forename><forename type="middle">P</forename><surname>Zagal</surname></persName>
+							<email>jzagal@cdm.depaul.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution">DePaul University</orgName>
+								<address>
+									<addrLine>243 S. Wabash Avenue Chicago</addrLine>
+									<postCode>60604</postCode>
+									<region>IL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,267.00,94.16,67.30,11.10"><forename type="first">Staffan</forename><surname>Björk</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Gothenburg University Dept. of Applied IT</orgName>
+								<address>
+									<postCode>412 96</postCode>
+									<settlement>Gothenburg</settlement>
+									<region>SE</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">The Interactive Institute Lindholmsplatsen</orgName>
+								<address>
+									<addrLine>1 417 56</addrLine>
+									<settlement>Gothenburg</settlement>
+									<region>SE</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,459.39,94.16,60.89,11.10"><forename type="first">Chris</forename><surname>Lewis</surname></persName>
+							<email>cflewis@soe.ucsc.edu</email>
+							<affiliation key="aff3">
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<addrLine>1156 High St</addrLine>
+									<settlement>Santa Cruz, Santa Cruz</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Dark Patterns in the Design of Games</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">F356C17F436FA9AD7DAA4D620939DAAA</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.2" ident="GROBID" when="2024-02-29T22:45+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>K.8.0 [Computing Millieux]: Personal Computing -games Design</term>
+					<term>Human Factors Design patterns</term>
+					<term>video games</term>
+					<term>ethics</term>
+					<term>game design</term>
+					<term>dark patterns</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Game designers are typically regarded as advocates for players. However, a game creator's interests may not align with the players'. We examine some of the ways in which those opposed interests can manifest in a game's design. In particular, we examine those elements of a game's design whose purpose can be argued as questionable and perhaps even unethical. Building upon earlier work in design patterns, we call these abstracted elements Dark Game Design Patterns. In this paper, we develop the concept of dark design patterns in games, present examples of such patterns, explore some of the subtleties involved in identifying them, and provide questions that can be asked to help guide in the specification and identification of future Dark Patterns. Our goal is not to criticize creators but rather to contribute to an ongoing discussion regarding the values in games and the role that designers and creators have in this process.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">INTRODUCTION</head><p>When writing about game design, authors often stress the focal role of the player using terms like 'player-centered' or 'playcentric' (e.g. <ref type="bibr" coords="1,105.17,507.45,39.45,8.10">[4; 20; 45]</ref>). Player-centric design is defined such that "a game's primary function is to entertain the player, and it is the designer's obligation to create a game that does so" <ref type="bibr" coords="1,281.44,528.57,9.54,8.10" target="#b3">[4]</ref>. Others note that "[t]he role of the game designer is, first and foremost, to be an advocate for the player" <ref type="bibr" coords="1,234.00,549.69,37.81,8.10">[20, p. 2]</ref>. The implication is that most of the work done by the designer is for the benefit of the player or as a dialogue between designer and player (e.g. responding to player demands for features, increased challenge, etc.). However, the game developers and player's interests are sometimes at odds.</p><p>In this article, we examine some of the ways in which opposed interests are manifested in a game's design. More specifically, we examine those elements of a game's design whose purpose can be argued as questionable, against a player's best interests, and perhaps even unethical. Rather than focus on particular games, we identify common design elements and implementations we have identified across several games. Our focus is on gameplay, meaning that we look at systemic properties of games -and how players interact with them -rather than thematic or representational issues (e.g. racist depictions of non-player characters). Building upon earlier work in design patterns, we call these abstracted elements Dark Game Design Patterns.</p><p>In addition to defining what a Dark Game Design Pattern is, we will discuss some of the challenges in identifying these patterns as well as the related notion of Anti-Patterns. Our analysis includes examples from contemporary games and questions that can be asked to help articulate and identify future Dark Patterns. Our goal is not to criticize game designers or developers but rather to contribute to an ongoing discussion regarding the values in games and the role that designers and creators have in this process.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.1">Game Design Patterns</head><p>It has been almost twenty years since the first voices were raised regarding the lack of a critical language for analyzing and talking about game design <ref type="bibr" coords="1,394.16,425.13,13.77,8.10" target="#b16">[17]</ref>. Scholars and practitioners have since answered that call by proposing ways of understanding games, classifying them, deconstructing them, and more. For instance, Church argued for a set of "formal abstract design tools" <ref type="bibr" coords="1,540.83,456.81,13.76,8.10" target="#b14">[15]</ref>, Hunicke and colleagues presented a framework for understanding games and bridging the gap "between game design and development, game criticism, and technical game research" <ref type="bibr" coords="1,540.78,488.49,13.78,8.10" target="#b22">[23]</ref>, and Zagal et al. created an ontology "for describing, analyzing and studying games, by defining a hierarchy of concepts abstracted from an analysis of many specific games" <ref type="bibr" coords="1,528.78,520.17,13.78,8.10" target="#b48">[49]</ref>. In 2002, inspired by earlier work in architecture <ref type="bibr" coords="1,503.62,530.73,9.53,8.10" target="#b5">[6]</ref>, Kreimeier proposed using game design patterns as a way to formalize and codify knowledge about game design <ref type="bibr" coords="1,476.30,551.85,13.76,8.10" target="#b28">[29]</ref>. This idea was broadened by Björk and Holopainen, who developed a collection of nearly 300 gameplay patterns <ref type="bibr" coords="1,440.85,572.97,13.76,8.10" target="#b9">[10]</ref>. These patterns differ from the original structure in architecture by replacing problemsolution pairs with cause and consequences categories that describe possibilities for the instantiation of a pattern and the potential consequences that pattern may have in a game's design. The reasons for this change were: to support the design and analysis of games, and to allow designers to use the presence or absence of gameplay design patterns as design goals. The design pattern idea has since been applied in other areas of gameplay design including non-player characters <ref type="bibr" coords="1,468.25,668.01,13.77,8.10" target="#b29">[30]</ref>, 'Ville games <ref type="bibr" coords="1,540.78,668.01,13.77,8.10" target="#b30">[31]</ref>, and level design <ref type="bibr" coords="1,378.83,678.57,27.47,8.10">[22; 36]</ref>.</p><p>While this indicates that design patterns can be used to talk about specific gameplay features of a game's design, it does not necessarily make them useful for identifying problematic or unethical design choices made by designers. Gameplay design pattern identification strives to provide value-neutral tools for designers. The reasoning for this is that successful use of patterns is dependent on many other factors beyond gameplay, e.g. target audience, thematic aspects, business models, etc. For this reason, it assumed that the designer should make an informed decision on what patterns to use, when to use them, and why. Arguably, it is not possible to exclude all subjective opinions from a pattern's description; however, for the scope of this paper we note that the intention is usually for patterns to be value-neutral. What would it mean for a pattern not to be value-neutral? To answer this we need to examine how values can be inscribed into the gameplay and what constitutes a negative feature regarding designer intentions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.2">Values in Games</head><p>Bogost argues that games describe systems and invite players to participate in those systems even as they form judgments about them <ref type="bibr" coords="2,75.27,255.81,13.77,8.10" target="#b10">[11]</ref>. While players may not apprehend the values or ideas in a game, they may nevertheless be influenced by them. Flanagan et al. argue that "[t]hrough the design process, values and beliefs become embedded in games" <ref type="bibr" coords="2,220.40,287.49,13.76,8.10" target="#b18">[19]</ref>. If games can communicate values and ideas in these ways, then it stands to reason that game design patterns -as abstractions of common design elements in games -can also convey and represent values. For example, Björk <ref type="bibr" coords="2,135.91,329.73,10.52,8.10" target="#b8">[9]</ref> identified patterns likely to encourage players to become good or bad players (from an ethical perspective) and Bergström et al. <ref type="bibr" coords="2,182.50,350.85,10.51,8.10" target="#b7">[8]</ref> describe design patterns to promote camaraderie while implicitly advocating that this is a good thing to do. However, is there perhaps a pattern that a designer should not use simply because it was wrong? In other words, is there such a thing as a design pattern that would be unethical to use. If these kinds of patterns existed, how would we identify and define them? We note that making these assumptions represents a fundamental shift in how game design patterns have been created and used. It represents a shift from something that is descriptive (this is what we have observed) to something prescriptive (this is what we have observed, and arguably should not be done).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">ANTI-PATTERNS</head><p>Our first thought was to consider examples of what we might call "bad design". With some exceptions (e.g. work in game usability <ref type="bibr" coords="2,54.00,526.71,28.60,8.10">[18; 24]</ref>), this notion has not been explored much in academia. There are some examples by games industry practitioners. Ernest Adams has, via a series of "No Twinkie" columns, articulated what he considers "egregious design error[s]" <ref type="bibr" coords="2,221.90,558.39,9.52,8.10" target="#b4">[5]</ref>. For example, in Time-Wasting Random Encounters, Adams argues against the use of random combat encounters in games when the enemies are severely underpowered. Adams points out that it's bad design to "waste the player's time with pointless combat" <ref type="bibr" coords="2,232.16,600.63,9.54,8.10" target="#b2">[3]</ref>. Adams' goal with these columns is to draw attention to what he feels are common design mistakes. A design mistake, in this context, refers to doing something in a certain way when there is already knowledge of how to better accomplish it. "Better" could mean more efficiently, more entertaining for the player, easier to implement, and so on. We can consider these patterns as antipatterns -they represent a less-than-ideal solution to a particular problem and as such should generally be avoided.</p><p>Anti-patterns can also be products of their time. As knowledge of game design has grown and evolved, older once-common practices have fallen out of favor as players expectations have changed. Similarly, technical developments have allowed for new possibilities which make previously valid solutions seem outdated. Consider the use of "saved games" as a way to allow progress in a game over multiple play sessions without having to start from scratch at the beginning of each session. This was impossible given the hardware used in the first generations of arcade and console games. Nowadays it is almost unthinkable to consider a game with a playing time of more than fifteen minutes without such functionality.</p><p>We could say that using an anti-pattern results in "harm" to the player. Perhaps a game is more frustrating than it could be, or maybe it causes the player to waste time. However, while using an anti-pattern may be a bad idea, it would be a stretch for us to suggest that it is unethical to use them. Bad design is often the result of ignorance, bad trade-offs, or lack of time and resources. The use of anti-patterns can be the result of such circumstances and may lead to less-than-preferable outcomes, but it is hard to make fair judgments of the designers or developers because of their use. In order to narrow down what an unethical game design pattern might be, we propose two assumptions. Unethical game design patterns result in the following:</p><p>(1) A negative experience for the player (2) The intention, on the part of the creators of the game, to cause that negative experience.</p><p>Our argument is that Dark Patterns do not happen by mistake; they must be purposefully utilized to evoke the given behavior.</p><p>Common design patterns that create unintended behavior or unexpected negative experiences do not quite capture the subtle difference between "Bad Design" and "Designing for Bad". The challenge lies in determining whether a design is an honest mistake with unintended results, or if its outcomes were intended.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">DARK GAME DESIGN PATTERNS</head><p>Our notion of dark game design patterns is inspired by darkpatterns.org, a site that collects examples of "user interfaces that are intended to trick people" <ref type="bibr" coords="2,439.54,451.41,13.77,8.10" target="#b12">[13]</ref>. While many of the patterns described on the site could easily be applied to games, we felt that this kind of analysis could be applied more broadly. For the scope of this paper, we look at gameplay. A first observation related to this is that previously identified game design patterns may be dark and that newly identified dark game design patterns are also game design patterns.</p><p>There are challenges with this approach including defining what is a negative experience and determining intentionality. Rather than present a definition of dark game design patterns upfront, we illustrate how we have adapted and developed this concept. By starting from an initial definition and the iteratively refining it, we hope to illustrate our reasoning and rationale, as well as how prior research has informed this work. So, based on the two assumptions described earlier, our initial definition is:</p><p>Proto-definition 1: A dark game design pattern is a pattern used intentionally by a game creator to cause negative experiences for players.</p><p>A negative experience may encompass not only the game experience; it can include something one experiences after the game due to its design. Even so, this definition quickly runs into problems: it ignores the will and desires of the player. Wilson and Sicart describe the notion of abusive game design as exemplified in games such as Painstation, that physically punishes players with electric shocks, burns, and lashing; the audio-only collaborative sex rhythm game Dark Room Sex Game designed to embarrass its players; or games that "that are devilishly hard, to the point of absurdity" <ref type="bibr" coords="3,148.69,87.93,13.77,8.10" target="#b47">[48]</ref>. Similarly, Montola describes an extreme form of role-playing in which the players subject themselves to intense emotional experiences <ref type="bibr" coords="3,219.39,109.05,13.78,8.10" target="#b38">[39]</ref>. The players do not play these games for "fun" or "enjoyment", but rather for the intense negative emotions they will experience (which may or may not lead to learning or insight). These games can be described as the result of an "abusive design" that confronts and challenges players <ref type="bibr" coords="3,126.48,161.85,15.01,8.10" target="#b47">[48]</ref> and invites them to knowingly explore extreme forms of gameplay. Generalizing, regardless of how physically or emotionally painful a game may be, or how embarrassing it may be to play, or how unrelentingly difficultthere is or should be a willful and informed participation from the part of the player in the experience. How can it be a dark pattern if the player understands and accepts the negative experience?</p><p>The players' expectations and understanding of the experience are perhaps more important than if the experience was positive or negative. If we consider the interaction with a system as a contract, where a system offers one thing, but then provides another that the user was not aware of, such a contract would be problematic (i.e. there was no "meeting of minds"), and would be considered by society as unethical or illegal, even if the intentions and outcomes were well-meaning (e.g. a dark pattern used to increase donations to charity, or a game that tricks players into exercising more for their own good). Returning to our protodefinition, we should account for those situations when a player is aware of and agrees to whatever is going on.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Proto-definition 2:</head><p>A dark game design pattern is a pattern used intentionally by a game creator to cause negative experiences for players without those players' consent.</p><p>How is player consent and knowledge established and are there occasions in which subterfuge is permissible? In their discussion of the ethics of persuasive technology, Berdichevsky and Neuenschwander <ref type="bibr" coords="3,122.04,437.90,10.51,8.10" target="#b6">[7]</ref> describe what they call the Disclosure Principle:</p><p>"Knowledge of the presence of persuasive mechanisms in a technology may sensitize users to them and decrease their efficacy. Therefore, in some cases, such knowledge might diminish the effectiveness of a generally positive persuasion. This reasoning led us to our design principle:</p><p>The creators of a persuasive technology should disclose their motivations, methods, and intended outcomes, except when such disclosure would significantly undermine an otherwise ethical goal. [emphasis added]" <ref type="bibr" coords="3,102.77,558.26,10.52,8.10" target="#b6">[7]</ref> Berdichevsky and Neuenschwander's caveat (highlighted above), also applies to games. It is common for games to trick or mislead players. In Eternal Darkness: Sanity's Requiem, the playercontrolled protagonist is slowly going insane. This descent into madness is sometimes mimicked via intrusive alterations of the games' interface such as (fake) messages indicating the game has crashed or that a saved file has been deleted, and more. These elements were designed to trick and mislead players, but were incorporated for the players' benefit: in this case to surprise and scare. We find examples in other genres as well. In order to provide a challenging experience for the player, the AI opponent in games is often allowed to cheat: it might have access to more resources than the player or have knowledge of the player's actions and location. Here, the design goal is to provide a challenging experience and, in recognition of the weaknesses of AI opponents, it becomes necessary to trick the player into believing she is playing a fair match. Something similar occurs in racing games that employ a technique known as "rubber band AI" <ref type="bibr" coords="3,317.88,98.48,13.77,8.10" target="#b37">[38]</ref>. If the player has too much of a lead, the other vehicles may receive a speed boost allowing them to catch up. Again, the deception is intended to provide a more intense emotional experience for the player.</p><p>Given that it is sometimes acceptable to "trick" or "deceive" the player, our proto-definition needs additional clarification. In the examples above, we argued that the subterfuges were all in the player's best interest: the design goal seems to be one of creating an enjoyable and/or memorable experience for the player.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Proto-definition 3:</head><p>A dark game design pattern is a pattern used intentionally by a game creator to cause negative experiences for players that are against their best interests and happen without their consent.</p><p>We note that the denotation dark here carries two meanings. It refers to the fact that designers are willingly doing something unethical and that the players are likely to be unaware that they are being manipulated against their best interests. As we will discuss in the next section, this can be a fine line to navigate, and identical gameplay patterns may veer between light and dark depending on their implementation and intended audience.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">DARK PATTERNS REVEALED</head><p>We will now describe a number of dark patterns we have identified. These patterns were developed from our analysis of descriptions of design strategies by professional designers (e.g. how to monetize social media games), observations made by game researchers (our own and by others), and critical and player reactions. Although we describe specific games, we typically do so to describe a whole category of games that make use of a dark pattern -our intention is not to criticize specific games, game industry professionals, or game companies.</p><p>These patterns, indicated using SMALL CAPS, are divided into three categories loosely based on what the player is being deceived into spending or using, which in turn results in a negative experience. These categories are time, money, and social capital.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">Temporal Dark Patterns</head><p>While playing games in general is by some referred to as a "waste of time", the dark patterns related to time here take more or less time than players expected. In this case, the player is being "cheated" out of their time. A few guiding questions that can be used to determine if there is a dark pattern concerning time are:  Can the player develop a sense of the time commitment necessary to successfully play the game?  Are the player's expectations of the time commitment significantly at odds with the actual time required?  How likely are players to feel they "wasted their time"?</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.1">Grinding</head><p>GRINDING, or "performing repetitive and tedious tasks" <ref type="bibr" coords="3,531.98,643.95,15.02,8.10" target="#b40">[41]</ref> in order to make progress in a game is a familiar concept for players of massively multiplayer games (e.g. World of Warcraft) and social media games (e.g. FarmVille). Grinding is referred to pejoratively because it emphasizes time invested over skill; and in the worst cases, could "be conducted unattended by the 'player'" <ref type="bibr" coords="3,317.88,707.31,13.78,8.10" target="#b11">[12]</ref>. GRINDING, as a dark pattern, is a way of coercing the player into needlessly spending time in a game for the sole purpose of extending the game's duration: "repeatedly kill the same enemies over and over by utilizing the same strategy just to gain an experience level and access to new capabilities" <ref type="bibr" coords="4,231.27,87.93,9.53,8.10" target="#b1">[2]</ref>. Grinding can arguably be called a dark pattern since many players -especially young or new ones -may have difficulties judging exactly how much time the game will actually demand.</p><p>Grinding also tends to take advantage of player's competitive nature. World of Warcraft Player vs. Player combat is the most obvious instance (a level 85 character will have no problem defeating level 15 characters, forcing low-level players to grind in order to protect their enjoyment of the game), but such grinding is now also common in first-person shooters. In Call of Duty 4: Modern Warfare, as players 'level up' through multiplayer games, they unlock better weapons and abilities (perks) that balance the game in their favor. What was once purely based on skill is now tipped towards players who have spent more time playing. This not only forces some players to grind in order to be competitive (increase in expected play time), but also spoils the enjoyment of those who refuse to engage in the level grind.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.2">Playing by Appointment</head><p>Games with this dark pattern require that players play at specific times (and or dates) as defined by the game, rather than the players. For example, FarmVille allows players to plant crops that can then be harvested for points and in-game resources. Each type of crop takes a certain amount of real-time before it is ready. This is not a bad thing per se, as seen in the descriptions of the patterns HARVESTING <ref type="bibr" coords="4,102.90,353.49,15.00,8.10" target="#b30">[31]</ref> and ENCOURAGED RETURN VISITS 1 . However, it becomes problematic with the addition of a "withering" <ref type="bibr" coords="4,279.20,364.05,15.02,8.10" target="#b30">[31]</ref> mechanism. If a crop is not harvested within a certain time period after it is ready, it withers and loses its value. This results in an obligation on the player to play according to the schedules the game offers (while a number of different schedules are available, most crops will wither within 24 hours), rather than their personal desires. In other words, players are forced to orient their realworld activities to meet the obligations of the game, rather than the other way around.</p><p>The darkness of this pattern is nullified if completing appointments is not required for progression. For example, this gameplay pattern can be seen in some Pokémon games. A player may have to play at certain hours of the day so as to capture specific Pokémon (e.g. nocturnal Pokémon that come out at night). While capturing Pokémon is a central part of these games, it is possible to complete the game successfully without capturing "odd-hours" Pokémon. Most games in which the passage of time in-game is mapped to that in the real-world do so to provide additional options that are perceived as rewards or bonuses. Animal Crossing does this often, such as the character Gracie, who appears on certain days with special clothing that can only be purchased from her.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2">Monetary Dark Patterns</head><p>If one category of dark patterns is based on making players not aware of how much time a game will require, it is a short step to conclude that money could be the basis for another category. These patterns are all examples of players being deceived into spending more money than they expected or anticipated. They also include examples of spending money at unexpected 1 http://gdp2.tii.se/index.php/Encouraged_Return_Visits moments. We note that we do not consider gambling (or betting) as a dark pattern, because players are complicit in the interaction.</p><p>Even in cases where the odds are distinctly against the player, the player has presumably made an informed decision to participate.</p><p>A few guiding questions that can be used when considering if there is a dark pattern concerning money are:  How likely is the player to regret having spent money to play the game?  How likely is the player to "lose track" of how much money he spends while playing the game?  Is the player aware of what she is getting in return for their money when she spends it?  How likely is it that the player will inadvertently spend money in the game?  Is the player aware of how much money he will have to spend in order to achieve his goals in the game?</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.1">Pay to Skip</head><p>Having to pay to continue playing has been a regular part of videogames since the early arcade days. Traditionally, a player could pay to continue playing from where they lost (e.g. "insert coin to continue"). Recently, however, games have begun to monetize directly the solutions to the challenges in their games.</p><p>Rather than encouraging a player to pay more to continue -they allow players to pay to make progress in the game. For example, Angry Birds allows players to purchase a "Mighty Eagle" than can be used to pass automatically a level they might be stuck on. This requires making the players want to progress in the game but not making it possible for them to do so. Further, players must perceive that the gameplay beyond that challenge can be easier so that they will not at once have to pay again. Angry Birds does this by having levels. A player may get stuck on one level, but if she pays to pass that level the next level might be easier. FarmVille requires help from other players for certain actions -if you do not want to wait for the possibility of help from others you can pay and get the benefit at once.</p><p>A particularly aggressive version of this pattern occurs when the player's ability to play effectively is steadily reduced, until payment is required to progress in any meaningful manner. This is often seen in social games. In SimCity Social, the player must manually collect the resources generated by her factories and houses through the expenditure of energy. The player's city consistently outgrows the maximum energy increase that the game provides per level. This means that as the player progresses through the game, the energy she has left for meaningful interactions decreases. This forces the player into a PAY TO SKIP pattern that was not immediately obvious. She will have to choose whether to pay for energy in order to have the same play experience she had at the beginning, or wait longer and longer periods of time to make progress.</p><p>This pattern often appears together with GRINDING: players pay for the privilege of skipping it. In the multi-player mode Battlefield 3 most weapons are initially unavailable and are unlocked by players as they spend time playing the game (and leveling up). Soon after release, an update provided the chance to purchase "shortcut items" that unlocked weapons and items. This opportunity was touted on the game's official blog as "the perfect way to gain some ground on the veterans online" <ref type="bibr" coords="4,508.34,675.09,13.77,8.10" target="#b43">[44]</ref>, in other words, pay to skip the grind.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.2">Pre-Delivered Content</head><p>When someone purchases a "full" copy of a game they typically have the expectation that they have paid for the whole game. PRE-DELIVERED CONTENT is a pattern where certain game content or functionality is provided in the purchase of a game (i.e. the files are already on the disc or included in the downloaded executable), but is unavailable until the player pays an additional fee.</p><p>It is common for games to gate access to content. For example, some characters may not be available to play with immediately in many fighting games. However, access to such content is granted when in-game requirements are met: as a Rock Band player makes progress in the career mode, new songs become available for play in single-song mode. In games that use this pattern players must purchase (rather than play) their way through these locks.</p><p>While there is certainly something to be said regarding the ownership of content already present on a game disc that has been purchased, the heart of this dark pattern has more to do with the perception of value from the part of the player. PRE-DELIVERED CONTENT gives the impression that the player is being sold an incomplete game and then being duped into paying for the rest (e.g. being 'nickel-and-dimed'). "If content is finished in time for certification and ships with the master gold print for manufacturing, there's no reason why it couldn't be included with the game from the start. It's obvious it's a cash grab". <ref type="bibr" coords="5,279.15,319.83,15.01,8.10" target="#b45">[46]</ref> Consider the case of Street Fighter X Tekken. In the US, the game's original retail price was $30 and for an additional $20 players could unlock twelve characters whose data was already included on the disc <ref type="bibr" coords="5,128.81,362.07,13.78,8.10" target="#b41">[42]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.3">Monetized Rivalries</head><p>MONETIZED RIVALRIES is a pattern that exploits player competitiveness; encouraging them to spend money they would not otherwise in order to achieve in-game status such as a high placement on a leaderboard. This pattern is colloquially known as "Pay to Win". Järvinen notes that a "virtual arms race between individual or alliance rivals" is an effective pattern and that it can be combined with grinding when stating "[d]esign for pay to win (but balance for grind to compete)" <ref type="bibr" coords="5,191.68,465.21,13.77,8.10" target="#b24">[25]</ref>. Robot Unicorn Attack Evolution features a shareable high score list. However, the game also includes consumable power-ups (enhancements) that make it easier to play the game (e.g. by slowing the pace). In order for players to have a hope of reaching a high-score, they must use the power-ups that are purchasable using in-game currency, or with real-world money. In order to remain competitive, it is necessary to pay constantly. Games that use this pattern, such as Candy Crush Saga, encourage this kind of competitive activity by explicitly pointing out how well a player completed a level compared to his or her Facebook friends -something which of course is dependent on how willing any of them were to pay for power-ups on that level. In Chinese browser-based games players receive huge bonuses and incentives for reaching the top ranks, and "many players will do (or spend) whatever it takes to secure their ranking" <ref type="bibr" coords="5,106.69,623.61,13.78,8.10" target="#b42">[43]</ref>.</p><p>This pattern is also seen when players are encouraged to spend money purchasing enhancements in games that presumably have a level playing field. In Words With Friends players draw letters and then attempt to create words on a board for points. It is also possible to buy two enhancements: the Tile Pile and the Word-O-Meter. The former lets a player know how many tiles of each letter are left (to get a sense of what words an opponent may play). The latter provides feedback on how strong a word they are about to play is relative to other words they could play. Both enhancements, available for an additional fee, give players a competitive edge over their opponents. These instances are sometimes referred to colloquially as "Pay to Cheat" since they can provide an unfair advantage in a game that is expected will be decided based on the skill of the players.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3">Social Capital-Based Dark Patterns</head><p>Playing games is undoubtedly a social activity. The following dark patterns are examples where the players' social capital, loosely defined as the value of their social standing and relations, is being risked. A few guiding questions that can be used when considering if there is a dark pattern are:  Could the player's social standing (friends, respect, etc.) be diminished as a result of playing the game?  How likely is the player to feel that she must play primarily because of a sense of social obligation?</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.1">Social Pyramid Schemes</head><p>A pyramid scheme is a (illegal) business model that typically works by offering "investors" high returns that are paid from the funds received from future "investors" <ref type="bibr" coords="5,462.92,286.35,13.76,8.10" target="#b25">[26]</ref>. Since these schemes typically do not involve the production or selling of assets, they are insolvent and thus require new "investors" in order to have funds to pay the earlier ones. These schemes are similar to multilevel marketing where companies recruit sellers that "are compensated not just for the sales they personally generate but for the sales generated by the people they recruit" <ref type="bibr" coords="5,490.04,349.71,13.78,8.10" target="#b39">[40]</ref>. Although not all multilevel marketing operations are illegal or unethical <ref type="bibr" coords="5,540.82,360.27,13.78,8.10" target="#b39">[40]</ref>, the notion of associating one's success in a venture to the recruitment of more participants can raise eyebrows, and (in the case of games) argue for the existence of a dark design pattern.</p><p>Many games encourage players to invite their friends to participate. Not all of them, however, provide tangible in-game benefits for doing so, nor do they implicitly require players to make use of their social connections in order to make adequate progress in a game. The combination of rewards and need for progression result in what we call SOCIAL PYRAMID SCHEMES. Games that implement these effectively encourage their players to entrap others who will continue to play only to meet out-of-game social obligations rather than any intrinsic pleasure from playing the game itself. For example, Farmville requires having other players as "neighbors" to make noticeable progress in some areas. If players do not have friends already playing, the simple solution is to persuade them to join. As one reluctant player notes:</p><p>"My mother began playing Farmville last fall, because her friend asked her to join and become her in-game neighbor. In Farmville, neighbors send you gifts, help tend your farm, post bonuses to their Facebook pages, and allow you to earn larger plots of land. Without at least eight in-game neighbors, in fact, it is almost impossible to advance in Farmville without spending real money. This frustrating reality led my mother-who was now obligated to play because of her friend-to convince my father, two of her sisters, my fiancée and (much to my dismay) myself to join Farmville." <ref type="bibr" coords="5,511.50,653.43,15.02,8.10" target="#b32">[33]</ref> The darkness of this pattern comes not because players can invite their friends, but rather from the entrapment that other players experience -they feel socially obliged to play, and must also start to invite more people to join the game. Not only are they trapped in the pyramid, they must continue to make it grow. Our dismayed player, above, continues: "Soon, we were all scheduling our days around harvesting, sending each other gifts of trees and elephants, and posting ribbons on our Facebook walls. And we were convincing our own friends to join Farmville, too." <ref type="bibr" coords="6,260.92,87.93,15.02,8.10" target="#b32">[33]</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.2">Impersonation</head><p>Many social network games allow players to see representations of their friends (or other players) in their own games. Sometimes, players may receive notifications of actions performed by their friends, for instance "Betty sent you a gift" (SimCity Social). The problem is when the game impersonates other players by communicating actions they never performed, thus misleading the player about the activities of their friends in the game. In this case, Betty -one of the authors' real world Facebook friends -did not send the gift, but her name was used by the game to show a tutorial about the effects of receiving gifts. In another example, some games will assume the players' identity to perform out-ofgame actions like sending email or posting messages on websites. This behavior, also described as "Friend Spam" can occur when a game "asks for your twitter or email credentials […] for an allegedly benign purpose (e.g. finding friends who are already using that service), but then goes on [to] publish content or send out bulk messages using your account -i.e. from you" <ref type="bibr" coords="6,265.71,286.11,13.76,8.10" target="#b13">[14]</ref>. In Farmville and Candy Crush Saga, this can take the form of player actions being broadcasted without them being aware of it, and the description is as if the player formulated it. In the case of IMPERSONATION, the negative experience to the player comes from the cost that the impersonation can have on their real-life social relations, especially those that are not interested in the game.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">SHADES OF GREY</head><p>We have described several game design patterns that, in different ways, arguably cause negative experiences for players without their consent or otherwise work against their best interests. These patterns can vary in how strongly (or effectively) they cause problems for players: some may not care while others may be outraged. Furthermore, a pattern's effects are also dependent on the context in which they are used, their implementation, intended audience, and other factors. Admittedly, classifying game design patterns as dark is not a clear cut task. Since there are no brightline tests or binary rules, we have offered examples and guiding questions that can hopefully shed some light on some of the considerations that should be taken. We now describe some borderline cases and potential areas for emergent dark patterns.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1">Encouraging Anti-Social Behavior</head><p>Many games require that players engage in social activities considered unethical outside of a game's context. Perhaps the most notorious is the board game Diplomacy. The game has no random elements and emphasizes negotiation. It is "a game that encourages lying, scheming, backstabbing, <ref type="bibr" coords="6,234.05,594.21,19.04,8.10">[and]</ref> betrayal" <ref type="bibr" coords="6,54.00,604.77,71.40,8.10">[Costikyan in 16]</ref>. Diplomacy's notoriety comes from the outcomes -players remain angry or hurt long past the game's ending. Costikyan has "seen fist-fights break out during a game" <ref type="bibr" coords="6,54.00,636.45,15.01,8.10" target="#b15">[16]</ref> and angry and annoyed players frequently wonder "why would anyone want to play again" <ref type="bibr" coords="6,185.97,647.01,15.18,8.10" target="#b20">[21]</ref>? This seems like a clear case of creating negative experiences for players. However, there are many other games in which the negative effects of such ingame behavior do not persist after the game is over. Consider the deception and lying that is (implicitly) required in Poker.</p><p>Similarly, board games such as Battlestar Galactica and Shadows Over Camelot implement a "traitor" mechanism in which "one or more of the players are supposed to secretly work [to] ruin the other players' chances of victory" <ref type="bibr" coords="6,445.19,66.81,13.78,8.10" target="#b31">[32]</ref>. The existence of in-game unethical behavior does not seem enough to encourage external negative effects. Furthermore, the experience of playing games like Diplomacy comes from the combination of rules and game dynamics -making it more difficult to pin down a precise dark pattern.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2">Psychological Tricks</head><p>There is an increasing interest in applying insights and results from psychology and behavioral economics to games. How do we draw the line between using this knowledge to provide more interesting, engaging, and satisfying gameplay experiences (good) and exploiting player's cognitive biases and predictably irrational behavior<ref type="foot" coords="6,349.44,201.04,3.00,5.40" target="#foot_0">2</ref> to make more money? Madigan's analysis of SimCity Social identifies seven "psychological shenanigans" <ref type="bibr" coords="6,524.09,213.57,15.03,8.10" target="#b33">[34]</ref> that have been leveraged by the game's creators to encourage people to spend more time and money on the game. For example, SimCity Social creates artificial scarcity "by offering you a deeply discounted new building every time you level up" together with noting that "the text stresses "One Time Offer! You will NEVER see this offer again! [emphasis in original]" <ref type="bibr" coords="6,480.33,276.93,13.77,8.10" target="#b33">[34]</ref>. The implication is that the player is being manipulated towards spending money they would not have otherwise. Should we consider this, and the other "psychological tricks" Madigan identifies <ref type="bibr" coords="6,506.67,308.61,13.77,8.10" target="#b33">[34]</ref>, as dark patterns? When does using knowledge of human psychology change from "manipulating your players" to "good game design"?</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.3">Games for Other Purposes</head><p>Games are often developed for purposes beyond entertainment. Abt's "serious games", games whose primary purpose was educational rather than entertainment, are but one example <ref type="bibr" coords="6,545.34,381.45,9.54,8.10" target="#b0">[1]</ref>. Surely, this is a good thing? However, consider von Ahn's notion of games with a purpose: "What if people playing computer games could, without consciously doing so, simultaneously solve large-scale problems?" <ref type="bibr" coords="6,404.83,423.69,15.01,8.10" target="#b46">[47]</ref> Are the players of von Ahn's games being manipulated and taken advantage of? In the case of serious games, would we consider them poorly if the players are not aware of their pedagogical goal and think of them purely as entertainment? It is one thing to invite someone to play a game and tell them that they may learn something in the process and another to try to trick them into learning something.</p><p>To be fair, von Ahn's site<ref type="foot" coords="6,416.94,499.66,3.00,5.40" target="#foot_1">3</ref> does inform players that by playing they help train computers to solve problems that could broadly benefit society. It is easy, however, to see how other creators could use this kind of design darkly by omitting this information. We can also imagine other purposes that may run afoul of our notion of doing things without a player's consent and against their best interests. However, if the player has no knowledge, would that not contradict our requirement for negative experience?</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">HEART OF DARKNESS?</head><p>Perhaps the patterns we have identified, although aligned with the definition of dark pattern, do not seem all that vexing. As we have noted, there is a certain degree of subjectivity involved that makes dark patterns particularly difficult to characterize. What one person may find acceptable, another might find galling. In keeping with previous work in game design patterns, there is no one-design-affects-all-pattern that is guaranteed to have the same effect on the all players. We can only make an informed estimation as to how a pattern might affect most.</p><p>Even with a strong pattern, much of the darkness comes from its use and context. Take the PLAYING BY APPOINTMENT pattern.</p><p>World of Warcraft utilizes this with spawn timers for rare enemies, such as Humar, the only black lion in the game that can be tamed by hunters. While this is a clear use of the PLAY BY APPOINTMENT pattern, the context modifies its darkness significantly. Capturing Humar is an optional goal that does not impede progression. One useful perspective on judging where a pattern might exist along a spectrum of darkness is to use the concept of support. Juul discusses how game designs "support" different play styles <ref type="bibr" coords="7,134.35,186.99,13.77,8.10" target="#b26">[27]</ref>, and patterns can become dark for a given player when the pattern does not support her chosen play style. When most players must engage with a pattern that does not support them, that pattern's use can be considered as dark.</p><p>An individual player's context is also significant. When we argue that dark patterns often manipulate or take advantage of a player, we are also making assumptions on a player's gullibility (or willingness to be manipulated). While a game may employ dark patterns, these may be transparent to players, thus rendering them ordinary patterns or ineffective. By transparency, we mean that players develop literacy in manipulation. One cannot give reasonable consent to manipulation if one does not have the literacy with which to understand when persuasion is occurring and how it is being conveyed or effected (especially given that even when we are aware of our own biases, we still find it difficult to act against them <ref type="bibr" coords="7,159.24,349.41,13.49,8.10" target="#b27">[28]</ref>). The disclosure principle noted earlier specifically takes into account that while most of us have a grasp of spoken and written rhetoric, and where we can expect to find it, we do not yet have such an understanding when we are faced with persuasive technologies and new media <ref type="bibr" coords="7,239.30,391.65,9.53,8.10" target="#b6">[7]</ref>.</p><p>Much as we have seen calls for procedural literacy to extend beyond the walls of computer programmers <ref type="bibr" coords="7,225.27,418.77,13.76,8.10" target="#b34">[35]</ref>, manipulation literacy might well be encouraged for players. An understanding of how games effect change of mood or behavior, and how that might encourage certain decision-making, could prove beneficial, not only for gamers to understand how they might better choose games, but also to protect themselves from games that might seek to manipulate them in an undesired way. Returning to our conception of dark patterns, once players are literate enough to understand the effects of a pattern so that they can give consent (or the games follow the disclosure principle), the pattern is no longer dark. This is most likely the reason that many of the dark patterns we identified come from game genres that have emerged recently.</p><p>Once manipulation literacy has developed in a player, they may well look upon manipulation techniques with disdain. Players might opt-out of playing altogether. Davidson suggests that "[t]he long-term danger [of employing psychologically manipulative design techniques in games] is that we are poisoning the well; we're watching a large-scale tragedy of the commons play out on our player bases. Our audience is becoming inured to viral trickery we employ to get people what we want to do." [as reported <ref type="bibr" coords="7,87.43,644.54,21.04,8.10">in 37]</ref>. Similarly, a known game design pattern is less likely to be dark than an unknown one simply because it is less likely to have unknown negative consequences.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">CONCLUSIONS</head><p>In this paper, we have introduced and developed the concept of dark game design patterns, presented several examples of such patterns belonging to three categories, and also explored some of the subtleties involved in identified them. By doing so, we intend to raise awareness of potentially problematic features that games can possess. All that being said, we can now offer a final definition:</p><p>Final Definition: A dark game design pattern is a pattern used intentionally by a game creator to cause negative experiences for players which are against their best interests and likely to happen without their consent.</p><p>Besides being a tool for understanding a specific aspect of gameplay design, the dark patterns point to the interdependencies between the design of a game and a player's knowledge about games in determining the gameplay that emerges through playing.</p><p>In the future we hope to continue developing these ideas and exploring their broader implications.</p></div>			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_0">Apologies to Ariely in re his book "Predictably Irrational".</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3" xml:id="foot_1"> www.gwap.com   </note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="7,335.90,246.75,211.29,8.10" xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Serious Games</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">C</forename><surname>Abt</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1970">1970</date>
+			<publisher>Viking Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,335.90,257.31,189.83,8.10;7,335.88,267.87,221.20,8.10;7,335.88,278.43,195.22,8.10" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Massively multiplayer online role-playing games</title>
+		<author>
+			<persName><forename type="first">Leigh</forename><surname>Achterbosch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robyn</forename><surname>Pierce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gregory</forename><surname>Simmons</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1324198.1324207</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Computers in Entertainment</title>
+		<title level="j" type="abbrev">Comput. Entertain.</title>
+		<idno type="ISSNe">1544-3574</idno>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1" to="33" />
+			<date type="published" when="2007">2007</date>
+			<publisher>Association for Computing Machinery (ACM)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,335.89,288.99,210.29,8.10;7,335.88,299.55,182.09,8.10;7,335.88,310.11,221.55,8.10;7,335.88,320.67,179.23,8.10" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Bad Game Designer, No Twinkie! IV</title>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Adams</surname></persName>
+		</author>
+		<ptr target="www.designersnotebook.com/Columns/052_Bad_Game_Designer_4/novariab052_bad_game_designer_4.htm" />
+	</analytic>
+	<monogr>
+		<title level="m">Gama Network</title>
+				<imprint>
+			<date type="published" when="2003-10-29">2003. October 29, 2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,335.89,331.23,207.97,8.10;7,335.88,341.79,130.52,8.10" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Fundamentals of Game Design</title>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Adams</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Second Edition. New Riders</title>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,335.90,352.35,206.89,8.10;7,335.88,362.91,84.90,8.10;7,335.88,373.47,220.59,8.10;7,335.88,384.03,138.81,8.10" xml:id="b4">
+	<monogr>
+		<title level="m" type="main">The No Twinkie Database</title>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Adams</surname></persName>
+		</author>
+		<ptr target="www.designersnotebook.com/Design_Resources/No_Twinkie_Database/no_twinkie_database.htm" />
+		<imprint>
+			<date type="published" when="2012-10-29">2012. October 29. 2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,335.90,394.59,205.16,8.10;7,335.88,405.15,215.35,8.10;7,335.88,415.71,61.71,8.10" xml:id="b5">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Alexander</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Ishikawa</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Silverstein</surname></persName>
+		</author>
+		<title level="m">A Pattern Language: Towns, Buildings, Construction</title>
+				<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,335.89,426.27,210.16,8.10;7,335.88,436.83,222.19,8.10;7,335.88,447.39,67.21,8.10" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Toward an ethics of persuasive technology</title>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Berdichevsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Erik</forename><surname>Neuenschwander</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/301353.301410</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Communications of the ACM</title>
+		<title level="j" type="abbrev">Commun. ACM</title>
+		<idno type="ISSN">0001-0782</idno>
+		<idno type="ISSNe">1557-7317</idno>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="51" to="58" />
+			<date type="published" when="1999-05">1999</date>
+			<publisher>Association for Computing Machinery (ACM)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,335.90,457.95,218.18,8.10;7,335.88,468.51,207.82,8.10;7,335.88,479.07,182.30,8.10;7,335.88,489.63,215.48,8.10;7,335.88,500.19,199.51,8.10;7,335.88,510.75,84.40,8.10" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Exploring aesthetical gameplay design patterns</title>
+		<author>
+			<persName><forename type="first">Karl</forename><surname>Bergström</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Staffan</forename><surname>Björk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sus</forename><surname>Lundgren</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1930488.1930493</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 14th International Academic MindTrek Conference: Envisioning Future Media Environments</title>
+				<meeting>the 14th International Academic MindTrek Conference: Envisioning Future Media Environments<address><addrLine>Tampere, Finland</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2010-10-06">2010. 2010. 1930493</date>
+			<biblScope unit="page" from="17" to="24" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,335.89,521.31,204.80,8.10;7,335.88,531.87,201.85,8.10;7,335.88,542.43,213.49,8.10;7,335.88,552.99,202.95,8.10" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">On Making Good Games -Using Player Virtue Ethics and Gameplay Design Patterns to Identify Generally Desirable Gameplay Features</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Björk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of Nordic DiGRA Conference</title>
+				<meeting>Nordic DiGRA Conference<address><addrLine>Stockholm, Sweden</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2010">2010. 2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,335.90,563.55,193.00,8.10;7,335.88,574.11,218.28,8.10" xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Water resources of the coastal drainage basins of Southeastern Massachusetts: Weir River, Hingham to Jones River, Kingston</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Björk</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Holopainen</surname></persName>
+		</author>
+		<idno type="DOI">10.3133/ha504</idno>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+			<publisher>US Geological Survey</publisher>
+			<pubPlace>Hingham, Massachusetts</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,335.90,584.67,190.10,8.10;7,335.88,595.23,98.93,8.10" xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Persuasive Games</title>
+		<author>
+			<persName coords=""><forename type="first">Ian</forename><surname>Bogost</surname></persName>
+		</author>
+		<idno type="DOI">10.7551/mitpress/5334.001.0001</idno>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<publisher>The MIT Press</publisher>
+			<pubPlace>Cambridge, Massachusetts</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,335.91,605.79,191.19,8.10;7,335.88,616.35,188.64,8.10;7,335.88,626.91,204.50,8.10;7,335.88,637.47,94.99,8.10" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Language Games/Game Languages: Examining Game Design Epistemologies Through a ‘Wittgensteinian’ Lens</title>
+		<author>
+			<persName coords=""><forename type="first">Nis</forename><surname>Bojin</surname></persName>
+		</author>
+		<idno type="DOI">10.7557/23.5972</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eludamos: Journal for Computer Game Culture</title>
+		<title level="j" type="abbrev">EJCGC</title>
+		<idno type="ISSNe">1866-6124</idno>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="55" to="71" />
+			<date type="published" when="2008-02-29">2008</date>
+			<publisher>UiT The Arctic University of Norway</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,335.90,648.03,194.17,8.10;7,335.88,658.59,84.90,8.10;7,335.88,669.15,163.03,8.10" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Patterns of sunlight</title>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Brignull</surname></persName>
+		</author>
+		<idno type="DOI">10.1887/0750308745/b1139c2</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Light and Dark</title>
+				<imprint>
+			<publisher>IOP Publishing Ltd</publisher>
+			<date type="published" when="2011-10-29">2011. October 29, 2012</date>
+		</imprint>
+	</monogr>
+	<note>from wiki.darkpatterns.org/Dark_Patterns_About/</note>
+</biblStruct>
+
+<biblStruct coords="7,335.90,679.70,217.91,8.10;7,335.88,690.26,220.17,8.10" xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Dark Patterns: Friend Spam</title>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Brignull</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011-10-29">2011. October 29, 2012</date>
+		</imprint>
+	</monogr>
+	<note>from wiki.darkpatterns.org/Friend_Spam/</note>
+</biblStruct>
+
+<biblStruct coords="7,335.89,700.82,185.99,8.10;7,335.88,711.38,108.22,8.10;8,72.00,56.25,218.80,8.10;8,72.00,66.81,74.64,8.10" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The Tools of Design Governance (Formal and Informal)</title>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Church</surname></persName>
+		</author>
+		<idno type="DOI">10.4324/9781315748979-8</idno>
+		<ptr target="http://www.gamasutra.com/view/feature/3357/formal_abstract_design_tools.php" />
+	</analytic>
+	<monogr>
+		<title level="m">Design Governance</title>
+				<imprint>
+			<publisher>Routledge</publisher>
+			<date type="published" when="1999-03-19">1999. Mar 19. 2013</date>
+			<biblScope unit="page" from="38" to="74" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,72.05,77.37,211.08,8.10;8,72.00,87.93,205.67,8.10;8,72.00,98.49,196.63,8.10;8,72.00,109.05,203.41,8.10;8,72.00,119.61,205.93,8.10;8,72.00,130.17,213.09,8.10" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Quick Takes on Ethics and Games Voices from Industry and Academia</title>
+		<author>
+			<persName><forename type="first">Mia</forename><surname>Consalvo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Greg</forename><surname>Costikyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Drew</forename><surname>Davidson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nick</forename><surname>Fortugno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Shaenfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pete</forename><surname>Vigeant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christopher</forename><surname>Weaver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karen</forename><surname>Schrier</surname></persName>
+		</author>
+		<idno type="DOI">10.4018/978-1-60960-120-1.ch001</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Designing Games for Ethics</title>
+				<meeting><address><addrLine>Hershey, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>IGI Global</publisher>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="page" from="1" to="18" />
+		</imprint>
+	</monogr>
+	<note>Designing Games for Ethics: Models, Techniques, and Frameworks. Information Science Reference</note>
+</biblStruct>
+
+<biblStruct coords="8,72.02,140.73,207.22,8.10;8,72.00,151.29,72.69,8.10" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">I have no words &amp; I must design</title>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Costikyan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Interactive Fantasy</title>
+				<imprint>
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,72.03,161.85,198.38,8.10;8,72.00,172.41,177.93,8.10;8,72.00,182.97,199.83,8.10;8,72.00,193.53,200.70,8.10;8,72.00,204.09,97.90,8.10" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Using heuristics to evaluate the playability of games</title>
+		<author>
+			<persName><forename type="first">Heather</forename><surname>Desurvire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martin</forename><surname>Caplan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jozsef</forename><forename type="middle">A</forename><surname>Toth</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/985921.986102</idno>
+	</analytic>
+	<monogr>
+		<title level="m">CHI &apos;04 Extended Abstracts on Human Factors in Computing Systems</title>
+				<meeting><address><addrLine>Vienna, Austria</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2004-04-24">2004. 2004</date>
+			<biblScope unit="volume">986102</biblScope>
+			<biblScope unit="page" from="1509" to="1512" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,72.03,214.65,219.11,8.10;8,72.00,225.21,221.76,8.10;8,72.00,235.77,216.57,8.10;8,72.00,246.33,217.44,8.10;8,72.00,256.89,51.00,8.10" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">A Method for Discovering Values in Digital Games</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Flanagan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Belman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Nissenbaum</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Diamond</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Situated Play: Proceedings of the DiGRA 2007 Conference, A. Baba Ed. Digital Games Research Association (DiGRA)</title>
+				<meeting><address><addrLine>Tokyo, Japan</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,72.03,267.45,201.03,8.10;8,72.00,278.01,200.47,8.10;8,72.00,288.57,183.40,8.10;8,72.00,299.13,60.39,8.10" xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Game Design Workshop</title>
+		<author>
+			<persName coords=""><forename type="first">Tracy</forename><surname>Fullerton</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Swain</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Hoffman</surname></persName>
+		</author>
+		<idno type="DOI">10.1201/b16671</idno>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<publisher>A K Peters/CRC Press</publisher>
+			<pubPlace>Burlington, MA</pubPlace>
+		</imprint>
+	</monogr>
+	<note>2nd Edition</note>
+</biblStruct>
+
+<biblStruct coords="8,72.03,309.69,202.30,8.10;8,72.00,320.25,212.68,8.10" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">3 The Hobby Diplomacy Scene</title>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Harris</surname></persName>
+		</author>
+		<idno type="DOI">10.18574/nyu/9781479818433.003.0008</idno>
+	</analytic>
+	<monogr>
+		<title level="m">The Privilege of Play</title>
+				<editor>
+			<persName><forename type="first">J</forename><forename type="middle">Lowder</forename><surname>Ed</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Renton, WA</addrLine></address></meeting>
+		<imprint>
+			<publisher>New York University Press</publisher>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="page" from="79" to="108" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,72.10,330.81,215.75,8.10;8,72.00,341.37,207.34,8.10;8,72.00,351.93,195.97,8.10" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Design patterns in FPS levels</title>
+		<author>
+			<persName><forename type="first">Kenneth</forename><surname>Hullett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jim</forename><surname>Whitehead</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1822348.1822359</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Fifth International Conference on the Foundations of Digital Games</title>
+				<meeting>the Fifth International Conference on the Foundations of Digital Games<address><addrLine>Monterey, California</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2010-06-19">2010. June 19-21. 2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,72.04,362.48,208.55,8.10;8,72.00,373.04,200.09,8.10;8,72.00,383.60,213.84,8.10;8,72.00,394.16,210.21,8.10;8,72.00,404.72,151.87,8.10" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">MDA: A formal approach to game design and game research</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Hunicke</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Leblanc</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Zubek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Challenges in Game AI Workshop, 19th National Conference on Artificial Intelligence (AAAI &apos;04</title>
+				<meeting>the Challenges in Game AI Workshop, 19th National Conference on Artificial Intelligence (AAAI &apos;04<address><addrLine>San Jose, CA; San Jose, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>AAAI Press</publisher>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,72.03,415.28,187.94,8.10;8,72.00,425.84,194.63,8.10" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Interview with Eric Schaffer, Ph.D., CEO of Human Factors International</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Isbister</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Schaffer</surname></persName>
+		</author>
+		<idno type="DOI">10.1201/b14580-12</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Game Usability</title>
+				<imprint>
+			<publisher>CRC Press</publisher>
+			<date type="published" when="2008-08-12">2008</date>
+			<biblScope unit="page" from="123" to="128" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,72.03,436.40,192.94,8.10;8,72.00,446.96,208.72,8.10;8,72.00,457.52,75.37,8.10" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Free to Play: Tricky to Design</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Järvinen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of Northern Game Summit</title>
+				<meeting>Northern Game Summit<address><addrLine>Kajani, Finland</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2012-09-28">2012. September 28 2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,72.03,468.08,203.56,8.10;8,72.00,478.64,173.05,8.10" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">The Rise and Fall of the Pyramid Schemes in Albania</title>
+		<author>
+			<persName coords=""><forename type="first">Chris</forename><surname>Jarvis</surname></persName>
+		</author>
+		<idno type="DOI">10.2139/ssrn.880625</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SSRN Electronic Journal</title>
+		<title level="j" type="abbrev">SSRN Journal</title>
+		<idno type="ISSNe">1556-5068</idno>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="46" to="49" />
+			<date type="published" when="2000">2000</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,72.02,489.20,221.90,8.10;8,72.00,499.76,170.81,8.10" xml:id="b26">
+	<monogr>
+		<title level="m" type="main">A Casual Revolution: Reinventing Videogames and their Players</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Juul</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<publisher>MIT Press</publisher>
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,72.02,510.32,217.27,8.10;8,72.00,520.88,79.41,8.10" xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Thinking, fast and slow</title>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Kahneman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<pubPlace>Farrar, Straus &amp; Giroux, New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,72.03,531.44,215.53,8.10;8,72.00,542.00,149.86,8.10;8,72.00,552.56,215.24,8.10" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">The Case for Game Design Patterns</title>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Kreimeier</surname></persName>
+		</author>
+		<ptr target="www.gamasutra.com/features/20020313/kreimeier_01.htm" />
+	</analytic>
+	<monogr>
+		<title level="j">Gamasutra</title>
+		<imprint>
+			<date type="published" when="2002-10-29">2002. Oct 29. 2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,72.02,563.13,202.12,8.10;8,72.00,573.69,186.80,8.10;8,72.00,584.25,112.42,8.10" xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Character-Driven Game Design -A Design Approach and Its Foundations in Character Engagement</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Lankoski</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+		<respStmt>
+			<orgName>Aalto University</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,72.03,594.81,199.38,8.10;8,72.00,605.37,200.69,8.10;8,72.00,615.93,215.73,8.10;8,72.00,626.49,47.42,8.10" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Motivational game design patterns of &apos;ville games</title>
+		<author>
+			<persName><forename type="first">Chris</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Noah</forename><surname>Wardrip-Fruin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jim</forename><surname>Whitehead</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2282338.2282373</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the International Conference on the Foundations of Digital Games</title>
+				<meeting>the International Conference on the Foundations of Digital Games<address><addrLine>Raleigh, NC</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2012-05-29">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,72.02,637.05,208.33,8.10;8,72.00,647.61,212.00,8.10;8,72.00,658.17,202.76,8.10" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Exploring Anonymity in Cooperative Boardgames</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Linderoth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of DiGRA 2011 Conference: Think Design Play</title>
+				<meeting>DiGRA 2011 Conference: Think Design Play<address><addrLine>Hilversum, The Netherlands</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2011">2011. 2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,72.03,668.73,202.63,8.10;8,72.00,679.29,165.35,8.10;8,72.00,689.85,197.25,8.10" xml:id="b32">
+	<monogr>
+		<title level="m" type="main">5 Reasons Why Farmville Neighbors are Just as Valuable as Farmville Cash</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">J P</forename><surname>Liszkiewicz</surname></persName>
+		</author>
+		<idno type="DOI">10.4016/24005.01</idno>
+		<ptr target="www.berfrois.com/2010/10/cultivated-play-farmville/" />
+		<imprint>
+			<date type="published" when="2010-11-21">2010. November 21. 2012</date>
+			<publisher>SciVee, Inc</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,335.90,56.25,208.11,8.10;8,335.88,66.81,162.06,8.10;8,335.88,77.37,169.79,8.10;8,335.88,87.93,136.23,8.10" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Social Enterprise</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Madigan</surname></persName>
+		</author>
+		<idno type="DOI">10.1057/9781137432537.0029</idno>
+		<ptr target="www.psychologyofgames.com/2012/07/seven-psychological-sins-of-simcity-social/" />
+	</analytic>
+	<monogr>
+		<title level="m">The Seven Sins of Innovation</title>
+				<imprint>
+			<publisher>Palgrave Macmillan</publisher>
+			<date type="published" when="2012-11-29">2012. November 29. 2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,335.91,98.49,213.58,8.10;8,335.88,109.05,218.86,8.10;8,335.88,119.61,215.01,8.10;8,335.88,130.17,147.10,8.10" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Procedural literacy: educating the new media practitioner</title>
+		<author>
+			<persName coords=""><forename type="first">Michael</forename><surname>Mateas</surname></persName>
+		</author>
+		<idno type="DOI">10.1108/10748120510608133</idno>
+	</analytic>
+	<monogr>
+		<title level="j">On the Horizon</title>
+		<idno type="ISSN">1074-8121</idno>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="101" to="111" />
+			<date type="published" when="2005-06-01">2005</date>
+			<publisher>Emerald</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,335.90,140.73,205.98,8.10;8,335.88,151.29,205.27,8.10;8,335.88,161.85,198.73,8.10;8,335.88,172.41,107.23,8.10" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Analysis of level design &apos;push &amp; pull&apos; within 21 games</title>
+		<author>
+			<persName><forename type="first">David</forename><surname>Milam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Magy</forename><forename type="middle">Seif</forename><surname>El Nasr</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1822348.1822367</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Fifth International Conference on the Foundations of Digital Games</title>
+				<meeting>the Fifth International Conference on the Foundations of Digital Games<address><addrLine>Monterey, California</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2010-06-19">2010. June 19-21. 2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,335.90,182.97,210.14,8.10;8,335.88,193.53,221.89,8.10;8,335.88,204.09,53.59,8.10;8,335.88,214.65,219.65,8.10;8,335.88,225.21,197.52,8.10" xml:id="b36">
+	<monogr>
+		<title level="m" type="main">Review of: Does it matter exactly when the Arctic will become ice-free?</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Miller</surname></persName>
+		</author>
+		<idno type="DOI">10.5194/tc-2016-28-rc1</idno>
+		<ptr target="www.gamasutra.com/view/news/179264/When_does_effective_freetoplay_design_become_an_ethical_matter.php" />
+		<imprint>
+			<date type="published" when="2012-11-21">2012. November 21, 2012</date>
+			<publisher>Copernicus GmbH</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,335.90,235.77,200.21,8.10;8,335.88,246.33,193.37,8.10;8,335.88,256.89,203.21,8.10;8,335.88,267.45,76.94,8.10" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Player Modeling for Intelligent Difficulty Adjustment</title>
+		<author>
+			<persName><forename type="first">Olana</forename><surname>Missura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><surname>Gärtner</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-642-04747-3_17</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Discovery Science</title>
+		<title level="s">Lecture Notes in Computer Science</title>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Gama</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Springer Berlin Heidelberg</publisher>
+			<date type="published" when="2009">2009</date>
+			<biblScope unit="page" from="197" to="211" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,335.91,278.01,204.91,8.10;8,335.88,288.57,207.66,8.10;8,335.88,299.13,155.79,8.10" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">The painful art of extreme role-playing</title>
+		<author>
+			<persName coords=""><forename type="first">Markus</forename><surname>Montola</surname></persName>
+		</author>
+		<idno type="DOI">10.1386/jgvw.3.3.219_1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Gaming &amp; Virtual Worlds</title>
+		<idno type="ISSN">1757-191X</idno>
+		<idno type="ISSNe">1757-1928</idno>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="219" to="237" />
+			<date type="published" when="2010">2010. 2012. 2010</date>
+			<publisher>Intellect</publisher>
+		</imprint>
+	</monogr>
+	<note>DiGRA</note>
+</biblStruct>
+
+<biblStruct coords="8,335.91,309.69,222.06,8.10;8,335.88,320.25,202.61,8.10;8,335.88,330.81,153.49,8.10" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Ethical Issues in Multilevel Marketing: Is It a Legitimate Business or Just Another Pyramid Scheme?</title>
+		<author>
+			<persName coords=""><forename type="first">James</forename><forename type="middle">A</forename><surname>Muncy</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/10528008.2004.11488877</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Marketing Education Review</title>
+		<title level="j" type="abbrev">Marketing Education Review</title>
+		<idno type="ISSN">1052-8008</idno>
+		<idno type="ISSNe">2153-9987</idno>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="47" to="53" />
+			<date type="published" when="2004-10">2004</date>
+			<publisher>Informa UK Limited</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,335.91,341.37,216.04,8.10;8,335.88,351.93,208.92,8.10;8,335.88,362.49,177.68,8.10" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Don&apos;t Hate the Player, Hate the Game: The Racialization of Labor in World of Warcraft</title>
+		<author>
+			<persName coords=""><forename type="first">Lisa</forename><surname>Nakamura</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/15295030902860252</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Critical Studies in Media Communication</title>
+		<title level="j" type="abbrev">Critical Studies in Media Communication</title>
+		<idno type="ISSN">1529-5036</idno>
+		<idno type="ISSNe">1479-5809</idno>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="128" to="144" />
+			<date type="published" when="2009-06">2009</date>
+			<publisher>Informa UK Limited</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,335.90,373.05,195.74,8.10;8,335.88,383.61,206.75,8.10;8,335.88,394.17,131.25,8.10;8,335.88,404.73,194.09,8.10;8,335.88,415.29,140.59,8.10" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Downloadable content</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Orland</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/b978-0-240-82047-7.50020-0</idno>
+		<ptr target="arstechnica.com/gaming/2012/10/op-ed-why-on-disc-downloadable-content-isnt-a-big-deal/" />
+	</analytic>
+	<monogr>
+		<title level="m">How to Cheat in Photoshop Elements</title>
+				<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2012-11-27">2012. November 27, 2012</date>
+			<biblScope unit="page" from="306" to="307" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,335.90,425.85,204.67,8.10;8,335.88,436.41,190.89,8.10;8,335.88,446.97,204.54,8.10" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Deaths from cancer: females 2012/2</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Psigoda</surname></persName>
+		</author>
+		<idno type="DOI">10.1787/cancer-fe-table-2012-2-en</idno>
+		<ptr target="www.gdcvault.com/play/1016417/-100-000-Whales-An" />
+	</analytic>
+	<monogr>
+		<title level="m">GDC Europe</title>
+				<imprint>
+			<publisher>Organisation for Economic Co-Operation and Development (OECD)</publisher>
+			<date type="published" when="2012-10-30">2012</date>
+			<biblScope unit="volume">100</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,335.91,457.53,219.66,8.10;8,335.88,468.09,211.04,8.10;8,335.88,478.65,131.25,8.10;8,335.88,489.21,171.70,8.10" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">An Orthopaedic Resident-Reporting LIVE from COVID-19 Battlefield; Lessons Learnt!!</title>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Rydling</surname></persName>
+		</author>
+		<idno type="DOI">10.33140/ijor.03.03.08</idno>
+		<ptr target="blogs.battlefield.com/2012/03/ps3-update-live/" />
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Orthopaedics Research</title>
+		<title level="j" type="abbrev">IJOR</title>
+		<idno type="ISSNe">2690-9189</idno>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<date type="published" when="2012-11-27">2012. November 27. 2012</date>
+			<publisher>Opast Group LLC</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,335.91,499.77,218.04,8.10;8,335.88,510.33,131.47,8.10" xml:id="b44">
+	<monogr>
+		<title level="m" type="main">Tenth Anniversary: The Art of Game Design</title>
+		<author>
+			<persName coords=""><forename type="first">Jesse</forename><surname>Schell</surname></persName>
+		</author>
+		<idno type="DOI">10.1201/b22101</idno>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<publisher>A K Peters/CRC Press</publisher>
+			<pubPlace>Burlington MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,335.89,520.89,221.84,8.10;8,335.88,531.45,218.72,8.10;8,335.88,542.01,211.93,8.10;8,335.88,552.57,160.61,8.10" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Why On-Disc DLC Is As Bad A Crime As Gamers Make It Out To Be</title>
+		<author>
+			<persName coords=""><forename type="first">W</forename><surname>Usher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">from www.cinemablend.com/games/Why-Disc-DLC-Bad-Crime-Gamers-Make-It-Out-48109-p1.html</title>
+		<imprint>
+			<date type="published" when="2012-11-27">2012. November 27. 2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,335.90,563.13,213.96,8.10;8,335.88,573.69,83.71,8.10" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Games with a Purpose</title>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Von Ahn</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/mc.2006.196</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Computer</title>
+		<title level="j" type="abbrev">Computer</title>
+		<idno type="ISSN">0018-9162</idno>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="92" to="94" />
+			<date type="published" when="2006-06">2006</date>
+			<publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,335.90,584.25,199.46,8.10;8,335.88,594.81,216.27,8.10;8,335.88,605.37,102.05,8.10" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Now it&apos;s personal</title>
+		<author>
+			<persName><forename type="first">Douglas</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Miguel</forename><surname>Sicart</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1920778.1920785</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the International Academic Conference on the Future of Game Design and Technology</title>
+				<meeting>the International Academic Conference on the Future of Game Design and Technology<address><addrLine>Vancouver, Canada</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2010-05-06">2010. 2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,335.93,615.93,218.82,8.10;8,335.88,626.49,215.22,8.10;8,335.88,637.05,190.83,8.10;8,335.88,647.61,216.90,8.10;8,335.88,658.17,114.89,8.10" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Towards an Ontological Language for Game Analysis</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">P</forename><surname>Zagal</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Mateas</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Fernandez-Vara</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Hochhalter</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Lichti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Changing Views: Worlds in Play, Selected Papers of DIGRA 2005</title>
+				<meeting><address><addrLine>Vancouver, Canada</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+			<biblScope unit="page" from="3" to="14" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

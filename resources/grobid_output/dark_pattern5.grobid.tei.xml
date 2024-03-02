@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">What Can CHI Do About Dark Patterns?</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>ACM</publisher>
+				<availability status="unknown"><p>Copyright ACM</p>
+				</availability>
+				<date type="published" when="2021-05-08">2021-05-08</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Kai</forename><surname>Lukoff</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,270.86,110.57,71.07,10.59"><forename type="first">Alexis</forename><surname>Hiniker</surname></persName>
+							<email>alexisr@uw.edu</email>
+						</author>
+						<author>
+							<persName coords="1,436.03,110.57,69.52,10.59"><forename type="first">Colin</forename><forename type="middle">M</forename><surname>Gray</surname></persName>
+							<email>gray42@purdue.edu</email>
+						</author>
+						<author>
+							<persName coords="1,183.08,168.90,81.51,10.59"><forename type="first">Arunesh</forename><surname>Mathur</surname></persName>
+							<email>amathur@cs.princeton.edu</email>
+						</author>
+						<author>
+							<persName coords="1,342.95,168.90,90.24,10.59"><forename type="first">Shruthi</forename><forename type="middle">Sai</forename><surname>Chivukula</surname></persName>
+							<email>cshruthi@purdue.edu</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Washington University of Washington Purdue University Seattle</orgName>
+								<address>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">WA West Lafayette</orgName>
+								<address>
+									<region>IN</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">Princeton University Purdue University</orgName>
+								<address>
+									<settlement>Princeton</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="institution">NJ West Lafayette</orgName>
+								<address>
+									<region>IN</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<address>
+									<addrLine>6 pages</addrLine>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">What Can CHI Do About Dark Patterns?</title>
+					</analytic>
+					<monogr>
+						<title level="m">Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems</title>
+						<imprint>
+							<publisher>ACM</publisher>
+							<date type="published" when="2021-05-08" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">2F5EED0C0BB40323811DDFE1C2EEC63F</idno>
+					<idno type="DOI">10.1145/3411763.3441360</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.2" ident="GROBID" when="2024-02-29T22:45+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>dark patterns</term>
+					<term>design patterns</term>
+					<term>privacy</term>
+					<term>ethics</term>
+					<term>design education</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Imagine buying fowers for a loved one. After selecting a bouquet, at checkout you discover that the site sneaked a paid greeting card into your shopping cart. This is an example of a dark pattern, an interface designed to manipulate a user into behavior that goes against their best interests. The notion of dark patterns has fostered a growing critical discussion about which interfaces go too far in exploiting the user. The frst aim of this workshop at CHI 2021 is to bring together a transdisciplinary group of design practitioners and researchers to discuss dark patterns across domains. The second aim is to identify actions to address dark patterns from within the design community, which might include e.g., setting industry norms, articulating values during the design process, or incorporating dark patterns into design education curricula. The third aim is to look beyond the design community and consider what changes designers might advocate for via interactions with e.g., consumers, media, and policymakers.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">BACKGROUND AND MOTIVATION</head><p>In recent years, the number of research papers addressing dark patterns has grown sharply (see Figure <ref type="figure" coords="1,459.98,521.62,3.05,8.97">1</ref>), indicating rising interest among HCI researchers. We trace a brief history of design patterns generally and dark patterns specifcally, before turning to the focus of this workshop: What might the design community do about dark patterns?</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.1">From Design Patterns to Dark Patterns</head><p>A design pattern can be defned as "a structured description of an invariant solution to a recurrent problem within a context" <ref type="bibr" coords="2,263.86,157.64,24.89,7.94">[6, p.50</ref>]. In the 1970s, the architect Christopher Alexander pioneered the concept of design patterns as best practices for designing buildings and communities. For example, Alexander's pattern #159 "Light on two sides of every room" uses images and text to show how people prefer spaces with windows on multiple sides <ref type="bibr" coords="2,217.50,212.43,18.40,7.95">[1, p.</ref>746] (see Figure <ref type="figure" coords="2,53.80,222.52,3.12,8.97" target="#fig_1">3</ref>). Researchers in HCI have since built upon Alexander's work to propose design patterns of best practices in gaming, ubiquitous computing, and general interaction design <ref type="bibr" coords="2,210.95,245.31,13.36,7.94" target="#b16">[17]</ref>. More recently, design practitioners and researchers have turned their attention to dark patterns, which constitute some of the worst practices in the design industry. A dark pattern is generally defned as (a) a recurrent confguration of elements in digital interfaces that is (b) intentionally created by a designer and (c) leads to user behavior that goes against the user's best interests and towards those of the designer (see e.g., <ref type="bibr" coords="2,134.21,553.74,9.35,7.94" target="#b6">[7,</ref><ref type="bibr" coords="2,145.80,553.74,10.31,7.94" target="#b11">12,</ref><ref type="bibr" coords="2,158.36,553.74,9.71,7.94" target="#b17">18]</ref>). This includes interfaces that are designed to deceive the user, and often also those that apply some level of coercion 1 . The designer usually achieves this by exploiting psychological vulnerabilities, i.e., heuristics and biases, in the user's psychology. Building upon earlier work on design patterns, dark patterns are often presented in online pattern galleries (for examples, see 2 ) with a structured description of the dark pattern accompanied by visual examples of how it appears across multiple digital interfaces. 1 Coercion that does not involve deception is sometimes excluded in defnitions of dark patterns, e.g., "As long as the nature of the exchange isn't concealed, it's not a dark pattern. " <ref type="bibr" coords="2,79.55,685.56,23.06,6.18">[9, p.11]</ref> 2 Galleries of dark patterns include: Brignull's original dark patterns, dark pattern strategies, gaming dark patterns, and shopping dark patterns</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.2">A Brief History of Dark Patterns</head><p>Manipulation is not new to online interfaces. Narayanan et al. trace the rise of dark patterns to the confuence of three decades-long trends <ref type="bibr" coords="2,343.53,123.41,13.45,7.94" target="#b13">[14]</ref>. First, in retail, stores have long employed misleading tactics such as a sale for a false 'going-out-of-business' event. Second, in public policy, the book Nudge <ref type="bibr" coords="2,453.50,145.33,14.59,7.94" target="#b15">[16]</ref> popularized designs that exploit psychological vulnerabilities to infuence behavior (e.g., the default efect), an approach that has been quickly adopted by companies as well, often with unscrupulous aims (e.g., setting privacyintrusive defaults). Third, internet startups created a new role for growth hackers, who target maximum user growth at minimum cost, sometimes using deceptive tactics such as blasting invitation emails out to a user's entire contact book without their consent. Calo notes that today's digital dark patterns go further than previous manipulation in the ofine world by using intrusive privacy settings to create personalized interfaces that take advantage of user frailty at an individual level <ref type="bibr" coords="2,439.33,265.88,9.39,7.94" target="#b2">[3]</ref>.</p><p>The term dark pattern originated with design practitioners, but has attracted growing interest from HCI researchers in recent years. In 2010, the user experience designer Harry Brignull coined the expression "dark patterns" and began curating them on darkpatterns.org website <ref type="bibr" coords="2,385.79,320.67,9.53,7.94" target="#b1">[2]</ref>. As the term gained traction in the public domain, Gray et al. derived fve umbrella strategies from a corpus of practitioner-identifed dark patterns <ref type="bibr" coords="2,461.98,342.59,10.56,7.94" target="#b6">[7]</ref> (see Figure <ref type="figure" coords="2,519.40,341.72,3.08,8.97">4</ref>). Further research has identifed patterns that prompt impulsive buying <ref type="bibr" coords="2,543.57,353.55,14.63,7.94" target="#b12">[13]</ref> and crawled a sample of ∼11,000 shopping sites fnding that such patterns are in common use <ref type="bibr" coords="2,427.24,375.46,13.49,7.94" target="#b11">[12]</ref>. Dark patterns have also been implicated in designs that maximize attention capture and lead to compulsive smartphone use <ref type="bibr" coords="2,422.20,397.38,13.36,7.94" target="#b17">[18]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.3">Impact Within and Beyond the Design Community</head><p>Yet, it is not enough for the design community to understand that dark patterns "exist, " as if they were an immutable force of nature. Instead, the design community should recognize its responsibility and consider how to efect change, even within the constraints of an economic system that often incentivizes worst practices. How can designers translate their knowledge of dark patterns into change within the design community and beyond? Design practitioners and researchers have explored several ways of addressing dark patterns from within the design community. One approach is to set norms for designers; for example, one of the stated purposes of the original darkpatterns.org website is to "name and shame" companies that employ dark patterns <ref type="bibr" coords="2,530.30,580.94,9.52,7.94" target="#b1">[2]</ref>. Another is to encourage designers and organizations to articulate their values as part of an ethics-focused design practice <ref type="bibr" coords="2,500.11,602.86,9.29,7.94" target="#b7">[8]</ref>. A third is to incorporate lessons on dark patterns into the curriculum of design education, e.g., as Hiniker does in the "Designing for Evil" course <ref type="bibr" coords="2,317.96,635.74,9.27,7.94" target="#b4">[5]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>How might designers build upon these approaches or introduce new ones to address dark patterns?</head><p>There is also growing interest in dark patterns from beyond the design community. Both US and EU policymakers have cited work from the HCI community (e.g., <ref type="bibr" coords="2,432.60,679.57,9.35,7.94" target="#b1">[2,</ref><ref type="bibr" coords="2,444.19,679.57,6.15,7.94" target="#b6">7,</ref><ref type="bibr" coords="2,452.57,679.57,10.67,7.94" target="#b11">12]</ref>) at meetings on potential regulations of dark patterns. Legal scholars are increasingly interested in using experimental studies of dark patterns to describe</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>NAGGING</head><p>Redirection of expected functionality that persists beyond one or more interactions.</p><p>Attempting to hide, disguise, or delay the divulging of information that is relevant to the user.</p><p>Making a process more difficult than it needs to be, with the intent of dissuading certain action(s).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INCLUDES:</head><p>Brignull "Roach Motel, " "Price Comparison Prevention, " and Intermediate Currency</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INCLUDES:</head><p>Brignull "Forced Continuity, " "Hidden Costs, " "Sneak into Basket, " and "Bait and Switch"</p><p>Manipulation of the user interface that privileges certain actions over others.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INCLUDES: Hidden Information, Preselection, Aesthetic Manipulation, Toying with</head><p>Emotion, False Hierarchy, Brignull "Disguised Ad, " and "Trick Questions"</p><p>Requiring the user to perform a certain action to access (or continue to access) certain functionality.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INCLUDES: Social Pyramid, Brignull "Privacy</head><p>Zuckering, " and Gamification</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>OBSTRUCTION SNEAKING INTERFACE INTERFERENCE FORCED ACTION</head><p>Figure <ref type="figure" coords="3,189.02,224.86,3.45,8.97">4</ref>: The fve strategies of dark patterns identifed by Gray et al. <ref type="bibr" coords="3,439.46,224.86,11.73,8.97" target="#b6">[7]</ref> limitations of existing policy and identify opportunities for legislation (e.g., <ref type="bibr" coords="3,96.20,264.88,9.33,7.94" target="#b7">[8,</ref><ref type="bibr" coords="3,107.78,264.88,6.00,7.94" target="#b8">9]</ref>). For concerned consumers, designers can create tools that help users exert self-control over temptations <ref type="bibr" coords="3,266.21,275.84,13.61,7.94" target="#b10">[11,</ref><ref type="bibr" coords="3,282.45,275.84,11.59,7.94" target="#b12">13]</ref> or alert them to the presence of dark patterns in an interface <ref type="bibr" coords="3,278.68,286.80,13.40,7.94" target="#b11">[12]</ref>.</p><p>Given their knowledge of dark patterns, what additional changes might designers push for in interactions with stakeholders such as policymakers and consumers?</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">WORKSHOP AIMS</head><p>This workshop has three main aims:</p><p>(1) Gather a transdisciplinary group: Bring together design practitioners and researchers from across the CHI community to discuss similarities and diferences in dark patterns across various domains. We welcome work from angles such as interaction design, design education, privacy and security, law and policy, algorithmic fairness, and diversity, equity, and inclusion. (2) Imagine impact within the design community: Develop ideas for how to address dark patterns through e.g., industry norm-setting, values articulation, and design education. (3) Imagine impact beyond the design community: Identify ways to address dark patterns that the design community might advocate for via interactions with e.g., consumers, media, companies, and policymakers.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">ORGANIZERS</head><p>The organizers have researched dark patterns across a range of diferent domains (e.g., online shopping, social media, and children's apps) and have responded to the problem from diferent angles (e.g., re-envisioning design education, designing and building improved systems, presenting to policymakers). They hold experience in both industry and research and have a track record of running successful workshops (e.g., EduCHI at CHI 2020 <ref type="bibr" coords="3,53.80,635.74,13.36,7.94" target="#b14">[15]</ref>, Digital Wellbeing at CHI 2019 <ref type="bibr" coords="3,184.32,635.74,9.12,7.94" target="#b3">[4]</ref>). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">WEBSITE</head><p>The website for the workshop will feature: the call for participation, the workshop schedule, the organizers, a collection of related academic work, links to galleries of dark patterns, and the fnal position papers submitted by participants. The website URL is darkpatternsindesign.com</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5">WORKSHOP PLANS 5.1 Pre-Workshop</head><p>Our collective expertise and afliations put us in a good position to bring together a transdisciplinary group of workshop participants. We will advertise the workshop through leading HCI mailing lists, social media and by direct invitation. We will also directly email the lead authors of 21 papers and extended abstracts that were published at CHI in the past 5 years that address dark patterns in a substantial way, based on our search and review of the ACM Digital Library. We found that all of the lead authors of these 21 papers were afliated with institutions in either the US or Europe, so we decided to start the workshop at 8am PDT to best accommodate these target participants. We regret that this time is likely difcult for participants from other regions such as Asia. Our aim is to attract around 20 design researchers and practitioners with diferent methodological expertise (e.g., interaction design, ethnography, algorithm development) and domain experience (e.g., shopping, gaming, social media). This workshop size (20-30, including organizers) is intended to be large enough to bring together participants with diverse perspectives but still small enough to allow for interaction as a full group. Applicants to the workshop will submit a 3-5 page position paper, presenting fndings from their own work and/or new ideas related to dark patterns. Submissions should include: 1) a working defnition of dark patterns; 2) an example of a dark pattern in a visual format from the applicant's domain of focus; and 3) at least one way to address dark patterns from within or beyond the design community. Acceptance will be based on quality and relevance to the themes of the workshop, with a priority for a diversity of perspectives. Each submission will be independently evaluated by a minimum of two organizers. After acceptance but prior to the workshop, participants will complete a 10-minute pre-workshop online survey indicating their preference for the small group discussions that they would like to participate in during the workshop.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2">Workshop Structure</head><p>Table <ref type="table" coords="4,77.99,601.99,4.61,8.97" target="#tab_1">1</ref> shows a draft of the agenda for the 4-hour virtual workshop. The workshop is structured to give individual participants ample opportunity to interact and share their work in small groups, while as a full group we work to identify ways that our collective understanding of dark patterns can have impact within and beyond the design community.</p><p>After a brief welcome, we will begin with lightning introductions of about half of the participants during which each participant will have one-minute to introduce themselves and present one slide with a visual example dark pattern from their domain of focus. Participants will then participate in Session 1, small group discussions on how to address dark patterns within the design community through e.g., value articulation, industry norm-setting, and design education. The exact small group topics in Session 1 will take into account the proposals in position papers and participants will be pre-assigned based on their preferences in the pre-workshop survey. To facilitate productive discussion within these small groups, participants will be asked to read the position papers written by the 5-9 other members of their small group in advance of the workshop. We will then take a short break.</p><p>A rapporteur for each of the Session 1 small groups will share the highlights of their discussion back to the full group. The remaining half of participants will then give their lightning introductions. Next, Ryan Calo, Professor of Law at The University of Washington, has agreed to give a short keynote talk and take questions on the legal and policy implications of dark patterns as a powerful form of market manipulation <ref type="bibr" coords="4,425.16,274.09,9.29,7.94" target="#b2">[3]</ref>. This is intended to prompt workshop participants-primarily design practitioners and researchersto think about potential impacts outside of the design community. We will again take a short break.</p><p>In Session 2, participants will participate in small group discussions of what changes the design community might advocate for via interactions with e.g., consumers, media, companies, and policymakers. The selection of small group topics, participant group assignment, and participant pre-reading will follow the same procedures as Session 1. Finally, we will come together as a full group again to discuss the key takeaways of the three main sessions and sign up participants to help disseminate the results of the workshop.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.3">Post-Workshop Plans</head><p>We intend for the workshop to nurture a community and collaborations among participants with diverse perspectives. To facilitate continued sharing of design initiatives, research, and news, we will create a Google Group email list that is open to workshop participants and anyone interested in dark patterns in design.</p><p>To disseminate the results of the workshop, the organizers will publish a blog post of highlights on the UX Collective (uxdesign.cc), a Medium publication with almost 400,000 followers, mostly design practitioners. The corresponding organizer of this workshop, Kai Lukof, previously co-authored a blog post on the UX Collective for a workshop he co-organized on digital wellbeing at CHI 2019 <ref type="bibr" coords="4,317.96,554.56,13.42,7.94" target="#b9">[10]</ref>. Organizers will also share the post via social media to reach networks of design researchers.</p><p>At the fnal workshop session, we will also discuss possibilities for sharing workshop results outside of the design community. In particular, we will consider writing a letter to policymakers that shares the points of consensus among the design practitioners and researchers who participated at the workshop. At present, dark patterns are the subject of pending legislation in the US <ref type="foot" coords="4,538.69,629.13,3.38,6.44" target="#foot_0">3</ref> and ongoing review by EU agencies 4 ; input from the design community may help shape these policies. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6">CALL FOR PARTICIPATION</head><p>Imagine buying fowers for a loved one. After selecting a bouquet, at checkout you discover that the site has sneaked a paid greeting card into your shopping cart. This is an example of a dark pattern, an interface designed to manipulate a user into behavior that goes against their best interests. This one-day virtual workshop will bring together a transdisciplinary group of design practitioners and researchers to discuss similarities in dark patterns across diferent domains and what to do about them. We will discuss two topics: First, within the design community, how can designers address dark patterns through e.g., industry norm-setting, values articulation, and design education? Second, beyond the design community, what changes might designers advocate for via interactions with e.g., consumers, media, and policymakers?</p><p>Applicants should submit a 3-5 page position paper (including references) in the single-column ACM Master Article Submission Template, presenting fndings from their own work and/or new ideas related to dark patterns. Submissions should include: 1) a working defnition of dark patterns; 2) an example of a dark pattern from the applicant's domain of focus, preferably in a visual format 5 ; and 3) at least one way to address dark patterns from within or beyond the design community. Acceptance will be based on quality, relevance, and diversity.</p><p>• Submission deadline: February 5, 2021 • Acceptance notifcation: February 19, 2021 • Submit applications to: darkpatternsindesign@gmail.com • Website: darkpatternsindesign.com • Workshop date &amp; time: To-be-determined.</p><p>• Location: Online video conference 5 See these dark pattern galleries for examples. For non-visual interaction modalities (e.g., voice), consider a short storyboard or comic to illustrate the dark pattern. Participants will share their example during the Lightning Introductions activity in the workshop.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="1,317.96,686.38,241.85,8.97;1,317.96,697.33,79.76,8.97"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: Search results for "dark patterns" in the ACM Digital Library by year.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="2,53.80,410.79,240.25,8.97;2,53.80,421.74,241.85,8.97;2,53.80,432.70,240.25,8.97;2,53.79,443.66,241.85,8.97;2,53.79,454.62,229.69,8.97"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3: The architect Christopher Alexander championed design patterns as descriptions of best practices. Here, an illustration depicts design pattern #159, "Light on two sides of every room" [1, p.746]. ©Oxford University Press. Reproduced with permission of the Licensor through PLSclear.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="3,53.80,253.92,505.92,455.52"><head></head><label></label><figDesc>Kai Lukof (corresponding organizer) is a PhD candidate in Human Centered Design &amp; Engineering at the University of Washington. He studies how individuals and families can align their 'screen time' with their values. He has investigated how social media apps use dark patterns to capture attention and created prototypes that are redesigned for more intentional use. He also has an industry perspective on this topic from his 6 years of experience as a product manager at mobile internet startups in China.Alexis Hiniker is an Assistant Professor of HCI for Social Good at the University of Washington Information School. She studies the ways in which consumer-facing technologies exploit and manipulate their users and the design of more respectful alternatives, particularly for children. She has conducted a number of studies to understand compulsive device use, and she has designed, built, and evaluated several systems to promote digital self-regulation.Colin M. Gray is an Assistant Professor at Purdue University, where he is the program lead for an undergraduate major and graduate concentration in UX Design. His research focuses on the ways in which the pedagogy and practice of designers informs the development of design ability, particularly in relation to dark patterns, ethical responsibility, and design complexity.</figDesc><table coords="3,317.96,464.26,241.76,174.19"><row><cell>Arunesh Mathur is a Postdoctoral Research Fellow in the Center</cell></row><row><cell>for Information Technology Policy at Princeton University where he</cell></row><row><cell>is supported by a Consumer Reports fellowship. Mathur's research</cell></row><row><cell>examines the societal impacts of technical systems through an</cell></row><row><cell>empirical lens. His dissertation research showed how commercial,</cell></row><row><cell>political, and other powerful actors employ dark patterns to exploit</cell></row><row><cell>individuals and society. His research has received two best paper</cell></row><row><cell>awards (ACM CSCW and USENIX SOUPS) and the Privacy Papers</cell></row><row><cell>for Policy Makers Award.</cell></row><row><cell>Shruthi Chivukula is a PhD Candidate at Purdue University. Her</cell></row><row><cell>research focuses on describing everyday ethics in technology and</cell></row><row><cell>design practice to uncover organizational factors leading to creation</cell></row><row><cell>of unethical or manipulative designs, individual practitioner's sense</cell></row><row><cell>of responsibility within and across disciplinary borders, and ethics-</cell></row><row><cell>focused methods to provide support for ethical decision making.</cell></row></table><note>Ryan Calo (keynote speaker) is the Lane Powell and D. Wayne Gittinger Professor at the University of Washington School of Law. His scholarship addresses how digital market manipulation can uncover and trigger consumer frailty at an individual level and its implications for consumer protection law and policy. Professor Calo has committed to giving a keynote talk at the workshop.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="5,60.37,84.63,490.02,219.22"><head>Table 1 :</head><label>1</label><figDesc>Draft of workshop agenda</figDesc><table coords="5,60.37,109.15,490.02,194.70"><row><cell>Time</cell><cell>Activity</cell><cell>Description</cell></row><row><cell>8:00</cell><cell>Welcome</cell><cell>Organizers introduce themselves and the agenda</cell></row><row><cell>8:15</cell><cell>Lightning introductions (about half</cell><cell>Participants introduce themselves and share one slide with a visual example of a dark</cell></row><row><cell></cell><cell>of participants)</cell><cell>pattern from their domain of focus (one-minute per participant)</cell></row><row><cell>8:30</cell><cell>Session 1: Impact within the design</cell><cell>Small group discussions of how to address dark patterns through e.g., value articulation,</cell></row><row><cell></cell><cell>community</cell><cell>industry norm-setting, and design education</cell></row><row><cell>9:15</cell><cell>Fifteen-minute break</cell><cell></cell></row><row><cell>9:30</cell><cell>Group sharing</cell><cell>Rapporteur from each Session 1 small group shares highlights of their discussion</cell></row><row><cell>9:45</cell><cell>Lightning introductions (about half</cell><cell>Participants introduce themselves and share one slide with a dark pattern from their</cell></row><row><cell></cell><cell>of participants)</cell><cell>domain of focus (one-minute per participant)</cell></row><row><cell>10:00</cell><cell>Keynote with Q&amp;A: Digital Market</cell><cell>Ryan Calo, Professor of Law at The University of Washington, will present on the legal</cell></row><row><cell></cell><cell>Manipulation</cell><cell>and policy implications of dark patterns</cell></row><row><cell>10:30</cell><cell>Fifteen-minute break</cell><cell></cell></row><row><cell>10:45</cell><cell>Session 2: Impact beyond the design</cell><cell>Small group discussions of what changes the design community might advocate for via</cell></row><row><cell></cell><cell>community</cell><cell>interactions with e.g., media, companies, and policymakers</cell></row><row><cell>11:30</cell><cell>Group sharing</cell><cell>Rapporteur from each Session 2 small group shares highlights of their discussion</cell></row><row><cell>11:45</cell><cell>Next steps</cell><cell>Conclusion and sign up participants to help disseminate the workshop results</cell></row><row><cell>11:50</cell><cell>Workshop ends</cell><cell></cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3" xml:id="foot_0">See The Deceptive Experiences To Online Users Reduction (DETOUR) Act</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ACKNOWLEDGMENTS</head><p>We thank Carol Moser for feedback on this workshop paper. This work was funded in part by National Science Foundation awards #1849955 and #1909714 and Facebook support to Alexis Hiniker.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="5,333.39,399.88,225.89,6.23;5,333.39,407.90,101.19,6.18" xml:id="b0">
+	<monogr>
+		<title level="m" type="main">A pattern language : towns, buildings, construction</title>
+		<author>
+			<persName coords=""><forename type="first">Christopher</forename><surname>Alexander</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1977">1977</date>
+			<publisher>Oxford University Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,333.39,415.87,225.63,6.18;5,333.17,423.84,131.99,6.18" xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Gibson, Peter Alexander, (born 22 May 1975), MP (C) Darlington, since 2019</title>
+		<author>
+			<persName coords=""><forename type="first">Harry</forename><surname>Brignull</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Alexander</forename><surname>Darlington</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/ww/9780199540884.013.u293981</idno>
+		<ptr target="https://www.darkpatterns.org" />
+		<imprint>
+			<date type="published" when="2020-12-01" />
+			<publisher>Oxford University Press</publisher>
+			<biblScope unit="page" from="2019" to="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,333.39,431.76,224.81,6.23;5,333.39,439.78,225.88,6.18;5,333.39,447.75,225.16,6.18;5,333.39,455.72,212.07,6.18;5,333.39,463.69,28.47,6.18" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Digital Market Manipulation</title>
+		<author>
+			<persName coords=""><forename type="first">Ryan</forename><surname>Calo</surname></persName>
+		</author>
+		<idno type="DOI">10.2139/ssrn.2309703</idno>
+		<ptr target="https://heinonline.org/hol-cgi-bin/get_pdf.cgi?handle=hein.journals/gwlr82&amp;section=34&amp;casa_token=TD7Dj3IMGygAAAAA" />
+	</analytic>
+	<monogr>
+		<title level="j">SSRN Electronic Journal</title>
+		<title level="j" type="abbrev">SSRN Journal</title>
+		<idno type="ISSNe">1556-5068</idno>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="6K" to="Y7" />
+			<date type="published" when="2013">2013. 2013</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,333.39,471.66,224.81,6.18;5,333.39,479.63,225.63,6.18;5,333.39,487.55,225.26,6.23;5,333.39,495.57,92.96,6.18" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Designing for Digital Wellbeing</title>
+		<author>
+			<persName coords=""><forename type="first">Marta</forename><forename type="middle">E</forename><surname>Cecchinato</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">John</forename><surname>Rooksby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexis</forename><surname>Hiniker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sean</forename><surname>Munson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kai</forename><surname>Lukoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luigina</forename><surname>Ciolfi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anja</forename><surname>Thieme</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Daniel</forename><surname>Harrison</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3290607.3298998</idno>
+		<ptr target="https://dl.acm.org/doi/abs/10.1145/3290607.3298998" />
+	</analytic>
+	<monogr>
+		<title level="m">Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems</title>
+				<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2019-05-02">2019. 2019</date>
+		</imprint>
+	</monogr>
+	<note>Extended Abstracts of</note>
+</biblStruct>
+
+<biblStruct coords="5,333.39,503.54,224.81,6.18;5,333.39,511.46,225.26,6.23;5,333.39,519.48,217.21,6.18" xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Students confront the unethical side of tech in &apos;Designing for Evil&apos; course</title>
+		<author>
+			<persName coords=""><forename type="first">Devin</forename><surname>Coldewey</surname></persName>
+		</author>
+		<ptr target="http://techcrunch.com/2018/05/29/students-confront-the-unethical-side-of-tech-in-designing-for-evil-course/" />
+		<imprint>
+			<date type="published" when="2018-05">2018. May 2018</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">TechCrunch</note>
+</biblStruct>
+
+<biblStruct coords="5,333.39,527.45,224.81,6.18;5,333.39,535.37,225.89,6.23;5,333.39,543.39,91.98,6.18" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Pattern Languages in HCI: A Critical Review</title>
+		<author>
+			<persName coords=""><forename type="first">Andy</forename><surname>Dearden</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Janet</forename><surname>Finlay</surname></persName>
+		</author>
+		<idno type="DOI">10.1207/s15327051hci2101_3</idno>
+		<ptr target="https://doi.org/10.1207/s15327051hci2101_3" />
+	</analytic>
+	<monogr>
+		<title level="j">Human–Computer Interaction</title>
+		<title level="j" type="abbrev">Human–Computer Interaction</title>
+		<idno type="ISSN">0737-0024</idno>
+		<idno type="ISSNe">1532-7051</idno>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="49" to="102" />
+			<date type="published" when="2006-03">2006. March 2006</date>
+			<publisher>Informa UK Limited</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,333.39,551.36,225.89,6.18;5,333.39,559.28,224.81,6.23;5,333.39,567.25,225.23,6.23;5,332.96,575.22,226.31,6.23;5,333.39,583.24,113.14,6.18" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The Dark (Patterns) Side of UX Design</title>
+		<author>
+			<persName coords=""><forename type="first">Colin</forename><forename type="middle">M</forename><surname>Gray</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Yubo</forename><surname>Kou</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Bryan</forename><surname>Battles</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Joseph</forename><surname>Hoggatt</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Austin</forename><forename type="middle">L</forename><surname>Toombs</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3173574.3174108</idno>
+		<ptr target="https://doi.org/10.1145/3173574.3174108" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems</title>
+				<meeting>the 2018 CHI Conference on Human Factors in Computing Systems<address><addrLine>Montreal QC, Canada; New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2018-04-21">2018</date>
+			<biblScope unit="page" from="1" to="14" />
+		</imprint>
+	</monogr>
+	<note>CHI &apos;18)</note>
+</biblStruct>
+
+<biblStruct coords="5,333.39,591.21,224.81,6.18;5,333.39,599.18,225.63,6.18;5,333.15,607.15,225.51,6.18;5,333.39,615.12,42.32,6.18" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Dark Patterns and the Legal Requirements of Consent Banners: An Interaction Criticism Perspective</title>
+		<author>
+			<persName coords=""><forename type="first">Colin</forename><forename type="middle">M</forename><surname>Gray</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Cristiana</forename><surname>Santos</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Nataliia</forename><surname>Bielova</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Michael</forename><surname>Toth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Damian</forename><surname>Clifford</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3411764.3445779</idno>
+		<idno type="arXiv">arXiv:2009.10194[cs.HC</idno>
+		<ptr target="http://arxiv.org/abs/2009.10194" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems</title>
+				<meeting>the 2021 CHI Conference on Human Factors in Computing Systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,333.39,623.09,225.88,6.18;5,333.39,631.06,123.09,6.18" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Shining a Light on Dark Patterns</title>
+		<author>
+			<persName coords=""><forename type="first">Jamie</forename><surname>Luguri</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Lior</forename><surname>Strahilevitz</surname></persName>
+		</author>
+		<idno type="DOI">10.2139/ssrn.3431205</idno>
+		<ptr target="https://doi.org/10.2139/ssrn.3431205" />
+	</analytic>
+	<monogr>
+		<title level="j">SSRN Electronic Journal</title>
+		<title level="j" type="abbrev">SSRN Journal</title>
+		<idno type="ISSNe">1556-5068</idno>
+		<imprint>
+			<date type="published" when="2019-08">2019. Aug. 2019</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,333.39,639.03,224.81,6.18;5,333.39,647.00,225.49,6.18;5,333.39,654.97,163.81,6.18" xml:id="b9">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Kai</forename><surname>Lukof</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Sean</forename><surname>Munson</surname></persName>
+		</author>
+		<ptr target="https://uxdesign.cc/digital-wellbeing-more-than-just-reducing-screen-time-46223db9f057Accessed" />
+		<title level="m">Digital wellbeing is way more than just reducing screen time</title>
+				<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="2020" to="2030" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,333.39,662.94,225.58,6.18;5,333.39,670.91,224.81,6.18;5,333.39,678.83,224.99,6.23;5,333.39,686.85,133.98,6.18" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Self-Control in Cyberspace</title>
+		<author>
+			<persName coords=""><forename type="first">Ulrik</forename><surname>Lyngs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kai</forename><surname>Lukoff</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Petr</forename><surname>Slovak</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Reuben</forename><surname>Binns</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Adam</forename><surname>Slack</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Michael</forename><surname>Inzlicht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Max</forename><surname>Van Kleek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nigel</forename><surname>Shadbolt</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3290605.3300361</idno>
+		<ptr target="https://doi.org/10.1145/3290605.3300361" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems</title>
+				<meeting>the 2019 CHI Conference on Human Factors in Computing Systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2019-05-02">2019. May 2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,333.39,694.82,224.81,6.18;5,333.39,702.79,225.63,6.18;6,69.23,89.05,225.57,6.23;6,69.23,97.02,178.29,6.23" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Dark Patterns at Scale</title>
+		<author>
+			<persName coords=""><forename type="first">Arunesh</forename><surname>Mathur</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Gunes</forename><surname>Acar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">J</forename><surname>Friedman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eli</forename><surname>Lucherini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jonathan</forename><surname>Mayer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marshini</forename><surname>Chetty</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Arvind</forename><surname>Narayanan</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3359183</idno>
+		<ptr target="https://doi.org/10.1145/3359183" />
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the ACM on Human-Computer Interaction</title>
+		<title level="j" type="abbrev">Proc. ACM Hum.-Comput. Interact.</title>
+		<idno type="ISSNe">2573-0142</idno>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">CSCW</biblScope>
+			<biblScope unit="page" from="1" to="32" />
+			<date type="published" when="2019-11-07">2019. Nov. 2019</date>
+			<publisher>Association for Computing Machinery (ACM)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,69.23,105.04,225.99,6.18;6,69.23,112.96,224.81,6.23;6,69.23,120.93,225.23,6.23;6,68.81,128.90,226.31,6.23;6,69.23,136.92,113.14,6.18" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Impulse Buying</title>
+		<author>
+			<persName coords=""><forename type="first">Carol</forename><surname>Moser</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Sarita</forename><forename type="middle">Y</forename><surname>Schoenebeck</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Paul</forename><surname>Resnick</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3290605.3300472</idno>
+		<ptr target="https://doi.org/10.1145/3290605.3300472" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems</title>
+				<meeting>the 2019 CHI Conference on Human Factors in Computing Systems<address><addrLine>Glasgow, Scotland Uk; New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2019-05-02">2019</date>
+			<biblScope unit="page" from="1" to="15" />
+		</imprint>
+	</monogr>
+	<note>CHI &apos;19)</note>
+</biblStruct>
+
+<biblStruct coords="6,69.23,144.89,225.88,6.18;6,69.23,152.81,225.59,6.23;6,69.07,160.83,112.47,6.18" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Dark patterns</title>
+		<author>
+			<persName coords=""><forename type="first">Arvind</forename><surname>Narayanan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Arunesh</forename><surname>Mathur</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Marshini</forename><surname>Chetty</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Mihir</forename><surname>Kshirsagar</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3397884</idno>
+		<ptr target="https://doi.org/10.1145/3397884" />
+	</analytic>
+	<monogr>
+		<title level="j">Communications of the ACM</title>
+		<title level="j" type="abbrev">Commun. ACM</title>
+		<idno type="ISSN">0001-0782</idno>
+		<idno type="ISSNe">1557-7317</idno>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="42" to="47" />
+			<date type="published" when="2020-08-21">2020. Aug. 2020</date>
+			<publisher>Association for Computing Machinery (ACM)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,69.23,168.80,224.81,6.18;6,69.01,176.77,225.04,6.18;6,68.99,184.69,225.06,6.23;6,524.08,62.77,34.12,6.23;6,333.39,89.05,224.81,6.23;6,333.39,97.02,225.64,6.23;6,333.17,105.04,97.00,6.18" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">EduCHI 2020: 2nd Annual Symposium on HCI Education</title>
+		<author>
+			<persName coords=""><forename type="first">Olivier</forename><surname>St-Cyr</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Craig</forename><forename type="middle">M</forename><surname>Macdonald</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Colin</forename><forename type="middle">M</forename><surname>Gray</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Leigh</forename><forename type="middle">Ellen</forename><surname>Potter</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Anna</forename><surname>Vasilchenko</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jaisie</forename><surname>Sin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Elizabeth</forename><forename type="middle">F</forename><surname>Churchill</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3334480.3375066</idno>
+		<ptr target="https://doi.org/10.1145/3334480.3375066" />
+	</analytic>
+	<monogr>
+		<title level="m">Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems</title>
+				<meeting><address><addrLine>Honolulu, HI, USA; New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2020-04-25">2020. 2020</date>
+			<biblScope unit="page" from="1" to="8" />
+		</imprint>
+	</monogr>
+	<note>CHI EA &apos;20)</note>
+</biblStruct>
+
+<biblStruct coords="6,333.39,112.96,224.81,6.23;6,333.39,120.93,111.38,6.23" xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Nudge: Improving decisions about health, wealth, and happiness</title>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Richard</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Thaler</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Cass R Sunstein</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,333.39,128.95,68.42,6.18;6,417.65,128.95,140.69,6.18;6,333.39,136.92,135.02,6.18;6,487.90,136.87,71.07,6.23;6,333.39,144.84,120.19,6.23" xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Common Ground: A Pattern Language for Human-Computer Interface Design</title>
+		<author>
+			<persName coords=""><forename type="first">Jenifer</forename><surname>Tidwell</surname></persName>
+		</author>
+		<ptr target="http://www.mit.edu/\jtidwell/common_ground.html" />
+		<imprint>
+			<date type="published" when="1999">1999. 1999. 1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,333.39,152.86,224.81,6.18;6,333.39,160.78,224.81,6.23;6,333.39,168.75,225.58,6.23;6,333.39,176.72,225.58,6.23;6,333.39,184.74,149.57,6.18" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Modeling the Engagement-Disengagement Cycle of Compulsive Phone Use</title>
+		<author>
+			<persName coords=""><forename type="first">Jonathan</forename><forename type="middle">A</forename><surname>Tran</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Katie</forename><forename type="middle">S</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Katie</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Alexis</forename><surname>Hiniker</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3290605.3300542</idno>
+		<ptr target="https://doi.org/10.1145/3290605.3300542" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems</title>
+				<meeting>the 2019 CHI Conference on Human Factors in Computing Systems<address><addrLine>Glasgow, Scotland Uk; New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2019-05-02">2019</date>
+			<biblScope unit="page" from="1" to="14" />
+		</imprint>
+	</monogr>
+	<note>CHI &apos;19)</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
