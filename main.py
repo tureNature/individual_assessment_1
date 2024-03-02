@@ -3,9 +3,9 @@ from grobid_client.grobid_client import GrobidClient
 from utilities import generate_wordcloud, visualize_figures, extract_links
 
 def main(folder_path):
-    generate_wordcloud(folder_path)
+    #generate_wordcloud(folder_path)
 
-    visualize_figures(folder_path)
+    #visualize_figures(folder_path)
 
     extract_links(folder_path)
     

@@ -3,18 +3,18 @@ from xml.etree import ElementTree as ET
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
-def parse_xml(file_path, goal):
+def parse_xml(file_path, extraction_mode):
     tree = ET.parse(file_path)
     root = tree.getroot()
     ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
-    if goal == "abstract":
+    if extraction_mode == "abstract":
         abstract_elements = root.findall(".//tei:profileDesc/tei:abstract/tei:div/tei:p", namespaces=ns)
         return  ' '.join([element.text.strip() for element in abstract_elements if element.text])
-    elif goal == "figures":
+    elif extraction_mode == "figures":
         return root.findall(".//tei:figure", namespaces=ns)
-    elif goal == "links":
-        link_elements = root.findall(".//tei:link", namespaces=ns)
-        return [link.text for link in link_elements if link.text]
+    elif extraction_mode == "links":
+        bibl_structs = root.findall(".//tei:biblStruct/tei:ptr", namespaces=ns)
+        return [ptr.get("target") for bibl_struct in bibl_structs if (ptr := bibl_struct.find(".//tei:ptr", namespaces=ns)) is not None]
 
 def get_xml_files(folder_path):
     return [file for file in os.listdir(folder_path) if file.endswith(".xml")]
@@ -54,6 +54,6 @@ def extract_links(folder_path):
     for xml_file in xml_files:
         xml_path = os.path.join(folder_path, xml_file)
         links_in_article = parse_xml(xml_path, "links")
-        with open(f'output/links_extraction_results/{xml_file}_links.txt', 'w') as file:
+        with open(f'output/links_extraction_results/{xml_file[:-15]}_links.txt', 'w') as file:
             for link in links_in_article:
                 file.write(link + "\n")
