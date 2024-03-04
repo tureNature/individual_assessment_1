@@ -13,7 +13,7 @@ def parse_xml(file_path, extraction_mode):
     elif extraction_mode == "figures":
         return root.findall(".//tei:figure", namespaces=ns)
     elif extraction_mode == "links":
-        bibl_structs = root.findall(".//tei:biblStruct/tei:ptr", namespaces=ns)
+        bibl_structs = root.findall(".//tei:biblStruct", namespaces=ns)
         return [ptr.get("target") for bibl_struct in bibl_structs if (ptr := bibl_struct.find(".//tei:ptr", namespaces=ns)) is not None]
 
 def get_xml_files(folder_path):
@@ -34,15 +34,14 @@ def visualize_figures(folder_path):
     xml_files = get_xml_files(folder_path)
     article_names = []
     figures_counts = []
-
     for xml_file in xml_files:
         xml_path = os.path.join(folder_path, xml_file)
         article_name = os.path.splitext(xml_file)[0]
         num_figures  = len(parse_xml(xml_path, "figures"))
         article_names.append(article_name)
         figures_counts.append(num_figures)
-
     plt.bar(range(1, len(figures_counts) + 1), figures_counts)
+    plt.xticks(range(1, len(figures_counts) + 1, 1), map(int, range(1, len(figures_counts) + 1)))
     plt.xlabel('Article')
     plt.ylabel('Number of Figures')
     plt.title('Number of Figures per Article')
@@ -50,7 +49,6 @@ def visualize_figures(folder_path):
 
 def extract_links(folder_path):
     xml_files = get_xml_files(folder_path)
-
     for xml_file in xml_files:
         xml_path = os.path.join(folder_path, xml_file)
         links_in_article = parse_xml(xml_path, "links")

@@ -58,7 +58,7 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 		</fileDesc>
 		<encodingDesc>
 			<appInfo>
-				<application version="0.7.2" ident="GROBID" when="2024-03-02T21:08+0000">
+				<application version="0.7.2" ident="GROBID" when="2024-03-04T17:59+0000">
 					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
 					<ref target="https://github.com/kermitt2/grobid"/>
 				</application>
@@ -388,41 +388,35 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 </biblStruct>
 
 <biblStruct coords="13,142.62,316.93,337.98,7.86;13,151.52,327.89,162.96,7.86" xml:id="b11">
-	<analytic>
-		<title level="a" type="main">Understanding Motivational Dark Patterns</title>
-		<author>
-			<persName coords=""><forename type="first">Chris</forename><surname>Lewis</surname></persName>
-		</author>
-		<idno type="DOI">10.1007/978-1-4302-6422-4_8</idno>
-	</analytic>
 	<monogr>
-		<title level="m">Irresistible Apps</title>
-				<imprint>
-			<publisher>Apress</publisher>
+		<title level="m" type="main">Irresistible Apps: Motivational design patterns for apps, games, and web-based communities</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Lewis</surname></persName>
+		</author>
+		<imprint>
 			<date type="published" when="2014">2014</date>
-			<biblScope unit="page" from="99" to="102" />
+			<publisher>Springer</publisher>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct coords="13,142.62,338.85,337.98,7.86;13,151.52,349.81,329.07,7.86;13,151.52,360.77,211.07,7.86" xml:id="b12">
 	<analytic>
-		<title level="a" type="main">Analyzing GDPR Compliance Through the Lens of Privacy Policy</title>
+		<title level="a" type="main">Analyzing gdpr compliance through the lens of privacy policy</title>
 		<author>
-			<persName><forename type="first">Jayashree</forename><surname>Mohan</surname></persName>
+			<persName coords=""><forename type="first">J</forename><surname>Mohan</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">Melissa</forename><surname>Wasserman</surname></persName>
+			<persName coords=""><forename type="first">M</forename><surname>Wasserman</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">Vijay</forename><surname>Chidambaram</surname></persName>
+			<persName coords=""><forename type="first">V</forename><surname>Chidambaram</surname></persName>
 		</author>
-		<idno type="DOI">10.1007/978-3-030-33752-0_6</idno>
 	</analytic>
 	<monogr>
 		<title level="m">Heterogeneous Data Management, Polystores, and Analytics for Healthcare</title>
 				<imprint>
-			<publisher>Springer International Publishing</publisher>
+			<publisher>Springer</publisher>
 			<date type="published" when="2019">2019</date>
 			<biblScope unit="page" from="82" to="95" />
 		</imprint>
@@ -431,62 +425,55 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 
 <biblStruct coords="13,142.62,371.73,337.98,7.86;13,151.52,382.66,190.93,7.89" xml:id="b13">
 	<analytic>
-		<title level="a" type="main">Dark Patterns: Past, Present, and Future</title>
+		<title level="a" type="main">Dark patterns: Past, present, and future</title>
 		<author>
-			<persName><forename type="first">Arvind</forename><surname>Narayanan</surname></persName>
+			<persName coords=""><forename type="first">A</forename><surname>Narayanan</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">Arunesh</forename><surname>Mathur</surname></persName>
+			<persName coords=""><forename type="first">A</forename><surname>Mathur</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">Marshini</forename><surname>Chetty</surname></persName>
+			<persName coords=""><forename type="first">M</forename><surname>Chetty</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">Mihir</forename><surname>Kshirsagar</surname></persName>
+			<persName coords=""><forename type="first">M</forename><surname>Kshirsagar</surname></persName>
 		</author>
-		<idno type="DOI">10.1145/3400899.3400901</idno>
 	</analytic>
 	<monogr>
 		<title level="j">Queue</title>
-		<title level="j" type="abbrev">Queue</title>
-		<idno type="ISSN">1542-7730</idno>
-		<idno type="ISSNe">1542-7749</idno>
 		<imprint>
 			<biblScope unit="volume">18</biblScope>
 			<biblScope unit="issue">2</biblScope>
 			<biblScope unit="page" from="67" to="92" />
-			<date type="published" when="2020-04-30">2020</date>
-			<publisher>Association for Computing Machinery (ACM)</publisher>
+			<date type="published" when="2020">2020</date>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct coords="13,142.62,393.65,337.98,7.86;13,151.52,404.61,329.07,7.86;13,151.52,415.56,329.07,7.86;13,151.52,426.52,25.60,7.86" xml:id="b14">
 	<analytic>
-		<title level="a" type="main">Dark Patterns after the GDPR: Scraping Consent Pop-ups and Demonstrating their Influence</title>
+		<title level="a" type="main">Dark patterns after the gdpr: Scraping consent pop-ups and demonstrating their influence</title>
 		<author>
-			<persName><forename type="first">Midas</forename><surname>Nouwens</surname></persName>
+			<persName coords=""><forename type="first">M</forename><surname>Nouwens</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">Ilaria</forename><surname>Liccardi</surname></persName>
+			<persName coords=""><forename type="first">I</forename><surname>Liccardi</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">Michael</forename><surname>Veale</surname></persName>
+			<persName coords=""><forename type="first">M</forename><surname>Veale</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">David</forename><surname>Karger</surname></persName>
+			<persName coords=""><forename type="first">D</forename><surname>Karger</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">Lalana</forename><surname>Kagal</surname></persName>
+			<persName coords=""><forename type="first">L</forename><surname>Kagal</surname></persName>
 		</author>
-		<idno type="DOI">10.1145/3313831.3376321</idno>
 	</analytic>
 	<monogr>
 		<title level="m">Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems</title>
 				<meeting>the 2020 CHI Conference on Human Factors in Computing Systems</meeting>
 		<imprint>
-			<publisher>ACM</publisher>
-			<date type="published" when="2020-04-21">2020</date>
+			<date type="published" when="2020">2020</date>
 			<biblScope unit="page" from="1" to="13" />
 		</imprint>
 	</monogr>
@@ -494,46 +481,37 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 
 <biblStruct coords="13,142.62,437.46,337.97,7.89;13,151.52,448.44,329.07,8.12;13,151.52,460.05,103.56,7.47" xml:id="b15">
 	<analytic>
-		<title level="a" type="main">Digital Natives, Digital Immigrants Part 1</title>
+		<title level="a" type="main">Digital natives, digital immigrants part 1</title>
 		<author>
-			<persName coords=""><forename type="first">Marc</forename><surname>Prensky</surname></persName>
+			<persName coords=""><forename type="first">M</forename><surname>Prensky</surname></persName>
 		</author>
 		<idno type="DOI">10.1108/10748120110424816</idno>
 		<ptr target="https://doi.org/10.1108/10748120110424816" />
 	</analytic>
 	<monogr>
 		<title level="j">On the Horizon</title>
-		<title level="j" type="abbrev">On the Horizon</title>
-		<idno type="ISSN">1074-8121</idno>
 		<imprint>
 			<biblScope unit="volume">9</biblScope>
 			<biblScope unit="issue">5</biblScope>
 			<biblScope unit="page" from="1" to="6" />
 			<date type="published" when="2001-09">Sep 2001</date>
-			<publisher>Emerald</publisher>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct coords="13,142.62,470.36,337.97,7.86;13,151.52,481.29,138.66,7.89" xml:id="b16">
 	<analytic>
-		<title level="a" type="main">Values Levers</title>
+		<title level="a" type="main">Values levers: Building ethics into design</title>
 		<author>
-			<persName coords=""><forename type="first">Katie</forename><surname>Shilton</surname></persName>
+			<persName coords=""><forename type="first">K</forename><surname>Shilton</surname></persName>
 		</author>
-		<idno type="DOI">10.1177/0162243912436985</idno>
 	</analytic>
 	<monogr>
-		<title level="j">Science, Technology, &amp; Human Values</title>
-		<title level="j" type="abbrev">Science, Technology, &amp; Human Values</title>
-		<idno type="ISSN">0162-2439</idno>
-		<idno type="ISSNe">1552-8251</idno>
-		<imprint>
-			<biblScope unit="volume">38</biblScope>
-			<biblScope unit="issue">3</biblScope>
-			<biblScope unit="page" from="374" to="397" />
+		<title level="m">Technology, &amp; Human Values</title>
+				<imprint>
 			<date type="published" when="2013">2013</date>
-			<publisher>SAGE Publications</publisher>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="374" to="397" />
 		</imprint>
 	</monogr>
 </biblStruct>
@@ -547,10 +525,9 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 		<author>
 			<persName coords=""><forename type="first">L</forename><surname>Mignonneau</surname></persName>
 		</author>
-		<idno type="DOI">10.1007/978-3-540-79870-5</idno>
 		<imprint>
 			<date type="published" when="2008">2008</date>
-			<publisher>Springer Berlin Heidelberg</publisher>
+			<publisher>Springer</publisher>
 			<biblScope unit="volume">1</biblScope>
 		</imprint>
 	</monogr>

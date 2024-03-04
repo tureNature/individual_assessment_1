@@ -42,7 +42,7 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 		</fileDesc>
 		<encodingDesc>
 			<appInfo>
-				<application version="0.7.2" ident="GROBID" when="2024-03-02T21:08+0000">
+				<application version="0.7.2" ident="GROBID" when="2024-03-04T17:59+0000">
 					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
 					<ref target="https://github.com/kermitt2/grobid"/>
 				</application>
@@ -241,11 +241,25 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 </biblStruct>
 
 <biblStruct coords="13,142.96,394.58,337.63,7.86;13,151.52,405.54,329.07,7.86;13,151.52,416.50,141.92,8.12" xml:id="b5">
-	<monogr>
-		<title level="m" type="main">CNIL: Shaping choices in the digital world ip reports innovation and foresight n°06 from dark patterns to data protection: the influence of ux/ui design on user empowerment</title>
+	<analytic>
+		<title level="a" type="main">GC et al v CNIL: Balancing the Right to Be Forgotten with the Freedom of Information, the Duties of a Search Engine Operator (C‑136/17 GC et al v CNIL)</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>De Conca</surname></persName>
+		</author>
+		<idno type="DOI">10.21552/edpl/2019/4/17</idno>
 		<ptr target="www.cnil.fr" />
+	</analytic>
+	<monogr>
+		<title level="j">European Data Protection Law Review</title>
+		<title level="j" type="abbrev">European Data Protection Law Review</title>
+		<idno type="ISSN">2364-2831</idno>
+		<idno type="ISSNe">2364-284X</idno>
 		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="561" to="567" />
 			<date type="published" when="2019">2019</date>
+			<publisher>Lexxion Verlag</publisher>
 		</imprint>
 	</monogr>
 </biblStruct>
@@ -485,7 +499,7 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 		<author>
 			<persName coords=""><forename type="first">E</forename></persName>
 		</author>
-		<idno type="DOI">10.1109/hri.2019.8673279</idno>
+		<idno type="DOI">10.1109/hri.2019.8673223</idno>
 	</analytic>
 	<monogr>
 		<title level="m">2019 14th ACM/IEEE International Conference on Human-Robot Interaction (HRI)</title>

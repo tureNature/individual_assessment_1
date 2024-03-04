@@ -1,8 +1,8 @@
 FROM python:3.8
 
 WORKDIR /app
-COPY . .
+COPY . /app
 
 RUN pip install -r requirements/requirements.txt
 
-CMD ["./entry-point.sh"]
+CMD ["python", "main.py"]

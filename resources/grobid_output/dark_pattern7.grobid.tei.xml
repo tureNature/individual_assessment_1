@@ -104,7 +104,7 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 		</fileDesc>
 		<encodingDesc>
 			<appInfo>
-				<application version="0.7.2" ident="GROBID" when="2024-03-02T21:08+0000">
+				<application version="0.7.2" ident="GROBID" when="2024-03-04T17:59+0000">
 					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
 					<ref target="https://github.com/kermitt2/grobid"/>
 				</application>
@@ -183,40 +183,36 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 
 <biblStruct coords="7,67.22,227.07,232.80,6.91;7,67.22,236.04,232.80,6.91;7,67.22,244.86,232.80,7.05;7,67.22,253.83,176.76,7.05" xml:id="b0">
 	<analytic>
-		<title level="a" type="main">Dark Patterns at Scale</title>
+		<title level="a" type="main">Dark patterns at scale: Findings from a crawl of 11k shopping websites</title>
 		<author>
-			<persName><forename type="first">Arunesh</forename><surname>Mathur</surname></persName>
+			<persName coords=""><forename type="first">A</forename><surname>Mathur</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">Gunes</forename><surname>Acar</surname></persName>
+			<persName coords=""><forename type="first">G</forename><surname>Acar</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">Michael</forename><forename type="middle">J</forename><surname>Friedman</surname></persName>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">J</forename><surname>Friedman</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">Eli</forename><surname>Lucherini</surname></persName>
+			<persName coords=""><forename type="first">E</forename><surname>Lucherini</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">Jonathan</forename><surname>Mayer</surname></persName>
+			<persName coords=""><forename type="first">J</forename><surname>Mayer</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">Marshini</forename><surname>Chetty</surname></persName>
+			<persName coords=""><forename type="first">M</forename><surname>Chetty</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">Arvind</forename><surname>Narayanan</surname></persName>
+			<persName coords=""><forename type="first">A</forename><surname>Narayanan</surname></persName>
 		</author>
-		<idno type="DOI">10.1145/3359183</idno>
 	</analytic>
 	<monogr>
-		<title level="j">Proceedings of the ACM on Human-Computer Interaction</title>
-		<title level="j" type="abbrev">Proc. ACM Hum.-Comput. Interact.</title>
-		<idno type="ISSNe">2573-0142</idno>
+		<title level="m">Proceedings of the ACM on Human-Computer Interaction</title>
+				<meeting>the ACM on Human-Computer Interaction</meeting>
 		<imprint>
+			<date type="published" when="2019-11">November 2019</date>
 			<biblScope unit="volume">3</biblScope>
-			<biblScope unit="issue">CSCW</biblScope>
 			<biblScope unit="page" from="1" to="32" />
-			<date type="published" when="2019-11-07">November 2019</date>
-			<publisher>Association for Computing Machinery (ACM)</publisher>
 		</imprint>
 	</monogr>
 </biblStruct>
@@ -349,11 +345,17 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 </biblStruct>
 
 <biblStruct coords="7,67.22,451.23,232.80,6.91;7,67.22,460.20,232.80,6.91;7,67.22,469.16,232.80,6.91;7,67.22,478.13,194.00,6.91" xml:id="b6">
-	<monogr>
-		<title level="m" type="main">ip report 06 shaping c hoices in the digital world</title>
+	<analytic>
+		<title level="a" type="main">Shaping our digital future</title>
+		<idno type="DOI">10.18356/9789210021579c008</idno>
 		<ptr target="https://linc.cnil.fr/sites/default/files/atoms/files/cnil" />
-		<imprint>
+	</analytic>
+	<monogr>
+		<title level="m">Shaping our Digital Future</title>
+				<imprint>
+			<publisher>United Nations</publisher>
 			<date type="published" when="2020-10-13">2020. Oct. 13, 2022</date>
+			<biblScope unit="page" from="49" to="60" />
 		</imprint>
 		<respStmt>
 			<orgName>National Commission on Informatics and Liberty (CNIL</orgName>
@@ -363,60 +365,93 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 </biblStruct>
 
 <biblStruct coords="7,67.22,487.10,232.80,6.91;7,67.22,496.06,232.80,6.91;7,67.22,505.03,232.80,6.91;7,67.22,514.00,232.80,6.91;7,67.22,522.96,111.05,6.91" xml:id="b7">
-	<monogr>
-		<title level="m" type="main">Summary of discussion, Roundtable on Dark Commercial Patterns Online</title>
+	<analytic>
+		<title level="a" type="main">OECD: Organisation for Economic Co-operation and Development</title>
+		<idno type="DOI">10.5860/choice.35sup-340</idno>
 		<ptr target="https://www.oecd.org/officialdocuments/publicdisplaydocumentpdf/?cote=DSTI/CP(2020)23/FINAL&amp;docLanguage=En" />
+	</analytic>
+	<monogr>
+		<title level="j">Choice Reviews Online</title>
+		<title level="j" type="abbrev">Choice Reviews Online</title>
+		<idno type="ISSN">0009-4978</idno>
+		<idno type="ISSNe">1523-8253</idno>
 		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page">35SUP-340-35SUP-340</biblScope>
 			<date type="published" when="2020-10-12">2020. Oct. 12, 2021</date>
-			<publisher>Organisation for Economic Co-operation and Development</publisher>
+			<publisher>American Library Association</publisher>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct coords="7,67.22,531.93,232.80,6.91;7,67.22,540.89,232.80,6.91" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Systemic side effects of topical corticosteroids: how to recognise them in time. How to limit or avoid them</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tennstedt</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0926-9959(95)95967-6</idno>
+	</analytic>
 	<monogr>
-		<title level="m" type="main">Dark patterns in social media platform interfaces: How to recognise and avoid them</title>
+		<title level="j">Journal of the European Academy of Dermatology and Venereology</title>
+		<idno type="ISSN">0926-9959</idno>
 		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">S57</biblScope>
 			<date type="published" when="2022">2022</date>
-			<publisher>European Data Protection Board</publisher>
+			<publisher>Wiley</publisher>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct coords="7,67.22,549.86,232.80,6.91;7,67.22,558.83,232.80,6.91;7,67.22,567.79,92.83,6.91" xml:id="b9">
-	<monogr>
-		<title level="m" type="main">03-2022 g uidelines on dark patterns in social media platform interfaces en</title>
+	<analytic>
+		<title level="a" type="main">Social Media Platforms within Internal Market Construction: Patterns of Reproduction in EU Platform Law</title>
+		<author>
+			<persName><forename type="first">Miikka</forename><surname>Hiltunen</surname></persName>
+		</author>
+		<idno type="DOI">10.2139/ssrn.4285737</idno>
 		<ptr target="https://edpb.europa.eu/system/files/2022-03/edpb" />
+	</analytic>
+	<monogr>
+		<title level="j">SSRN Electronic Journal</title>
+		<title level="j" type="abbrev">SSRN Journal</title>
+		<idno type="ISSNe">1556-5068</idno>
 		<imprint>
 			<date type="published" when="2022-10-13">Oct. 13, 2022</date>
+			<publisher>Elsevier BV</publisher>
 		</imprint>
 	</monogr>
 </biblStruct>
 
 <biblStruct coords="7,67.22,576.76,232.80,6.91;7,67.22,585.58,232.80,7.05;7,67.22,594.55,232.80,7.05;7,67.22,603.66,30.68,6.91" xml:id="b10">
 	<analytic>
-		<title level="a" type="main">The dark (patterns) side of ux design</title>
+		<title level="a" type="main">The Dark (Patterns) Side of UX Design</title>
 		<author>
-			<persName coords=""><forename type="first">C</forename><forename type="middle">M</forename><surname>Gray</surname></persName>
+			<persName><forename type="first">Colin</forename><forename type="middle">M</forename><surname>Gray</surname></persName>
 		</author>
 		<author>
-			<persName coords=""><forename type="first">Y</forename><surname>Kou</surname></persName>
+			<persName><forename type="first">Yubo</forename><surname>Kou</surname></persName>
 		</author>
 		<author>
-			<persName coords=""><forename type="first">B</forename><surname>Battles</surname></persName>
+			<persName><forename type="first">Bryan</forename><surname>Battles</surname></persName>
 		</author>
 		<author>
-			<persName coords=""><forename type="first">J</forename><surname>Hoggatt</surname></persName>
+			<persName><forename type="first">Joseph</forename><surname>Hoggatt</surname></persName>
 		</author>
 		<author>
-			<persName coords=""><forename type="first">A</forename><forename type="middle">L</forename><surname>Toombs</surname></persName>
+			<persName><forename type="first">Austin</forename><forename type="middle">L</forename><surname>Toombs</surname></persName>
 		</author>
+		<idno type="DOI">10.1145/3173574.3174108</idno>
 	</analytic>
 	<monogr>
 		<title level="m">Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems</title>
 				<meeting>the 2018 CHI Conference on Human Factors in Computing Systems<address><addrLine>New York, NY, USA</addrLine></address></meeting>
 		<imprint>
-			<date type="published" when="2018">2018</date>
+			<publisher>ACM</publisher>
+			<date type="published" when="2018-04-21">2018</date>
 			<biblScope unit="page" from="1" to="14" />
 		</imprint>
 	</monogr>

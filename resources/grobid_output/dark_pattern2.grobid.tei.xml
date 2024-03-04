@@ -72,7 +72,7 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 		</fileDesc>
 		<encodingDesc>
 			<appInfo>
-				<application version="0.7.2" ident="GROBID" when="2024-03-02T21:08+0000">
+				<application version="0.7.2" ident="GROBID" when="2024-03-04T17:59+0000">
 					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
 					<ref target="https://github.com/kermitt2/grobid"/>
 				</application>
@@ -555,24 +555,22 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 
 <biblStruct coords="6,67.22,484.11,232.80,6.91;6,67.22,493.07,232.80,6.91;6,67.22,501.90,232.80,7.05;6,67.22,510.86,185.02,7.05" xml:id="b16">
 	<analytic>
-		<title level="a" type="main">What Makes a Dark Pattern... Dark?</title>
+		<title level="a" type="main">What makes a dark pattern... dark? design attributes, normative considerations, and measurement methods</title>
 		<author>
-			<persName><forename type="first">Arunesh</forename><surname>Mathur</surname></persName>
+			<persName coords=""><forename type="first">A</forename><surname>Mathur</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">Mihir</forename><surname>Kshirsagar</surname></persName>
+			<persName coords=""><forename type="first">M</forename><surname>Kshirsagar</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">Jonathan</forename><surname>Mayer</surname></persName>
+			<persName coords=""><forename type="first">J</forename><surname>Mayer</surname></persName>
 		</author>
-		<idno type="DOI">10.1145/3411764.3445610</idno>
 	</analytic>
 	<monogr>
 		<title level="m">Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems</title>
 				<meeting>the 2021 CHI Conference on Human Factors in Computing Systems</meeting>
 		<imprint>
-			<publisher>ACM</publisher>
-			<date type="published" when="2021-05-06">2021</date>
+			<date type="published" when="2021">2021</date>
 			<biblScope unit="page" from="1" to="18" />
 		</imprint>
 	</monogr>
