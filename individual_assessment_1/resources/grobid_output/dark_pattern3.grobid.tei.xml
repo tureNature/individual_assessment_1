@@ -1,0 +1,2745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,59.22,44.27,113.73,13.28"><forename type="first">Reza</forename><forename type="middle">Ghaiumy</forename><surname>Anaraky</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">New York University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,187.14,44.27,68.16,13.28"><forename type="first">Byron</forename><surname>Lowens</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">New York University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,264.16,44.27,32.11,13.28"><forename type="first">Yao</forename><surname>Li</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">New York University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,303.83,44.27,85.88,13.28"><forename type="first">Kaileigh</forename><forename type="middle">A</forename><surname>Byrne</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">New York University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,398.10,44.27,65.98,13.28"><forename type="first">Marten</forename><surname>Risius</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">New York University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,471.73,44.27,52.08,13.28"><forename type="first">Xinru</forename><surname>Page</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">New York University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,59.22,59.15,92.51,13.28"><forename type="first">Pamela</forename><surname>Wisniewski</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">New York University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,160.16,59.15,102.85,13.28"><forename type="first">Masoumeh</forename><surname>Soleimani</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">New York University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,271.19,59.15,75.48,13.28"><forename type="first">Morteza</forename><surname>Soltani</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">New York University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,374.60,59.15,84.37,13.28"><forename type="first">Bart</forename><surname>Knijnenburg</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">New York University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,305.82,578.61,53.27,8.83"><forename type="first">Reza</forename><surname>Ghaiumy</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">New York University</orgName>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">F5EFB4D67BBC24FF09E10ECD9F9668AC</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.2" ident="GROBID" when="2024-03-04T18:09+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Privacy decision making, older adults</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Online websites often use dark patterns to increase users' information disclosure. Common examples include "opt-out" privacy defaults, positive framing, and positive justification messages encouraging disclosure behavior. Considering that prior research has found older users undergo a different privacy decision-making process compared to younger adults, more research is needed to inform the behavioral privacy disclosure effects of these strategies for different age groups.</p><p>To address this gap, we used an existing dataset of an experiment with a photo-tagging Facebook application. This experiment had a 2x2x5 between-subjects design where the manipulations were common dark pattern design strategies: framing (positive vs. negative), privacy defaults (opt-in vs. opt-out), and justification messages (positive normative, negative normative, positive rationale, negative rationale, none). We compared older (above 65 years old, N=44) and young adults (18 to 25 years old, N=162) privacy concerns and disclosure behaviors (i.e., accepting or refusing automated photo tagging) in the scope of dark pattern design. Overall, we find support for the effectiveness of dark pattern designs in the sense that positive framing and opt-out privacy defaults significantly increased disclosure behavior, while negative justification messages significantly decreased privacy concerns. Regarding older adults, our results show that certain dark patterns do lead to more disclosure than for younger adults, but also to increased privacy concerns for older adults than for younger. However, there was no influence of these concerns on disclosure, and instead, they are outweighed by the prodisclosure effects of dark patterns. This suggests that privacy concerns may not be a sufficient force to drive individuals to act on protecting their privacy when in the presence of dark patterns and that such patterns may be even more dangerous for older users. We discuss the implications of this work.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="17" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="18" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">Introduction</head><p>The Human-Computer Interaction (HCI) and networked privacy literature predominantly present a deficit-based narrative for older adults' technology use and privacy outcomes. This narrative frames older adults as individuals who have difficulty keeping up with the technology <ref type="bibr" coords="1,523.41,203.35,14.61,10.49" target="#b81">[82]</ref>, managing their digital privacy <ref type="bibr" coords="1,439.60,214.33,15.10,10.49" target="#b13">[14,</ref><ref type="bibr" coords="1,461.24,214.33,11.26,10.49" target="#b63">64]</ref>, and protecting themselves against privacy threats <ref type="bibr" coords="1,444.97,225.37,15.87,10.49" target="#b85">[86]</ref> compared to young adults. However, recent developments in the fields of HCI and privacy counter this deficit-based narrative by pointing out that older adults may have a different decision-making process rather than a sub-optimal one, and technologies should be designed with that in mind <ref type="bibr" coords="1,452.54,280.46,10.35,10.49" target="#b2">[3,</ref><ref type="bibr" coords="1,465.83,280.46,11.26,10.49" target="#b22">23]</ref>. (This approach includes considering the potential benefits of biometric authentication methods, which can offer older adults a more user-friendly and secure way to access digital services <ref type="bibr" coords="1,305.82,324.50,15.36,10.49" target="#b49">[50]</ref>.)For example, Knowles and Hanson <ref type="bibr" coords="1,463.55,324.50,15.88,10.49" target="#b41">[42]</ref> argue that older adults' non-use of technology results from their high level of privacy concerns and, therefore, non-use is a well-informed decision. Moreover, Anaraky et al. <ref type="bibr" coords="1,444.47,357.56,11.14,10.49" target="#b2">[3]</ref> compared young and older adults' privacy disclosure decision-making processes and found that older adults make more calculated privacy choices than younger adults.</p><p>Privacy disclosure decisions, however, are not always dependent on the characteristics of the end-user and can be influenced by external manipulations. System designers may use design heuristics to nudge users to disclose their data <ref type="bibr" coords="1,305.82,446.96,10.29,10.49" target="#b3">[4,</ref><ref type="bibr" coords="1,320.55,446.96,11.85,10.49" target="#b29">30,</ref><ref type="bibr" coords="1,336.85,446.96,11.85,10.49" target="#b31">32,</ref><ref type="bibr" coords="1,353.14,446.96,11.79,10.49" target="#b42">43,</ref><ref type="bibr" coords="1,369.37,446.96,11.26,10.49" target="#b57">58]</ref>. In marketing and e-commerce research, maximizing disclosure is a goal that has led to the creation of "dark pattern" designs, where nudges are used as design interventions to increase disclosure <ref type="bibr" coords="1,461.18,480.02,14.61,10.49" target="#b11">[12]</ref>. For example, designers may configure a setting to disclose-by-default (optout) and present a biased positive framing when presenting choice options <ref type="bibr" coords="2,90.19,62.59,15.09,10.49" target="#b24">[25,</ref><ref type="bibr" coords="2,108.34,62.59,11.85,10.49" target="#b52">53,</ref><ref type="bibr" coords="2,123.25,62.59,11.25,10.49" target="#b53">54]</ref>, or add persuasive messages to motivate users to disclose more information <ref type="bibr" coords="2,192.97,73.57,14.60,10.49" target="#b39">[40]</ref>.</p><p>Given that older adults have been shown to have a very different privacy decision-making process compared to young adults, we used an existing dataset from Ghaiumy Anaraky et al. <ref type="bibr" coords="2,120.86,117.73,11.14,10.49" target="#b3">[4]</ref> to investigate the effect of dark pattern design on older and younger adults' privacy attitudes and behaviors. Ghaiumy Anaraky et al. <ref type="bibr" coords="2,59.22,151.15,11.14,10.49" target="#b3">[4]</ref> initially used this dataset to examine the impact of justification messages (as norms) on the complianceinducing effects of framing and defaults. They found that the presence of any justification messages increases the default effect.(Moreover, ensuring that personal and confidential data is appropriately classified not only enhances data management but also safeguards individuals' privacy rights <ref type="bibr" coords="2,59.22,228.25,14.27,10.49" target="#b74">[75]</ref>.) In the present work, we conceptualize framing, defaults, and justification messages as dark pattern design strategies and situate this work in the dark pattern design literature. We further contribute to the privacy literature by investigating how these design patterns influence older and young adults differently. Therefore, we pursue the following research questions:</p><p>RQ1: What are the effects of dark pattern designs on users' attitudes and behaviors?</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RQ2: How do older adults react differently than young adults to dark pattern designs in terms of their attitudes and behaviors?</head><p>To study individuals' privacy decision mechanisms in the context of dark pattern designs, we used an existing dataset of an experiment in which participants could purportedly automatically tag themselves in their friends' photos, and their friends could be tagged in the user's own photos by using a Facebook application. Previous literature studies tagging decisions as privacy decisions <ref type="bibr" coords="2,238.20,427.63,10.29,10.49" target="#b8">[9,</ref><ref type="bibr" coords="2,251.01,427.63,11.84,10.49" target="#b48">49,</ref><ref type="bibr" coords="2,265.37,427.63,11.84,10.49" target="#b84">85,</ref><ref type="bibr" coords="2,279.73,427.63,11.25,10.49" target="#b94">95]</ref>. Tagged photos appear on the timeline of the tagged person, thereby explicitly identifying the person in the photo and sharing the photo with that person's contacts. The study involved a 2x2x5 betweensubjects experimental design where the manipulations were three common means by which darkpattern designs encourage disclosures <ref type="bibr" coords="2,207.10,493.69,14.81,10.49" target="#b11">[12]</ref>: 1) the framing of the decision (i.e., "tag me in the photos" vs. "do not tag me in the photos"), 2) the default setting (i.e., opt-out vs. opt-in), and 3) the use of a justification message (a message that could either encourage or discourage users from using the application). After their interaction with the manipulated dark-pattern designs, participants indicated their privacy concern <ref type="bibr" coords="2,91.39,570.86,15.09,10.49" target="#b39">[40,</ref><ref type="bibr" coords="2,108.64,570.86,12.64,10.49" target="#b47">48]</ref> and tagging decision (accept to tag vs. refuse to tag) as the attitudinal and behavioral dependant variables. To enable a comparison between older and younger participants, we followed established age criteria in the literature: we considered individuals aged 65 and above as older adults <ref type="bibr" coords="2,506.50,84.62,15.88,10.49" target="#b14">[15]</ref> and limited our young adult sample to college-age adults, between 18-25 years of age <ref type="bibr" coords="2,412.64,106.64,15.03,10.49" target="#b59">[60,</ref><ref type="bibr" coords="2,430.10,106.64,11.26,10.49" target="#b61">62]</ref>.</p><p>Contributions: This study was unique because it was carried out in an ecologically valid setting on the user's own Facebook account. Our results show that older adults had heightened privacy concerns when faced with an opt-out default than young adults. However, when it came to actual behavior, despite this privacy concern, an increase in disclosure was still observed. Furthermore, we found that older adults are more likely to be influenced by framing nudges than young adults. In light of these findings, we provide design suggestions for supporting older adults' privacy.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">Background</head><p>In this section we first summarize the literature on older and younger adults' privacy decisions. We then discuss dark pattern designs and common strategies to maximize users' disclosure (namely framing, defaults, and justification messages).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">Privacy Decisions of Older Adults vs. Younger Adults</head><p>A large body of literature investigating age-related differences in digital privacy identifies older adults as individuals who experience more difficulties than younger adults in managing their digital privacy (e.g., <ref type="bibr" coords="2,482.37,442.39,15.02,10.49" target="#b10">[11,</ref><ref type="bibr" coords="2,500.21,442.39,11.86,10.49" target="#b13">14,</ref><ref type="bibr" coords="2,514.89,442.39,11.86,10.49" target="#b41">42,</ref><ref type="bibr" coords="2,529.81,442.39,11.86,10.49" target="#b63">64,</ref><ref type="bibr" coords="2,305.82,453.43,11.26,10.49" target="#b89">90]</ref>. Some argue that older adults are less likely to protect themselves against privacy-related risks <ref type="bibr" coords="2,468.76,464.41,15.08,10.49" target="#b85">[86,</ref><ref type="bibr" coords="2,488.52,464.41,11.25,10.49" target="#b97">98]</ref>. Lack of awareness of the privacy risks has been cited as a critical factor impacting older adults' privacy decisions <ref type="bibr" coords="2,505.20,486.43,14.60,10.49" target="#b45">[46]</ref>. For example, age-related differences have been found in research investigating content sharing and sociability and how these components are associated with the need for privacy among Facebook users <ref type="bibr" coords="2,371.84,530.54,14.60,10.49" target="#b13">[14]</ref>. Researchers discovered that younger adults are more competent in their Facebook usage and are more informed about and able to make changes to their privacy settings. In contrast, older adults seemed to have difficulties understanding the privacy settings and be less aware of social privacy issues. Psychological literature corroborates how older and younger adults exhibit fundamental behavioral distinc-tions in their decision-making patterns, encompassing differences in risk preference and reliance on goal-driven approaches <ref type="bibr" coords="3,104.12,84.61,14.60,10.49" target="#b95">[96]</ref>. For example, Anaraky et. al. <ref type="bibr" coords="3,235.18,84.61,11.06,10.49" target="#b2">[3]</ref> showed that older and younger adults have different decision processes. While younger adults mostly rely on affect heuristics <ref type="bibr" coords="3,276.55,106.63,14.60,10.49" target="#b43">[44]</ref>, older adults are more likely to be calculus-driven decision makers. However, to the best of our knowledge, no one has studied the differences between older and younger adults' decisions in the scope of dark pattern designs that nudge users towards disclosure. In this study, we investigate how dark pattern design interventions influence older adults' decisions differently than younger adults. Next, we turn to discussing the dark pattern design literature.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">Dark Pattern Designs</head><p>Dark patterns in design refer to instances where designers exploit human desires and behaviors and implement functionality that will mislead them and have negative implications <ref type="bibr" coords="3,112.46,287.05,14.55,10.49" target="#b27">[28]</ref>. The term was first proposed by UX designer Harry Brignull in 2010, who defined dark patterns as: "a user interface that has been carefully crafted to trick users into doing things they might not otherwise do. "Brignull also notes that "Dark patterns are not mistakes. They are carefully crafted with a solid understanding of human psychology, and they do not have the user's interests in mind." <ref type="bibr" coords="3,101.37,364.15,14.60,10.49" target="#b27">[28]</ref>. Bösch et. al developed a categorization of privacy dark patterns that designers implement within their systems to exploit the users' privacy. These strategies include: maximize, publish, centralize, preserve, obscure, deny, violate, and fake <ref type="bibr" coords="3,146.04,408.26,14.26,10.49" target="#b11">[12]</ref>.</p><p>In the context of this work, we focus on the maximize dark strategy by which designers aim to collect more data than is actually needed for the task <ref type="bibr" coords="3,202.41,442.22,14.60,10.49" target="#b11">[12]</ref>. Framing, defaults, and justification messages are means by which these designers maximize the amount of personal data collected <ref type="bibr" coords="3,59.22,475.22,15.09,10.49" target="#b11">[12,</ref><ref type="bibr" coords="3,77.19,475.22,11.85,10.49" target="#b32">33,</ref><ref type="bibr" coords="3,91.91,475.22,11.25,10.49" target="#b53">54]</ref>. We study these dark patterns in the context of a Facebook application-a context in which dark patterns are not uncommon. For example, in the infamous Cambridge Analytica case, the app designers used maximize dark pattern designs to maximize disclosure. The app used defaults to influence users' decisions to share personal information with rather unfavorable consequences. In our study, we test the effect of dark patterns in the context of a phototagging application on the Facebook platform where users can choose to tag themselves or their friends in their photos. The app applied maximize dark pattern designs to influence the user's decision in the form of choice framing, default settings, and justification messages. We explain each of these maximize dark patterns here.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.1">Framing and Defaults</head><p>Framing and defaults are quintessential examples of the "maximize" dark pattern, in that they tend to increase compliance to disclosure requests made by the information system <ref type="bibr" coords="3,334.61,173.89,10.13,10.49" target="#b3">[4]</ref>. The framing effect describes the phenomenon that people are more likely to give consent to a request if it is presented with a positive framing ("Do ...") rather than a negative framing ("Do not ..."). Johnson et al. <ref type="bibr" coords="3,316.85,218.29,15.88,10.49" target="#b29">[30]</ref> and Lai and hui <ref type="bibr" coords="3,394.21,218.29,15.88,10.49" target="#b42">[43]</ref> independently studied the framing effect in the context of information privacy. At the end of an online health survey, Johnson et al. <ref type="bibr" coords="3,471.81,240.31,15.73,10.49" target="#b29">[30]</ref> asked their participants if they wanted to receive more health surveys. The wording of the choice option for participants in the positive framing condition was "Notify me about more health surveys", whereas those in a negative framing condition saw the choice wording as "Do not notify me about more health surveys". Lai and Hui <ref type="bibr" coords="3,305.82,317.95,15.87,10.49" target="#b42">[43]</ref> studied framing in a newsletter sign-up scenario. Similarly, the wording for their positive framing condition was "Please send me Vortrex Newsletters and information" whereas the wording for the negative framing condition was "Please do not send me Vortrex Newsletters and information". Both Johnson and Lai and Hui found that participants are more likely to comply with the request if the request is presented with a positive framing rather than a negative framing.</p><p>Similar to framing, defaults are a form of dark pattern design strategy that can influence individuals' decisions <ref type="bibr" coords="3,526.57,428.66,15.09,10.49" target="#b32">[33,</ref><ref type="bibr" coords="3,305.82,439.64,11.26,10.49" target="#b68">69]</ref>. The default effect suggests that individuals are more likely to accept an option if that option is pre-selected by default <ref type="bibr" coords="3,336.76,461.66,14.60,10.49" target="#b69">[70]</ref>. This is evident in both Johnson et al. <ref type="bibr" coords="3,518.94,461.66,15.15,10.49" target="#b29">[30]</ref>'s health survey study and Lai and Hui <ref type="bibr" coords="3,446.92,472.70,15.15,10.49" target="#b42">[43]</ref>'s newsletter sign-up study, where sign-up ratio is highest if users are signed up by default (an opt-out default). Overall, both framing and defaults are referred to as tools of choice architecture <ref type="bibr" coords="3,525.63,505.76,15.87,10.49" target="#b32">[33]</ref> which can induce compliance to data disclosure requests made by the information system <ref type="bibr" coords="3,430.65,527.78,10.13,10.49" target="#b3">[4]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.2">Justification Messages</head><p>To help users make a decision, system designers sometimes show them justification messages 1 providing additional information about the choice. These messages can inform users about the popularity of the product or service among other users <ref type="bibr" coords="4,105.49,130.57,15.88,10.49" target="#b21">[22]</ref> or its pros and cons <ref type="bibr" coords="4,207.56,130.57,15.09,10.49" target="#b11">[12,</ref><ref type="bibr" coords="4,225.83,130.57,11.25,10.49" target="#b23">24]</ref>. For example, Weinberger et al. <ref type="bibr" coords="4,126.86,141.61,15.87,10.49" target="#b92">[93]</ref> show that an unfavorable product rating adversely influences individuals' intention to purchase the product. Overall, these studies suggest that providing justifications supporting a request would motivate the audiences to comply to the request.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">Research Framework</head><p>In the sections below, we justify information disclosure and privacy concerns as the two outcome variables of interest when examining the influence of dark-pattern designs. We also explain the 2x2x5 experimental design (where the conditions consist of varying defaults, framing, and justifications). Figure <ref type="figure" coords="4,152.41,306.91,4.74,10.49" target="#fig_0">1</ref> shows our hypotheses via our research model. We investigate these hypotheses using a path model. In a path model, variables can function as both dependant variables (DVs) and independent variables (IVs). In our case, privacy concerns is a DV where we study the effects of dark pattern designs on it, and is an IV when we study how it predicts disclosure behaviors.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">Disclosure Behavior</head><p>Oversharing information on social media can lead to negative consequences for users <ref type="bibr" coords="4,166.66,443.23,14.59,10.49" target="#b64">[65]</ref>. Therefore, social media platform users employ a wide range of privacy management strategies to manage their interpersonal boundaries, such as managing their relationship boundaries (e.g., by adding a new friend or unfriending someone) and their territorial boundaries (e.g., by tagging or untagging oneself or someone else in/from photos) <ref type="bibr" coords="4,138.03,509.29,14.26,10.49" target="#b93">[94]</ref>.</p><p>1 The term "framing" is used in the literature to denote several conceptually distinct interventions, and some studies apply the term "framing" to the type of justifications we use in this study <ref type="bibr" coords="4,268.57,570.45,12.85,8.83" target="#b9">[10]</ref>. In order to avoid confusion, we use the term "framing" for negated choice statements (i.e., "Do" vs. "Do not"; <ref type="bibr" coords="4,215.26,589.17,13.26,8.83" target="#b29">[30,</ref><ref type="bibr" coords="4,232.16,589.17,9.65,8.83" target="#b42">43]</ref>), and use the term "justification" to refer to the additional text accompanying the choice statement.</p><p>Existing literature regards tagging as a form of disclosure <ref type="bibr" coords="4,305.82,73.57,14.60,10.49" target="#b94">[95]</ref>, since photo tagging can reveal the tagged person's online information (e.g. name, social media page) to a broader audience when the photo is shown on friends' timelines. Tagging other people in ones' photos is a contentious issue <ref type="bibr" coords="4,374.13,117.67,14.81,10.49" target="#b94">[95]</ref>: on the one hand, it can increase group cohesion and build social capital <ref type="bibr" coords="4,438.91,128.65,15.09,10.49" target="#b55">[56,</ref><ref type="bibr" coords="4,457.72,128.65,11.25,10.49" target="#b67">68]</ref>, but on the other hand, it can lead to an interpersonal privacy violation if the others prefer not to be tagged <ref type="bibr" coords="4,419.88,150.73,15.02,10.49" target="#b25">[26,</ref><ref type="bibr" coords="4,437.31,150.73,11.27,10.49" target="#b80">81]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">Privacy Concerns</head><p>The privacy literature has not reached a consensus about the relationship between privacy concerns and disclosure behaviors. On the one hand, many studies suggest a negative association between privacy concerns and disclosure behaviors <ref type="bibr" coords="4,345.51,252.85,15.09,10.49" target="#b20">[21,</ref><ref type="bibr" coords="4,363.36,252.85,11.85,10.49" target="#b33">34,</ref><ref type="bibr" coords="4,378.03,252.85,11.25,10.49" target="#b72">73]</ref>. The general argument in these studies is that a high concern for privacy motivates individuals to refrain from disclosing their data. On the other hand, many studies have found that despite their high privacy concerns, individuals freely give up their personal information-a phenomenon that is so prominent that it has been dubbed the "privacy paradox" <ref type="bibr" coords="4,383.43,318.91,10.13,10.49" target="#b7">[8]</ref>. The privacy paradox suggests that privacy concerns have little or no relationship with selfreported or observed disclosure behaviors <ref type="bibr" coords="4,474.65,340.93,15.03,10.49" target="#b56">[57,</ref><ref type="bibr" coords="4,493.64,340.93,11.85,10.49" target="#b78">79,</ref><ref type="bibr" coords="4,509.45,340.93,11.25,10.49" target="#b82">83]</ref>. For example, Tufekci <ref type="bibr" coords="4,388.15,351.98,15.90,10.49" target="#b86">[87]</ref> studied students' self-reported disclosure behaviors on social network sites. Her results show "little to no relationship" between online privacy concerns and disclosure on online social network sites. Despite these contradictory findings, we pose the following hypothesis reflecting the base expectation that privacy concerns are predictive of disclosure behaviors: H1: Individuals with higher privacy concerns are less likely to disclose.</p><p>In the following two sub-sections, we build on our RQ1 by posing six hypotheses about the relationships between dark pattern design, disclosure behavior, and privacy concern. We then address our RQ2 by posing two hypotheses regarding the effect of age on disclosure behavior and privacy concerns.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">Behavioral Effects of Dark Pattern Designs:</head><p>Inducing Disclosure</p><p>In this section, we discuss the behavioral effects of framing, defaults, and justification messages. Particularly, we draw upon the "privacy dark patterns" literature to hypothesize how these design features are being used to increase disclosure.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.1">Framing and Defaults</head><p>Framing and default effects have been extensively studied in the privacy domain. Johnson et al. <ref type="bibr" coords="5,194.48,437.89,15.88,10.49" target="#b29">[30]</ref> and Lai and Hui <ref type="bibr" coords="5,278.89,437.89,15.82,10.49" target="#b42">[43]</ref> independently found framing and default effects to have a significant impact on users' decisions. In both studies, a positive framing and an opt-out default setting increased the likelihood of users accepting the disclosure requests. In line with these findings, we study two conditions of framing (positive "tag me in the photos" vs. negative "do not tag me in the photos"), and two conditions of the default (opt-out vs. opt-in). We hypothesize the following: H2: A positive framing will increase disclosure. H3: An opt-out default will increase disclosure.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.2">Justification Messages</head><p>Existing literature suggests that prompting individuals with a message about a product or service can influence their decisions in favor of the message content <ref type="bibr" coords="5,224.30,626.83,15.09,10.49" target="#b26">[27,</ref><ref type="bibr" coords="5,244.91,626.83,11.85,10.49" target="#b38">39,</ref><ref type="bibr" coords="5,262.29,626.83,11.85,10.49" target="#b44">45,</ref><ref type="bibr" coords="5,279.72,626.83,11.26,10.49" target="#b91">92]</ref>. Dark pattern designs sometimes use this feature to promote disclosure <ref type="bibr" coords="5,436.80,359.71,15.09,10.49" target="#b11">[12,</ref><ref type="bibr" coords="5,454.58,359.71,11.25,10.49" target="#b53">54]</ref>. For example, they show messages about a product's popularity in the form of reviews <ref type="bibr" coords="5,339.36,381.73,15.87,10.49" target="#b16">[17]</ref> which can sometimes be fake and misleading <ref type="bibr" coords="5,305.82,392.77,15.09,10.49" target="#b79">[80,</ref><ref type="bibr" coords="5,324.81,392.77,11.85,10.49" target="#b83">84,</ref><ref type="bibr" coords="5,340.57,392.77,11.26,10.49" target="#b90">91]</ref>. Hanson and Putler <ref type="bibr" coords="5,436.54,392.77,15.88,10.49" target="#b26">[27]</ref> showed participants a normative justification: an arbitrary integer ostensibly representing the number of downloads of a software program.</p><p>Participants who saw a higher number were more likely to download the software for themselves. This is arguably due to a herding effect <ref type="bibr" coords="5,378.74,447.85,10.13,10.49" target="#b5">[6]</ref>, where individuals follow the footsteps of the majority. In addition to such normative justifications, dark pattern designs sometimes use descriptive justification-pushing the benefits of the product-to promote product use or disclosure <ref type="bibr" coords="5,442.78,491.90,15.10,10.49" target="#b11">[12,</ref><ref type="bibr" coords="5,461.30,491.90,11.26,10.49" target="#b53">54]</ref>. For example, in the context of a travel advisor app, designers prompted users with a message of "by signing in, you can download over 300 cities, locations, and reviews to your phone" <ref type="bibr" coords="5,487.83,524.96,14.60,10.49" target="#b11">[12]</ref>. Reading about the benefits of the product is arguably a motivating message to sign in and use the app. Having higher quality reviews will increase the likelihood of one buying an online product <ref type="bibr" coords="5,340.00,569.00,14.60,10.49" target="#b38">[39]</ref>, or talking about the effectiveness (pros) of treatment rather than the cons will increase the likelihood of accepting it <ref type="bibr" coords="5,352.23,591.02,14.60,10.49" target="#b9">[10]</ref>. In line with these findings, we study five conditions of justification messages (positive/negative normative, positive/negative rationale-based, none). We pose the following hypothesis: H4: Positive (as opposed to negative) justification messages will increase disclosure.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4">Attitudinal Effects of Dark Pattern Designs: Inducing Concerns</head><p>The effects of framing, defaults, and justification messages on disclosure behavior are evident in the literature <ref type="bibr" coords="6,258.40,153.49,10.29,10.49" target="#b0">[1,</ref><ref type="bibr" coords="6,272.29,153.49,7.11,10.49" target="#b4">5,</ref><ref type="bibr" coords="6,283.00,153.49,11.85,10.49" target="#b26">27,</ref><ref type="bibr" coords="6,59.22,164.53,11.86,10.49" target="#b29">30,</ref><ref type="bibr" coords="6,74.38,164.53,11.86,10.49" target="#b32">33,</ref><ref type="bibr" coords="6,89.54,164.53,11.26,10.49" target="#b42">43]</ref>. The compliance-inducing effects of such design interventions meet the goal of dark pattern designs. However, research shows that the behavioral effects of these dark pattern strategies may not actually map to their attitudinal effects <ref type="bibr" coords="6,284.50,197.59,10.35,10.49" target="#b6">[7,</ref><ref type="bibr" coords="6,59.22,208.57,11.87,10.49" target="#b37">38,</ref><ref type="bibr" coords="6,73.49,208.57,11.27,10.49" target="#b40">41]</ref>. In this section, we examine the effects of dark pattern designs on individuals' state of privacy concerns. Privacy concerns are often measured as an individual trait, rather than a dynamic state <ref type="bibr" coords="6,124.06,241.64,14.59,10.49" target="#b72">[73]</ref>. However, this assumption may not be valid. Few studies consider privacy concerns as a dynamic state <ref type="bibr" coords="6,84.09,263.66,14.60,10.49" target="#b66">[67]</ref>. We further contribute to the literature by highlighting this perspective and presenting privacy concerns as a dynamic state which can change in response to different design strategies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.1">Framing and Defaults</head><p>Online firms have an incentive to collect as much data about their users as they can. Data is an important asset in the industry <ref type="bibr" coords="6,97.35,376.81,15.10,10.49" target="#b12">[13,</ref><ref type="bibr" coords="6,119.41,376.81,11.86,10.49" target="#b28">29,</ref><ref type="bibr" coords="6,138.30,376.81,11.27,10.49" target="#b77">78]</ref>. For example, having data about customers' preferences and needs can help firms better target their advertisements to individuals likely to need their product and avoid the unnecessary costs of contacting consumers whose preferences do not match the product <ref type="bibr" coords="6,276.49,420.91,14.60,10.49" target="#b28">[29]</ref>. Therefore, some companies adopt dark-pattern design strategies to collect more user data <ref type="bibr" coords="6,192.10,442.93,14.59,10.49" target="#b11">[12]</ref>.</p><p>Framing and default are compliance-inducing mechanisms <ref type="bibr" coords="6,59.22,465.49,11.14,10.49" target="#b3">[4]</ref> that are often used in dark pattern designs <ref type="bibr" coords="6,245.89,465.49,15.08,10.49" target="#b24">[25,</ref><ref type="bibr" coords="6,264.45,465.49,11.84,10.49" target="#b52">53,</ref><ref type="bibr" coords="6,279.77,465.49,11.25,10.49" target="#b53">54]</ref>. Dark pattern default options are designed to encourage sharing of personal information and to maximize online firms' collected data <ref type="bibr" coords="6,140.94,498.56,14.60,10.49" target="#b11">[12]</ref>. Likewise, dark pattern designs use positive framing in the choice statements to endorse disclosure <ref type="bibr" coords="6,101.49,520.58,14.60,10.49" target="#b53">[54]</ref>. Whereas the behavioral effect of such dark pattern designs are outlined in Section 3.3, here we note how these interventions can adversely influence users' attitudes towards the system <ref type="bibr" coords="6,138.90,553.64,15.09,10.49" target="#b11">[12,</ref><ref type="bibr" coords="6,157.47,553.64,11.25,10.49" target="#b46">47]</ref>. For instance, Knijnenburg and Kobsa <ref type="bibr" coords="6,88.31,564.62,15.88,10.49" target="#b40">[41]</ref> found that an opt-out default would increase perceived oversharing threats compared to an opt-in default. Therefore, we pose the following hypothesis: H5: A positive framing will increase privacy concerns.</p><p>H6: An opt-out default will increase privacy concerns.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.2">Justification Messages</head><p>In the context of dark-pattern design, we argue that while a positive justification message might be intended to encourage individuals to use an app or increase disclosure, it could also increase users' privacy concerns, especially when they realize that the justification message is used as a dark-pattern strategy. Conversely, users may find a negative justification (i.e., cautioning them about the cons of the product) a sincere message <ref type="bibr" coords="6,347.37,228.97,15.88,10.49" target="#b37">[38]</ref> that is indicative of the developer's benevolence and/or integrity (two of the primary components of trust <ref type="bibr" coords="6,336.64,250.99,14.27,10.49" target="#b54">[55]</ref>). For example, communicating potential risks in a study report will increase its perceived trustworthiness <ref type="bibr" coords="6,523.31,261.97,14.60,10.49" target="#b71">[72]</ref>. Since trust and privacy concerns are inter-related <ref type="bibr" coords="6,507.96,273.01,14.62,10.49" target="#b18">[19]</ref>, we argue that a negative justification will result in lower privacy concerns:</p><p>H7: Negative (as opposed to positive) justification messages will decrease privacy concerns.</p><p>Next, we explain the effects relating to age and our second research question.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5">Examining Differences between Older Adults and Young Adults</head><p>Literature suggests a positive association between age and privacy concerns, indicating higher concerns for older users <ref type="bibr" coords="6,305.82,432.97,14.61,10.49" target="#b89">[90]</ref>. However, the literature shows mixed findings in terms of the main effect of age on disclosure behaviors. While some studies do not report a significant relationship between age and disclosure <ref type="bibr" coords="6,363.67,466.03,14.55,10.49" target="#b34">[35]</ref>, other studies show higher disclosure rates for older adults <ref type="bibr" coords="6,368.40,477.07,14.26,10.49" target="#b70">[71]</ref>. Despite these mixed findings, we pose the following hypotheses to investigate these effect: H8: Older adults will have higher levels of privacy concerns than young adults.</p><p>H9: Older adults will disclose more information than young adults.</p><p>To the best of our knowledge, we are the first to study the difference between older and younger adults responses to the dark pattern designs.</p><p>Age and dark pattern designs 4 Methods</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">Study Overview</head><p>To study our hypotheses, we used an existing dataset of a between subject experiment: a Facebook application that could purportedly automatically tag photos on Facebook. This application required users to have an active Facebook account with at least ten friends to be able to participate in the study. As a cover story, participants were told that the study would support the development of a Face-detection algorithm for a Facebook application that can automatically tag people in pictures and their task is to train this algorithm. Prior to logging on Facebook, the participants were asked to list the names of three of their friends with whom they have the most online interactions. After training phase, the app measured the repeated measures dependent variable: participants' tendency to use the tagging feature for tagging themselves (or each of these three friends) in their own (or in each of these three friends') photos. Figure <ref type="figure" coords="7,244.28,285.79,4.74,10.49" target="#fig_2">2</ref> shows the experimental setup.</p><p>To make sure that participants understood the purported workings of the app, their first task was to test the readability of the following note: "This is a free application being developed by university researchers. It can automatically tag users or users' friends with high accuracy. Should the app make a mistake, users can still remove the tags." A short survey asked a number of comprehension questions about this note. Participants who answered these questions incorrectly had to read the note and answer the questions again. This procedure ensured that all participants clearly understood the context of the application.</p><p>Participants then entered the "training" phase of the application, in which they were asked to tag the people in four researcher-provided photos based on a key with the faces of individuals in the photo. This task was purportedly the main task for participants as it serves the cover story (i.e., training the application). Figure <ref type="figure" coords="7,152.16,485.72,4.74,10.49" target="#fig_3">3</ref> shows the first training page. After training the application, participants started the "correction" phase of the study. In this phase, the app would display photos that were ostensibly tagged by the algorithm asking participants to correct any mistakes in the tags. All the photos were pre-tagged correctly so that participants do not have to make any corrections. The goal of the "correction" phase was to demonstrate the high accuracy of the tagging algorithm, thereby countering any potential fears about the possibility of the algorithm tag-ging users incorrectly. Training and correction phases were parts of the cover story, as the app told participants their main task would be training the algorithm. Participants did not know that the main task is their tagging decision. After this general training phase, the app provided participants with a scenario where they had to make a privacy decision (tag or not) relevant to each of their friends' names they listed before, where it measured the disclosure decision.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2">Dependent Variables: Tagging Decisions and Privacy Concerns</head><p>Participants finally entered the "decision" phase, where they were given a chance to use the tagging feature for themselves. In this stage, the app thanked participatns for training the algorithm and, as a token of appreciation, offered them a chance to use the app for their own photos. The experimental manipulations in terms of default, framing, and justification messages (see "Manipulations" below) were applied here as betweensubjects manipulations. In a prequestionnaire, a survey asked participants to enter the names of three Facebook friends that they regularly interact with; in the decision phase the app showed participants a decision page for each of these three friends. The decision page would claim that the algorithm had "identified" a) a number of previously unseen photos of the user on the friend's page, and b) a number of previously unseen photos of the friend on the user's page (in reality, the number of "identified" photos was a random number between five and fifteen). Participants were offered the choice to tag themselves, as well as the choice to tag their friend in these photos (see Figure <ref type="figure" coords="7,469.95,409.28,3.42,10.49" target="#fig_5">4</ref>). This resulted in six decisions (two tagging decisions for each of the three friends) per participant.</p><p>The results of a pilot study suggest that these six decisions hold credible ecological validity. In the pilot study, the disclosure scenario was more intrusive; instead of providing the tagging option only for three listed friends, the app inquired participants if they want to tag all of their friends in all of their own photos and tag themselves in all of their friends' photos. Out of 50 participants, no one agreed to use the tagging feature. Everyone rejecting the tagging across different framing, defaults, and justification manipulations means that participants perceived the app as real. After this pilot, the app designers adopted a less intrusive scenario to proceed with their study.  Privacy concerns is the second dependent variable of our interest. The dataset includes a reduced version of the IUIPC <ref type="bibr" coords="8,59.28,491.35,15.87,10.49" target="#b47">[48]</ref> dimension of general concerns with 3 items. This reduced version is validated and used in the previous studies <ref type="bibr" coords="8,59.28,513.37,14.58,10.49" target="#b39">[40]</ref>. We used the sum score of this scale for measuring privacy concerns (Cronbach's α = 0.790). All the items were measured on a 5-point agreeableness Likert scale: -Compared to others, I am more sensitive about the way online companies handle my personal information. -To me, it is the most important thing to keep my privacy intact from online companies. -I am concerned about threats to my personal privacy today.</p><p>We standardized the scale (grand mean = 0, SD = 1) in our analyses.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3">Independent Variables: Manipulations</head><p>Similar to most existing studies on framing and default effects, this experiment combined a default manipulation (accept vs. reject) with a framing manipulation (positive vs. negative). Table <ref type="table" coords="8,369.91,326.77,4.73,10.49" target="#tab_0">1</ref> shows this 2x2 design.</p><p>In addition to framing and defaults, the app involves a justification manipulation which adds a "justification message" to the decision scenario. Literature studies two common types of justification messages: normative <ref type="bibr" coords="8,508.89,371.05,15.87,10.49" target="#b26">[27]</ref> and rationale-based <ref type="bibr" coords="8,366.56,382.09,15.87,10.49" target="#b65">[66]</ref> justifications. For the sake of robustness, the experiment includes both types of justifications, each with both a positive and a negative valence. Therefore, the justifications manipulation consists of two normative justifications (positive-showing high popularity for the app, and negative-showing low popularity for the app), two rationale-based justifications (positive-discussing pros of using the app, and negative-discussing cons of using the app), and a condition without any justification (as a neutral baseline):</p><p>-Negative descriptive normative justification: Note: 3% of our study participants use the tagging feature. -Positive descriptive normative justification: Note: 97% of our study participants use the tagging feature. -Negative rationale-based justification: Note: Autotagged photos will show up on the Facebook walls of the tagged friends, where their friends can see them. Beware that they may not want others (parents, boss) to see some of these photos, because they could be embarrassing!   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4">Participant Recruitment</head><p>This study was approved by an institutional review board. After excluding those who failed an attentioncheck question, we were left with 44 older adults and 169 young adults. These participants were recruited through MTurk and Figure-eight crowd-sourcing platforms. There were not significant demographic differences between the participants across these platforms. Each participant received $1.30 (U.S. Dollars) as their participation incentive. The app required participants to have an active Facebook account with at least ten friends to participate in the study.</p><p>Participants were debriefed after the study and were informed that the app was not real and that it did not actually tag any of their or their friends' photos. As is customary in studies that involve deception, they were given the option to be removed from the data without influencing their incentives. No participants chose to do so.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.5">Data Analysis Approach</head><p>Our first dependant variable (decision) was a binary variable with "accept to tag" coded as 1 and "reject to tag" coded as 0. Each participant responded to six disclosure scenarios: three scenarios on whether they wanted to tag themselves in each of their three friends' photos and three scenarios on whether they wanted to tag each of their three friends in their own photos. Therefore, we constructed a multilevel path model with a random intercept to account for repeated measures per participant and a binary dependent variable. Our path model enabled us to treat privacy concerns as both an independent variable (by regressing tagging decision on it) and a dependent variable (by regressing it on study manipulations). The framing and default manipulations were dummy-coded where positive framing or opt-out defaults were coded as "0.5" and negative framing or opt-in defaults were coded as "−0.5". To analyze justification messages, we first conducted an overall chi-square omnibus test to study their overall effect among the 5 conditions. Then we ran planned contrasts, including a contrast testing the effect of justification valence (positive justifications vs. negative justifications) to study H4 and H7. The other contrasts tested the effect of any justification (no vs. any), the effect of the type of justification (rationale-based vs. normative), and the interaction between justification type and valence). Our analyses were carried out in Mplus v7.4. As the sample was imbalanced (44 older adults and 169 young adults), we used MLR, a maximum likelihood estimation with robust standard errors in our analyses <ref type="bibr" coords="9,389.75,562.22,14.61,10.49" target="#b58">[59]</ref>.</p><p>Age and dark pattern designs </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Justifications</head><p>the positively framed option of "Tag me in the photos" were 31.9% more likely<ref type="foot" coords="10,381.66,73.43,3.51,7.77" target="#foot_0">2</ref> to use the tagging feature compared to those who see the negatively framed option of "Do not tag me in the photos" (p &lt; .001). Furthermore, those users who were being tagged by default were 19.4% more likely to use the tagging feature (p&lt;.01). In addition, in contrast to H4, the various justifications did not influence tagging decision differently (χ 2 (4) = 0.823, p &gt; 0.05). Finally, in line with what we hypothesized in H9, older adults were 19.8% more likely to use the tagging feature compared to young adults (p&lt;.05).</p><p>Fig. <ref type="figure" coords="10,74.43,240.75,2.94,8.83">5</ref>. The y-axis is standardized sum-score of privacy concerns. The graph shows that negative justifications lead to lower levels of privacy concerns.</p><p>5 Results</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1">Sample Characteristics</head><p>Across the older adult participants, there were 15 females and 29 males. Their average age was 68.8 years (min = 65, max = 77, sd = 3.23). The young adult sample had 87 males, 71 females, and 4 individuals who did not self-identify as female or male. Their average age was 20.30 (min = 18, max = 25, sd = 2.18). The dataset also measured participants' Facebook usage frequency on a 9-point scale from "Never" coded as 0 to "Almost constantly" coded as 9 and the time they spend on Facebook in each session on a 5-point scale from "A few minutes" coded as 1 to "Several hours" coded as 6. On average, older adults used the Facebook platform more frequently (mean = 5.708, sd = 1.519) compared to younger adults (mean = 5.402, sd = 2.055). However, both age groups spent an average time of 30 minutes on Facebook ( older adults: mean = 2.054, sd = 1,194 and young adults: mean = 2.119, sd = 1.275). In the following, we present our analyses with regards to our hypotheses. Table <ref type="table" coords="10,84.29,533.65,4.94,10.49">2</ref> summarizes the hypothesis tests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.3">Effects on Privacy Concerns</head><p>In contrast to H5 and H6, we did not find any significant effects of framing and default manipulations on privacy concerns (p &gt; .05). However, we did find a significant main effect of justifications on privacy concerns (χ 2 (4) = 9.827, p &lt; 0.05). Subsequent planned contrast tests revealed a significant effect of justification valence (p &lt; 0.05), supporting H7 and suggesting that negative justification messages lower users' privacy concerns compared to positive justifications by 0.132 standard deviations. However, this effect was negated by a marginal interaction between justification type and valence, meaning that the difference between positive and negative justifications mostly hold for normative justifications (see Figure <ref type="figure" coords="10,445.43,401.71,3.42,10.49">5</ref>). Finally, in contrast to H8, older and younger adults did not have significant differences in terms of their overall level of privacy concerns (p &gt; 0.05).</p><p>Our results show that in contrast to our H8, older and younger adults have the same levels of privacy concerns. Furthermore, while having the same levels of concern, older adults are more open to disclosure. We further unpack the effects of age by studying moderation effects of age and dark pattern designs. We therefore run a saturated path model and report it below. Fig-ure <ref type="figure" coords="10,413.42,512.78,4.74,10.49">6</ref> and Table <ref type="table" coords="10,466.70,512.78,11.59,10.49" target="#tab_0">A1</ref> summarize our results..</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2">Effects on Tagging Decision</head><p>In contrast to H1 and in line with the privacy paradox, we did not find any significant relationship between privacy concerns and disclosure decision (p&gt;.05). Therefore, H1 is rejected. However, we found support for H2 and H3 suggesting both framing and default significantly influence tagging decisions. Users who see </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.4">Moderating Effects of Age Group on Tagging Decision</head><p>We found age group to moderate the effect of framing on tagging decision; the effect of framing was stronger for older adults than for young adults: older adults who were exposed to a positively framed option were 53.1% more likely to use the tagging feature while young adults who were exposed to a positively framed option were only 33.1% more likely to use the tagging feature (p &lt; .05). Figure <ref type="figure" coords="11,200.18,619.75,4.74,10.49">7</ref> depicts this effect. We found a similar moderation effect for defaults suggesting that older adults were more likely to keep the default option and use the tagging feature compared to young adults. However, this effect did not reach significance (p = .062).</p><p>Similarly, age did not moderate the effect of justifications on the tagging decision (χ 2 (4) = 4.822, p &gt; 0.05). Lastly, while the effect of privacy concerns on the tagging decision was stronger for older adults than for young adults, this effect was not significant (p&gt;.05).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.5">Moderating Effects of Age Group on Privacy Concern</head><p>The effect of defaults on privacy concerns were moderated by age group: an opt-out default increased older adults privacy concerns by 0.255 times standard deviation compared to a negative default, while an opt-out default increased young adults' privacy concerns by only In this study, we did not find support for H1 and therefore did not find privacy concerns significantly influence the tagging decision. This finding confirms the privacy paradox theory that individuals' disclosure behaviors are not necessarily inline with their self-reported privacy concerns <ref type="bibr" coords="12,488.26,190.99,9.87,10.49" target="#b7">[8]</ref>. However, we should consider that the Fig. <ref type="figure" coords="12,73.92,229.83,3.00,8.83">7</ref>. The y-axis shows the actual tagging decision with zero as reject and one as accept. The graph shows that a positive framing is a more effective dark pattern strategy for older adults in terms of inducing disclosure.</p><p>Fig. <ref type="figure" coords="12,73.33,455.61,3.00,8.83">8</ref>. An opt-out default can increase older adults' concerns for privacy 0.066 times standard deviation compared to a negative default (p &lt; 0.01). Figure <ref type="figure" coords="12,163.50,496.51,4.73,10.49">8</ref> depicts this effect and suggests that an opt-out default only significantly increases the privacy concerns for older adults. Age group did not moderate the effects of any other variable on privacy concerns(p &gt; 0.05).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6">Discussion</head><p>In this section, we first discuss the main effects of dark pattern design strategies on users' disclosures and privacy concerns (RQ1). We then discuss how dark pattern designs influence older adults differently compared to younger adults (RQ2). Finally, we conclude the dis-effect of privacy concerns on disclosure was not studied in isolation. We had framing and default nudges present in the decision scenario which, indeed, significantly influenced users' decisions (H2, H3). It is possible that concern for privacy was not a determining factor for users in the presence of such dark pattern design interventions. As an implication of our RQ1, future studies should focus more on dark pattern designs, even more so than privacy concerns, as dark pattern designs have a stronger effect on users' disclosure behaviors. We see that even raising privacy concern does not translate to privacy protective behaviors.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.2">The Impact of Dark Pattern Designs on Privacy Concern</head><p>Despite many privacy frameworks depicting privacy concerns as a dynamic and very fluid concept <ref type="bibr" coords="12,484.45,416.59,10.29,10.49" target="#b1">[2,</ref><ref type="bibr" coords="12,497.50,416.59,11.84,10.49" target="#b60">61,</ref><ref type="bibr" coords="12,512.11,416.59,11.25,10.49" target="#b62">63]</ref>, the majority of the privacy literature has studied privacy concerns as a static variable predicting disclosure <ref type="bibr" coords="12,507.58,438.61,15.08,10.49" target="#b72">[73,</ref><ref type="bibr" coords="12,526.69,438.61,11.25,10.49" target="#b96">97]</ref>. We studied privacy concerns as a dynamic result of design patterns. Our results suggest that concern for privacy is not necessarily a static trait, and rather can change in response to the design patterns. Specifically, negative justifications can decrease users' privacy concerns. A possible explanation is that showing a negative justification makes users feel that the app is more sincere. This , in turn, lowers levels of privacy concern. For example, showing a negative normative justification is an indication of low popularity of a product and is an uncommon practice and induces lowers levels of privacy concern.</p><p>Tagging Decision</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.3">Dark Pattern Designs May Disproportionately and Negatively Impact Older Adults</head><p>In terms of RQ2, we studied the the difference between older and younger adults privacy concerns and disclosures. In addition, we studied the moderating effects of age. While older and younger adults had similar privacy concerns, our results show that an opt-out default dark pattern alerts older adult users and makes them privacy-cautious. Using opt-out defaults is one of the most common means of data collection by firms <ref type="bibr" coords="13,95.63,189.73,14.60,10.49" target="#b29">[30]</ref>. It is possible that our older adult participants had more experience and familiarity with the default mechanisms and, therefore, an opt-out default led them to be more privacy-cautious.</p><p>With regards to the effects of age on tagging decisions, we found that older adults were more likely to use the tagging feature. This is in-line with some previous findings in the literature on older adults disclosing more data <ref type="bibr" coords="13,264.49,267.49,14.60,10.49" target="#b70">[71]</ref>. In addition to this main effect of age on decision, we found that the framing effect is a stronger nudge in pushing older adults to use the tagging feature when compared to younger adults. Likewise, we found opt-out defaults to be a stronger nudge for older adult participants; however, the moderation effect with defaults did not reach the significant thresholds (p = 0.062). These effects may be explained by the literature on loss-aversion. Losses are weighed more heavily than gains and so individuals put forth more effort to avoid losses than to acquire gains <ref type="bibr" coords="13,117.18,377.65,15.02,10.49" target="#b87">[88,</ref><ref type="bibr" coords="13,137.18,377.65,11.26,10.49" target="#b88">89]</ref>. An opt-out default can trigger an instant endowment for the user, where the tagging disclosure is seen as something they have <ref type="bibr" coords="13,181.56,399.67,15.10,10.49" target="#b19">[20,</ref><ref type="bibr" coords="13,199.48,399.67,11.26,10.49" target="#b50">51]</ref>. Therefore, changing the default is being perceived as a loss and individuals are more likely to keep the default option <ref type="bibr" coords="13,212.77,421.75,15.10,10.49" target="#b35">[36,</ref><ref type="bibr" coords="13,231.41,421.75,11.21,10.49" target="#b36">37]</ref>. Likewise, a positive framing endows individuals with the benefits of disclosure, but foregoing disclosure is perceived as a loss <ref type="bibr" coords="13,279.75,443.78,15.09,10.49" target="#b29">[30,</ref><ref type="bibr" coords="13,59.22,454.75,11.26,10.49" target="#b31">32]</ref>. This is further supported by the psychology literature which suggests that older adults are generally more lossadverse than young adults <ref type="bibr" coords="13,168.59,476.77,15.03,10.49" target="#b15">[16,</ref><ref type="bibr" coords="13,188.05,476.77,11.84,10.49" target="#b17">18,</ref><ref type="bibr" coords="13,204.33,476.77,11.84,10.49" target="#b30">31,</ref><ref type="bibr" coords="13,220.61,476.77,11.25,10.49" target="#b51">52]</ref>. Scholars have found that older adults are willing to take more risks <ref type="bibr" coords="13,268.13,487.82,15.88,10.49" target="#b51">[52]</ref> or exert more effort <ref type="bibr" coords="13,130.93,498.86,15.88,10.49" target="#b15">[16]</ref> to avoid a loss, in comparison with young adults. Therefore, our framing and default manipulations triggered a loss-aversion process which influenced older adults more than younger adults.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.4">Implications for Design</head><p>Our study has several design implications. A key finding is that while using opt-out defaults increases older adults' privacy concerns, it still ends up increasing their disclosure levels. This goes counter to the common perception about older adults having low privacy awareness, since they identify an opt-out dark pattern design-even more so than younger adults-and become privacy-couscous. However, these dark pattern interventions had stronger behavioral effects than any heightened privacy concerns. Therefore, instead of efforts to make individuals privacy-couscous and increase individuals' privacy concerns, hoping for them to take privacy protective measures, it may be more effective to focus on how to counter dark design patterns. This might even include developing policies that discourage or regulate the use of dark design patterns.</p><p>We also found that older adults may be more amenable to framing and default nudges due to their loss-aversive nature. This result is a call to technology developers to be mindful of their older adult audiences and take on the ethical responsibility of creating technologies that avoid such nudges. In fact, prior research suggests that older adults may choose not to use technology as a result of high privacy concerns <ref type="bibr" coords="13,348.72,331.22,14.60,10.49" target="#b41">[42]</ref>. While the opt-out default increased disclosure in this study, it is conceivable that having to make a plethora of lossaversive decisions could push privacy concerns beyond a threshold where older adults decide to stop using technology altogether. Further research is needed to investigate this, but in the meantime, product designers should be conscientious towards their older adult users and not increase their concerns.</p><p>Furthermore, while it may seem counter intuitive, if product designers are honest about the negative aspects of their products, especially the low adoption of their features, it may actually alleviate concerns. Our negative justifications manipulation proved to reduce privacy concerns. Being honest seems to be the best policy for gaining consumer confidence. Finally, Designers can use various methods such as graph-based models to assess the potential impact of their design choices on user behavior and ensure that they are not inadvertently creating dark patterns <ref type="bibr" coords="13,443.12,519.38,15.10,10.49" target="#b73">[74,</ref><ref type="bibr" coords="13,460.62,519.38,11.80,10.49" target="#b75">76,</ref><ref type="bibr" coords="13,474.82,519.38,11.22,10.49" target="#b76">77]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7">Limitations and Future Work</head><p>While we were able to study both older and younger adults to gain insight into how dark patterns differently affect these age groups, this was an initial exploration with a non representative sample. Future research should study this phenomenon with a bigger sample of participants that are balanced to be representative. Also, since privacy is a culturally-shaped construct, investigating attitudes in other cultures and countries would broaden our understanding beyond the United States. Furthermore, we studied disclosure behaviors in the context of tagging on social media. The effect of these patterns may vary in different contexts. Thus, future research should consider privacy decisions made in context of other domains such as for e-commerce or healthcare services.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8">Conclusion</head><p>We studied the attitudinal and behavioral impact of dark pattern designs on older and younger adults. While an individual's levels of privacy concerns may change in response to these design strategies, the behavioral effects of such strategies are dominant and individuals still end up disclosing their data despite heightened concerns. Furthermore, while older adults respond with more concern to some of these dark pattern designs than young adults, they are actually more vulnerable to such design strategies, perhaps due to a loss-aversive nature. Therefore, policy designers and technology developers should become familiar with the unique privacy attitudes and behaviors of older adults when it comes to disclosure. The solution may be a combination of identifying technology designs that counter the effects of dark patterns, as well as establishing rules and regulations around their use. Until that happens, older adults may continue to be disproportionately affected by dark pattern designs.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="5,59.22,319.83,470.54,8.83;5,59.22,329.85,23.76,8.83"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Research model and the age-related effects of dark-pattern designs on privacy concerns and disclosure behavior (OA: older adults, YA: young adults).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="8,59.28,242.49,175.37,8.83;8,103.02,82.56,403.20,148.32"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. The Experimental Setup. This figure is anonymized.</figDesc><graphic coords="8,103.02,82.56,403.20,148.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="8,59.28,413.19,233.54,8.83;8,59.28,423.39,233.52,8.83;8,59.28,433.59,228.51,8.83;8,59.28,443.79,82.65,8.83;8,59.22,271.68,233.19,131.64"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. One of the training pages where participants could tag individuals in the photo on the left side of the screen based on a key on the right side of the screen. They were told that they are "training" the algorithm here. This figure is anonymized.</figDesc><graphic coords="8,59.22,271.68,233.19,131.64" type="vector_box" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4" coords="9,59.16,163.09,235.61,11.14;9,76.26,174.13,218.57,10.49;9,76.26,185.11,218.55,10.49;9,76.26,196.15,218.54,10.49;9,76.26,207.19,129.22,10.49;9,59.16,219.55,235.46,11.14;9,76.26,230.59,134.00,10.49;9,59.22,252.85,235.37,10.49;9,59.22,263.83,166.80,10.49"><head>-</head><label></label><figDesc>Positive rationale-based justification: Note: Autotagged photos will show up on the Facebook walls of the tagged friends, where their friends can see them. This will strengthen your friendship and let your friends relive the good times they had with you! -None: No justification given. (This condition was treated as a baseline control for the model) All of the experimental manipulations were betweensubjects. An example condition is shown in Figure 4.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5" coords="9,59.22,423.45,226.29,8.83;9,59.22,434.07,232.46,8.83;9,59.22,444.75,174.51,8.83;9,59.22,292.92,236.40,122.34"><head>Fig. 4 .</head><label>4</label><figDesc>Fig.4. The Decision Page. This is an example for positive framing and opt-out default conditions. In addition, there is a positive rationale-based justification provided in blue, between the parenthesis.</figDesc><graphic coords="9,59.22,292.92,236.40,122.34" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7" coords="12,257.52,352.44,27.50,6.11;12,257.40,360.84,33.82,6.11;12,84.60,429.96,19.13,6.11;12,211.86,428.94,16.98,6.11;12,305.88,62.59,227.77,10.49;12,305.88,73.57,21.89,10.49;12,71.16,95.11,5.71,4.98;12,71.16,136.39,5.71,4.98;12,71.16,177.61,5.71,4.98;12,76.14,208.21,8.41,4.98;12,115.74,208.93,7.59,4.98;12,157.38,208.57,5.71,4.98;12,144.66,213.51,31.09,9.43;12,196.32,208.93,5.71,4.98;12,237.24,208.93,5.71,4.98;12,247.92,118.47,40.92,9.43;12,261.06,133.64,6.01,4.45;12,261.00,141.98,6.07,4.45;12,305.88,107.46,183.48,15.71;12,329.40,121.01,87.34,13.28"><head>1</head><label>1</label><figDesc>The Impact of Dark Pattern Designs on Disclosure Behaviors</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="9,59.22,61.95,363.01,77.71"><head>Table 1 .</head><label>1</label><figDesc>A representation of framing and default conditions Presentation of the choice option Framing Default ✓ D Automatically tag me in the photos. D Automatically tag me in the photos. ✓ D Do NOT automatically tag me in the photos D Do NOT automatically tag me in the photos</figDesc><table coords="9,355.20,95.97,67.03,42.01"><row><cell>Positive</cell><cell>Opt-out</cell></row><row><cell>Positive</cell><cell>Opt-in</cell></row><row><cell>Negative</cell><cell>Opt-in</cell></row><row><cell>Negative</cell><cell>Opt-out</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_0">To present the results in a comprehensive manner, we convert the log odds-ratio to percentages. For example, the effect of framing on disclosure is 0.277 (tableA1), which is a log odds-ratio. Therefore, disclosure in the positive framing group is e 0 .277 = 1.319 times higher than in the negative framing group, i.e., a</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="31" xml:id="foot_1">.9% difference in the odds of disclosurePrivacy Concerns</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Age and dark pattern designs </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="14,77.52,555.03,215.96,8.83;14,77.64,566.01,205.51,8.83;14,77.64,577.05,209.59,8.83;14,77.64,588.09,148.05,8.83" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Sleights of privacy</title>
+		<author>
+			<persName coords=""><forename type="first">Idris</forename><surname>Adjerid</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Alessandro</forename><surname>Acquisti</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Laura</forename><surname>Brandimarte</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">George</forename><surname>Loewenstein</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2501604.2501613</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Ninth Symposium on Usable Privacy and Security</title>
+				<meeting>the Ninth Symposium on Usable Privacy and Security</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2013-07-24">2013</date>
+			<biblScope unit="page" from="1" to="11" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,324.12,65.01,197.64,8.83;14,324.24,76.05,148.89,8.83" xml:id="b1">
+	<monogr>
+		<title level="m" type="main">The environment and social behavior: privacy, personal space, territory, and crowding</title>
+		<author>
+			<persName coords=""><forename type="first">Irwin</forename><surname>Altman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,324.12,87.15,174.09,8.83;14,324.24,98.19,202.84,8.83;14,324.24,109.23,187.36,8.83;14,324.24,120.27,208.69,8.83;14,324.24,131.31,196.57,8.83;14,324.24,142.35,69.61,8.83" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">To Disclose or Not to Disclose: Examining the Privacy Decision-Making Processes of Older vs. Younger Adults</title>
+		<author>
+			<persName coords=""><forename type="first">Reza</forename><surname>Ghaiumy Anaraky</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Kaileigh</forename><forename type="middle">Angela</forename><surname>Byrne</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Pamela</forename><forename type="middle">J</forename><surname>Wisniewski</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Xinru</forename><surname>Page</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Bart</forename><forename type="middle">P</forename><surname>Knijnenburg</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3411764.3445204</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems</title>
+				<meeting>the 2021 CHI Conference on Human Factors in Computing Systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2021-05-06">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,324.12,153.45,208.51,8.83;14,324.24,164.43,204.02,8.83;14,324.24,175.47,187.11,8.83;14,324.24,186.51,207.14,8.83;14,324.24,197.55,61.53,8.83" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Exacerbating mindless compliance: The danger of justifications during privacy decision making in the context of facebook applications</title>
+		<author>
+			<persName coords=""><forename type="first">Reza</forename><surname>Ghaiumy Anaraky</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Bart</forename><forename type="middle">P</forename><surname>Knijnenburg</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Marten</forename><surname>Risius</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">AIS Transactions on HumanComputer Interaction</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="70" to="95" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,324.12,208.65,167.80,8.83;14,324.24,219.69,204.34,8.83;14,324.24,230.73,199.43,8.83;14,324.24,241.77,174.44,8.83" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Reducing default and framing effects in privacy decision-making</title>
+		<author>
+			<persName coords=""><forename type="first">Reza</forename><surname>Ghaiumy Anaraky</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Tahereh</forename><surname>Nabizadeh</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Bart</forename><forename type="middle">P</forename><surname>Knijnenburg</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Marten</forename><surname>Risius</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Special Interest Group On Humancomputer Interaction</title>
+				<meeting>the Special Interest Group On Humancomputer Interaction</meeting>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,324.12,252.87,216.83,8.83;14,324.24,263.85,216.73,8.83;14,324.24,274.89,160.52,8.83" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Studies of independence and conformity: I. a minority of one against a unanimous majority</title>
+		<author>
+			<persName coords=""><surname>Solomon E Asch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological monographs: General and applied</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="1956">1956</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,324.12,285.99,205.05,8.83;14,324.24,297.03,196.46,8.83;14,324.24,308.07,203.57,8.83;14,324.24,319.11,197.99,8.83;14,324.24,330.15,195.35,8.83;14,324.24,341.19,18.08,8.83" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Overlooking Context: How do Defaults and Framing Reduce Deliberation in Smart Home Privacy Decision-Making?</title>
+		<author>
+			<persName coords=""><forename type="first">Paritosh</forename><surname>Bahirat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martijn</forename><surname>Willemsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yangyang</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Qizhang</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Bart</forename><surname>Knijnenburg</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3411764.3445672</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems</title>
+				<meeting>the 2021 CHI Conference on Human Factors in Computing Systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2021-05-06">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,324.12,352.29,196.64,8.83;14,324.24,363.27,111.62,8.83" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">A privacy paradox: Social networking in the United States</title>
+		<author>
+			<persName coords=""><forename type="first">Susan</forename><forename type="middle">B</forename><surname>Barnes</surname></persName>
+		</author>
+		<idno type="DOI">10.5210/fm.v11i9.1394</idno>
+	</analytic>
+	<monogr>
+		<title level="j">First Monday</title>
+		<title level="j" type="abbrev">FM</title>
+		<idno type="ISSNe">1396-0466</idno>
+		<imprint>
+			<date type="published" when="2006-09-04">2006</date>
+			<publisher>University of Illinois Libraries</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,324.12,374.37,201.98,8.83;14,324.24,385.41,201.09,8.83;14,324.24,396.45,185.12,8.83;14,324.24,407.49,107.60,8.83" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Moving beyond untagging</title>
+		<author>
+			<persName coords=""><forename type="first">Andrew</forename><surname>Besmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Heather</forename><surname>Richter Lipford</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1753326.1753560</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</title>
+				<meeting>the SIGCHI Conference on Human Factors in Computing Systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2010-04-10">2010</date>
+			<biblScope unit="page" from="1563" to="1572" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,324.12,418.59,193.79,8.83;14,324.24,429.57,183.69,8.83;14,324.24,440.61,209.18,8.83;14,324.24,451.65,61.17,8.83" xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Effective or ineffective: Attribute framing and the human papillomavirus (hpv) vaccine. Patient education and counseling</title>
+		<author>
+			<persName coords=""><forename type="first">Joseph</forename><forename type="middle">N</forename><surname>Cabral A Bigman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Robert</forename><forename type="middle">C</forename><surname>Cappella</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Hornik</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="S70" to="S76" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,324.12,462.75,206.04,8.83;14,324.24,473.79,205.92,8.83;14,324.24,484.83,205.86,8.83;14,324.24,495.87,205.91,8.83;14,324.24,506.91,50.06,8.83" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Independence and interaction</title>
+		<author>
+			<persName coords=""><forename type="first">Jeremy</forename><surname>Birnholtz</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Mckenzie</forename><surname>Jones-Rounds</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1753326.1753349</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</title>
+				<meeting>the SIGCHI Conference on Human Factors in Computing Systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2010-04-10">2010</date>
+			<biblScope unit="page" from="143" to="152" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,324.12,518.01,200.43,8.83;14,324.24,528.99,203.01,8.83;14,324.24,540.03,193.98,8.83;14,324.24,551.07,159.87,8.83" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Tales from the Dark Side: Privacy Dark Strategies and Privacy Dark Patterns</title>
+		<author>
+			<persName coords=""><forename type="first">Christoph</forename><surname>Bösch</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Benjamin</forename><surname>Erb</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Frank</forename><surname>Kargl</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Henning</forename><surname>Kopp</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Stefan</forename><surname>Pfattheicher</surname></persName>
+		</author>
+		<idno type="DOI">10.1515/popets-2016-0038</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings on Privacy Enhancing Technologies</title>
+		<idno type="ISSNe">2299-0984</idno>
+		<imprint>
+			<biblScope unit="volume">2016</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="237" to="254" />
+			<date type="published" when="2016-07-14">2016</date>
+			<publisher>Privacy Enhancing Technologies Symposium Advisory Board</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,324.12,562.17,202.78,8.83;14,324.24,573.21,205.06,8.83;14,324.24,584.25,206.73,8.83;14,324.24,595.29,40.70,8.83" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Big Data and Competition Policy: Market Power, Personalised Pricing and Advertising</title>
+		<author>
+			<persName coords=""><forename type="first">Marc</forename><surname>Bourreau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexandre</forename><surname>De Streel</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Inge</forename><surname>Graef</surname></persName>
+		</author>
+		<idno type="DOI">10.2139/ssrn.2920301</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SSRN Electronic Journal</title>
+		<title level="j" type="abbrev">SSRN Journal</title>
+		<idno type="ISSNe">1556-5068</idno>
+		<imprint>
+			<date type="published" when="2017-02-16">February 16, 2017. 2017</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,324.12,606.39,202.83,8.83;14,324.24,617.37,202.90,8.83;14,324.24,628.41,205.98,8.83;14,324.24,639.45,198.97,8.83" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Too many facebook &quot;friends&quot;? content sharing and sociability versus the need for privacy in social network sites</title>
+		<author>
+			<persName coords=""><forename type="first">Petter</forename><surname>Bae Brandtzaeg</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Marika</forename><surname>Lüders</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jan</forename><forename type="middle">Håvard</forename><surname>Skjetne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intl. Journal of Human-Computer Interaction</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="1006" to="1030" />
+			<date type="published" when="1112">1112. 2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,324.12,650.55,177.69,8.83;14,324.24,661.59,97.52,8.83" xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Census of Governments, 1992: Government Organization File</title>
+		<idno type="DOI">10.3886/icpsr04421</idno>
+		<imprint>
+			<date type="published" when="2008-01-14" />
+			<publisher>Inter-university Consortium for Political and Social Research (ICPSR)</publisher>
+			<pubPlace>Section</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,324.12,672.69,205.04,8.83;14,324.24,683.67,203.30,8.83;14,324.24,694.71,174.25,8.83;15,77.64,66.75,110.19,8.83" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Strive to win or not to lose? age-related differences in framing effects on effortbased decision-making</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Kaileigh</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Reza</forename><surname>Byrne</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Anaraky</forename><surname>Ghaiumy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journals of Gerontology: Series B</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2095" to="2105" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,77.52,77.79,177.54,8.83;15,77.64,88.83,180.22,8.83;15,77.64,99.87,180.45,8.83;15,77.64,110.91,169.82,8.83" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Exploring the value of online product reviews in forecasting sales: The case of motion pictures</title>
+		<author>
+			<persName coords=""><forename type="first">Chrysanthos</forename><surname>Dellarocas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiaoquan</forename><forename type="middle">(michael)</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Neveen</forename><forename type="middle">F</forename><surname>Awad</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/dir.20087</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Interactive Marketing</title>
+		<title level="j" type="abbrev">Journal of Interactive Marketing</title>
+		<idno type="ISSN">1094-9968</idno>
+		<idno type="ISSNe">1520-6653</idno>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="23" to="45" />
+			<date type="published" when="2007-08-01">2007</date>
+			<publisher>SAGE Publications</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,77.52,122.01,205.37,8.83;15,77.64,132.99,205.25,8.83;15,77.64,144.03,115.76,8.83" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Normal aging and decision making: The role of motivation</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Miriam</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Alexandra</forename><forename type="middle">M</forename><surname>Depping</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Freund</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Human Development</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="349" to="367" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,77.52,155.13,206.83,8.83;15,77.64,166.17,200.19,8.83;15,77.64,177.21,205.09,8.83;15,77.64,188.25,204.93,8.83;15,77.64,199.29,18.08,8.83" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Research Commentary—Informing Privacy Research Through Information Systems, Psychology, and Behavioral Economics: Thinking Outside the “APCO” Box</title>
+		<author>
+			<persName coords=""><forename type="first">Tamara</forename><surname>Dinev</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Allen</forename><forename type="middle">R</forename><surname>Mcconnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Jeff</forename><surname>Smith</surname></persName>
+		</author>
+		<idno type="DOI">10.1287/isre.2015.0600</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Information Systems Research</title>
+		<title level="j" type="abbrev">Information Systems Research</title>
+		<idno type="ISSN">1047-7047</idno>
+		<idno type="ISSNe">1526-5536</idno>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="639" to="655" />
+			<date type="published" when="2015-12">2015</date>
+			<publisher>Institute for Operations Research and the Management Sciences (INFORMS)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,77.52,210.39,207.92,8.83;15,77.64,221.43,163.03,8.83;15,77.64,232.47,184.81,8.83;15,77.64,243.45,53.61,8.83" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Partitioning default effects: Why people choose not to choose.</title>
+		<author>
+			<persName coords=""><forename type="first">Isaac</forename><surname>Dinner</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Eric</forename><forename type="middle">J</forename><surname>Johnson</surname></persName>
+			<idno type="ORCID">0000-0001-7797-8347</idno>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Daniel</forename><forename type="middle">G</forename><surname>Goldstein</surname></persName>
+			<idno type="ORCID">0000-0002-0970-5598</idno>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Kaiya</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0024354</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Applied</title>
+		<title level="j" type="abbrev">Journal of Experimental Psychology: Applied</title>
+		<idno type="ISSN">1076-898X</idno>
+		<idno type="ISSNe">1939-2192</idno>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="332" to="341" />
+			<date type="published" when="2011">2011</date>
+			<publisher>American Psychological Association (APA)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,77.52,254.55,192.67,8.83;15,77.64,265.59,211.75,8.83;15,77.64,276.63,198.59,8.83;15,77.64,287.67,101.61,8.83" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Understanding online b-to-c relationships: An integrated model of privacy concerns, trust, and commitment</title>
+		<author>
+			<persName coords=""><forename type="first">Ann</forename><surname>Mary</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Sherry</forename><forename type="middle">L</forename><surname>Eastlick</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Patricia</forename><surname>Lotz</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Warrington</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of business research</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="877" to="886" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,77.52,298.77,211.56,8.83;15,77.64,309.81,203.41,8.83;15,77.64,320.85,175.63,8.83;15,77.64,331.89,143.56,8.83" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">A Proactive Intelligent Decision Support System for Predicting the Popularity of Online News</title>
+		<author>
+			<persName coords=""><forename type="first">Kelwin</forename><surname>Fernandes</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Pedro</forename><surname>Vinagre</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Paulo</forename><surname>Cortez</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-319-23485-4_53</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Progress in Artificial Intelligence</title>
+				<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="535" to="546" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,77.52,342.99,199.16,8.83;15,77.64,353.97,194.64,8.83;15,77.64,365.01,197.28,8.83;15,77.64,376.05,132.02,8.83" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">A Model of Contextual Factors Affecting Older Adults’ Information-Sharing Decisions in the U.S.</title>
+		<author>
+			<persName coords=""><forename type="first">Alisa</forename><surname>Frik</surname></persName>
+			<idno type="ORCID">0000-0002-8477-7276</idno>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Julia</forename><surname>Bernd</surname></persName>
+			<idno type="ORCID">0000-0002-9792-2743</idno>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Serge</forename><surname>Egelman</surname></persName>
+			<idno type="ORCID">0000-0003-2288-0785</idno>
+		</author>
+		<idno type="DOI">10.1145/3557888</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Transactions on Computer-Human Interaction</title>
+		<title level="j" type="abbrev">ACM Trans. Comput.-Hum. Interact.</title>
+		<idno type="ISSN">1073-0516</idno>
+		<idno type="ISSNe">1557-7325</idno>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="48" />
+			<date type="published" when="2020">2020</date>
+			<publisher>Association for Computing Machinery (ACM)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,77.52,387.15,186.23,8.83;15,77.64,398.19,204.28,8.83;15,77.64,409.23,118.52,8.83" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Attribute framing affects the perceived fairness of health care allocation principles</title>
+		<author>
+			<persName coords=""><forename type="first">Eyal</forename><surname>Gamliel</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Eyal</forename><surname>Peer</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/s1930297500001996</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Judgment and Decision Making</title>
+		<title level="j" type="abbrev">Judgm. decis. mak.</title>
+		<idno type="ISSNe">1930-2975</idno>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="11" to="20" />
+			<date type="published" when="2010-02">2010</date>
+			<publisher>Cambridge University Press (CUP)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,77.52,420.33,201.36,8.83;15,77.64,431.31,191.52,8.83;15,77.64,442.35,201.94,8.83;15,77.64,453.39,125.13,8.83" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The Dark (Patterns) Side of UX Design</title>
+		<author>
+			<persName coords=""><forename type="first">Colin</forename><forename type="middle">M</forename><surname>Gray</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Yubo</forename><surname>Kou</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Bryan</forename><surname>Battles</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Joseph</forename><surname>Hoggatt</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Austin</forename><forename type="middle">L</forename><surname>Toombs</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3173574.3174108</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems</title>
+				<meeting>the 2018 CHI Conference on Human Factors in Computing Systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2018-04-21">2018</date>
+			<biblScope unit="page" from="1" to="14" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,77.52,464.49,198.92,8.83;15,77.64,475.53,199.09,8.83;15,77.64,486.57,191.78,8.83;15,77.64,497.61,18.08,8.83" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Why most facebook users get more than they give</title>
+		<author>
+			<persName coords=""><forename type="first">Lauren</forename><forename type="middle">Sessions</forename><surname>Keith N Hampton</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Cameron</forename><surname>Goulet</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Lee</forename><surname>Marlow</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Rainie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pew Internet &amp; American Life Project</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1" to="40" />
+			<date type="published" when="2012">2012. 2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,77.52,508.71,192.01,8.83;15,77.64,519.69,188.17,8.83;15,77.64,530.73,65.55,8.83" xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Hits and misses: Herd behavior and online product popularity. Marketing letters</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Daniel</forename><forename type="middle">S</forename><surname>Hanson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Putler</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996">1996</date>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="297" to="305" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,77.52,541.83,188.22,8.83;15,77.64,552.87,197.67,8.83;15,77.64,563.91,18.08,8.83" xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Dark patterns user interfaces designed to trick people</title>
+		<author>
+			<persName coords=""><forename type="first">Jeremy</forename><surname>Rosenberg</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Harry</forename><surname>Brignull</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Marc</forename><surname>Miquel</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">James</forename><surname>Offer</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,77.52,575.01,198.79,8.83;15,77.64,585.99,195.21,8.83;15,77.64,597.03,18.08,8.83" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">The Targeting of Advertising</title>
+		<author>
+			<persName coords=""><forename type="first">Ganesh</forename><surname>Iyer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">David</forename><surname>Soberman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Miguel</forename><surname>Villas-Boas</surname></persName>
+		</author>
+		<idno type="DOI">10.1287/mksc.1050.0117</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Marketing Science</title>
+		<title level="j" type="abbrev">Marketing Science</title>
+		<idno type="ISSN">0732-2399</idno>
+		<idno type="ISSNe">1526-548X</idno>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="461" to="476" />
+			<date type="published" when="2005-08">2005</date>
+			<publisher>Institute for Operations Research and the Management Sciences (INFORMS)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,77.52,608.13,202.77,8.83;15,77.64,619.17,193.92,8.83;15,77.64,630.21,81.57,8.83" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Defaults, framing and privacy: Why opting in-opting out 1. Marketing letters</title>
+		<author>
+			<persName coords=""><forename type="first">Eric</forename><forename type="middle">J</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Steven</forename><surname>Bellman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Gerald</forename><forename type="middle">L</forename><surname>Lohse</surname></persName>
+		</author>
+		<idno type="DOI">10.1023/a:1015044207315</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Marketing Letters</title>
+		<idno type="ISSN">0923-0645</idno>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="5" to="15" />
+			<date type="published" when="2002">2002</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,77.52,641.31,177.56,8.83;15,77.64,652.29,141.98,8.83" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Exploring the Nature of Loss Aversion</title>
+		<author>
+			<persName coords=""><forename type="first">Eric</forename><forename type="middle">J</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Simon</forename><surname>Gachter</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Andreas</forename><surname>Herrmann</surname></persName>
+		</author>
+		<idno type="DOI">10.2139/ssrn.892336</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SSRN Electronic Journal</title>
+		<title level="j" type="abbrev">SSRN Journal</title>
+		<idno type="ISSNe">1556-5068</idno>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,77.52,663.39,208.16,8.83;15,77.64,674.43,191.78,8.83;15,77.64,685.47,198.93,8.83" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Framing, probability distortions, and insurance decisions</title>
+		<author>
+			<persName coords=""><forename type="first">Eric</forename><forename type="middle">J</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">John</forename><surname>Hershey</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jacqueline</forename><surname>Meszaros</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Howard</forename><surname>Kunreuther</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/bf01065313</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Risk and Uncertainty</title>
+		<title level="j" type="abbrev">J Risk Uncertainty</title>
+		<idno type="ISSN">0895-5646</idno>
+		<idno type="ISSNe">1573-0476</idno>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="35" to="51" />
+			<date type="published" when="1993-08">1993</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,77.52,696.57,209.73,8.83;15,77.64,707.55,172.78,8.83;15,324.24,66.81,215.01,8.83;15,324.24,77.79,212.23,8.83;15,324.24,88.83,18.08,8.83" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Beyond nudges: Tools of a choice architecture</title>
+		<author>
+			<persName coords=""><forename type="first">Eric</forename><forename type="middle">J</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Suzanne</forename><forename type="middle">B</forename><surname>Shu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Benedict</forename><forename type="middle">G C</forename><surname>Dellaert</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Craig</forename><surname>Fox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><forename type="middle">G</forename><surname>Goldstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gerald</forename><surname>Häubl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><forename type="middle">P</forename><surname>Larrick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">W</forename><surname>Payne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ellen</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">David</forename><surname>Schkade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brian</forename><surname>Wansink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elke</forename><forename type="middle">U</forename><surname>Weber</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11002-012-9186-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Marketing Letters</title>
+		<title level="j" type="abbrev">Mark Lett</title>
+		<idno type="ISSN">0923-0645</idno>
+		<idno type="ISSNe">1573-059X</idno>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="487" to="504" />
+			<date type="published" when="2012-05-25">2012</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,324.12,99.93,209.47,8.83;15,324.24,110.97,191.99,8.83;15,324.24,122.01,158.73,8.83" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Privacy, trust, and self-disclosure online</title>
+		<author>
+			<persName coords=""><forename type="first">Ulf-Dietrich</forename><surname>Adam N Joinson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Tom</forename><surname>Reips</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Carina B Paine</forename><surname>Buchanan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Schofield</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Human-Computer Interaction</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="24" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,324.12,133.11,207.73,8.83;15,324.24,144.09,200.90,8.83" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Age trends in self-disclosure</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Sidney</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Jourard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">MerrillPalmer Quarterly of Behavior and Development</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="191" to="197" />
+			<date type="published" when="1961">1961</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,324.12,155.19,186.75,8.83;15,324.24,166.23,203.44,8.83;15,324.24,177.27,196.29,8.83" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Anomalies: The endowment effect, loss aversion, and status quo bias</title>
+		<author>
+			<persName coords=""><forename type="first">Jack</forename><forename type="middle">L</forename><surname>Daniel Kahneman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Richard</forename><forename type="middle">H</forename><surname>Knetsch</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Thaler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Economic perspectives</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="193" to="206" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,324.12,188.37,201.18,8.83;15,324.24,199.35,208.56,8.83;15,324.24,210.39,176.30,8.83" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">The endowment effect, loss aversion, and status quo bias: Anomalies</title>
+		<author>
+			<persName coords=""><forename type="first">Jack</forename><forename type="middle">L</forename><surname>Daniel Kahneman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Richard</forename><forename type="middle">H</forename><surname>Knetsch</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Thaler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Economic perspectives</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="193" to="206" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,324.12,221.49,170.44,8.83;15,324.24,232.53,204.32,8.83;15,324.24,243.57,109.58,8.83" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Framing, intentions, and trust–choice incompatibility</title>
+		<author>
+			<persName coords=""><forename type="first">Gideon</forename><surname>Keren</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.obhdp.2007.02.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Organizational Behavior and Human Decision Processes</title>
+		<title level="j" type="abbrev">Organizational Behavior and Human Decision Processes</title>
+		<idno type="ISSN">0749-5978</idno>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="238" to="255" />
+			<date type="published" when="2007-07">2007</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,324.12,254.67,210.15,8.83;15,324.24,265.65,210.24,8.83;15,324.24,276.69,55.40,8.83" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">The quality of word‐of‐mouth in the online shopping mall</title>
+		<author>
+			<persName coords=""><forename type="first">Hyekyoung</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jihoon</forename><surname>Song</surname></persName>
+		</author>
+		<idno type="DOI">10.1108/17505931011092844</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Research in Interactive Marketing</title>
+		<idno type="ISSN">2040-7122</idno>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="376" to="390" />
+			<date type="published" when="2010-10-28">2010</date>
+			<publisher>Emerald</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,324.12,287.79,204.04,8.83;15,324.24,298.83,201.81,8.83;15,324.24,309.87,199.22,8.83;15,324.24,320.91,75.86,8.83" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Making decisions about privacy: information disclosure in context-aware recommender systems</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Bart</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Alfred</forename><surname>Knijnenburg</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Kobsa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Transactions on Interactive Intelligent Systems (TiiS)</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1" to="23" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,324.12,332.01,193.80,8.83;15,324.24,342.99,208.17,8.83;15,324.24,354.03,183.98,8.83" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Increasing sharing tendency without reducing satisfaction: Finding the best privacysettings user interface for social networks</title>
+		<author>
+			<persName coords=""><forename type="first">Piet</forename><surname>Bart</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Alfred</forename><surname>Knijnenburg</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Kobsa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">ICIS</title>
+				<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,324.12,365.13,185.53,8.83;15,324.24,376.17,176.42,8.83;15,324.24,387.21,61.53,8.83" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">The wisdom of older technology (non)users</title>
+		<author>
+			<persName coords=""><forename type="first">Bran</forename><surname>Knowles</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Vicki</forename><forename type="middle">L</forename><surname>Hanson</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3179995</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Communications of the ACM</title>
+		<title level="j" type="abbrev">Commun. ACM</title>
+		<idno type="ISSN">0001-0782</idno>
+		<idno type="ISSNe">1557-7317</idno>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="72" to="77" />
+			<date type="published" when="2018-02-21">2018</date>
+			<publisher>Association for Computing Machinery (ACM)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,324.12,398.31,202.00,8.83;15,324.24,409.29,204.44,8.83;15,324.24,420.33,196.21,8.83;15,324.24,431.37,185.72,8.83;15,324.24,442.41,206.09,8.83;15,324.24,453.45,50.06,8.83" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Internet opt-in and opt-out</title>
+		<author>
+			<persName coords=""><forename type="first">Yee-Lin</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Kai-Lung</forename><surname>Hui</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1125170.1125230</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2006 ACM SIGMIS CPR conference on computer personnel research: Forty four years of computer personnel research: achievements, challenges &amp; the future</title>
+				<meeting>the 2006 ACM SIGMIS CPR conference on computer personnel research: Forty four years of computer personnel research: achievements, challenges &amp; the future</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2006-04-13">2006</date>
+			<biblScope unit="page" from="253" to="263" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,324.12,464.55,197.00,8.83;15,324.24,475.59,181.12,8.83;15,324.24,486.63,203.55,8.83" xml:id="b43">
+	<monogr>
+		<title level="m" type="main">Framing trust: trust as a heuristic. Framing matters: Perspectives on negotiation research and practice in communication</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Roy</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Chad</forename><surname>Lewicki</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Brinsfield</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="page" from="110" to="135" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,324.12,497.73,189.39,8.83;15,324.24,508.71,193.81,8.83;15,324.24,519.75,183.36,8.83;15,324.24,530.79,102.98,8.83" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Persuasive messages on information system acceptance: A theoretical extension of elaboration likelihood model and social influence theory</title>
+		<author>
+			<persName coords=""><forename type="first">Chia-Ying</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.chb.2012.09.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Computers in Human Behavior</title>
+		<title level="j" type="abbrev">Computers in Human Behavior</title>
+		<idno type="ISSN">0747-5632</idno>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="264" to="275" />
+			<date type="published" when="2013-01">2013</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,324.12,541.89,194.09,8.83;15,324.24,552.93,211.50,8.83;15,324.24,563.97,214.89,8.83" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Privacy, Technology, and Aging: A Proposed Framework</title>
+		<author>
+			<persName coords=""><forename type="first">Lesa</forename><surname>Lorenzen-Huber</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Mary</forename><surname>Boutain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">Jean</forename><surname>Camp</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Kalpana</forename><surname>Shankar</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Kay</forename><forename type="middle">H</forename><surname>Connelly</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12126-010-9083-y</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ageing International</title>
+		<title level="j" type="abbrev">Ageing Int</title>
+		<idno type="ISSN">0163-5158</idno>
+		<idno type="ISSNe">1936-606X</idno>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="232" to="252" />
+			<date type="published" when="2011">2011</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,324.12,575.07,186.75,8.83;15,324.24,586.11,208.70,8.83;15,324.24,597.15,195.32,8.83;15,324.24,608.19,213.75,8.83;15,324.24,619.17,18.08,8.83" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Towards the identification of dark patterns: An analysis based on end-user reactions</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Aditi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Mayuri</forename><forename type="middle">A</forename><surname>Bhoot</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Wricha</forename><forename type="middle">P</forename><surname>Shinde</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Mishra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 11th Indian Conference on Human-Computer Interaction</title>
+				<meeting>the 11th Indian Conference on Human-Computer Interaction</meeting>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="24" to="33" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,324.12,630.27,202.38,8.83;15,324.24,641.31,200.33,8.83;15,324.24,652.35,151.75,8.83;16,77.64,66.75,98.85,8.83" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Internet users&apos; information privacy concerns (iuipc): The construct, the scale, and a causal model</title>
+		<author>
+			<persName coords=""><forename type="first">Sung</forename><forename type="middle">S</forename><surname>Naresh K Malhotra</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">James</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Agarwal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Information systems research</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="336" to="355" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,77.52,77.79,209.68,8.83;16,77.64,88.83,195.04,8.83;16,77.64,99.87,160.49,8.83;16,77.64,110.91,207.75,8.83;16,77.64,121.95,156.93,8.83" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Facebook photo tagging culture and practices among digital natives</title>
+		<author>
+			<persName coords=""><forename type="first">Aqdas</forename><surname>Malik</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Dhir</forename><surname>Amandeep</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Marko</forename><surname>Nieminen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">CCGIDIS 2015-Fifth International Symposium on Communicability</title>
+				<imprint>
+			<publisher>Blue Herons Editions</publisher>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>Computer Graphics and Innovative Design for Interactive Systems</note>
+</biblStruct>
+
+<biblStruct coords="16,77.52,133.05,192.96,8.83;16,77.64,144.03,206.18,8.83;16,77.64,155.07,187.70,8.83;16,77.64,166.11,67.34,8.83" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">The Role of Biometric in Banking: A Review</title>
+		<author>
+			<persName coords=""><forename type="first">Mehdi</forename><surname>Marani</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Morteza</forename><surname>Soltani</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Mina</forename><surname>Bahadori</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Masoumeh</forename><surname>Soleimani</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Atajahangir</forename><surname>Moshayedi</surname></persName>
+		</author>
+		<idno type="DOI">10.4108/airo.3676</idno>
+	</analytic>
+	<monogr>
+		<title level="j">EAI Endorsed Transactions on AI and Robotics</title>
+		<title level="j" type="abbrev">EAI Endorsed Trans AI Robotics</title>
+		<idno type="ISSNe">2790-7511</idno>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">2023</biblScope>
+			<date type="published" when="2023-08-21" />
+			<publisher>European Alliance for Innovation n.o.</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,77.52,177.21,200.17,8.83;16,77.64,188.25,192.85,8.83;16,77.64,199.29,18.08,8.83" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Testing the Endowment Effect for Default Rules</title>
+		<author>
+			<persName coords=""><forename type="first">Isabel</forename><surname>Marcin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Andreas</forename><surname>Nicklisch</surname></persName>
+		</author>
+		<idno type="DOI">10.1515/rle-2016-0010</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Review of Law &amp; Economics</title>
+		<idno type="ISSNe">1555-5879</idno>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2017-01-01">2017</date>
+			<publisher>Walter de Gruyter GmbH</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,77.52,210.39,184.04,8.83;16,77.64,221.43,210.35,8.83;16,77.64,232.47,194.42,8.83;16,77.64,243.45,186.99,8.83" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Risk preferences and aging: The “certainty effect” in older adults&apos; decision making.</title>
+		<author>
+			<persName coords=""><forename type="first">Mara</forename><surname>Mather</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Nina</forename><surname>Mazar</surname></persName>
+			<idno type="ORCID">0000-0001-8248-654X</idno>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Marissa</forename><forename type="middle">A</forename><surname>Gorlick</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Nichole</forename><forename type="middle">R</forename><surname>Lighthall</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jessica</forename><surname>Burgeno</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Andrej</forename><surname>Schoeke</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Dan</forename><surname>Ariely</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0030174</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychology and Aging</title>
+		<title level="j" type="abbrev">Psychology and Aging</title>
+		<idno type="ISSN">0882-7974</idno>
+		<idno type="ISSNe">1939-1498</idno>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="801" to="816" />
+			<date type="published" when="2012">2012</date>
+			<publisher>American Psychological Association (APA)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,77.52,254.55,184.75,8.83;16,77.64,265.59,182.83,8.83;16,77.64,276.63,206.74,8.83;16,77.64,287.67,208.75,8.83;16,77.64,298.71,111.80,8.83" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Dark Patterns at Scale</title>
+		<author>
+			<persName coords=""><forename type="first">Arunesh</forename><surname>Mathur</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Gunes</forename><surname>Acar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">J</forename><surname>Friedman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eli</forename><surname>Lucherini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jonathan</forename><surname>Mayer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marshini</forename><surname>Chetty</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Arvind</forename><surname>Narayanan</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3359183</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the ACM on Human-Computer Interaction</title>
+		<title level="j" type="abbrev">Proc. ACM Hum.-Comput. Interact.</title>
+		<idno type="ISSNe">2573-0142</idno>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">CSCW</biblScope>
+			<biblScope unit="page" from="1" to="32" />
+			<date type="published" when="2019-11-07">2019</date>
+			<publisher>Association for Computing Machinery (ACM)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,77.52,309.81,201.72,8.83;16,77.64,320.85,183.26,8.83;16,77.64,331.89,187.53,8.83;16,77.64,342.93,80.48,8.83" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">What Makes a Dark Pattern... Dark?</title>
+		<author>
+			<persName coords=""><forename type="first">Arunesh</forename><surname>Mathur</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Mihir</forename><surname>Kshirsagar</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jonathan</forename><surname>Mayer</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3411764.3445610</idno>
+		<idno type="arXiv">arXiv:2101.04843</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems</title>
+				<meeting>the 2021 CHI Conference on Human Factors in Computing Systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2021-05-06">2021</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct coords="16,77.52,354.03,203.45,8.83;16,77.64,365.01,197.03,8.83;16,77.64,376.05,204.93,8.83;16,77.64,387.09,34.04,8.83" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Developing and Validating Trust Measures for e-Commerce: An Integrative Typology</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Harrison</forename><surname>Mcknight</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Vivek</forename><surname>Choudhury</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Charles</forename><surname>Kacmar</surname></persName>
+		</author>
+		<idno type="DOI">10.1287/isre.13.3.334.81</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Information Systems Research</title>
+		<title level="j" type="abbrev">Information Systems Research</title>
+		<idno type="ISSN">1047-7047</idno>
+		<idno type="ISSNe">1526-5536</idno>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="334" to="359" />
+			<date type="published" when="2002-09">2002</date>
+			<publisher>Institute for Operations Research and the Management Sciences (INFORMS)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,77.52,398.19,182.62,8.83;16,77.64,409.23,207.26,8.83;16,77.64,420.27,198.39,8.83;16,77.64,431.31,102.33,8.83" xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Look At Us: Collective Narcissism in College Student Facebook Photo Galleries</title>
+		<author>
+			<persName coords=""><forename type="first">Zizi</forename><surname>Andrew L Mendelson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Papacharissi</surname></persName>
+		</author>
+		<idno type="DOI">10.4324/9780203876527-20</idno>
+	</analytic>
+	<monogr>
+		<title level="m">A Networked Self</title>
+				<imprint>
+			<publisher>Routledge</publisher>
+			<date type="published" when="2010-09-10">2010</date>
+			<biblScope unit="volume">1974</biblScope>
+			<biblScope unit="page" from="259" to="281" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,77.52,442.41,183.13,8.83;16,77.64,453.39,202.50,8.83;16,77.64,464.43,103.40,8.83" xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Effects of Site, Vendor, and Consumer Characteristics on Web Site Trust and Disclosure</title>
+		<author>
+			<persName coords=""><forename type="first">Miriam</forename><forename type="middle">J</forename><surname>Metzger</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0093650206287076</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Communication Research</title>
+		<title level="j" type="abbrev">Communication Research</title>
+		<idno type="ISSN">0093-6502</idno>
+		<idno type="ISSNe">1552-3810</idno>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="155" to="179" />
+			<date type="published" when="2006-06">2006</date>
+			<publisher>SAGE Publications</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,77.52,475.53,205.82,8.83;16,77.64,486.57,182.01,8.83;16,77.64,497.61,215.68,8.83;16,77.64,508.65,179.59,8.83;16,77.64,519.69,173.37,8.83" xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Examining the Mediating Effect of Knowledge Management on the Relationship Between Organizational Culture and Organizational Performance</title>
+		<author>
+			<persName coords=""><forename type="first">Mehrdad</forename><surname>Mohammadi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Mahrou</forename><surname>Samizadeh</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Shaheen</forename><surname>Pouya</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Raheleh</forename><surname>Arabahmadi</surname></persName>
+		</author>
+		<idno type="DOI">10.31181/jscda1120235</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Soft Computing and Decision Analytics</title>
+		<title level="j" type="abbrev">J. Soft. Comput. Decis. Anal.</title>
+		<idno type="ISSNe">3009-3481</idno>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="63" to="79" />
+			<date type="published" when="2023-08-28">2023</date>
+			<publisher>Regional Association for Security and Crisis Management</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,77.52,530.79,183.23,8.83;16,77.64,541.77,53.97,8.83" xml:id="b58">
+	<monogr>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">Bengt</forename><surname>Muthén</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Linda</forename><surname>Muthén</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Mplus</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<publisher>Chapman and Hall/CRC</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,77.52,552.87,206.44,8.83;16,77.64,563.91,206.38,8.83" xml:id="b59">
+	<analytic>
+		<title level="a" type="main">&lt;bold&gt;Development Through Life: A Psychosocial Approach.&lt;/bold&gt; By Barbara M. Newman and Philip R. Newman. Homewood, Ill.: Dorsey Press, 1975. 399 pp. $11.50</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Barbara</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Philip</forename><forename type="middle">R</forename><surname>Newman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Newman</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/sw/21.5.414-b</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Social Work</title>
+		<idno type="ISSNe">1545-6846</idno>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,77.52,575.01,213.07,8.83;16,77.64,585.99,44.30,8.83" xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Privacy as contextual integrity</title>
+		<author>
+			<persName coords=""><forename type="first">Helen</forename><surname>Nissenbaum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wash. L. Rev</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page">119</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,77.52,597.09,188.11,8.83;16,77.64,608.13,198.57,8.83;16,77.64,619.17,198.91,8.83;16,77.64,630.21,55.99,8.83" xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Changes in Social Media Behavior During Life Periods of Uncertainty</title>
+		<author>
+			<persName coords=""><forename type="first">Xinru</forename><surname>Page</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Marco</forename><surname>Marabelli</surname></persName>
+		</author>
+		<idno type="DOI">10.1609/icwsm.v11i1.14931</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the International AAAI Conference on Web and Social Media</title>
+		<title level="j" type="abbrev">ICWSM</title>
+		<idno type="ISSN">2162-3449</idno>
+		<idno type="ISSNe">2334-0770</idno>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="648" to="651" />
+			<date type="published" when="2017-05-03">2017</date>
+			<publisher>Association for the Advancement of Artificial Intelligence (AAAI)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,77.52,641.31,189.10,8.83;16,77.64,652.29,200.86,8.83;16,77.64,663.33,192.09,8.83" xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Unpacking &quot;privacy&quot; for a networked world</title>
+		<author>
+			<persName coords=""><forename type="first">Leysia</forename><surname>Palen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Paul</forename><surname>Dourish</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/642611.642635</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</title>
+				<meeting>the SIGCHI Conference on Human Factors in Computing Systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2003-04-05">2003</date>
+			<biblScope unit="page" from="129" to="136" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,77.58,674.19,194.37,8.83;16,77.64,683.43,153.32,8.83" xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Digital literacy and privacy behavior online</title>
+		<author>
+			<persName coords=""><forename type="first">Yong</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Park</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Communication Research</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="215" to="236" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,324.12,66.87,211.34,8.83;16,324.24,77.85,196.88,8.83;16,324.24,88.89,68.24,8.83" xml:id="b64">
+	<analytic>
+		<title level="a" type="main">The Security Implications Of Ubiquitous Social Media</title>
+		<author>
+			<persName coords=""><forename type="first">Chris</forename><surname>Rose</surname></persName>
+		</author>
+		<idno type="DOI">10.19030/ijmis.v15i1.1593</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Management &amp; Information Systems (IJMIS)</title>
+		<title level="j" type="abbrev">IJMIS</title>
+		<idno type="ISSN">1546-5748</idno>
+		<idno type="ISSNe">2157-9628</idno>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2011-01-25">2011</date>
+			<publisher>Clute Institute</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,324.12,99.99,200.65,8.83;16,324.24,110.97,186.64,8.83;16,324.24,122.01,125.30,8.83" xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Shaping perceptions to motivate healthy behavior: the role of message framing</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Alexander</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Peter</forename><surname>Rothman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Salovey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological bulletin</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">3</biblScope>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,324.12,133.11,212.39,8.83;16,324.24,144.15,193.83,8.83;16,324.24,155.19,189.42,8.83;16,324.24,166.23,216.22,8.83;16,324.24,177.27,34.04,8.83" xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Framing Effects on Privacy Concerns about a Home Telepresence Robot</title>
+		<author>
+			<persName coords=""><forename type="first">Matthew</forename><surname>Rueben</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Frank</forename><forename type="middle">J</forename><surname>Bernieri</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Cindy</forename><forename type="middle">M</forename><surname>Grimm</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">William</forename><forename type="middle">D</forename><surname>Smart</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2909824.3020218</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2017 ACM/IEEE International Conference on Human-Robot Interaction</title>
+				<meeting>the 2017 ACM/IEEE International Conference on Human-Robot Interaction</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2017-03-06">2017</date>
+			<biblScope unit="page" from="435" to="444" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,324.12,188.37,177.56,8.83;16,324.24,199.35,202.50,8.83;16,324.24,210.39,175.85,8.83;16,324.24,221.43,177.58,8.83" xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Photo Tagging Over Time: A Longitudinal Study of the Role of Attention, Network Density, and Motivations</title>
+		<author>
+			<persName coords=""><forename type="first">Paul</forename><surname>Russo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Oded</forename><surname>Nov</surname></persName>
+		</author>
+		<idno type="DOI">10.1609/icwsm.v4i1.14022</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the International AAAI Conference on Web and Social Media</title>
+		<title level="j" type="abbrev">ICWSM</title>
+		<idno type="ISSN">2162-3449</idno>
+		<idno type="ISSNe">2334-0770</idno>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="146" to="153" />
+			<date type="published" when="2010-05-16">2010</date>
+			<publisher>Association for the Advancement of Artificial Intelligence (AAAI)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,324.12,232.53,202.91,8.83;16,324.24,243.45,186.01,8.83;16,324.24,254.37,212.21,8.83;16,324.24,265.29,92.91,8.83" xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Format vs. content: the impact of risk and presentation on disclosure decisions</title>
+		<author>
+			<persName coords=""><forename type="first">Sonam</forename><surname>Samat</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Alessandro</forename><surname>Acquisti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Thirteenth Symposium on Usable Privacy and Security</title>
+				<imprint>
+			<date type="published" when="2017">2017. 2017</date>
+			<biblScope unit="page" from="377" to="384" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,324.12,276.27,202.54,8.83;16,324.24,287.31,202.36,8.83;16,324.24,298.35,30.08,8.83" xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Status quo bias in decision making</title>
+		<author>
+			<persName coords=""><forename type="first">William</forename><surname>Samuelson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Richard</forename><surname>Zeckhauser</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/bf00055564</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Risk and Uncertainty</title>
+		<title level="j" type="abbrev">J Risk Uncertainty</title>
+		<idno type="ISSN">0895-5646</idno>
+		<idno type="ISSNe">1573-0476</idno>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="7" to="59" />
+			<date type="published" when="1988-03">1988</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,324.12,309.45,211.53,8.83;16,324.24,320.43,191.62,8.83;16,324.24,331.47,203.45,8.83" xml:id="b70">
+	<analytic>
+		<title level="a" type="main">An Empirical Study on Digital Privacy Risk of Senior Citizens</title>
+		<author>
+			<persName coords=""><forename type="first">Hu</forename><surname>Shuijing</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jiang</forename><surname>Tao</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/icris.2017.13</idno>
+	</analytic>
+	<monogr>
+		<title level="m">2017 International Conference on Robots &amp; Intelligent System (ICRIS)</title>
+				<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2017-10">2017</date>
+			<biblScope unit="page" from="19" to="24" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,324.12,342.57,201.08,8.83;16,324.24,353.61,188.35,8.83;16,324.24,364.65,192.57,8.83" xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Better Negative than Positive? Evidence of a Bias for Negative Information about Possible Health Dangers</title>
+		<author>
+			<persName coords=""><forename type="first">Michael</forename><surname>Siegrist</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">George</forename><surname>Cvetkovich</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/0272-4332.211102</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Risk Analysis</title>
+		<title level="j" type="abbrev">Risk Analysis</title>
+		<idno type="ISSN">0272-4332</idno>
+		<idno type="ISSNe">1539-6924</idno>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="199" to="206" />
+			<date type="published" when="2001-02">2001</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,324.12,375.75,207.78,8.83;16,324.24,386.73,206.26,8.83;16,324.24,397.77,38.06,8.83" xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Information Privacy Research: An Interdisciplinary Review</title>
+		<author>
+			<persName><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Dinev</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Xu</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/41409970</idno>
+	</analytic>
+	<monogr>
+		<title level="j">MIS Quarterly</title>
+		<title level="j" type="abbrev">MIS Quarterly</title>
+		<idno type="ISSN">0276-7783</idno>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">989</biblScope>
+			<date type="published" when="2011">2011</date>
+			<publisher>JSTOR</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,324.12,408.87,216.39,8.83;16,324.24,419.91,216.21,8.83;16,324.24,430.95,174.45,8.83" xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Some results on the maximal graph of commutative rings</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Soleimani</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Mahmudi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">H</forename><surname>Naderi</surname></persName>
+		</author>
+		<idno type="DOI">10.32513/asetmj/1932200823104</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Studies: Euro-Tbilisi Mathematical Journal</title>
+		<title level="j" type="abbrev">Adv. Studies: Euro-Tbilisi Math. J.</title>
+		<idno type="ISSN">2667-9930</idno>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">supp1</biblScope>
+			<biblScope unit="page" from="21" to="26" />
+			<date type="published" when="2023-03-01">2023</date>
+			<publisher>Tbilisi Centre for Mathematical Sciences</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,324.12,442.05,204.64,8.83;16,324.24,453.03,187.04,8.83;16,324.24,464.07,213.20,8.83;16,324.24,475.11,167.31,8.83" xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Imbalanced Multiclass Medical Data Classification based on Learning Automata and Neural Network</title>
+		<author>
+			<persName coords=""><forename type="first">Masoumeh</forename><surname>Soleimani</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Zahra</forename><surname>Forouzanfar</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Morteza</forename><surname>Soltani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Majid</forename><surname>Jafari Harandi</surname></persName>
+		</author>
+		<idno type="DOI">10.4108/airo.3526</idno>
+	</analytic>
+	<monogr>
+		<title level="j">EAI Endorsed Transactions on AI and Robotics</title>
+		<title level="j" type="abbrev">EAI Endorsed Trans AI Robotics</title>
+		<idno type="ISSNe">2790-7511</idno>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2023-07-24">2023</date>
+			<publisher>European Alliance for Innovation n.o.</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,324.18,485.91,176.94,8.83;16,324.24,495.69,210.16,8.83;16,324.24,506.73,150.92,8.83" xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Some results on the maximal graph of commutative rings</title>
+		<author>
+			<persName coords=""><forename type="first">Masoumeh</forename><surname>Soleimani</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Fatemeh</forename><surname>Mahmudi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Naderi</surname></persName>
+		</author>
+		<idno type="DOI">10.32513/asetmj/1932200823104</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Studies: Euro-Tbilisi Mathematical Journal</title>
+		<title level="j" type="abbrev">Adv. Studies: Euro-Tbilisi Math. J.</title>
+		<idno type="ISSN">2667-9930</idno>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">supp1</biblScope>
+			<date type="published" when="2021">2021</date>
+			<publisher>Tbilisi Centre for Mathematical Sciences</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,324.12,517.83,201.79,8.83;16,324.24,528.87,185.72,8.83;16,324.24,539.91,99.39,8.83" xml:id="b76">
+	<analytic>
+		<title level="a" type="main">TENSOR PRODUCT OF THE POWER GRAPHS OF SOME FINITE RINGS</title>
+		<author>
+			<persName coords=""><forename type="first">Masoumeh</forename><surname>Soleimani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mohammad</forename><forename type="middle">Hassan</forename><surname>Naderi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ali</forename><forename type="middle">Reza</forename><surname>Ashrafi</surname></persName>
+		</author>
+		<idno type="DOI">10.22190/fumi1901101s</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Facta Universitatis, Series: Mathematics and Informatics</title>
+		<title level="j" type="abbrev">FU Math Inform</title>
+		<idno type="ISSN">0352-9665</idno>
+		<idno type="ISSNe">2406-047X</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">101</biblScope>
+			<date type="published" when="2023">2023</date>
+			<publisher>University of Nis</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,324.12,551.01,207.87,8.83;16,324.24,561.99,206.56,8.83;16,324.24,573.03,134.25,8.83" xml:id="b77">
+	<analytic>
+		<title level="a" type="main">The challenges of personal data markets and privacy</title>
+		<author>
+			<persName coords=""><forename type="first">Sarah</forename><surname>Spiekermann</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Alessandro</forename><surname>Acquisti</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Rainer</forename><surname>Böhme</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Kai-Lung</forename><surname>Hui</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12525-015-0191-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Electronic Markets</title>
+		<title level="j" type="abbrev">Electron Markets</title>
+		<idno type="ISSN">1019-6781</idno>
+		<idno type="ISSNe">1422-8890</idno>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="161" to="167" />
+			<date type="published" when="2015-04-29">2015</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,324.12,584.13,197.14,8.83;16,324.24,595.17,207.12,8.83;16,324.24,606.21,202.76,8.83;16,324.24,617.25,136.28,8.83" xml:id="b78">
+	<analytic>
+		<title level="a" type="main">E-privacy in 2nd generation E-commerce</title>
+		<author>
+			<persName coords=""><forename type="first">Sarah</forename><surname>Spiekermann</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jens</forename><surname>Grossklags</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Bettina</forename><surname>Berendt</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/501158.501163</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 3rd ACM conference on Electronic Commerce</title>
+				<meeting>the 3rd ACM conference on Electronic Commerce</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2001-10-14">2001</date>
+			<biblScope unit="page" from="38" to="47" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,324.12,628.35,199.09,8.83;16,324.24,639.39,206.61,8.83;16,324.24,650.43,207.53,8.83;16,324.24,661.47,162.94,8.83" xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Mobile app rating scale: a new tool for assessing the quality of health mobile apps</title>
+		<author>
+			<persName coords=""><forename type="first">Leanne</forename><surname>Stoyan R Stoyanov</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">David</forename><forename type="middle">J</forename><surname>Hides</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Oksana</forename><surname>Kavanagh</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Dian</forename><surname>Zelenko</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Madhavan</forename><surname>Tjondronegoro</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Mani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JMIR mHealth and uHealth</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">e27</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,77.52,66.87,185.25,8.83;17,77.64,77.85,183.08,8.83;17,77.64,88.89,188.71,8.83;17,77.64,99.93,142.52,8.83" xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Friends only</title>
+		<author>
+			<persName coords=""><forename type="first">Fred</forename><surname>Stutzman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jacob</forename><surname>Kramer-Duffield</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1753326.1753559</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</title>
+				<meeting>the SIGCHI Conference on Human Factors in Computing Systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2010-04-10">2010</date>
+			<biblScope unit="page" from="1553" to="1562" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,77.52,111.03,191.24,8.83;17,77.64,122.01,187.65,8.83;17,77.64,133.05,210.31,8.83;17,77.64,144.09,190.51,8.83;17,77.64,155.13,65.55,8.83" xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Use and acceptance of new technology by older people. Findings of the international MOBILATE survey: ‘Enhancing mobility in later life’</title>
+		<author>
+			<persName coords=""><forename type="first">Mart</forename><surname>Tacken</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Fiorella</forename><surname>Marcellini</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Heidrun</forename><surname>Mollenkopf</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Isto</forename><surname>Ruoppila</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Széman</surname></persName>
+		</author>
+		<idno type="DOI">10.4017/gt.2005.03.03.002.00</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Gerontechnology</title>
+		<idno type="ISSN">1569-1101</idno>
+		<idno type="ISSNe">1569-111X</idno>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="126" to="137" />
+			<date type="published" when="2005-07-01">2005</date>
+			<publisher>International Society for Gerontechnology (ISG)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,77.52,166.23,208.74,8.83;17,77.64,177.27,198.12,8.83;17,77.64,188.31,199.08,8.83;17,77.64,199.35,206.66,8.83;17,77.64,210.39,18.08,8.83" xml:id="b82">
+	<analytic>
+		<title level="a" type="main">The ‘Privacy Paradox’ in the Social Web: The Impact of Privacy Concerns, Individual Characteristics, and the Perceived Social Relevance on Different Forms of Self-Disclosure</title>
+		<author>
+			<persName coords=""><forename type="first">Monika</forename><surname>Taddicken</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/jcc4.12052</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Computer-Mediated Communication</title>
+		<title level="j" type="abbrev">J Comput-Mediat Comm</title>
+		<idno type="ISSN">1083-6101</idno>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="248" to="273" />
+			<date type="published" when="2014">2014</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,77.52,221.49,202.60,8.83;17,77.64,232.47,201.80,8.83;17,77.64,243.51,206.42,8.83;17,77.64,254.55,212.24,8.83;17,77.64,265.59,18.08,8.83" xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Why do people share fake news? Associations between the dark side of social media use and fake news sharing behavior</title>
+		<author>
+			<persName coords=""><forename type="first">Shalini</forename><surname>Talwar</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Amandeep</forename><surname>Dhir</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Puneet</forename><surname>Kaur</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Nida</forename><surname>Zafar</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Melfi</forename><surname>Alrasheedy</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jretconser.2019.05.026</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Retailing and Consumer Services</title>
+		<title level="j" type="abbrev">Journal of Retailing and Consumer Services</title>
+		<idno type="ISSN">0969-6989</idno>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="72" to="82" />
+			<date type="published" when="2019-11">2019</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,77.52,276.69,205.36,8.83;17,77.64,287.73,189.65,8.83;17,77.64,298.77,213.02,8.83;17,77.64,309.81,157.79,8.83" xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Faces are Protected as Privacy: An Automatic Tagging Framework Against Unpermitted Photo Sharing in Social Media</title>
+		<author>
+			<persName coords=""><forename type="first">Lihong</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Wanlun</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Marthie</forename><surname>Grobler</surname></persName>
+			<idno type="ORCID">0000-0001-6933-0145</idno>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Weizhi</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Yu</forename><surname>Wang</surname></persName>
+			<idno type="ORCID">0000-0002-9807-2293</idno>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Sheng</forename><surname>Wen</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/access.2019.2921029</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Access</title>
+		<title level="j" type="abbrev">IEEE Access</title>
+		<idno type="ISSNe">2169-3536</idno>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="75556" to="75567" />
+			<date type="published" when="2019">2019</date>
+			<publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,77.52,320.91,197.10,8.83;17,77.64,331.89,192.48,8.83;17,77.64,342.93,209.96,8.83;17,77.64,353.97,124.88,8.83" xml:id="b85">
+	<analytic>
+		<title level="a" type="main">The Elderly and the Big Data How Older Adults Deal with Digital Privacy</title>
+		<author>
+			<persName coords=""><forename type="first">Jiang</forename><surname>Tao</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Hu</forename><surname>Shuijing</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/icitbs.2016.35</idno>
+	</analytic>
+	<monogr>
+		<title level="m">2016 International Conference on Intelligent Transportation, Big Data &amp; Smart City (ICITBS)</title>
+				<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2016-12">2016</date>
+			<biblScope unit="page" from="285" to="288" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,77.52,365.07,205.57,8.83;17,77.64,376.11,195.27,8.83;17,77.64,387.15,136.29,8.83" xml:id="b86">
+	<analytic>
+		<title level="a" type="main">Can You See Me Now? Audience and Disclosure Regulation in Online Social Network Sites</title>
+		<author>
+			<persName coords=""><forename type="first">Zeynep</forename><surname>Tufekci</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0270467607311484</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bulletin of Science, Technology &amp; Society</title>
+		<title level="j" type="abbrev">Bulletin of Science, Technology &amp; Society</title>
+		<idno type="ISSN">0270-4676</idno>
+		<idno type="ISSNe">1552-4183</idno>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="20" to="36" />
+			<date type="published" when="2008">2008</date>
+			<publisher>SAGE Publications</publisher>
+		</imprint>
+	</monogr>
+	<note>Bulletin of Science</note>
+</biblStruct>
+
+<biblStruct coords="17,77.52,398.25,209.74,8.83;17,77.64,409.23,209.63,8.83;17,77.64,420.27,209.55,8.83;17,77.64,431.31,18.08,8.83" xml:id="b87">
+	<analytic>
+		<title level="a" type="main">Rational Choice and the Framing of Decisions</title>
+		<author>
+			<persName coords=""><forename type="first">Amos</forename><surname>Tversky</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Daniel</forename><surname>Kahneman</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-642-74919-3_4</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Multiple Criteria Decision Making and Risk Analysis Using Microcomputers</title>
+				<imprint>
+			<publisher>Springer Berlin Heidelberg</publisher>
+			<date type="published" when="1989">1989</date>
+			<biblScope unit="page" from="81" to="126" />
+		</imprint>
+	</monogr>
+	<note>Rational choice and the framing of decisions</note>
+</biblStruct>
+
+<biblStruct coords="17,77.52,442.41,213.84,8.83;17,77.64,453.45,213.71,8.83;17,77.64,464.49,120.03,8.83" xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Advances in prospect theory: Cumulative representation of uncertainty</title>
+		<author>
+			<persName coords=""><forename type="first">Amos</forename><surname>Tversky</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Daniel</forename><surname>Kahneman</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/bf00122574</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Risk and Uncertainty</title>
+		<title level="j" type="abbrev">J Risk Uncertainty</title>
+		<idno type="ISSN">0895-5646</idno>
+		<idno type="ISSNe">1573-0476</idno>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="297" to="323" />
+			<date type="published" when="1992-10">1992</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,77.52,475.59,214.09,8.83;17,77.64,486.57,215.84,8.83;17,77.64,497.61,207.46,8.83;17,77.64,508.65,156.07,8.83" xml:id="b89">
+	<analytic>
+		<title level="a" type="main">Older and Wiser? Facebook Use, Privacy Concern, and Privacy Protection in the Life Stages of Emerging, Young, and Middle Adulthood</title>
+		<author>
+			<persName coords=""><forename type="first">Evert</forename><surname>Van Den Broeck</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Karolien</forename><surname>Poels</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Michel</forename><surname>Walrave</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/2056305115616149</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Social Media + Society</title>
+		<title level="j" type="abbrev">Social Media + Society</title>
+		<idno type="ISSN">2056-3051</idno>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">205630511561614</biblScope>
+			<date type="published" when="2015-07-01">2015</date>
+			<publisher>SAGE Publications</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,77.52,519.75,198.04,8.83;17,77.64,530.79,184.47,8.83;17,77.64,541.83,209.26,8.83;17,77.64,552.87,120.22,8.83" xml:id="b90">
+	<analytic>
+		<title level="a" type="main">Fake review detection from a product review using modified method of iterative computation framework</title>
+		<author>
+			<persName coords=""><forename type="first">Eka</forename><surname>Dyar</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Wahyuni</forename></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Arif</forename><surname>Djunaidy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">MATEC web of conferences</title>
+				<imprint>
+			<publisher>EDP Sciences</publisher>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page">3003</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,77.52,563.97,207.35,8.83;17,77.64,574.95,188.19,8.83;17,77.64,585.99,204.32,8.83;17,77.64,597.03,69.57,8.83" xml:id="b91">
+	<analytic>
+		<title level="a" type="main">An examination of the celebrity endorsements and online customer reviews influence female consumers’ shopping behavior</title>
+		<author>
+			<persName coords=""><forename type="first">Pei-Shan</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Hsi-Peng</forename><surname>Lu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.chb.2012.08.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Computers in Human Behavior</title>
+		<title level="j" type="abbrev">Computers in Human Behavior</title>
+		<idno type="ISSN">0747-5632</idno>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="193" to="201" />
+			<date type="published" when="2013-01">2013</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,77.52,608.13,185.55,8.83;17,77.64,619.17,199.93,8.83;17,77.64,630.21,52.70,8.83" xml:id="b92">
+	<monogr>
+		<title level="m" type="main">The effects of unfavorable product rating information</title>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Marc</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Weinberger</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>William R Dillon</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1980">1980</date>
+			<publisher>ACR North American Advances</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,77.52,641.31,198.75,8.83;17,77.64,652.29,204.51,8.83;17,77.64,663.33,203.11,8.83;17,77.64,674.37,192.85,8.83;17,77.64,685.41,49.59,8.83" xml:id="b93">
+	<analytic>
+		<title level="a" type="main">Framing and Measuring Multi-Dimensional Interpersonal Privacy Preferences of Social Networking Site Users</title>
+		<author>
+			<persName coords=""><forename type="first">Pamela</forename><surname>Wisniewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K M Najmul</forename><surname>Islam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Heather</forename><forename type="middle">Richter</forename><surname>Lipford</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">David</forename><forename type="middle">C</forename><surname>Wilson</surname></persName>
+		</author>
+		<idno type="DOI">10.17705/1cais.03810</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Communications of the Association for Information Systems</title>
+		<title level="j" type="abbrev">CAIS</title>
+		<idno type="ISSNe">1529-3181</idno>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="235" to="258" />
+			<date type="published" when="2016">2016</date>
+			<publisher>Association for Information Systems</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,77.52,696.51,167.77,8.83;17,77.64,707.55,190.08,8.83;17,324.24,66.81,199.00,8.83;17,324.24,77.79,176.27,8.83;17,324.24,88.83,118.94,8.83" xml:id="b94">
+	<analytic>
+		<title level="a" type="main">&lt;scp&gt;F&lt;/scp&gt;acebook apps and tagging: The trade‐off between personal privacy and engaging with friends</title>
+		<author>
+			<persName coords=""><forename type="first">Pamela</forename><surname>Wisniewski</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Heng</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Heather</forename><surname>Lipford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Emmanuel</forename><surname>Bello‐ogunu</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/asi.23299</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Association for Information Science and Technology</title>
+		<title level="j" type="abbrev">Asso for Info Science &amp; Tech</title>
+		<idno type="ISSN">2330-1635</idno>
+		<idno type="ISSNe">2330-1643</idno>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1883" to="1896" />
+			<date type="published" when="2015-04-29">2015</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,324.12,99.93,209.15,8.83;17,324.24,110.97,195.06,8.83;17,324.24,122.01,193.85,8.83;17,324.24,133.05,109.16,8.83" xml:id="b95">
+	<analytic>
+		<title level="a" type="main">With Age Comes Wisdom</title>
+		<author>
+			<persName coords=""><forename type="first">Darrell</forename><forename type="middle">A</forename><surname>Worthy</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Marissa</forename><forename type="middle">A</forename><surname>Gorlick</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jennifer</forename><forename type="middle">L</forename><surname>Pacheco</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">David</forename><forename type="middle">M</forename><surname>Schnyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">Todd</forename><surname>Maddox</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0956797611420301</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Science</title>
+		<title level="j" type="abbrev">Psychol Sci</title>
+		<idno type="ISSN">0956-7976</idno>
+		<idno type="ISSNe">1467-9280</idno>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1375" to="1380" />
+			<date type="published" when="2011-09-29">2011</date>
+			<publisher>SAGE Publications</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,324.12,144.15,207.81,8.83;17,324.24,155.13,207.99,8.83;17,324.24,166.17,201.92,8.83;17,324.24,177.21,58.95,8.83" xml:id="b96">
+	<analytic>
+		<title level="a" type="main">The effects of privacy concerns and personal innovativeness on potential and experienced customers’ adoption of location-based services</title>
+		<author>
+			<persName coords=""><forename type="first">Heng</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Sumeet</forename><surname>Gupta</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12525-009-0012-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Electronic Markets</title>
+		<title level="j" type="abbrev">Electron Markets</title>
+		<idno type="ISSN">1019-6781</idno>
+		<idno type="ISSNe">1422-8890</idno>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">2-3</biblScope>
+			<biblScope unit="page" from="137" to="149" />
+			<date type="published" when="2009-06-30">2009</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,324.12,188.31,190.81,8.83;17,324.24,199.35,206.89,8.83;17,324.24,210.39,204.13,8.83;17,324.24,221.43,171.15,8.83" xml:id="b97">
+	<analytic>
+		<title level="a" type="main">Online Privacy Perceptions of Older Adults</title>
+		<author>
+			<persName coords=""><forename type="first">Eva-Maria</forename><surname>Zeissig</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Chantal</forename><surname>Lidynia</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Luisa</forename><surname>Vervier</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Andera</forename><surname>Gadeib</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Martina</forename><surname>Ziefle</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-319-58536-9_16</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Human Aspects of IT for the Aged Population. Applications, Services and Contexts</title>
+				<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="181" to="200" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
