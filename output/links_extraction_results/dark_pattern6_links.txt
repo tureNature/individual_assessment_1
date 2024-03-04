@@ -1,6 +1,0 @@
-https://labelstud.io/
-https://opencv.org/
-https://pytorch.org/vision/stable/index.html
-https://github.com/SageSELab/AidUI
-https://sagelab.io/aidui/
-https://doi.org/10.5281/zenodo.7578246
