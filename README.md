@@ -52,5 +52,5 @@ It is noted that the grobid_client_python has been utilized for communication wi
 
 ## License
 
-[GPL](https://choosealicense.com/licenses/gpl/)
+[GPL](https://fsf.org/)
 
