@@ -1,3 +1,6 @@
 __pycache__/
 init_grobid.sh
 dist/
+data/output_grobid
+data/output_individual_assessment_1
+delivery_adrian_turegano_ramos_c200336.txt

@@ -28,8 +28,7 @@ def generate_wordcloud(folder_path):
         abstracts[xml_file] = abstract
     all_text = " ".join(abstracts.values())
     wordcloud = WordCloud(width=800, height=400, random_state=21, max_font_size=110).generate(all_text)
-    print(os.getenv("pwd"))
-    wordcloud.to_file("./output/wordcloud_results/wordcloud.png")
+    wordcloud.to_file("/app/data/output_individual_assessment_1/wordcloud.png")
 
 def visualize_figures(folder_path):
     xml_files = get_xml_files(folder_path)
@@ -46,13 +45,17 @@ def visualize_figures(folder_path):
     plt.xlabel("Article")
     plt.ylabel("Number of Figures")
     plt.title("Number of Figures per Article")
-    plt.savefig("./output/figures_visualization_results/figure_visualization.png")
+    plt.savefig("/app/data/output_individual_assessment_1/figure_visualization.png")
 
 def extract_links(folder_path):
     xml_files = get_xml_files(folder_path)
+    output_path = "/app/data/output_individual_assessment_1/links_results"
+    if not os.path.exists(output_path):
+        os.mkdir(output_path)
     for xml_file in xml_files:
         xml_path = os.path.join(folder_path, xml_file)
         links_in_article = parse_xml(xml_path, "links")
-        with open(f"./output/links_extraction_results/{xml_file[:-15]}_links.txt", 'w') as file:
+        output_file_path = os.path.join(output_path, f"{xml_file[:-15]}_links.txt")
+        with open(output_file_path, 'w') as file:
             for link in links_in_article:
                 file.write(link + "\n")

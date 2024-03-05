@@ -6,8 +6,10 @@ LABEL description="individual_assessment_1"
 
 WORKDIR /app
 
-COPY ./requirements /app/requirements
+COPY ./requirements/requirements.txt /app/requirements/
 COPY ./individual_assessment_1 /app/individual_assessment_1
+RUN mkdir /app/data
+VOLUME [ "/app/data" ]
 
 RUN pip install -r requirements/requirements.txt
 

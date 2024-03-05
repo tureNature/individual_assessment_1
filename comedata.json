@@ -1,6 +1,6 @@
 {
     "project": "individual_assessment_1",
-    "description": "individual_assessment_1",
+    "description": "Conduct text analysis on open-access articles using Grobid, generating a keyword cloud from abstracts, visualizing figures per article, and listing links found in each paper, following best practices.",
     "version": "1.0.0",
     "author": "Adrian Turegano Ramos",
     "license": "GNU",
@@ -9,25 +9,21 @@
       "dependency2": "version2"
     },
     "scripts": {
-      "start": "npm start",
-      "test": "npm test"
+      "init_grobid.sh": "./init_grobid.sh"
     },
     "files": [
-      "app.js",
-      "index.html"
+      "utilities.py",
+      "main.py"
     ],
-    "configuration": {
-      "environment": "production"
-    },
     "custom_commands": {
-      "command1": "npm run script1",
-      "command2": "node custom-script.js"
+      "start": "make build",
+      "run": "make run"
     },
     "changelog": [
       {
-        "version": "1.0.0",
+        "version": "1.2.0",
         "changes": [
-          "Description of changes in version 1.0.0"
+          "All the utilities work. Bugs have been fixed. Continues with good practices, and metadata files are better crafted."
         ]
       }
     ]

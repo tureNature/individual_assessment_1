@@ -4,12 +4,11 @@ title: individual_assessment_1
 doi: 10.5281/zenodo.10783111
 author:
   - name: Adrian Turegano Ramos
-    orcid: 
 license: GNU
-version: 1.0.0
+version: 1.2.0
 url: https://github.com/tureNature/individual_assessment_1.git
 repository-code: https://github.com/tureNature/individual_assessment_1.git
 repository-artifact: https://doi.org/10.5281/zenodo.10783111
 description: Brief project description.
 cite-as: |
-  Adrian Turegano Ramos. (2024). individual_assessment_1 (Version 1.0.0). Zenodo. https://doi.org/10.5281/zenodo.10783111
+  Adrian Turegano Ramos. (2024). individual_assessment_1 (Version 1.2.0). Zenodo. https://doi.org/10.5281/zenodo.10783111
