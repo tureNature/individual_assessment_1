@@ -7,12 +7,12 @@ def main(folder_path):
     extract_links(folder_path)
     
 if __name__ == "__main__":
-    config_path = "grobid_client/config.json"
-    input_dir = "./resources/pdf_files"
-    output_dir = "./resources/grobid_output/"
+    config_path = "./individual_assessment_1/grobid_client/config.json"
+    input_dir = "./individual_assessment_1/resources/pdf_files"
+    output_dir = "./individual_assessment_1/resources/grobid_output/"
     concurrency = 10
 
-    client = GrobidClient(config_path=config_path)
-    client.process("processFulltextDocument", input_dir, output=output_dir, consolidate_citations=True, tei_coordinates=True, force=True)
+    #client = GrobidClient(config_path=config_path)
+    #client.process("processFulltextDocument", input_dir, output=output_dir, consolidate_citations=True, tei_coordinates=True, force=True)
 
     main(output_dir)

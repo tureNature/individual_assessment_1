@@ -1,0 +1,35 @@
+{
+    "project": "individual_assessment_1",
+    "description": "individual_assessment_1",
+    "version": "1.0.0",
+    "author": "Adrian Turegano Ramos",
+    "license": "GNU",
+    "dependencies": {
+      "dependency1": "version1",
+      "dependency2": "version2"
+    },
+    "scripts": {
+      "start": "npm start",
+      "test": "npm test"
+    },
+    "files": [
+      "app.js",
+      "index.html"
+    ],
+    "configuration": {
+      "environment": "production"
+    },
+    "custom_commands": {
+      "command1": "npm run script1",
+      "command2": "node custom-script.js"
+    },
+    "changelog": [
+      {
+        "version": "1.0.0",
+        "changes": [
+          "Description of changes in version 1.0.0"
+        ]
+      }
+    ]
+  }
+  

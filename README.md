@@ -23,6 +23,9 @@ This project has been developed to **run on Docker**. Everything is automated, a
 ```bash
   make run
 ```
+## Zenodo
+
+[![DOI](https://zenodo.org/badge/764234292.svg)](https://zenodo.org/doi/10.5281/zenodo.10783111)
 
 ## Author
 
